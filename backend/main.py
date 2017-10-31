@@ -16,6 +16,9 @@ app = Flask(__name__)
 def hello():
     return "Hello from Flask!"
 
+@app.route("/index")
+def index():
+    return render_template("static/index.html")
 
 if __name__ == "__main__":
     app.run(port=getuid() + 1000)
