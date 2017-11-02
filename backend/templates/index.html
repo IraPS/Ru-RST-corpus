@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}Главная{% endblock %}
+
+{% block jumbotron %}
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Банк риторических структур</h1>
+        <p>На этом сайте размещен Банк риторических структур – корпус текстов на русском языке, размеченных в соответствии с <a href="aboutRST.html">Теорией риторической структуры</a>.</p>
+      </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Предназначение</h2>
+          <p>Корпус предназначен для исследователей, заинтересованных в изучении письменного дискурса. Корпус позволяет проводить различные эксперименты по автоматическому анализу текста с привлечением данных о дискурсивных связях внутри него.<p/> Возможные области применения: генерация текстов, извлечение фактов, автоматическое реферирование, разрешение анафоры и выявление кореферентных цепочек и т.д.</p>
+        </div>
+        <div class="col-md-4">
+          <h2>Поиск</h2>
+          <p>В корпусе возможен <a href="search.html">поиск</a> по словам, словосочетаниям, риторическим отношениям.</p>
+		  <h2>Состав</h2>
+          <p>Объем корпуса: X текстов, Y ЭДЕ, Z словоупотреблений.<p/> Жанр текстов: новостные и научные статьи.</p>		 
+       </div>
+        <div class="col-md-4">
+          <h2>Аналогичные проекты для других языков</h2>
+          <p><a href="http://www.sfu.ca/rst/06tools/discourse_relations_corpus.html">Discourse Relations Reference Corpus</a> – англоязычный корпус аннотированных новостных текстов из Wall Street Journal.</p>
+		  <p><a href="http://www.icmc.usp.br/pessoas/taspardo/sucinto/cstnews.html">CSTNews Corpus</a> – корпус португальского языка.</p>
+		  <p><a href="http://corpus.iingen.unam.mx/rst/">Spanish RST Discourse Treebank</a> – корпус испанского языка.</p>
+        </div>
+      </div>
+
+{% endblock %}
+

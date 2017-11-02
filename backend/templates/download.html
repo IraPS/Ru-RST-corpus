@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}Скачать{% endblock %}
+
+{% block jumbotron %}
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Банк риторических структур: скачать</h1>
+        <p>Мы поддерживаем любые инициативы по исследованию дискурса в русском языке. Поэтому здесь вы можете свободно скачать исходные и размеченные тексты, составляющие корпус. Пожалуйста, при публикации результатов, полученных с использованием наших материалов, указывайте источник: <br><b style="font-family:times;">Банк риторических структур русского языка. URL. 2017.</b></p>
+      </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+		<div class="row">
+        <div class="col-md-6">
+          <center><h2>Исходные тексты</h2></center>
+		  <center><p>формат .txt</p></center>
+          <a href="#"><center><img src="/static/img/download.png" alt="download_txt" class="img-responsive" id="downloading_raw"/></center></a>
+        </div>
+        <div class="col-md-6">
+          <center><h2>Размеченные тексты</h2></center>
+		  <center><p>формат .rs3</p></center>
+          <a href="#"><center><img src="/static/img/download.png" alt="download_rs3" class="img-responsive" id="downloading_annotated"/></center></a>
+       </div>
+      </div>
+{% endblock %}

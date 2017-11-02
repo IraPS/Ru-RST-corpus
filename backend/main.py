@@ -1,13 +1,6 @@
 # -*- coding: utf-8 -*-
 
-try:
-    from os import getuid
-
-except ImportError:
-    def getuid():
-        return 4000
-
-from flask import Flask
+from flask import Flask, request, json, render_template_string, render_template
 
 app = Flask(__name__)
 
@@ -16,9 +9,29 @@ app = Flask(__name__)
 def hello():
     return "Hello from Flask!"
 
-@app.route("/index")
+@app.route("/index.html")
 def index():
-    return render_template("static/index.html")
+    return render_template("index.html"), 201
+	
+@app.route("/aboutRST.html")
+def about():
+    return render_template("aboutRST.html"), 201
+
+@app.route("/search.html")
+def search():
+    return render_template("search.html"), 201
+	
+@app.route("/contact.html")
+def contact():
+    return render_template("contact.html"), 201
+	
+@app.route("/corpus.html")
+def corpus():
+    return render_template("corpus.html"), 201
+	
+@app.route("/download.html")
+def download():
+    return render_template("download.html"), 201
 
 if __name__ == "__main__":
-    app.run(port=getuid() + 1000)
+    app.run(debug=True)
