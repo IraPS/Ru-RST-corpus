@@ -20,6 +20,10 @@ def about():
 @app.route("/search.html")
 def search():
     return render_template("search.html"), 201
+
+@app.route("/tree.html")
+def search_result():
+    return render_template("tree.html"), 201
 	
 @app.route("/contact.html")
 def contact():
