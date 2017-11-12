@@ -12,9 +12,8 @@
 {% endblock %}
 
 {% block content %}
-    <div class="row">
-		<div class="col-md-12">
-		<form class="form-inline">
+<form class="form-inline">
+	<div class="block">
   <label class="sr-only" for="inlineFormInput">Word</label>
   <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="Поиск слова...">
   <div class="form-group">
@@ -45,8 +44,12 @@
     <option>Volitional/Non-volitional Effect</option>
   </select>
 </div>
+  <a href="#" class="add"><img src="/static/img/plus_green.png" style="display: inline-block;height:30px;padding:5px;" alt="add more" class="img-responsive"/></a>
+</div>
   <button type="submit" class="btn btn-primary">Поиск</button>
 </form>
-</div>
-</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
 {% endblock %}
