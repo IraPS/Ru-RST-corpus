@@ -24,6 +24,10 @@ def search():
 @app.route("/tree.html")
 def search_result():
     return render_template("tree.html"), 201
+
+@app.route("/tree/<id>.html")
+def tree1(id):
+    return render_template("trees/" + str(id) + ".html"), 201
 	
 @app.route("/contact.html")
 def contact():
