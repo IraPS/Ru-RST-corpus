@@ -18,4 +18,4 @@ $('.add').click(function () {
 	var $block = $(this).parent();
   $block.clone(true).insertBefore('.submit');
   return false;
-});
+}); 
