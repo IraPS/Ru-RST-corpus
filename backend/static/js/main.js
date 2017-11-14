@@ -1,3 +1,4 @@
+$(function() {
 $('form').submit(function () {
 	var $form = $(this),
     val_list = [];
@@ -19,3 +20,9 @@ $('.add').click(function () {
   $block.clone(true).insertBefore('.submit');
   return false;
 }); 
+$('.closeimg').click(function () {
+	var $block = $(this).parent();
+  $block.remove();
+  return false;
+}); 
+});
