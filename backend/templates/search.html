@@ -6,7 +6,7 @@
     <div class="jumbotron">
       <div class="container">
         <h1>Поиск по корпусу риторических структур</h1>
-        <p>Ищите по слову, словосочетанию, риторическому отношению, маркеру риторического отношения. <br><a href="#">Инструкция по поиску</a></p>
+        <p>Ищите по слову, словосочетанию, риторическому отношению, маркеру риторического отношения. <br><a href="#">Инструкция по поиску</a><br><a href="rhetrel.html">Подробнее о риторических отношениях (РО)</a></p>
       </div>
     </div>
 {% endblock %}
@@ -14,34 +14,35 @@
 {% block content %}
 <form class="form-inline">
 	<div class="block">
-  <label class="sr-only" for="inlineFormInput">Word</label>
-  <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="Поиск слова...">
+	<select class="selectSearchOpt">
+	<option value="" selected>Поиск по...</option>
+	<option value="word">Поиск по словоформе</option>
+	<option value="lemma">Поиск по лемме</option>
+	<option value="pos">Поиск по части речи</option>
+	<option value="marker">Поиск по маркеру РО</option>
+	</select>
+	<div class="placeForSearch" style="display:inline;"></div>
   <div class="form-group">
   <label for="sel1">в</label>
   <select class="selectpicker" data-dropup-auto multiple>
-    <option selected>любом РО</option>
-    <option>Antithesis</option>
-    <option>Attribution</option>
-    <option>Background</option>
-    <option>Comparison</option>
-    <option>Concession</option>
-    <option>Conclusion</option>
-    <option>Condition</option>
-    <option>Contrast</option>
-    <option>Elaboration</option>
-    <option>Evaluation</option>
-    <option>Evidence</option>
-    <option>Interpretation</option>
-    <option>Joint</option>
-    <option>Motivation</option>
-    <option>Preparation</option>
-    <option>Purpose</option>
-    <option>Restatement</option>
-    <option>Same-Unit</option>
-    <option>Sequence</option>
-    <option>Solutionhood</option>
-    <option>Volitional/Non-volitional Cause</option>
-    <option>Volitional/Non-volitional Effect</option>
+    <option value="any" selected>любом РО</option>
+    <option value="attribution">Attribution</option>
+    <option value="background">Background</option>
+	<option value="cause-effect">Cause-Effect</option>
+    <option value="comparison">Comparison</option>
+    <option value="concession">Concession</option>
+    <option value="condition">Condition</option>
+    <option value="contrast">Contrast</option>
+    <option value="elaboration">Elaboration</option>
+    <option value="evidence">Evidence</option>
+    <option value="interpretation">Interpretation-Evaluation</option>
+    <option value="joint">Joint</option>
+    <option value="preparation">Preparation</option>
+    <option value="purpose">Purpose</option>
+    <option value="restatement">Restatement</option>
+    <option value="same-unit">Same-Unit</option>
+    <option value="sequence">Sequence</option>
+    <option value="solutionhood">Solutionhood</option>
   </select>
 </div>
   <a href="#" class="add"><img src="/static/img/plus_green.png" style="display: inline-block;height:30px;padding:5px;" alt="add more" class="img-responsive"/></a>
