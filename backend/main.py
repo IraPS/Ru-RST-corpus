@@ -41,5 +41,9 @@ def corpus():
 def download():
     return render_template("download.html"), 201
 
+@app.route("/rhetrel.html")
+def rhet():
+    return render_template("rhetrel.html"), 201
+
 if __name__ == "__main__":
     app.run(debug=True)
