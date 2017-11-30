@@ -5,6 +5,7 @@ $(function() {
         $form.find('.block').each(function() {
             var $block = $(this);
             var input_type = $block.find('select').val();
+            var input_ro = $block.find('.selectpicker').val();
             if (input_type == "word" || input_type == "lemma") {
                 var input_text = $block.find('input').val();
             } else {
@@ -12,7 +13,8 @@ $(function() {
             }
             val_list.push({
                 type: input_type,
-                searched_for: input_text
+                searched_for: input_text,
+                ro: input_ro
             });
         });
         alert(JSON.stringify({
