@@ -1,5 +1,5 @@
 $(function() {
-    $('form').submit(function() {
+    $('#searchform').submit(function() {
         var $form = $(this),
             val_list = [];
         $form.find('.block').each(function() {
@@ -18,6 +18,8 @@ $(function() {
         alert(JSON.stringify({
             data: val_list
         }));
+        $('#realform #data').val(JSON.stringify(val_list));
+        $('#realform').submit();
         return false;
     });
 
