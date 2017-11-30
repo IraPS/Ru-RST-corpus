@@ -12,7 +12,10 @@
 {% endblock %}
 
 {% block content %}
-<form class="form-inline">
+<form id="realform" action="/result.html" method="GET">
+	<input type="hidden" id="data" name="data"></input>
+</form>
+<form class="form-inline" id="searchform">
 	<div class="block">
 	<select class="selectSearchOpt">
 	<option value="" selected>Поиск по...</option>
