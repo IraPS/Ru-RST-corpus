@@ -45,5 +45,11 @@ def download():
 def rhet():
     return render_template("rhetrel.html"), 201
 
+@app.route("/result.html")
+def res():
+    query = request.args.get("data")
+    print (query)
+    return render_template("result.html"), 201
+
 if __name__ == "__main__":
     app.run(debug=True)
