@@ -31,6 +31,10 @@ $(function() {
         if ($newblock.find('.placeForSearch').innerHTML != '') {
             $newblock.find('.placeForSearch').empty();
         }
+        var selected_ro = $block.find('.selectpicker').val();
+        if (selected_ro != "any") {
+            $newblock.find('.selectpicker').selectpicker('val','any');
+        }
         $newblock.insertBefore('.submit');
         return false;
     });
