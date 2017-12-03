@@ -84,13 +84,16 @@ def res():
         value = q['searched_for']
         print("SEARCH VALUES", parameter, value)
         search_result = search_edus(parameter=parameter, value=value)
-        for i, l in search_result:
-            edus = [' '.join(n[1]) for n in list(l)]
-            res += '<p>Текст №' + str(i) + '</p>\n\n<ul>'
-            for edu in edus:
-                res += '<li>' + str(edu) + '</li>'
-            res += '</ul>'
-            # res += '<p>' + str(i) + '</p>\n\n<p>' + str([n[1] for n in list(l)]) + '</p>\n\n\n\n'
+        if len(search_result) == 0:
+            res = '<p>По запросу {0} ничего не найдено.'.format(q)
+        else:
+            for i, l in search_result:
+                edus = [' '.join(n[1]) for n in list(l)]
+                res += '<p><a href="tree/{0}.html">Текст № {0}</a>'.format(i) + '</p>\n\n<ul>'
+                for edu in edus:
+                    res += '<li>' + str(edu) + '</li>'
+                res += '</ul>'
+                # res += '<p>' + str(i) + '</p>\n\n<p>' + str([n[1] for n in list(l)]) + '</p>\n\n\n\n'
     res = Markup(res)
     return render_template("result.html", result=res), 201
 
