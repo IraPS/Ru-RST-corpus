@@ -1,11 +1,38 @@
 # -*- coding: utf-8 -*-
 
 from flask import Flask, request, json, render_template_string, render_template
-from backend.static.searching_DB import search_edus
+# from backend.static.searching_DB import search_edus
 from html import unescape
 from flask import Markup
 
+from py2neo import Graph
+import itertools
+import operator
+
+graph = Graph()
+
 app = Flask(__name__)
+
+
+def search_edus(parameter, value):
+    found = None
+    if parameter == 'word':
+        found = graph.run("MATCH (n) WHERE '" + value + "' in split(n.text, ' ')\n RETURN n.Id, split(n.text, ' ')")
+        found = [[n[0], n[1]] for n in found]
+    if parameter == 'lemma':
+        found = graph.run('MATCH (n) WHERE n.lemmas CONTAINS "' + "'" + value + "'" + '"' +
+                          " RETURN n.Id, split(n.text, ' ')")
+        found = [[n[0], n[1]] for n in found]
+    if parameter == 'pos':
+        found = graph.run('MATCH (n) WHERE n.lemmas CONTAINS "' + "'" + value + "'" + '"' +
+                          " RETURN n.Id, split(n.text, ' ')")
+        found = [[n[0], n[1]] for n in found]
+    # print([n for n in found if n[0] == 20], '\n\n')
+    if found:
+        found.sort(key=operator.itemgetter(0))
+        found_by_text = itertools.groupby(found, lambda x: x[0])
+        found = found_by_text
+    return found
 
 
 @app.route("/")
