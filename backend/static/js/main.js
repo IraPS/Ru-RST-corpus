@@ -30,12 +30,15 @@ $(function() {
         var $newblock = $block.clone(true);
         if ($newblock.find('.placeForSearch').innerHTML != '') {
             $newblock.find('.placeForSearch').empty();
+
         }
         var selected_ro = $block.find('.selectpicker').val();
         if (selected_ro != "any") {
             $newblock.find('.selectpicker').selectpicker('val','any');
         }
         $newblock.insertBefore('.submit');
+        $newblock.find('.selectpicker').selectpicker('deselectAll');
+        $newblock.find("selectpicker").attr("id", "new");
         return false;
     });
 
@@ -53,7 +56,7 @@ $(function() {
         } else if (choice === 'lemma') {
             $block.find('.placeForSearch').get(0).innerHTML = '<input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Поиск леммы...">';
         } else if (choice === 'pos') {
-            $block.find('.placeForSearch').get(0).innerHTML = '<select class="dropdown select"><option value="" selected>Выберите часть речи...</option><option value="noun">Существительное</option><option value="verb">Глагол</option><option value="adj">Прилагательное</option><option value="adv">Наречие</option><option value="pronoun">Местоимение</option><option value="preposition">Предлог</option><option value="conj">Союз</option><option value="particle">Частица</option></select>';
+            $block.find('.placeForSearch').get(0).innerHTML = '<select class="dropdown select"><option value="" selected>Выберите часть речи...</option><option value="S">Существительное</option><option value="V">Глагол</option><option value="A">Прилагательное</option><option value="ADV">Наречие</option><option value="SPRO">Местоимение</option><option value="PR">Предлог</option><option value="CONJ">Союз</option><option value="PART">Частица</option></select>';
         } else if (choice === 'marker') {
             $block.find('.placeForSearch').get(0).innerHTML = '<select class="dropdown select"><option value="" selected>Выберите маркер РО...</option><option value="potomuchto">потому что</option><option value="poetomu">поэтому</option></select>';
         } else {
