@@ -14,15 +14,15 @@ graph = Graph()  # creating a graph for a database
 def search_edus(parameter, value):
     found = None
     if parameter == 'word':
-        found = graph.run("MATCH (n) WHERE '" + value + "' in split(n.text, ' ')\n RETURN n.Id, split(n.text, ' ')")
+        found = graph.run("MATCH (n) WHERE '" + value + "' in split(n.text, ' ')\n RETURN n.Text_id, split(n.text, ' ')")
         found = [[n[0], n[1]] for n in found]
     if parameter == 'lemma':
         found = graph.run('MATCH (n) WHERE n.lemmas CONTAINS "' + "'" + value + "'" + '"' +
-                          " RETURN n.Id, split(n.text, ' ')")
+                          " RETURN n.Text_id, split(n.text, ' ')")
         found = [[n[0], n[1]] for n in found]
     if parameter == 'pos':
         found = graph.run('MATCH (n) WHERE n.lemmas CONTAINS "' + "'" + value + "'" + '"' +
-                          " RETURN n.Id, split(n.text, ' ')")
+                          " RETURN n.Text_id, split(n.text, ' ')")
         found = [[n[0], n[1]] for n in found]
     # print([n for n in found if n[0] == 20], '\n\n')
     if found:
