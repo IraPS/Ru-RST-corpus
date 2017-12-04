@@ -86,11 +86,11 @@ def res():
         search_result = search_edus(parameter=parameter, value=value)
         for i, l in search_result:
             edus = [(n[1], ' '.join(n[2])) for n in list(l)]
-            # res += '<p><a href="tree/{0}.html">Текст № {0}</a>'.format(i) + '</p>\n\n<ul>'
+            res += '<p>Текст № {0}'.format(i) + '</p>\n\n<ul>'
             for edu in edus:
                 edu_id = edu[0]
                 edu_text = edu[1]
-                res += '<li><a href="tree/{0}.html">Text id: {0}, EDU id: '.format(i) + str(edu_id) + '</a><br>EDU text: ' + str(edu_text) + '</li>'
+                res += '<li><a href="tree/{0}.html#edu'.format(i)+str(edu_id)+'">' + str(edu_text) + '</a></li>'
             res += '</ul>'
         if res == '':
             res = '<p>По запросу {0} ничего не найдено.</p>'.format(q)
