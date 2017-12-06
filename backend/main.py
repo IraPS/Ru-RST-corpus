@@ -42,7 +42,7 @@ def hello():
 @app.route("/index.html")
 def index():
     return render_template("index.html"), 201
-	
+    
 @app.route("/aboutRST.html")
 def about():
     return render_template("aboutRST.html"), 201
@@ -57,12 +57,13 @@ def search_result():
 
 @app.route("/tree/<id>.html")
 def tree1(id):
-    return render_template("trees/" + str(id) + ".html"), 201
-	
+    posit = request.args.get("position")
+    return render_template("trees/" + str(id) + ".html", position=posit), 201
+    
 @app.route("/contact.html")
 def contact():
     return render_template("contact.html"), 201
-	
+    
 @app.route("/corpus.html")
 def corpus():
     return render_template("corpus.html"), 201
@@ -90,10 +91,17 @@ def res():
             for edu in edus:
                 edu_id = edu[0]
                 edu_text = edu[1]
-                res += '<li><a href="tree/{0}.html#edu'.format(i)+str(edu_id)+'">' + str(edu_text) + '</a></li>'
+                res += '<li><a href="tree/{0}.html?position=edu'.format(i)+str(edu_id)+'">' + str(edu_text) + '</a></li>'
             res += '</ul>'
         if res == '':
-            res = '<p>По запросу {0} ничего не найдено.</p>'.format(q)
+            if parameter == 'lemma':
+                res = '<p>Ваш запрос: лемма "'+str(value)+'".<br><br> По Вашему запросу ничего не найдено.</p>'
+            elif parameter == 'word':
+                res = '<p>Ваш запрос: словоформа "'+str(value)+'".<br><br> По Вашему запросу ничего не найдено.</p>'
+            elif parameter == 'pos':
+                res = '<p>Ваш запрос: часть речи "'+str(value)+'".<br><br> По Вашему запросу ничего не найдено.</p>'
+            elif parameter == 'marker':
+                res = '<p>Ваш запрос: риторический маркер "'+str(value)+'".<br><br> По Вашему запросу ничего не найдено.</p>'
     res = Markup(res)
     return render_template("result.html", result=res), 201
 
