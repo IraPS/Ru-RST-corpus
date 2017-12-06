@@ -16,43 +16,45 @@
 	<input type="hidden" id="data" name="data"></input>
 </form>
 <form class="form-inline" id="searchform">
-	<div class="block">
-	<select class="selectSearchOpt">
-	<option value="" selected>Поиск по...</option>
-	<option value="word">Поиск по словоформе</option>
-	<option value="lemma">Поиск по лемме</option>
-	<option value="pos">Поиск по части речи</option>
-	<option value="marker">Поиск по маркеру РО</option>
-	</select>
-	<div class="placeForSearch" style="display:inline;"></div>
-  <div class="form-group">
-  <label for="sel1">в</label>
-  <select class="selectpicker" data-dropup-auto multiple>
-    <option value="any" selected>любом РО</option>
-    <option value="attribution">Attribution</option>
-    <option value="background">Background</option>
-	<option value="cause-effect">Cause-Effect</option>
-    <option value="comparison">Comparison</option>
-    <option value="concession">Concession</option>
-    <option value="condition">Condition</option>
-    <option value="contrast">Contrast</option>
-    <option value="elaboration">Elaboration</option>
-    <option value="evidence">Evidence</option>
-    <option value="interpretation">Interpretation-Evaluation</option>
-    <option value="joint">Joint</option>
-    <option value="preparation">Preparation</option>
-    <option value="purpose">Purpose</option>
-    <option value="restatement">Restatement</option>
-    <option value="same-unit">Same-Unit</option>
-    <option value="sequence">Sequence</option>
-    <option value="solutionhood">Solutionhood</option>
-  </select>
-</div>
-  <a href="#" class="add"><img src="/static/img/plus_green.png" style="display: inline-block;height:30px;padding:5px;" alt="add more" class="img-responsive"/></a>
-  <a href="#" class="closeimg"><img src="/static/img/close_red.png" style="display: inline-block;height:30px;padding:5px;" alt="delete" class="img-responsive"/></a>
-  <p />
+	<div class="block" style="display:none;">
+		<select class="selectSearchOpt">
+			<option value="" selected>Поиск по...</option>
+			<option value="word">Поиск по словоформе</option>
+			<option value="lemma">Поиск по лемме</option>
+			<option value="pos">Поиск по части речи</option>
+			<option value="marker">Поиск по маркеру РО</option>
+		</select>
+		<div class="searchOption" style="display:inline;"></div>
+		<div class="placeForSearch" style="display:inline;">
+			<div class="form-group">
+				<label for="sel1">в</label>
+				<select class="multselect_ro" data-dropup-auto multiple>
+					<option value="any" selected>любом РО</option>
+					<option value="attribution">Attribution</option>
+					<option value="background">Background</option>
+					<option value="cause-effect">Cause-Effect</option>
+					<option value="comparison">Comparison</option>
+					<option value="concession">Concession</option>
+					<option value="condition">Condition</option>
+					<option value="contrast">Contrast</option>
+					<option value="elaboration">Elaboration</option>
+					<option value="evidence">Evidence</option>
+					<option value="interpretation">Interpretation-Evaluation</option>
+					<option value="joint">Joint</option>
+					<option value="preparation">Preparation</option>
+					<option value="purpose">Purpose</option>
+					<option value="restatement">Restatement</option>
+					<option value="same-unit">Same-Unit</option>
+					<option value="sequence">Sequence</option>
+					<option value="solutionhood">Solutionhood</option>
+				</select>
+			</div>
+			<a href="#" class="add"><img src="/static/img/plus_green.png" style="display: inline-block;height:30px;padding:5px;" alt="add more" class="img-responsive"/></a>
+			<a href="#" class="closeimg"><img src="/static/img/close_red.png" style="display: inline-block;height:30px;padding:5px;" alt="delete" class="img-responsive"/></a>
+		</div>
+		<p />
 	</div>
-  <button type="submit" class="submit btn btn-primary">Поиск</button>
+	<button type="submit" class="submit btn btn-primary">Поиск</button>
 </form>
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"
