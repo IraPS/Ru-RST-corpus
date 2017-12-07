@@ -11,10 +11,12 @@ $(function() {
             } else {
                 var input_text = $block.find('.dropdown option:selected').val();
             }
+	    var add = $block.find('.add_search').val();
             val_list.push({
                 type: input_type,
                 searched_for: input_text,
-                ro: input_ro
+                ro: input_ro,
+		add_type: add
             });
         });
         alert(JSON.stringify({
@@ -45,9 +47,12 @@ $(function() {
 				$parblock.find(".searchOption").html(null);
 			}
 		});
-		$inserted.find(".add").click(function() {
-			var $blockselect = clone_block();
-			console.log($blockselect.find(".selectpicker"));
+		$inserted.find("select.add_search").change(function() {
+			var $addopt = $(this);
+			var choice = $addopt.val();
+			if (choice != 'none') {
+			    var $blockselect = clone_block();
+			}
 			return false;
 		});
 		$inserted.find(".closeimg").click(function() {
