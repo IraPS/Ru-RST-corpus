@@ -8,6 +8,7 @@ from flask import Markup
 from py2neo import Graph
 import itertools
 import operator
+import csv
 
 graph = Graph()
 
@@ -82,26 +83,35 @@ def res():
     res = str()
     for q in query:
         parameter = q['type']
+        if parameter == 'lemma':
+            param_rus = 'лемма'
+        elif parameter == 'word':
+            param_rus = 'словоформа'
+        elif parameter == 'pos':
+            param_rus = 'часть речи'
+        elif parameter == 'marker':
+            param_rus = 'риторический маркер'
         value = q['searched_for']
         print("SEARCH VALUES", parameter, value)
         search_result = search_edus(parameter=parameter, value=value)
-        for i, l in search_result:
-            edus = [(n[1], ' '.join(n[2])) for n in list(l)]
-            res += '<p>Текст № {0}'.format(i) + '</p>\n\n<ul>'
-            for edu in edus:
-                edu_id = edu[0]
-                edu_text = edu[1]
-                res += '<li><a href="tree/{0}.html?position=edu'.format(i)+str(edu_id)+'">' + str(edu_text) + '</a></li>'
-            res += '</ul>'
-        if res == '':
-            if parameter == 'lemma':
-                res = '<p>Ваш запрос: лемма "'+str(value)+'".<br><br> По Вашему запросу ничего не найдено.</p>'
-            elif parameter == 'word':
-                res = '<p>Ваш запрос: словоформа "'+str(value)+'".<br><br> По Вашему запросу ничего не найдено.</p>'
-            elif parameter == 'pos':
-                res = '<p>Ваш запрос: часть речи "'+str(value)+'".<br><br> По Вашему запросу ничего не найдено.</p>'
-            elif parameter == 'marker':
-                res = '<p>Ваш запрос: риторический маркер "'+str(value)+'".<br><br> По Вашему запросу ничего не найдено.</p>'
+        res += '<p><b>Ваш запрос: {0} "'.format(param_rus)+str(value)+'". </b></p>'
+        with open("{{url_for('static', filename='search_result.csv')}}", 'w') as csvfile:
+            writer = csv.writer(csvfile)
+            writer.writerow(['Ваш запрос: {0} "'.format(param_rus)+str(value)+'".', ''])
+            writer.writerow(['Текст', 'ЭДЕ'])
+            for i, l in search_result:
+                edus = [(n[1], ' '.join(n[2])) for n in list(l)]
+                res += '<p>Текст № {0}'.format(i) + '</p>\n\n<ul>'
+                for edu in edus:
+                    edu_id = edu[0]
+                    edu_text = edu[1]
+                    res += '<li><a href="tree/{0}.html?position=edu'.format(i)+str(edu_id)+'">' + str(edu_text) + '</a></li>'
+                    writer.writerow(['{0}'.format(i), str(edu_text)])
+                res += '</ul>'
+        if res.endswith('". </b></p>'):
+            res += '<p><br><br> По Вашему запросу ничего не найдено.</p>'
+        else:
+            res += '<br><p><b><a href="../static/search_result.csv" download>Скачать</a> результаты поиска в формате csv.</b></p><br>'
     res = Markup(res)
     return render_template("result.html", result=res), 201
 
