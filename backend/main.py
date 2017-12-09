@@ -126,9 +126,10 @@ def return_multiedu_search_res_html(all_found, param_rus, vals):
     for j in range(1, len(param_rus)):
         remainder = remainder+', '+str(param_rus[j])+' "'+str(vals[j])+'"'
     res += '<p><b>Ваш запрос: {0} "'.format(param_rus[0])+str(vals[0])+'"'+remainder+'. </b></p>'
-    csvfile = open('backend/static/search_result.csv', 'w', newline='', encoding='utf-8')
+    csvfile = open('backend/static/search_result.csv', 'w', newline='', encoding='cp1251')
     csvwriter = csv.writer(csvfile)
-    csvwriter.writerow(['Ваш запрос: {0} "'.format(param_rus[0])+str(vals[0])+remainder+'.', ''])
+    s1_r1 = 'Ваш запрос: {0} "'.format(param_rus[0])+str(vals[0])+remainder+'.'
+    csvwriter.writerow([s1_r1.encode('cp1251'), ''])
     csvwriter.writerow(['Текст', 'ЭДЕ'])
     for text in text_result:
         if len(text_result[text]) > 0:
