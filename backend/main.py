@@ -117,27 +117,45 @@ def find_seq(texts_ids, result):
     return text_result
 
 
-def return_multiedu_search_res_html(all_found):
+def return_multiedu_search_res_html(all_found, param_rus, vals):
     result = process_multi_edus_search(all_found)[1]
     texts_ids = process_multi_edus_search(all_found)[0]
     text_result = find_seq(texts_ids, result)
     res = str()
+    remainder = str()
+    for j in range(1, len(param_rus)):
+        remainder = remainder+', '+str(param_rus[j])+' "'+str(vals[j])+'"'
+    res += '<p><b>Ваш запрос: {0} "'.format(param_rus[0])+str(vals[0])+'"'+remainder+'. </b></p>'
+    csvfile = open('backend/static/search_result.csv', 'w', newline='', encoding='utf-8')
+    csvwriter = csv.writer(csvfile)
+    csvwriter.writerow(['Ваш запрос: {0} "'.format(param_rus[0])+str(vals[0])+remainder+'.', ''])
+    csvwriter.writerow(['Текст', 'ЭДЕ'])
     for text in text_result:
         if len(text_result[text]) > 0:
             res += '<p>Текст № {0}'.format(text) + '</p>\n<ul>\n'
             for i in text_result[text]:
                 res += '<li>'
                 res += i
+                csvwriter.writerow([str(text), str(i)])
                 res += '</li>\n'
             res += '</ul>\n'
     return res
 
 
-def return_singleedu_search_res_html(all_found):
+def return_singleedu_search_res_html(all_found, param_rus, vals):
     res = str()
+    remainder = str()
+    if len(param_rus) > 1:
+        for j in range(1, len(param_rus)):
+            remainder = remainder+', '+str(param_rus[j])+' "'+str(vals[j])+'"'
+    res += '<p><b>Ваш запрос: {0} "'.format(param_rus[0])+str(vals[0])+'"'+remainder+'. </b></p>'
     all_found = all_found[0]
     all_found.sort(key=operator.itemgetter(0))
     found_by_text = itertools.groupby(all_found, lambda x: x[0])
+    csvfile = open('backend/static/search_result.csv', 'w', newline='', encoding='utf-8')
+    csvwriter = csv.writer(csvfile)
+    csvwriter.writerow(['Ваш запрос: {0} "'.format(param_rus[0])+str(vals[0])+remainder+'.', ''])
+    csvwriter.writerow(['Текст', 'ЭДЕ'])
     for i, l in found_by_text:
         edus = [(n[1], n[2]) for n in list(l)]
         res += '<p>Текст № {0}'.format(i) + '</p>\n\n<ul>'
@@ -145,17 +163,19 @@ def return_singleedu_search_res_html(all_found):
             edu_id = edu[0]
             edu_text = edu[1]
             res += '<li><a href="tree/{0}.html?position=edu'.format(i)+str(edu_id)+'">' + str(edu_text) + '</a></li>'
+            csvwriter.writerow([str(i), str(edu_text)])
         res += '</ul>'
+    csvfile.close()
     return res
 
 
-def return_search_res_html(query):
+def return_search_res_html(query, param_rus, vals):
     DB_requests = create_DB_requests(query)
     all_found = get_found(DB_requests)
     if len(all_found) > 1:
-        return return_multiedu_search_res_html(all_found)
+        return return_multiedu_search_res_html(all_found, param_rus, vals)
     else:
-        return return_singleedu_search_res_html(all_found)
+        return return_singleedu_search_res_html(all_found, param_rus, vals)
 
 
 @app.route("/")
@@ -204,24 +224,21 @@ def res():
     query = eval(request.args.get("data"))
     print(query)
     res = str()
+    param_rus, vals = [], []
     for q in query:
         parameter = q['type']
         if parameter == 'lemma':
-            param_rus = 'лемма'
+            param_rus.append('лемма')
         elif parameter == 'word':
-            param_rus = 'словоформа'
+            param_rus.append('словоформа')
         elif parameter == 'pos':
-            param_rus = 'часть речи'
+            param_rus.append('часть речи')
         elif parameter == 'marker':
-            param_rus = 'риторический маркер'
+            param_rus.append('риторический маркер')
         value = q['searched_for']
-        print("SEARCH VALUES", parameter, value)
-        res += '<p><b>Ваш запрос: {0} "'.format(param_rus)+str(value)+'". </b></p>'
-        with open("{{url_for('static', filename='search_result.csv')}}", 'w') as csvfile:
-            writer = csv.writer(csvfile)
-            writer.writerow(['Ваш запрос: {0} "'.format(param_rus)+str(value)+'".', ''])
-            writer.writerow(['Текст', 'ЭДЕ'])
-            res = return_search_res_html(query)
+        vals.append(q['searched_for'])
+        print("SEARCH VALUES", parameter, value)        
+        res = return_search_res_html(query, param_rus, vals)
         if res.endswith('". </b></p>'):
             res += '<p><br><br> По Вашему запросу ничего не найдено.</p>'
         else:
