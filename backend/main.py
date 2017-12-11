@@ -113,7 +113,7 @@ def find_seq(texts_ids, result):
                         res_edus.append([n for n in queries[1] if n[1] == goal][0])
                 res_edus = [n[2] for n in res_edus]
                 if found_all:
-                    text_result[text].append(str(' '. join(res_edus)))
+                    text_result[text].append(str(' <b>||</b> '. join(res_edus)))
     return text_result
 
 
@@ -124,12 +124,12 @@ def return_multiedu_search_res_html(all_found, param_rus, vals):
     res = str()
     remainder = str()
     for j in range(1, len(param_rus)):
-        remainder = remainder+', '+str(param_rus[j])+' "'+str(vals[j])+'"'
-    res += '<p><b>Ваш запрос: {0} "'.format(param_rus[0])+str(vals[0])+'"'+remainder+'. </b></p>'
-    csvfile = open('backend/static/search_result.csv', 'w', newline='', encoding='cp1251')
+        remainder = remainder+' И '+str(param_rus[j])+' "'+str(vals[j])+'"'
+    res += '<p><b>Ваш запрос: {0} "'.format(param_rus[0])+str(vals[0])+'"'+remainder+' в последовательности ЭДЕ. </b></p>'
+    csvfile = open('backend/static/search_result.csv', 'w', newline='', encoding='utf-8')
     csvwriter = csv.writer(csvfile)
-    s1_r1 = 'Ваш запрос: {0} "'.format(param_rus[0])+str(vals[0])+remainder+'.'
-    csvwriter.writerow([s1_r1.encode('cp1251'), ''])
+    s1_r1 = 'Ваш запрос: {0} "'.format(param_rus[0])+str(vals[0])+'"'+remainder+' в последовательности ЭДЕ.'
+    csvwriter.writerow([s1_r1, ''])
     csvwriter.writerow(['Текст', 'ЭДЕ'])
     for text in text_result:
         if len(text_result[text]) > 0:
@@ -143,19 +143,24 @@ def return_multiedu_search_res_html(all_found, param_rus, vals):
     return res
 
 
-def return_singleedu_search_res_html(all_found, param_rus, vals):
+def return_singleedu_search_res_html(all_found, param_rus, vals, addtype):
     res = str()
     remainder = str()
+    if addtype == 'same_edu_and':
+        add = 'И'
+    else:
+        add = 'ИЛИ'
     if len(param_rus) > 1:
         for j in range(1, len(param_rus)):
-            remainder = remainder+', '+str(param_rus[j])+' "'+str(vals[j])+'"'
-    res += '<p><b>Ваш запрос: {0} "'.format(param_rus[0])+str(vals[0])+'"'+remainder+'. </b></p>'
+            remainder = remainder+' '+add+' '+str(param_rus[j])+' "'+str(vals[j])+'"'
+    res += '<p><b>Ваш запрос: {0} "'.format(param_rus[0])+str(vals[0])+'"'+remainder+' в одной ЭДЕ. </b></p>'
     all_found = all_found[0]
     all_found.sort(key=operator.itemgetter(0))
     found_by_text = itertools.groupby(all_found, lambda x: x[0])
     csvfile = open('backend/static/search_result.csv', 'w', newline='', encoding='utf-8')
     csvwriter = csv.writer(csvfile)
-    csvwriter.writerow(['Ваш запрос: {0} "'.format(param_rus[0])+str(vals[0])+remainder+'.', ''])
+    s1_r1 = 'Ваш запрос: {0} "'.format(param_rus[0])+str(vals[0])+'"'+remainder+' в одной ЭДЕ'
+    csvwriter.writerow([s1_r1, ''])
     csvwriter.writerow(['Текст', 'ЭДЕ'])
     for i, l in found_by_text:
         edus = [(n[1], n[2]) for n in list(l)]
@@ -170,13 +175,13 @@ def return_singleedu_search_res_html(all_found, param_rus, vals):
     return res
 
 
-def return_search_res_html(query, param_rus, vals):
+def return_search_res_html(query, param_rus, vals, addtype):
     DB_requests = create_DB_requests(query)
     all_found = get_found(DB_requests)
     if len(all_found) > 1:
         return return_multiedu_search_res_html(all_found, param_rus, vals)
     else:
-        return return_singleedu_search_res_html(all_found, param_rus, vals)
+        return return_singleedu_search_res_html(all_found, param_rus, vals, addtype)
 
 
 @app.route("/")
@@ -238,8 +243,9 @@ def res():
             param_rus.append('риторический маркер')
         value = q['searched_for']
         vals.append(q['searched_for'])
+        addtype = q['add_type']
         print("SEARCH VALUES", parameter, value)        
-        res = return_search_res_html(query, param_rus, vals)
+        res = return_search_res_html(query, param_rus, vals, addtype)
         if res.endswith('". </b></p>'):
             res += '<p><br><br> По Вашему запросу ничего не найдено.</p>'
         else:
