@@ -6,8 +6,10 @@ $(function() {
             var $block = $(this);
             var input_type = $block.find('.selectSearchOpt').val();
             var input_ro = $block.find("select.multselect_ro").val();
+	    var close_par = $block.find("input.parentheses_close").val();
+	    var open_par = $block.find("input.parentheses_open").val();
             if (input_type == "word" || input_type == "lemma") {
-                var input_text = $block.find('input').val();
+                var input_text = $block.find('input.searchtext').val();
             } else {
                 var input_text = $block.find('.dropdown option:selected').val();
             }
@@ -16,7 +18,9 @@ $(function() {
                 type: input_type,
                 searched_for: input_text,
                 ro: input_ro,
-		add_type: add
+		add_type: add,
+		open_parenth: open_par,
+		close_parenth: close_par
             });
         });
         alert(JSON.stringify({
@@ -36,9 +40,9 @@ $(function() {
 			var $parblock = $searchopt.parent();
 			var choice = $searchopt.val();
 			if (choice === 'word') {
-				$parblock.find(".searchOption").html('<input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Поиск слова...">');
+				$parblock.find(".searchOption").html('<input type="text" class="searchtext" placeholder="Поиск слова...">');
 			} else if (choice === 'lemma') {
-				$parblock.find(".searchOption").html('<input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Поиск леммы...">');
+				$parblock.find(".searchOption").html('<input type="text" class="searchtext" placeholder="Поиск леммы...">');
 			} else if (choice === 'pos') {
 				$parblock.find(".searchOption").html('<select class="dropdown select"><option value="" selected>Выберите часть речи...</option><option value="S">Существительное</option><option value="V">Глагол</option><option value="A">Прилагательное</option><option value="ADV">Наречие</option><option value="SPRO">Местоимение</option><option value="PR">Предлог</option><option value="CONJ">Союз</option><option value="PART">Частица</option></select>');
 			} else if (choice === 'marker') {
