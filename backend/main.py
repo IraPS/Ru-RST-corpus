@@ -30,6 +30,17 @@ def parse_query(query):
     return slices
 
 
+def check_query(parsed_query):
+    for edu in parsed_query:
+        chosen_ro_s = set([' '.join(d['ro']) for d in edu])
+        if len(chosen_ro_s) > 1:
+            return 'ro_s_in_edu_dont_match'
+        searched_for_s = [d['searched_for'] for d in edu if d['type'] != '']
+        if '' in searched_for_s or ' ' in searched_for_s:
+            return 'no_input_for_word_or_lemma_or_pos'
+    return True
+
+
 markers = {"a":"a", "bezuslovno":"безусловно", "buduchi":"будучи", "budeto":"будь это",
            "vitoge":"в итоге", "vosobennosti":"в особенности", "vramkah":"в рамках",
            "vrezultate":"в результате", "vsamomdele":"в самом деле", "vsvojyochered":"в свою очередь",
@@ -75,10 +86,15 @@ def request_with_one_cond_on_edu(query):
             if '_lem' in el['searched_for']:
                 request += ' n.lemmas CONTAINS \'{0}\''.format(marker_rus)
             else:
+                marker_lengh = str(len(marker_rus)+1)
                 if len(marker_rus.split()) > 1:
-                    request += ' lower(n.text) CONTAINS \'{0}\''.format(marker_rus)
+                    # request += ' lower(n.text) CONTAINS \'{0}\''.format(marker_rus)
+                    request += ' REDUCE(s = " ", w in split(n.text_norm, " ")[0..{0}]|s + " " + w) CONTAINS \'{1}\''.format(marker_lengh, marker_rus)
+
                 else:
-                    request += " '{0}' IN split(n.text_norm, ' ')".format(marker_rus)
+                    # request += " '{0}' IN split(n.text_norm, ' ')".format(marker_rus)
+                    request += ' \'{0}\' IN split(n.text_norm, " ")[0..{1}]'.format(marker_rus, marker_lengh)
+
         if el['type'] == 'word':
             request += " '{0}' IN split(n.text_norm, ' ')".format(el['searched_for'])
         if el['type'] == 'lemma' or el['type'] == 'pos':
@@ -124,10 +140,14 @@ def create_DB_requests(query):
                         if '_lem' in el['searched_for']:
                             request += ' n.lemmas CONTAINS \'{0}\''.format(marker_rus)
                         else:
+                            marker_lengh = str(len(marker_rus)+1)
                             if len(marker_rus.split()) > 1:
-                                request += ' lower(n.text) CONTAINS \'{0}\''.format(marker_rus)
+                                # request += ' lower(n.text) CONTAINS \'{0}\''.format(marker_rus)
+                                request += ' REDUCE(s = " ", w in split(n.text_norm, " ")[0..{0}]|s + " " + w) CONTAINS \'{1}\''.format(marker_lengh, marker_rus)
+
                             else:
-                                request += " '{0}' IN split(n.text_norm, ' ')".format(marker_rus)
+                                # request += " '{0}' IN split(n.text_norm, ' ')".format(marker_rus)
+                                request += ' \'{0}\' IN split(n.text_norm, " ")[0..{1}]'.format(marker_rus, marker_lengh)
                     if el['type'] == 'word':
                         type_chosen = True
                         request += " '{0}' IN split(n.text_norm, ' '){1} {2}".format(el['searched_for'], el['close_parenth'], cond)
@@ -152,7 +172,7 @@ def create_DB_requests(query):
                         request += el['close_parenth']
             if ro_chosen and type_chosen:
                 request = re.sub('MATCH \(n\)', 'MATCH (n)-[r]-()', request)
-                request += ')'
+                #request += ')'
                 request = re.sub("WHERE", "WHERE (", request)
                 request += ') AND type(r) IN {0}'.format(ro)
             #if not ro_chosen and not type_chosen:
@@ -164,7 +184,6 @@ def create_DB_requests(query):
             requests.append(request_with_one_cond_on_edu(i))
     print(requests)
     return requests
-
 
 
 def get_found(DB_requests):
@@ -276,6 +295,7 @@ def return_multiedu_search_res_html(all_found, param_rus, vals):
             res += '</ul>\n'
     return res
 
+
 def return_singleedu_search_res_html(all_found, param_rus, vals, addtype):
     res = str()
     remainder = str()
@@ -318,42 +338,56 @@ def return_singleedu_search_res_html(all_found, param_rus, vals, addtype):
 
 
 def return_search_res_html(query, param_rus, vals, addtype):
-    DB_requests = create_DB_requests(query)
-    all_found = get_found(DB_requests)
-    if len(all_found) > 1:
-        return return_multiedu_search_res_html(all_found, param_rus, vals)
+    checked = check_query(parse_query(query))
+    if checked is True:
+        try:
+            DB_requests = create_DB_requests(query)
+            all_found = get_found(DB_requests)
+            if len(all_found) > 1:
+                return return_multiedu_search_res_html(all_found, param_rus, vals)
+            else:
+                return return_singleedu_search_res_html(all_found, param_rus, vals, addtype)
+        except:
+            return 'failed_query'
     else:
-        return return_singleedu_search_res_html(all_found, param_rus, vals, addtype)
+        return checked
 
 
 @app.route("/")
 def hello():
     return "Hello from Flask!"
 
+
 @app.route("/index.html")
 def index():
     return render_template("index.html"), 201
-    
+
+
 @app.route("/aboutRST.html")
 def about():
     return render_template("aboutRST.html"), 201
+
 
 @app.route("/search.html")
 def search():
     return render_template("search.html"), 201
 
+
 @app.route("/tree.html")
 def search_result():
     return render_template("tree.html"), 201
+
 
 @app.route("/tree/<id>.html")
 def tree1(id):
     posit = request.args.get("position")
     return render_template("trees/" + str(id) + ".html", position=posit), 201
-    
+
+
 @app.route("/contact.html")
 def contact():
     return render_template("contact.html"), 201
+
 
 @app.route("/contactm.html", methods=['GET', 'POST'])
 def contactm():
@@ -368,10 +402,12 @@ def contactm():
         fh.close()
             
     return render_template("contactm.html"), 201
-    
+
+
 @app.route("/corpus.html")
 def corpus():
     return render_template("corpus.html"), 201
+
 
 @app.route("/download.html")
 def download():
@@ -402,10 +438,18 @@ def res():
         addtype = q['add_type']
         print("SEARCH VALUES", parameter, value)        
         res = return_search_res_html(query, param_rus, vals, addtype)
-        if res.endswith('". </b></p>'):
-            res += '<p><br><br> По Вашему запросу ничего не найдено.</p>'
+        if res in ['no_input_for_word_or_lemma_or_pos', 'ro_s_in_edu_dont_match', 'failed_query']:
+            if res == 'no_input_for_word_or_lemma_or_pos':
+                res += '<p>' + res + '</p>'
+            if res == 'ro_s_in_edu_dont_match':
+                res += '<p>' + res + '</p>'
+            if res == 'failed_query':
+                res += '<p>' + res + '</p>'
         else:
-            res += '<br><p><b><a href="../static/search_result.csv" download>Скачать</a> результаты поиска в формате csv.</b></p><br>'
+            if res.endswith('". </b></p>'):
+                res += '<p><br><br> По Вашему запросу ничего не найдено.</p>'
+            else:
+                res += '<br><p><b><a href="../static/search_result.csv" download>Скачать</a> результаты поиска в формате csv.</b></p><br>'
     res = Markup(res)
     return render_template("result.html", result=res), 201
 
