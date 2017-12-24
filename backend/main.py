@@ -267,7 +267,7 @@ def return_multiedu_search_res_html(all_found, param_rus, vals):
             for i in range(len(text_result[text])):
                 res += '<li>'
                 for k in range(len(text_result[text][i])):
-                    res += '<a href="tree/{0}.html?position=edu'.format(text)+str(ids_result[text][i][k])+'">'+text_result[text][i][k]+'</a>'
+                    res += '<a href="tree/{0}.html?position=edu'.format(text)+str(ids_result[text][i][k])+'" target="_blank">'+text_result[text][i][k]+'</a>'
                     if k != len(text_result[text][i])-1:
                         res += '<b>||</b>'
                 full_text = '||'.join(text_result[text][i])
@@ -310,7 +310,7 @@ def return_singleedu_search_res_html(all_found, param_rus, vals, addtype):
         for edu in edus:
             edu_id = edu[0]
             edu_text = edu[1]
-            res += '<li><a href="tree/{0}.html?position=edu'.format(i)+str(edu_id)+'">' + str(edu_text) + '</a></li>'
+            res += '<li><a href="tree/{0}.html?position=edu'.format(i)+str(edu_id)+'" target="_blank">' + str(edu_text) + '</a></li>'
             csvwriter.writerow([str(i), str(edu_text)])
         res += '</ul>'
     csvfile.close()
