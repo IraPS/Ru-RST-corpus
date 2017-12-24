@@ -245,11 +245,20 @@ def return_multiedu_search_res_html(all_found, param_rus, vals):
     res = str()
     remainder = str()
     for j in range(1, len(param_rus)):
-        remainder = remainder+' И '+str(param_rus[j])+' "'+str(vals[j])+'"'
-    res += '<p><b>Ваш запрос: {0} "'.format(param_rus[0])+str(vals[0])+'"'+remainder+' в последовательности ЭДЕ. </b></p>'
+        if param_rus[j] == 'риторический маркер':
+            remainder = remainder+' И '+str(param_rus[j])+' "'+str(markers[vals[j]])+'"'
+        else:
+            remainder = remainder+' И '+str(param_rus[j])+' "'+str(vals[j])+'"'
+    if param_rus[0] == 'риторический маркер':
+        res += '<p><b>Ваш запрос: {0} "'.format(param_rus[0])+str(markers[vals[0]])+'"'+remainder+' в последовательности ЭДЕ. </b></p>'
+    else:
+        res += '<p><b>Ваш запрос: {0} "'.format(param_rus[0])+str(vals[0])+'"'+remainder+' в последовательности ЭДЕ. </b></p>'
     csvfile = open('backend/static/search_result.csv', 'w', newline='', encoding='utf-8')
     csvwriter = csv.writer(csvfile)
-    s1_r1 = 'Ваш запрос: {0} "'.format(param_rus[0])+str(vals[0])+'"'+remainder+' в последовательности ЭДЕ.'
+    if param_rus[0] == 'риторический маркер':
+        s1_r1 = 'Ваш запрос: {0} "'.format(param_rus[0])+str(markers[vals[0]])+'"'+remainder+' в последовательности ЭДЕ.'
+    else:
+        s1_r1 = 'Ваш запрос: {0} "'.format(param_rus[0])+str(vals[0])+'"'+remainder+' в последовательности ЭДЕ.'
     csvwriter.writerow([s1_r1, ''])
     csvwriter.writerow(['Текст', 'ЭДЕ'])
     for text in text_result:
@@ -276,14 +285,23 @@ def return_singleedu_search_res_html(all_found, param_rus, vals, addtype):
         add = 'ИЛИ'
     if len(param_rus) > 1:
         for j in range(1, len(param_rus)):
-            remainder = remainder+' '+add+' '+str(param_rus[j])+' "'+str(vals[j])+'"'
-    res += '<p><b>Ваш запрос: {0} "'.format(param_rus[0])+str(vals[0])+'"'+remainder+' в одной ЭДЕ. </b></p>'
+            if param_rus[j] == 'риторический маркер':
+                remainder = remainder+' '+add+' '+str(param_rus[j])+' "'+str(markers[vals[j]])+'"'
+            else:
+                remainder = remainder+' '+add+' '+str(param_rus[j])+' "'+str(vals[j])+'"'
+    if param_rus[0] == 'риторический маркер':
+        res += '<p><b>Ваш запрос: {0} "'.format(param_rus[0])+str(markers[vals[0]])+'"'+remainder+' в одной ЭДЕ. </b></p>'
+    else:
+        res += '<p><b>Ваш запрос: {0} "'.format(param_rus[0])+str(vals[0])+'"'+remainder+' в одной ЭДЕ. </b></p>'
     all_found = all_found[0]
     all_found.sort(key=operator.itemgetter(0))
     found_by_text = itertools.groupby(all_found, lambda x: x[0])
     csvfile = open('backend/static/search_result.csv', 'w', newline='', encoding='utf-8')
     csvwriter = csv.writer(csvfile)
-    s1_r1 = 'Ваш запрос: {0} "'.format(param_rus[0])+str(vals[0])+'"'+remainder+' в одной ЭДЕ'
+    if param_rus[0] == 'риторический маркер':
+        s1_r1 = 'Ваш запрос: {0} "'.format(param_rus[0])+str(markers[vals[0]])+'"'+remainder+' в одной ЭДЕ'
+    else:
+        s1_r1 = 'Ваш запрос: {0} "'.format(param_rus[0])+str(vals[0])+'"'+remainder+' в одной ЭДЕ'
     csvwriter.writerow([s1_r1, ''])
     csvwriter.writerow(['Текст', 'ЭДЕ'])
     for i, l in found_by_text:
