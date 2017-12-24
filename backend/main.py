@@ -65,7 +65,7 @@ markers = {"a":"a", "bezuslovno":"безусловно", "buduchi":"будучи
 def request_with_one_cond_on_edu(query):
     requests = list()
     request = str()
-    request += 'MATCH (n)\nWHERE('
+    request += 'MATCH (n)\nWHERE'
     el = query[0]
     ro = el['ro']
     request += el['open_parenth']
@@ -82,10 +82,11 @@ def request_with_one_cond_on_edu(query):
         if el['type'] == 'word':
             request += " '{0}' IN split(n.text_norm, ' ')".format(el['searched_for'])
         if el['type'] == 'lemma' or el['type'] == 'pos':
-            request += ' n.lemmas CONTAINS "\'{0}\'")'.format(el['searched_for'])
+            request += ' n.lemmas CONTAINS "\'{0}\'"'.format(el['searched_for'])
         if el['type'] == '':
             request = 'MATCH (n)'
     else:
+        request = re.sub('WHERE', 'WHERE (', request)
         request = re.sub('MATCH \(n\)', 'MATCH (n)-[r]-()', request)
         if el['type'] == 'word':
             request += " '{0}' IN split(n.text_norm, ' ')) AND type(r) IN {1}".format(el['searched_for'], ro)
@@ -94,9 +95,9 @@ def request_with_one_cond_on_edu(query):
         if el['type'] == '':
             request = 'MATCH (n)-[r]-()\nWHERE type(r) IN {0}'.format(ro)
     request += el['close_parenth']
-    request += ")\nRETURN n.Text_id, n.Id, n.text"
-    print(request, '\n')
-    # requests.append(request)
+    request += "\nRETURN n.Text_id, n.Id, n.text"
+    #print(request, '\n')
+    #requests.append(request)
     return request
 
 
@@ -106,7 +107,7 @@ def create_DB_requests(query):
     parsed_query = parse_query(query)
     for i in parsed_query:
         request = str()
-        request += 'MATCH (n)\nWHERE('
+        request += 'MATCH (n)\nWHERE'
         if len(i) > 1:
             ro_chosen = False
             type_chosen = False
@@ -152,15 +153,18 @@ def create_DB_requests(query):
             if ro_chosen and type_chosen:
                 request = re.sub('MATCH \(n\)', 'MATCH (n)-[r]-()', request)
                 request += ')'
-                request += ' AND type(r) IN {0}'.format(ro)
-            # if not ro_chosen and not type_chosen:
-                # request += el['close_parenth']
-            request += ")\nRETURN n.Text_id, n.Id, n.text"
-            print(request, '\n')
+                request = re.sub("WHERE", "WHERE (", request)
+                request += ') AND type(r) IN {0}'.format(ro)
+            #if not ro_chosen and not type_chosen:
+                #request += el['close_parenth']
+            request += "\nRETURN n.Text_id, n.Id, n.text"
+            #print(request, '\n')
             requests.append(request)
         else:
             requests.append(request_with_one_cond_on_edu(i))
+    print(requests)
     return requests
+
 
 
 def get_found(DB_requests):
