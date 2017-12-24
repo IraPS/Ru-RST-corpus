@@ -29,15 +29,31 @@ def parse_query(query):
     slices.append(query[start::])
     return slices
 
+messages = {'ro_s_in_edu_dont_match': 'Пожалуйста, выберите одинаковые риторические отношения внутри одной ЭДЕ.',
+            'no_input_for_word': 'Пожалуйста, введите значение в поле "слово".',
+            'no_input_for_lemma': 'Пожалуйста, введите значение в поле "лемма".',
+            'no_input_for_pos': 'Пожалуйста, выберите часть речи.',
+            'not_equal_parenth_amount': 'Пожалуйста, проверьте корректность запроса, количество открывающих и закрывающих скобок не совпадает.'}
+
 
 def check_query(parsed_query):
     for edu in parsed_query:
         chosen_ro_s = set([' '.join(d['ro']) for d in edu])
         if len(chosen_ro_s) > 1:
-            return 'ro_s_in_edu_dont_match'
-        searched_for_s = [d['searched_for'] for d in edu if d['type'] != '']
-        if '' in searched_for_s or ' ' in searched_for_s:
-            return 'no_input_for_word_or_lemma_or_pos'
+            return messages['ro_s_in_edu_dont_match']
+        searched_for_word = [d['searched_for'] for d in edu if d['type'] == 'word']
+        if '' in searched_for_word or ' ' in searched_for_word:
+            return messages['no_input_for_word']
+        searched_for_lemma = [d['searched_for'] for d in edu if d['type'] == 'lemma']
+        if '' in searched_for_lemma or ' ' in searched_for_lemma:
+            return messages['no_input_for_lemma']
+        searched_for_pos = [d['searched_for'] for d in edu if d['type'] == 'pos']
+        if '' in searched_for_pos or ' ' in searched_for_pos:
+            return messages['no_input_for_pos']
+        open_parenthesis = ''.join([d['open_parenth'] for d in edu])
+        close_parenthesis = ''.join([d['close_parenth'] for d in edu])
+        if len(open_parenthesis) != len(close_parenthesis):
+            return messages['not_equal_parenth_amount']
     return True
 
 
@@ -102,6 +118,19 @@ def request_with_one_cond_on_edu(query):
         if el['type'] == '':
             request = 'MATCH (n)'
     else:
+        if el['type'] == 'marker':
+            marker_rus = markers[el['searched_for']]
+            if '_lem' in el['searched_for']:
+                request += ' n.lemmas CONTAINS \'{0}\''.format(marker_rus)
+            else:
+                marker_lengh = str(len(marker_rus)+1)
+                if len(marker_rus.split()) > 1:
+                    # request += ' lower(n.text) CONTAINS \'{0}\''.format(marker_rus)
+                    request += ' REDUCE(s = " ", w in split(n.text_norm, " ")[0..{0}]|s + " " + w) CONTAINS \'{1}\''.format(marker_lengh, marker_rus)
+
+                else:
+                    # request += " '{0}' IN split(n.text_norm, ' ')".format(marker_rus)
+                    request += ' \'{0}\' IN split(n.text_norm, " ")[0..{1}]'.format(marker_rus, marker_lengh)
         request = re.sub('WHERE', 'WHERE (', request)
         request = re.sub('MATCH \(n\)', 'MATCH (n)-[r]-()', request)
         if el['type'] == 'word':
@@ -138,16 +167,16 @@ def create_DB_requests(query):
                         type_chosen = True
                         marker_rus = markers[el['searched_for']]
                         if '_lem' in el['searched_for']:
-                            request += ' n.lemmas CONTAINS \'{0}\''.format(marker_rus)
+                            request += ' n.lemmas CONTAINS \'{0}\' {1}'.format(marker_rus, cond)
                         else:
                             marker_lengh = str(len(marker_rus)+1)
                             if len(marker_rus.split()) > 1:
                                 # request += ' lower(n.text) CONTAINS \'{0}\''.format(marker_rus)
-                                request += ' REDUCE(s = " ", w in split(n.text_norm, " ")[0..{0}]|s + " " + w) CONTAINS \'{1}\''.format(marker_lengh, marker_rus)
+                                request += ' REDUCE(s = " ", w in split(n.text_norm, " ")[0..{0}]|s + " " + w) CONTAINS \'{1}\' {2}'.format(marker_lengh, marker_rus, cond)
 
                             else:
                                 # request += " '{0}' IN split(n.text_norm, ' ')".format(marker_rus)
-                                request += ' \'{0}\' IN split(n.text_norm, " ")[0..{1}]'.format(marker_rus, marker_lengh)
+                                request += ' \'{0}\' IN split(n.text_norm, " ")[0..{1}] {2}'.format(marker_rus, marker_lengh, cond)
                     if el['type'] == 'word':
                         type_chosen = True
                         request += " '{0}' IN split(n.text_norm, ' '){1} {2}".format(el['searched_for'], el['close_parenth'], cond)
@@ -160,6 +189,20 @@ def create_DB_requests(query):
                         request += el['close_parenth']
                 else:
                     ro_chosen = True
+                    if el['type'] == 'marker':
+                        type_chosen = True
+                        marker_rus = markers[el['searched_for']]
+                        if '_lem' in el['searched_for']:
+                            request += ' n.lemmas CONTAINS \'{0}\' {1}'.format(marker_rus, cond)
+                        else:
+                            marker_lengh = str(len(marker_rus)+1)
+                            if len(marker_rus.split()) > 1:
+                                # request += ' lower(n.text) CONTAINS \'{0}\''.format(marker_rus)
+                                request += ' REDUCE(s = " ", w in split(n.text_norm, " ")[0..{0}]|s + " " + w) CONTAINS \'{1}\' {2}'.format(marker_lengh, marker_rus, cond)
+
+                            else:
+                                # request += " '{0}' IN split(n.text_norm, ' ')".format(marker_rus)
+                                request += ' \'{0}\' IN split(n.text_norm, " ")[0..{1}] {2}'.format(marker_rus, marker_lengh, cond)
                     if el['type'] == 'word':
                         type_chosen = True
                         request += " '{0}' IN split(n.text_norm, ' '){1} {2}".format(el['searched_for'], el['close_parenth'], cond)
@@ -348,7 +391,7 @@ def return_search_res_html(query, param_rus, vals, addtype):
             else:
                 return return_singleedu_search_res_html(all_found, param_rus, vals, addtype)
         except:
-            return 'failed_query'
+            return 'Ваш запрос не может быть обработан.\nЕсли Вы уверены, что в запросе нет ошибки, свяжитесь с нами через форму на странице "Контакты".'
     else:
         return checked
 
@@ -438,13 +481,8 @@ def res():
         addtype = q['add_type']
         print("SEARCH VALUES", parameter, value)        
         res = return_search_res_html(query, param_rus, vals, addtype)
-        if res in ['no_input_for_word_or_lemma_or_pos', 'ro_s_in_edu_dont_match', 'failed_query']:
-            if res == 'no_input_for_word_or_lemma_or_pos':
-                res += '<p>' + res + '</p>'
-            if res == 'ro_s_in_edu_dont_match':
-                res += '<p>' + res + '</p>'
-            if res == 'failed_query':
-                res += '<p>' + res + '</p>'
+        if res in messages.values():
+            break
         else:
             if res.endswith('". </b></p>'):
                 res += '<p><br><br> По Вашему запросу ничего не найдено.</p>'
