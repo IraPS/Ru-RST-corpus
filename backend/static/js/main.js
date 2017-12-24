@@ -1,4 +1,23 @@
 $(function() {
+    $('#submitcontact').submit(function() {
+        var $form = $(this),
+            values_list = [],
+			author_name = $form.find('#author').val(),
+			email_addr = $form.find('#email').val(),
+			subj = $form.find('#subject').val(),
+			message_text = $form.find('#messagetext').val();
+        values_list.push({
+            author: author_name,
+            email: email_addr,
+            subject: subj,
+			message: message_text
+            });
+			
+        $('#contactform #data_m').val(JSON.stringify(values_list));
+        $('#contactform').submit();
+        return false;
+    });	
+	
     $('#searchform').submit(function() {
         var $form = $(this),
             val_list = [];
