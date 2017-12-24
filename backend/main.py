@@ -207,10 +207,12 @@ def process_multi_edus_search(all_found):
 
 def find_seq(texts_ids, result):
     text_result = dict()
+    ids_result = dict()
     for i in texts_ids:
         texts_results = {i: [n[i] for n in result]}
         for text in texts_results.keys():
             text_result[text] = []
+            ids_result[text] = []
             queries = texts_results[text]
             first_q = queries[0]
             for i in range(len(first_q)):
@@ -227,16 +229,19 @@ def find_seq(texts_ids, result):
                     else:
                         if len([n for n in queries[j] if n[1] == goal]) > 0:
                             res_edus.append([n for n in queries[j] if n[1] == goal][0])
+                res_ids = [n[1] for n in res_edus]
                 res_edus = [n[2] for n in res_edus]
                 if found_all:
-                    text_result[text].append(str(' '. join(res_edus)))
-    return text_result
+                    text_result[text].append(res_edus)
+                    ids_result[text].append(res_ids)
+    return text_result, ids_result
 
 
 def return_multiedu_search_res_html(all_found, param_rus, vals):
     result = process_multi_edus_search(all_found)[1]
     texts_ids = process_multi_edus_search(all_found)[0]
-    text_result = find_seq(texts_ids, result)
+    text_result = find_seq(texts_ids, result)[0]
+    ids_result = find_seq(texts_ids, result)[1]
     res = str()
     remainder = str()
     for j in range(1, len(param_rus)):
@@ -250,14 +255,17 @@ def return_multiedu_search_res_html(all_found, param_rus, vals):
     for text in text_result:
         if len(text_result[text]) > 0:
             res += '<p>Текст № {0}'.format(text) + '</p>\n<ul>\n'
-            for i in text_result[text]:
+            for i in range(len(text_result[text])):
                 res += '<li>'
-                res += i
-                csvwriter.writerow([str(text), str(i)])
+                for k in range(len(text_result[text][i])):
+                    res += '<a href="tree/{0}.html?position=edu'.format(text)+str(ids_result[text][i][k])+'">'+text_result[text][i][k]+'</a>'
+                    if k != len(text_result[text][i])-1:
+                        res += '<b>||</b>'
+                full_text = '||'.join(text_result[text][i])
+                csvwriter.writerow([str(text), full_text])
                 res += '</li>\n'
             res += '</ul>\n'
     return res
-
 
 def return_singleedu_search_res_html(all_found, param_rus, vals, addtype):
     res = str()
