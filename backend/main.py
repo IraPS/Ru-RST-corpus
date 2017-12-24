@@ -5,7 +5,7 @@ from flask import Flask, request, json, render_template_string, render_template
 from html import unescape
 from flask import Markup
 import re
-
+from datetime import datetime
 from py2neo import Graph
 import itertools
 import operator
@@ -336,6 +336,20 @@ def tree1(id):
 @app.route("/contact.html")
 def contact():
     return render_template("contact.html"), 201
+
+@app.route("/contactm.html", methods=['GET', 'POST'])
+def contactm():
+    mess = request.values.get("messagetext")
+    if mess != '':
+        cur_time = str(datetime.now()).replace(' ', 'T').replace(':', '-')
+        fh = open('backend/static/messages_from_users/'+cur_time+'.txt', 'w', encoding='utf-8')
+        auth = request.values.get("author")
+        mail = request.values.get("email")
+        subj = request.values.get("subject")
+        fh.write('Author: '+ auth+'\n'+'Email: '+ mail+'\n'+'Subject: '+subj+'\n'+'Message: '+mess)  
+        fh.close()
+            
+    return render_template("contactm.html"), 201
     
 @app.route("/corpus.html")
 def corpus():
