@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa87725e-0bff-4573-8311-0dc65ea9ef73" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/aboutRST.html" afterPath="$PROJECT_DIR$/backend/templates/aboutRST.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/main.py" afterPath="$PROJECT_DIR$/backend/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/rhetrel.html" afterPath="$PROJECT_DIR$/backend/templates/rhetrel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/search.html" afterPath="$PROJECT_DIR$/backend/templates/search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/static/search_result.csv" afterPath="$PROJECT_DIR$/backend/static/search_result.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Ru-RST-corpus.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,8 +29,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.6695156" vertical-offset="5986" max-vertical-offset="7950">
-              <caret line="524" column="23" selection-start-line="524" selection-start-column="23" selection-end-line="524" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.66239315" vertical-offset="3045" max-vertical-offset="7950">
+              <caret line="234" column="54" selection-start-line="234" selection-start-column="54" selection-end-line="234" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -376,14 +370,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -548,8 +542,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.6695156" vertical-offset="5986" max-vertical-offset="7950">
-          <caret line="524" column="23" selection-start-line="524" selection-start-column="23" selection-end-line="524" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.66239315" vertical-offset="3045" max-vertical-offset="7950">
+          <caret line="234" column="54" selection-start-line="234" selection-start-column="54" selection-end-line="234" selection-end-column="54" />
           <folding />
         </state>
       </provider>

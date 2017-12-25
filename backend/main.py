@@ -136,7 +136,7 @@ def request_with_one_cond_on_edu(query):
         if el['type'] == 'lemma' or el['type'] == 'pos':
             request += ' n.lemmas CONTAINS "\'{0}\'"'.format(el['searched_for'])
         if el['type'] == '':
-            request = 'MATCH (n)'
+            request = 'MATCH (n) WHERE exists(n.text)'
     else:
         if el['type'] == 'marker':
             marker_rus = markers[el['searched_for']]
@@ -158,7 +158,7 @@ def request_with_one_cond_on_edu(query):
         if el['type'] == 'lemma' or el['type'] == 'pos':
             request += ' n.lemmas CONTAINS "\'{0}\'") AND type(r) IN {1}'.format(el['searched_for'], ro)
         if el['type'] == '':
-            request = 'MATCH (n)-[r]-()\nWHERE type(r) IN {0}'.format(ro)
+            request = 'MATCH (n)-[r]-() WHERE exists(n.text) AND type(r) IN {0}'.format(ro)
     request += el['close_parenth']
     request += "\nRETURN n.Text_id, n.Id, n.text"
     #print(request, '\n')
@@ -205,7 +205,7 @@ def create_DB_requests(query):
                         request += ' n.lemmas CONTAINS "\'{0}\'"{1} {2}'.format(el['searched_for'], el['close_parenth'], cond)
                     if el['type'] == '':
                         type_chosen = False
-                        request = 'MATCH (n)'
+                        request = 'MATCH (n) WHERE exists(n.text)'
                         request += el['close_parenth']
                 else:
                     ro_chosen = True
@@ -231,7 +231,7 @@ def create_DB_requests(query):
                         request += ' n.lemmas CONTAINS "\'{0}\'"{1} {2}'.format(el['searched_for'], el['close_parenth'], cond)
                     if el['type'] == '':
                         type_chosen = False
-                        request = 'MATCH (n)-[r]-()'
+                        request = 'MATCH (n)-[r]-() WHERE exists(n.text)'
                         request += el['close_parenth']
             if ro_chosen and type_chosen:
                 request = re.sub('MATCH \(n\)', 'MATCH (n)-[r]-()', request)
