@@ -15,10 +15,12 @@ for html in os.listdir('./backend/templates/'):
         html_static_links_src = re.findall('src="(/static/(.*?))"', html_text)
 
         for link in html_static_links_href:
-            html_text = re.sub(link[0], "{{url_for('static', filename='" + link[1] + "')}}", html_text)
+            html_text = re.sub(link[0], "{{url_for('static', filename='" + link[1] + "')}}",
+                               html_text)
 
         for link in html_static_links_src:
-            html_text = re.sub(link[0], "{{url_for('static', filename='" + link[1] + "')}}", html_text)
+            html_text = re.sub(link[0], "{{url_for('static', filename='" + link[1] + "')}}",
+                               html_text)
 
         html_file = open('./backend/templates/' + html, 'w', encoding='utf-8')
         html_file.write(html_text)
