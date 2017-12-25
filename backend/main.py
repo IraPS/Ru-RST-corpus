@@ -25,21 +25,18 @@ def parse_query(query):
     slices.append(query[start::])
     return slices
 
-messages = {'ro_s_in_edu_dont_match': 'Пожалуйста, выберите одинаковые риторические '
-                                      'отношения внутри одной ЭДЕ.',
+messages = {'ro_s_in_edu_dont_match': 'Пожалуйста, выберите одинаковые риторические отношения внутри одной ЭДЕ.',
             'no_input_for_word': 'Пожалуйста, введите значение в поле "слово".',
             'no_input_for_lemma': 'Пожалуйста, введите значение в поле "лемма".',
             'no_input_for_pos': 'Пожалуйста, выберите часть речи.',
             'no_input_for_marker': 'Пожалуйста, выберите риторический маркер.',
-            'not_equal_parenth_amount': 'Пожалуйста, проверьте корректность '
-                                        'запроса, количество открывающих и '
-                                        'закрывающих скобок не совпадает.',
-            'split_your_request': 'Ваш запрос необходимо разбить на несколько '
-                                  'отдельных запросов. '
-                                  'Подробности см. в инструкции по поиску.',
-            'fail': 'Ваш запрос не может быть обработан.\nЕсли Вы уверены, '
-                    'что в запросе нет ошибки, '
-                    'свяжитесь с нами через форму на странице "Контакты".'}
+            'not_equal_parenth_amount':
+                'Пожалуйста, проверьте корректность запроса, количество открывающих и закрывающих скобок не совпадает.',
+            'split_your_request':
+                'Ваш запрос необходимо разбить на несколько отдельных запросов. Подробности см. в инструкции по поиску.',
+            'fail':
+                'Ваш запрос не может быть обработан.\n'
+                'Если Вы уверены, что в запросе нет ошибки, свяжитесь с нами через форму на странице "Контакты".'}
 
 
 def check_query(parsed_query):
@@ -132,8 +129,7 @@ def request_with_one_cond_on_edu(query):
                 marker_lengh = str(len(marker_rus)+1)
                 if len(marker_rus.split()) > 1:
                     request_one_cond_on_edu += ' REDUCE(s = " ", w in split(n.text_norm, " ")' \
-                                               '[0..{0}]|s + " " + w) CONTAINS \'{1}\''.\
-                                               format(marker_lengh, marker_rus)
+                                               '[0..{0}]|s + " " + w) CONTAINS \'{1}\''.format(marker_lengh, marker_rus)
 
                 else:
                     request_one_cond_on_edu += ' \'{0}\' IN split(n.text_norm, " ")[0..{1}]'.\
@@ -156,8 +152,7 @@ def request_with_one_cond_on_edu(query):
                 marker_lengh = str(len(marker_rus)+1)
                 if len(marker_rus.split()) > 1:
                     request_one_cond_on_edu += ' REDUCE(s = " ", w in split(n.text_norm, " ")' \
-                                               '[0..{0}]|s + " " + w) CONTAINS \'{1}\''.\
-                                               format(marker_lengh, marker_rus)
+                                               '[0..{0}]|s + " " + w) CONTAINS \'{1}\''.format(marker_lengh, marker_rus)
 
                 else:
                     request_one_cond_on_edu += ' \'{0}\' IN split(n.text_norm, " ")[0..{1}]'.\
@@ -169,11 +164,9 @@ def request_with_one_cond_on_edu(query):
             request_one_cond_on_edu += " '{0}' IN split(n.text_norm, ' ')) AND type(r) IN {1}".\
                 format(el['searched_for'], ro)
         if el['type'] == 'lemma' or el['type'] == 'pos':
-            request_one_cond_on_edu += ' n.lemmas CONTAINS "\'{0}\'") AND type(r) IN {1}'.\
-                format(el['searched_for'], ro)
+            request_one_cond_on_edu += ' n.lemmas CONTAINS "\'{0}\'") AND type(r) IN {1}'.format(el['searched_for'], ro)
         if el['type'] == '':
-            request_one_cond_on_edu = 'MATCH (n)-[r]-() WHERE exists(n.text) AND type(r) IN {0}'.\
-                                      format(ro)
+            request_one_cond_on_edu = 'MATCH (n)-[r]-() WHERE exists(n.text) AND type(r) IN {0}'.format(ro)
     request_one_cond_on_edu += el['close_parenth']
     request_one_cond_on_edu += "\nRETURN n.Text_id, n.Id, n.text"
     return request_one_cond_on_edu
@@ -208,7 +201,7 @@ def create_db_requests(query):
                             if len(marker_rus.split()) > 1:
                                 request_on_db += ' REDUCE(s = " ", w in split(n.text_norm, " ")' \
                                                  '[0..{0}]|s + " " + w) CONTAINS \'{1}\' {2}'.\
-                                                 format(marker_lengh, marker_rus, cond)
+                                    format(marker_lengh, marker_rus, cond)
 
                             else:
                                 request_on_db += ' \'{0}\' IN split(n.text_norm, " ")[0..{1}] {2}'.\
@@ -414,7 +407,7 @@ def return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p,
                 res_multi_edu_res_html += '<li>'
                 for k in range(len(text_result[text][i])):
                     res_multi_edu_res_html += '<a href="tree/{0}.html?position=edu'.format(text)\
-                                              + str(ids_result[text][i][k]) +\
+                                              + str(ids_result[text][i][k]) + \
                                               '" target="_blank">'+text_result[text][i][k]+'</a>'
                     if k != len(text_result[text][i])-1:
                         res_multi_edu_res_html += '<b>||</b>'
@@ -444,9 +437,8 @@ def return_singleedu_search_res_html(all_found, param_rus, vals, addtype, open_p
         for edu in edus:
             edu_id = edu[0]
             edu_text = edu[1]
-            res_single_edu_res_html += '<li><a href="tree/{0}.html?position=edu'.\
-                                       format(i)+str(edu_id)+'" target="_blank">' +\
-                                       str(edu_text) + '</a></li>'
+            res_single_edu_res_html += '<li><a href="tree/{0}.html?position=edu'.format(i)+str(edu_id) +\
+                                       '" target="_blank">' + str(edu_text) + '</a></li>'
             csvwriter.writerow([str(i), str(edu_text)])
         res_single_edu_res_html += '</ul>'
     csvfile.close()
@@ -460,11 +452,9 @@ def return_search_res_html(query, param_rus, vals, addtype, open_p, close_p, ros
             db_requests = create_db_requests(query)
             all_found = get_found(db_requests)
             if len(all_found) > 1:
-                return return_multiedu_search_res_html(all_found, param_rus, vals,
-                                                       addtype, open_p, close_p, ros)
+                return return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros)
             else:
-                return return_singleedu_search_res_html(all_found, param_rus, vals,
-                                                        addtype, open_p, close_p, ros)
+                return return_singleedu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros)
         except py2neo.database.status.CypherSyntaxError:
             return messages['fail']
     else:
@@ -590,8 +580,7 @@ def res():
         exc.write(str(query) + '; Exception: ' + str(e))
         exc.close()
         res_html = '<p>Ваш запрос не может быть обработан.\n' \
-                   'Если Вы уверены, что в запросе нет ошибки' \
-                   ', свяжитесь с нами через форму на странице "Контакты".</p>'
+                   'Если Вы уверены, что в запросе нет ошибки, свяжитесь с нами через форму на странице "Контакты".</p>'
     res_html = Markup(res_html)
     return render_template("result.html", result=res_html), 201
 
