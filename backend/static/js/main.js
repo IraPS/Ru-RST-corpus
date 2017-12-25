@@ -2,22 +2,22 @@ $(function() {
     $('#submitcontact').submit(function() {
         var $form = $(this),
             values_list = [],
-			author_name = $form.find('#author').val(),
-			email_addr = $form.find('#email').val(),
-			subj = $form.find('#subject').val(),
-			message_text = $form.find('#messagetext').val();
+            author_name = $form.find('#author').val(),
+            email_addr = $form.find('#email').val(),
+            subj = $form.find('#subject').val(),
+            message_text = $form.find('#messagetext').val();
         values_list.push({
             author: author_name,
             email: email_addr,
             subject: subj,
-			message: message_text
-            });
-			
+            message: message_text
+        });
+
         $('#contactform #data_m').val(JSON.stringify(values_list));
         $('#contactform').submit();
         return false;
-    });	
-	
+    });
+
     $('#searchform').submit(function() {
         var $form = $(this),
             val_list = [];
@@ -25,21 +25,21 @@ $(function() {
             var $block = $(this);
             var input_type = $block.find('.selectSearchOpt').val();
             var input_ro = $block.find("select.multselect_ro").val();
-	    var close_par = $block.find("input.parentheses_close").val();
-	    var open_par = $block.find("input.parentheses_open").val();
+            var close_par = $block.find("input.parentheses_close").val();
+            var open_par = $block.find("input.parentheses_open").val();
             if (input_type == "word" || input_type == "lemma") {
                 var input_text = $block.find('input.searchtext').val();
             } else {
                 var input_text = $block.find('.dropdown option:selected').val();
             }
-	    var add = $block.find('.add_search').val();
+            var add = $block.find('.add_search').val();
             val_list.push({
                 type: input_type,
                 searched_for: input_text,
                 ro: input_ro,
-		add_type: add,
-		open_parenth: open_par,
-		close_parenth: close_par
+                add_type: add,
+                open_parenth: open_par,
+                close_parenth: close_par
             });
         });
         alert(JSON.stringify({
@@ -51,21 +51,21 @@ $(function() {
     });
 
     var clone_block = function() {
-		var $newblock = $("#searchform .block:hidden").clone();
-		var $inserted = $newblock.insertBefore('.submit').show();
-		$inserted.find(".multselect_ro").selectpicker();
-		$inserted.find('.selectSearchOpt').change(function() {
-			var $searchopt = $(this);
-			var $parblock = $searchopt.parent();
-			var choice = $searchopt.val();
-			if (choice === 'word') {
-				$parblock.find(".searchOption").html('<input type="text" class="searchtext" placeholder="Поиск слова...">');
-			} else if (choice === 'lemma') {
-				$parblock.find(".searchOption").html('<input type="text" class="searchtext" placeholder="Поиск леммы...">');
-			} else if (choice === 'pos') {
-				$parblock.find(".searchOption").html('<select class="dropdown select"><option value="" selected>Выберите часть речи...</option><option value="S">Существительное</option><option value="V">Глагол</option><option value="A">Прилагательное</option><option value="ADV">Наречие</option><option value="SPRO">Местоимение</option><option value="PR">Предлог</option><option value="CONJ">Союз</option><option value="PART">Частица</option></select>');
-			} else if (choice === 'marker') {
-				$parblock.find(".searchOption").html('<select class="dropdown select"> \
+        var $newblock = $("#searchform .block:hidden").clone();
+        var $inserted = $newblock.insertBefore('.submit').show();
+        $inserted.find(".multselect_ro").selectpicker();
+        $inserted.find('.selectSearchOpt').change(function() {
+            var $searchopt = $(this);
+            var $parblock = $searchopt.parent();
+            var choice = $searchopt.val();
+            if (choice === 'word') {
+                $parblock.find(".searchOption").html('<input type="text" class="searchtext" placeholder="Поиск слова...">');
+            } else if (choice === 'lemma') {
+                $parblock.find(".searchOption").html('<input type="text" class="searchtext" placeholder="Поиск леммы...">');
+            } else if (choice === 'pos') {
+                $parblock.find(".searchOption").html('<select class="dropdown select"><option value="" selected>Выберите часть речи...</option><option value="S">Существительное</option><option value="V">Глагол</option><option value="A">Прилагательное</option><option value="ADV">Наречие</option><option value="SPRO">Местоимение</option><option value="PR">Предлог</option><option value="CONJ">Союз</option><option value="PART">Частица</option></select>');
+            } else if (choice === 'marker') {
+                $parblock.find(".searchOption").html('<select class="dropdown select"> \
 					<option value="" selected>Выберите маркер РО...</option>\
 					<option value="a">a</option>\
 					<option value="bezuslovno">безусловно</option>\
@@ -163,26 +163,26 @@ $(function() {
 					<option value="utverzhdat_lem">утверждать</option>\
 					<option value="utverzhdaetsya">утверждается</option>\
 					<option value="hotya">хотя</option></select>');
-			} else {
-				$parblock.find(".searchOption").html(null);
-			}
-		});
-		$inserted.find("select.add_search").change(function() {
-			var $addopt = $(this);
-			var choice = $addopt.val();
-			if (choice != 'none') {
-			    var $blockselect = clone_block();
-			}
-			return false;
-		});
-		$inserted.find(".closeimg").click(function() {
-			var $block = $(this).closest(".block");
-			$block.remove();
-			return false;
-		});
-		return $inserted;
-	};
+            } else {
+                $parblock.find(".searchOption").html(null);
+            }
+        });
+        $inserted.find("select.add_search").change(function() {
+            var $addopt = $(this);
+            var choice = $addopt.val();
+            if (choice != 'none') {
+                var $blockselect = clone_block();
+            }
+            return false;
+        });
+        $inserted.find(".closeimg").click(function() {
+            var $block = $(this).closest(".block");
+            $block.remove();
+            return false;
+        });
+        return $inserted;
+    };
 
-	clone_block();
+    clone_block();
 
 });
