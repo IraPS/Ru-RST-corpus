@@ -42,9 +42,11 @@ $(function() {
                 close_parenth: close_par
             });
         });
+	/*    
         alert(JSON.stringify({
             data: val_list
         }));
+	*/
         $('#realform #data').val(JSON.stringify(val_list));
         $('#realform').submit();
         return false;
