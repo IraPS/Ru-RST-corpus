@@ -515,43 +515,46 @@ def res():
     print(query)
     res = str()
     param_rus, vals, addtype, open_p, close_p, ros = [], [], [], [], [], []
-    for q in query:
-        try:
-            parameter = q['type']
-            if parameter == 'lemma':
-                param_rus.append('лемма')
-            elif parameter == 'word':
-                param_rus.append('словоформа')
-            elif parameter == 'pos':
-                param_rus.append('часть речи')
-            elif parameter == 'marker':
-                param_rus.append('риторический маркер')
-            value = q['searched_for']
-            vals.append(q['searched_for'])
-        except:
-            parameter = ''
-            param_rus.append('')
-            value = ''
-            vals.append('')
-        addtype.append(q['add_type'])
-        open_p.append(q['open_parenth'])
-        close_p.append(q['close_parenth'])
-        ros.append(q['ro'])
-        print("SEARCH VALUES", parameter, value)        
-        res = return_search_res_html(query, param_rus, vals, addtype, open_p, close_p, ros)
-        #print("RES", res)
-        if res in messages.values():
-            if res == messages['fail']:
-                cur_time = str(datetime.now()).replace(' ', 'T').replace(':', '-')
-                fq = open('backend/static/failed_queries/'+cur_time+'.txt', 'w', encoding='utf-8')
-                fq.write(str(query))
-                fq.close()
-            break
-        else:
-            if res.endswith('". </b></p>'):
-                res += '<p><br><br> По Вашему запросу ничего не найдено.</p>'
+    try:
+        for q in query:
+            try:
+                parameter = q['type']
+                if parameter == 'lemma':
+                    param_rus.append('лемма')
+                elif parameter == 'word':
+                    param_rus.append('словоформа')
+                elif parameter == 'pos':
+                    param_rus.append('часть речи')
+                elif parameter == 'marker':
+                    param_rus.append('риторический маркер')
+                value = q['searched_for']
+                vals.append(q['searched_for'])
+            except:
+                parameter = ''
+                param_rus.append('')
+                value = ''
+                vals.append('')
+            addtype.append(q['add_type'])
+            open_p.append(q['open_parenth'])
+            close_p.append(q['close_parenth'])
+            ros.append(q['ro'])
+            print("SEARCH VALUES", parameter, value)
+            res = return_search_res_html(query, param_rus, vals, addtype, open_p, close_p, ros)
+            #print("RES", res)
+            if res in messages.values():
+                if res == messages['fail']:
+                    cur_time = str(datetime.now()).replace(' ', 'T').replace(':', '-')
+                    fq = open('backend/static/failed_queries/'+cur_time+'.txt', 'w', encoding='utf-8')
+                    fq.write(str(query))
+                    fq.close()
+                break
             else:
-                res += '<br><p><b><a href="../static/search_result.csv" download>Скачать</a> результаты поиска в формате csv.</b></p><br>'
+                if res.endswith('". </b></p>'):
+                    res += '<p><br><br> По Вашему запросу ничего не найдено.</p>'
+                else:
+                    res += '<br><p><b><a href="../static/search_result.csv" download>Скачать</a> результаты поиска в формате csv.</b></p><br>'
+    except:
+        res = '<p>Ваш запрос не может быть обработан.\nЕсли Вы уверены, что в запросе нет ошибки, свяжитесь с нами через форму на странице "Контакты".'
     res = Markup(res)
     return render_template("result.html", result=res), 201
 
