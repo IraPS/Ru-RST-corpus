@@ -33,12 +33,16 @@ messages = {'ro_s_in_edu_dont_match': 'Пожалуйста, выберите о
             'no_input_for_word': 'Пожалуйста, введите значение в поле "слово".',
             'no_input_for_lemma': 'Пожалуйста, введите значение в поле "лемма".',
             'no_input_for_pos': 'Пожалуйста, выберите часть речи.',
-            'not_equal_parenth_amount': 'Пожалуйста, проверьте корректность запроса, количество открывающих и закрывающих скобок не совпадает.'}
+            'not_equal_parenth_amount': 'Пожалуйста, проверьте корректность запроса, количество открывающих и закрывающих скобок не совпадает.',
+            'split_your_request': 'Ваш запрос необходимо разбить на несколько отдельных запросов. Подробности см. в инструкции по поиску.',
+            'fail': 'Ваш запрос не может быть обработан.\nЕсли Вы уверены, что в запросе нет ошибки, свяжитесь с нами через форму на странице "Контакты".'}
 
 
 def check_query(parsed_query):
-    open_parenthesis = list()
-    close_parenthesis = list()
+    outer_parenth = True
+    inner_parenth = True
+    open_parenthesis_outer = list()
+    close_parenthesis_outer = list()
     for edu in parsed_query:
         chosen_ro_s = set([' '.join(d['ro']) for d in edu])
         if len(chosen_ro_s) > 1:
@@ -52,14 +56,20 @@ def check_query(parsed_query):
         searched_for_pos = [d['searched_for'] for d in edu if d['type'] == 'pos']
         if '' in searched_for_pos or ' ' in searched_for_pos:
             return messages['no_input_for_pos']
-        # open_parenthesis = ''.join([d['open_parenth'] for d in edu])
-        # close_parenthesis = ''.join([d['close_parenth'] for d in edu])
-        open_parenthesis += [d['open_parenth'] for d in edu]
-        close_parenthesis += [d['close_parenth'] for d in edu]
-    open_parenthesis = ''.join(open_parenthesis)
-    close_parenthesis = ''.join(close_parenthesis)
-    if len(open_parenthesis) != len(close_parenthesis):
+        open_parenthesis_inner = ''.join([d['open_parenth'] for d in edu])
+        close_parenthesis_inner = ''.join([d['close_parenth'] for d in edu])
+        open_parenthesis_outer += [d['open_parenth'] for d in edu]
+        close_parenthesis_outer += [d['close_parenth'] for d in edu]
+        if len(open_parenthesis_inner) != len(close_parenthesis_inner):
+            inner_parenth = False
+    open_parenthesis_outer = ''.join(open_parenthesis_outer)
+    close_parenthesis_outer = ''.join(close_parenthesis_outer)
+    if len(open_parenthesis_outer) != len(close_parenthesis_outer):
+        outer_parenth = False
+    if not outer_parenth and not inner_parenth:
         return messages['not_equal_parenth_amount']
+    if not inner_parenth and outer_parenth:
+        return messages['split_your_request']
     return True
 
 
@@ -397,7 +407,7 @@ def return_search_res_html(query, param_rus, vals, addtype):
             else:
                 return return_singleedu_search_res_html(all_found, param_rus, vals, addtype)
         except:
-            return 'Ваш запрос не может быть обработан.\nЕсли Вы уверены, что в запросе нет ошибки, свяжитесь с нами через форму на странице "Контакты".'
+            return messages['fail']
     else:
         return checked
 
@@ -487,7 +497,13 @@ def res():
         addtype = q['add_type']
         print("SEARCH VALUES", parameter, value)        
         res = return_search_res_html(query, param_rus, vals, addtype)
+        print("RES", res)
         if res in messages.values():
+            if res == messages['fail']:
+                cur_time = str(datetime.now()).replace(' ', 'T').replace(':', '-')
+                fq = open('backend/static/failed_queries/'+cur_time+'.txt', 'w', encoding='utf-8')
+                fq.write(str(query))
+                fq.close()
             break
         else:
             if res.endswith('". </b></p>'):
