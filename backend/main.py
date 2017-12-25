@@ -549,8 +549,8 @@ def res():
                     fq.close()
                 break
             else:
-                if res.endswith('". </b></p>'):
-                    res += '<p><br><br> По Вашему запросу ничего не найдено.</p>'
+                if res.endswith('</b></p>'):
+                    res += '<p><br>По Вашему запросу ничего не найдено.</p>'
                 else:
                     res += '<br><p><b><a href="../static/search_result.csv" download>Скачать</a> результаты поиска в формате csv.</b></p><br>'
     except:
