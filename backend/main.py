@@ -8,12 +8,13 @@ import re
 import py2neo
 from flask import Flask, request, render_template, Markup
 
-graph = py2neo.Graph()
+GRAPH = py2neo.Graph()
 
-app = Flask(__name__)
+APP = Flask(__name__)
 
 
 def parse_query(query):
+    """Parsing query on several queries for different EDUs."""
     new_edu_indices = [i+1 for i, _ in enumerate(query)
                        if _['add_type'] == 'next_edu_and']
     slices = list()
@@ -25,7 +26,7 @@ def parse_query(query):
     slices.append(query[start::])
     return slices
 
-messages = {'ro_s_in_edu_dont_match': 'Пожалуйста, выберите одинаковые риторические отношения внутри одной ЭДЕ.',
+MESSAGES = {'ro_s_in_edu_dont_match': 'Пожалуйста, выберите одинаковые риторические отношения внутри одной ЭДЕ.',
             'no_input_for_word': 'Пожалуйста, введите значение в поле "слово".',
             'no_input_for_lemma': 'Пожалуйста, введите значение в поле "лемма".',
             'no_input_for_pos': 'Пожалуйста, выберите часть речи.',
@@ -40,6 +41,7 @@ messages = {'ro_s_in_edu_dont_match': 'Пожалуйста, выберите о
 
 
 def check_query(parsed_query):
+    """Checking query correctness."""
     outer_parenth = True
     inner_parenth = True
     open_parenthesis_outer = list()
@@ -47,19 +49,19 @@ def check_query(parsed_query):
     for edu in parsed_query:
         chosen_ro_s = set([' '.join(d['ro']) for d in edu])
         if len(chosen_ro_s) > 1:
-            return messages['ro_s_in_edu_dont_match']
+            return MESSAGES['ro_s_in_edu_dont_match']
         searched_for_word = [d['searched_for'] for d in edu if d['type'] == 'word']
         if '' in searched_for_word or ' ' in searched_for_word:
-            return messages['no_input_for_word']
+            return MESSAGES['no_input_for_word']
         searched_for_lemma = [d['searched_for'] for d in edu if d['type'] == 'lemma']
         if '' in searched_for_lemma or ' ' in searched_for_lemma:
-            return messages['no_input_for_lemma']
+            return MESSAGES['no_input_for_lemma']
         searched_for_pos = [d['searched_for'] for d in edu if d['type'] == 'pos']
         if '' in searched_for_pos or ' ' in searched_for_pos:
-            return messages['no_input_for_pos']
+            return MESSAGES['no_input_for_pos']
         searched_for_marker = [d['searched_for'] for d in edu if d['type'] == 'marker']
         if '' in searched_for_marker or ' ' in searched_for_marker:
-            return messages['no_input_for_marker']
+            return MESSAGES['no_input_for_marker']
         open_parenthesis_inner = ''.join([d['open_parenth'] for d in edu])
         close_parenthesis_inner = ''.join([d['close_parenth'] for d in edu])
         open_parenthesis_outer += [d['open_parenth'] for d in edu]
@@ -71,13 +73,13 @@ def check_query(parsed_query):
     if len(open_parenthesis_outer) != len(close_parenthesis_outer):
         outer_parenth = False
     if not outer_parenth and not inner_parenth:
-        return messages['not_equal_parenth_amount']
+        return MESSAGES['not_equal_parenth_amount']
     if not inner_parenth and outer_parenth:
-        return messages['split_your_request']
+        return MESSAGES['split_your_request']
     return True
 
 
-markers = {"a": "a", "bezuslovno": "безусловно", "buduchi": "будучи",
+MARKERS = {"a": "a", "bezuslovno": "безусловно", "buduchi": "будучи",
            "budeto": "будь это", "vitoge": "в итоге", "vosobennosti": "в особенности",
            "vramkah": "в рамках", "vrezultate": "в результате", "vsamomdele": "в самом деле",
            "vsvojyochered": "в свою очередь", "vsvyazis": "в связи с", "vtechenie": "в течение",
@@ -115,6 +117,7 @@ markers = {"a": "a", "bezuslovno": "безусловно", "buduchi": "буду�
 
 
 def request_with_one_cond_on_edu(query):
+    """Produce request for DB on queries with no AND or OR condition on EDU."""
     request_one_cond_on_edu = str()
     request_one_cond_on_edu += 'MATCH (n)\nWHERE'
     el = query[0]
@@ -122,7 +125,7 @@ def request_with_one_cond_on_edu(query):
     request_one_cond_on_edu += el['open_parenth']
     if ro == ['any']:
         if el['type'] == 'marker':
-            marker_rus = markers[el['searched_for']]
+            marker_rus = MARKERS[el['searched_for']]
             if '_lem' in el['searched_for']:
                 request_one_cond_on_edu += ' n.lemmas CONTAINS \'{0}\''.format(marker_rus)
             else:
@@ -145,7 +148,7 @@ def request_with_one_cond_on_edu(query):
             request_one_cond_on_edu = 'MATCH (n) WHERE exists(n.text)'
     else:
         if el['type'] == 'marker':
-            marker_rus = markers[el['searched_for']]
+            marker_rus = MARKERS[el['searched_for']]
             if '_lem' in el['searched_for']:
                 request_one_cond_on_edu += ' n.lemmas CONTAINS \'{0}\''.format(marker_rus)
             else:
@@ -173,6 +176,7 @@ def request_with_one_cond_on_edu(query):
 
 
 def create_db_requests(query):
+    """Produce requests for DB (for all type of queries, calling 'request_with_one_cond_on_edu'."""
     requests_on_db = list()
     conditions = {'same_edu_and': 'AND', 'same_edu_or': 'OR', 'next_edu_and': '', 'none': ''}
     parsed_query = parse_query(query)
@@ -192,7 +196,7 @@ def create_db_requests(query):
                 if ro == ['any']:
                     if el['type'] == 'marker':
                         type_chosen = True
-                        marker_rus = markers[el['searched_for']]
+                        marker_rus = MARKERS[el['searched_for']]
                         if '_lem' in el['searched_for']:
                             request_on_db += ' n.lemmas CONTAINS \'{0}\' {1}'.\
                                 format(marker_rus, cond)
@@ -222,7 +226,7 @@ def create_db_requests(query):
                     ro_chosen = True
                     if el['type'] == 'marker':
                         type_chosen = True
-                        marker_rus = markers[el['searched_for']]
+                        marker_rus = MARKERS[el['searched_for']]
                         if '_lem' in el['searched_for']:
                             request_on_db += ' n.lemmas CONTAINS \'{0}\' {1}'.\
                                 format(marker_rus, cond)
@@ -260,15 +264,17 @@ def create_db_requests(query):
 
 
 def get_found(db_requests):
+    """Run requests for DB."""
     all_found = list()
     for i in db_requests:
-        found = graph.run(i)
+        found = GRAPH.run(i)
         found = [[n[0], n[1], n[2]] for n in found]
         all_found.append(found)
     return all_found
 
 
 def process_multi_edus_search(all_found):
+    """Split  multi-edus search results into several."""
     all_ids = list()
     out = list()
     for i in all_found:
@@ -298,28 +304,32 @@ def process_multi_edus_search(all_found):
 
 
 def find_seq(texts_ids, result):
+    """Find sequence of EDUs in multi-edus search."""
     text_result = dict()
     ids_result = dict()
     for i in texts_ids:
         texts_results = {i: [n[i] for n in result]}
-        for text in texts_results.keys():
+        for text in texts_results:
             text_result[text] = []
             ids_result[text] = []
             queries = texts_results[text]
             first_q = queries[0]
-            for l in range(len(first_q)):
+            first_query_length = len(first_q)
+            for l in range(first_query_length):
                 res_edus = []
                 k = first_q[l][1]
                 res_edus.append(first_q[l])
                 found_all = True
-                for j in range(1, len(queries)):
+                queries_length = len(queries)
+                for j in range(1, queries_length):
                     goal = k+j
                     ids = [q[1] for q in queries[j]]
                     if goal not in ids:
                         found_all = False
                         break
                     else:
-                        if len([n for n in queries[j] if n[1] == goal]) > 0:
+                        check_length_of_needed_queries = len([n for n in queries[j] if n[1] == goal])
+                        if check_length_of_needed_queries > 0:
                             res_edus.append([n for n in queries[j] if n[1] == goal][0])
                 res_ids = [n[1] for n in res_edus]
                 res_edus = [n[2] for n in res_edus]
@@ -330,10 +340,12 @@ def find_seq(texts_ids, result):
 
 
 def your_query_line(param_rus, vals, addtype, open_p, close_p, ros):
+    """Produec user message - translation the query from the form to some kind of Russian."""
     line = '<p><b>Ваш запрос: '
-    for i in range(len(param_rus)):
+    number_of_parameters = len(param_rus)
+    for i in range(number_of_parameters):
         if param_rus[i] == 'риторический маркер':
-            v = markers[vals[i]]
+            v = MARKERS[vals[i]]
         elif param_rus[i] != '':
             v = vals[i]
         else:
@@ -388,6 +400,7 @@ def your_query_line(param_rus, vals, addtype, open_p, close_p, ros):
 
 
 def return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros):
+    """Produce search result html for queries on several EDUs."""
     result = process_multi_edus_search(all_found)[1]
     texts_ids = process_multi_edus_search(all_found)[0]
     text_result = find_seq(texts_ids, result)[0]
@@ -420,7 +433,8 @@ def return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p,
     return res_multi_edu_res_html
 
 
-def return_singleedu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros):
+def return_single_edu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros):
+    """Produce search result html for queries on single EDUs."""
     res_single_edu_res_html = str()
     line = your_query_line(param_rus, vals, addtype, open_p, close_p, ros)
     res_single_edu_res_html += line
@@ -447,6 +461,7 @@ def return_singleedu_search_res_html(all_found, param_rus, vals, addtype, open_p
 
 
 def return_search_res_html(query, param_rus, vals, addtype, open_p, close_p, ros):
+    """Return the serach result html. If DB-request error, return user message."""
     checked = check_query(parse_query(query))
     if checked is True:
         try:
@@ -454,82 +469,92 @@ def return_search_res_html(query, param_rus, vals, addtype, open_p, close_p, ros
             all_found = get_found(db_requests)
             if len(all_found) > 1:
                 return return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros)
-            else:
-                return return_singleedu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros)
+            return return_single_edu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros)
         except py2neo.database.status.CypherSyntaxError:
-            return messages['fail']
+            return MESSAGES['fail']
     else:
         return checked
 
 
-@app.route("/")
+@APP.route("/")
 def hello():
+    """Base flask check."""
     return "Hello from Flask!"
 
 
-@app.route("/index.html")
+@APP.route("/index.html")
 def index():
+    """Main page."""
     return render_template("index.html"), 201
 
 
-@app.route("/aboutRST.html")
+@APP.route("/aboutRST.html")
 def about():
+    """About RS-Theory page."""
     return render_template("aboutRST.html"), 201
 
 
-@app.route("/search.html")
+@APP.route("/search.html")
 def search():
+    """Search page."""
     return render_template("search.html"), 201
 
 
-@app.route("/tree.html")
+@APP.route("/tree.html")
 def search_result():
     return render_template("tree.html"), 201
 
 
-@app.route("/tree/<edu_id>.html")
+@APP.route("/tree/<edu_id>.html")
 def tree1(edu_id):
+    """Tree with found edu marked page."""
     posit = request.args.get("position")
     return render_template("trees/" + str(edu_id) + ".html", position=posit), 201
 
 
-@app.route("/contact.html")
+@APP.route("/contact.html")
 def contact():
+    """Contacts page."""
     return render_template("contact.html"), 201
 
 
-@app.route("/contactm.html", methods=['GET', 'POST'])
+@APP.route("/contactm.html", methods=['GET', 'POST'])
 def contactm():
+    """Feedback result page."""
     mess = request.values.get("messagetext")
     if mess != '':
         cur_time = str(datetime.now()).replace(' ', 'T').replace(':', '-')
-        fh = open('backend/static/messages_from_users/' + cur_time + '.txt', 'w', encoding='utf-8')
+        f_h = open('backend/static/messages_from_users/' + cur_time + '.txt', 'w', encoding='utf-8')
         auth = request.values.get("author")
         mail = request.values.get("email")
         subj = request.values.get("subject")
-        fh.write('Author: ' + auth + '\n' + 'Email: ' + mail + '\n' + 'Subject: '
-                 + subj + '\n' + 'Message: ' + mess)
-        fh.close()
+        f_h.write('Author: ' + auth + '\n' + 'Email: ' + mail + '\n' + 'Subject: '
+                  + subj + '\n' + 'Message: ' + mess)
+        f_h.close()
     return render_template("contactm.html"), 201
 
 
-@app.route("/corpus.html")
+@APP.route("/corpus.html")
 def corpus():
+    """All corpus texts as trees page."""
     return render_template("corpus.html"), 201
 
 
-@app.route("/download.html")
+@APP.route("/download.html")
 def download():
+    """Download .txt and .rs3 page."""
     return render_template("download.html"), 201
 
 
-@app.route("/rhetrel.html")
+@APP.route("/rhetrel.html")
 def rhet():
+    """About RO page."""
     return render_template("rhetrel.html"), 201
 
 
-@app.route("/result.html")
+@APP.route("/result.html")
 def res():
+    """Search result page."""
     query = eval(request.args.get("data"))
     print(query)
     res_html = str()
@@ -560,13 +585,13 @@ def res():
             print("SEARCH VALUES", parameter, value)
             res_html = return_search_res_html(query, param_rus, vals,
                                               addtype, open_p, close_p, ros)
-            if res_html in messages.values():
-                if res_html == messages['fail']:
+            if res_html in MESSAGES.values():
+                if res_html == MESSAGES['fail']:
                     cur_time = str(datetime.now()).replace(' ', 'T').replace(':', '-')
-                    fq = open('backend/static/failed_queries/' + cur_time + '.txt', 'w',
-                              encoding='utf-8')
-                    fq.write(str(query))
-                    fq.close()
+                    f_q = open('backend/static/failed_queries/' + cur_time + '.txt', 'w',
+                               encoding='utf-8')
+                    f_q.write(str(query))
+                    f_q.close()
                 break
             else:
                 if res_html.endswith('</b></p>'):
@@ -586,4 +611,4 @@ def res():
     return render_template("result.html", result=res_html), 201
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    APP.run(debug=True)
