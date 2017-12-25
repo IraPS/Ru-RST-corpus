@@ -33,6 +33,7 @@ messages = {'ro_s_in_edu_dont_match': 'Пожалуйста, выберите о
             'no_input_for_word': 'Пожалуйста, введите значение в поле "слово".',
             'no_input_for_lemma': 'Пожалуйста, введите значение в поле "лемма".',
             'no_input_for_pos': 'Пожалуйста, выберите часть речи.',
+            'no_input_for_marker': 'Пожалуйста, выберите риторический маркер.',
             'not_equal_parenth_amount': 'Пожалуйста, проверьте корректность запроса, количество открывающих и закрывающих скобок не совпадает.',
             'split_your_request': 'Ваш запрос необходимо разбить на несколько отдельных запросов. Подробности см. в инструкции по поиску.',
             'fail': 'Ваш запрос не может быть обработан.\nЕсли Вы уверены, что в запросе нет ошибки, свяжитесь с нами через форму на странице "Контакты".'}
@@ -56,6 +57,9 @@ def check_query(parsed_query):
         searched_for_pos = [d['searched_for'] for d in edu if d['type'] == 'pos']
         if '' in searched_for_pos or ' ' in searched_for_pos:
             return messages['no_input_for_pos']
+        searched_for_marker = [d['searched_for'] for d in edu if d['type'] == 'marker']
+        if '' in searched_for_marker or ' ' in searched_for_marker:
+            return messages['no_input_for_marker']
         open_parenthesis_inner = ''.join([d['open_parenth'] for d in edu])
         close_parenthesis_inner = ''.join([d['close_parenth'] for d in edu])
         open_parenthesis_outer += [d['open_parenth'] for d in edu]
