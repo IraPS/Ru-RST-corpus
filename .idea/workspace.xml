@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aa87725e-0bff-4573-8311-0dc65ea9ef73" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/main.py" afterPath="$PROJECT_DIR$/backend/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/static/search_result.csv" afterPath="$PROJECT_DIR$/backend/static/search_result.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Ru-RST-corpus.iws" />
@@ -30,22 +31,10 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.2692308" vertical-offset="8208" max-vertical-offset="8910">
-              <caret line="441" column="55" selection-start-line="441" selection-start-column="55" selection-end-line="441" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.59359604" vertical-offset="4334" max-vertical-offset="8925">
+              <caret line="305" column="34" selection-start-line="305" selection-start-column="34" selection-end-line="305" selection-end-column="34" />
               <folding>
-                <element signature="e#25#82#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="change_static_paths.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/change_static_paths.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="495">
-              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-              <folding>
-                <element signature="e#25#34#0" expanded="true" />
+                <element signature="e#25#54#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -147,6 +136,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ru-RST-corpus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ru-RST-corpus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ru-RST-corpus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ru-RST-corpus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="failed_queries_by_exception" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -164,7 +193,7 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.change_static_paths">
+  <component name="RunManager" selected="Python.main">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -371,8 +400,8 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.change_static_paths" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.change_static_paths" />
         <item index="2" class="java.lang.String" itemvalue="Python.main1" />
         <item index="3" class="java.lang.String" itemvalue="Python.searching_DB" />
       </list>
@@ -418,7 +447,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40547946" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -426,11 +457,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40547946" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -449,9 +478,9 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40547946" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -479,10 +508,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/backend/main.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8910">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/main.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9075">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#25#82#0" expanded="true" />
+            <element signature="e#25#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -502,7 +541,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8700">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#25#82#0" expanded="true" />
+            <element signature="e#25#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -522,7 +561,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8520">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#25#82#0" expanded="true" />
+            <element signature="e#25#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -542,7 +581,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7605">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#25#82#0" expanded="true" />
+            <element signature="e#25#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -552,7 +591,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6285">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#25#82#0" expanded="true" />
+            <element signature="e#25#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -562,7 +601,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5685">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#25#82#0" expanded="true" />
+            <element signature="e#25#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -572,7 +611,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5625">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#25#82#0" expanded="true" />
+            <element signature="e#25#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -582,7 +621,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3855">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#25#82#0" expanded="true" />
+            <element signature="e#25#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -592,7 +631,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3585">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#25#82#0" expanded="true" />
+            <element signature="e#25#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -602,7 +641,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1725">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#25#82#0" expanded="true" />
+            <element signature="e#25#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -612,7 +651,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1725">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#25#82#0" expanded="true" />
+            <element signature="e#25#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -622,7 +661,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1590">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#25#82#0" expanded="true" />
+            <element signature="e#25#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -632,7 +671,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1590">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#25#82#0" expanded="true" />
+            <element signature="e#25#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -642,7 +681,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1590">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#25#82#0" expanded="true" />
+            <element signature="e#25#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -659,7 +698,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#25#82#0" expanded="true" />
+            <element signature="e#25#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -736,7 +775,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/change_static_paths.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+        <state vertical-scroll-proportion="0.47008547" vertical-offset="0" max-vertical-offset="702">
           <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding>
             <element signature="e#25#34#0" expanded="true" />
@@ -746,10 +785,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2692308" vertical-offset="8208" max-vertical-offset="8910">
-          <caret line="441" column="55" selection-start-line="441" selection-start-column="55" selection-end-line="441" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.59359604" vertical-offset="4334" max-vertical-offset="8925">
+          <caret line="305" column="34" selection-start-line="305" selection-start-column="34" selection-end-line="305" selection-end-column="34" />
           <folding>
-            <element signature="e#25#82#0" expanded="true" />
+            <element signature="e#25#54#0" expanded="true" />
           </folding>
         </state>
       </provider>

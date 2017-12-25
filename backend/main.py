@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 
-from flask import Flask, request, render_template, Markup
 from datetime import datetime
 import itertools
 import operator
-import py2neo
 import csv
 import re
+import py2neo
+from flask import Flask, request, render_template, Markup
 
 graph = py2neo.Graph()
 
@@ -401,7 +401,8 @@ def return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p,
     csvwriter.writerow([s1_r1, ''])
     csvwriter.writerow(['Текст', 'ЭДЕ'])
     for text in text_result:
-        if len(text_result[text]) > 0:
+        check_lenght_text_result = len(text_result[text])
+        if check_lenght_text_result > 0:
             res_multi_edu_res_html += '<p>Текст № {0}'.format(text) + '</p>\n<ul>\n'
             for i in range(len(text_result[text])):
                 res_multi_edu_res_html += '<li>'
