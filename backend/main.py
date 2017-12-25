@@ -29,9 +29,12 @@ messages = {'ro_s_in_edu_dont_match': 'Пожалуйста, выберите о
             'no_input_for_lemma': 'Пожалуйста, введите значение в поле "лемма".',
             'no_input_for_pos': 'Пожалуйста, выберите часть речи.',
             'no_input_for_marker': 'Пожалуйста, выберите риторический маркер.',
-            'not_equal_parenth_amount': 'Пожалуйста, проверьте корректность запроса, количество открывающих и закрывающих скобок не совпадает.',
-            'split_your_request': 'Ваш запрос необходимо разбить на несколько отдельных запросов. Подробности см. в инструкции по поиску.',
-            'fail': 'Ваш запрос не может быть обработан.\nЕсли Вы уверены, что в запросе нет ошибки, свяжитесь с нами через форму на странице "Контакты".'}
+            'not_equal_parenth_amount': 'Пожалуйста, проверьте корректность '
+                                        'запроса, количество открывающих и закрывающих скобок не совпадает.',
+            'split_your_request': 'Ваш запрос необходимо разбить на несколько отдельных запросов. '
+                                  'Подробности см. в инструкции по поиску.',
+            'fail': 'Ваш запрос не может быть обработан.\nЕсли Вы уверены, что в запросе нет ошибки, '
+                    'свяжитесь с нами через форму на странице "Контакты".'}
 
 
 def check_query(parsed_query):
@@ -401,6 +404,7 @@ def return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p,
                 csvwriter.writerow([str(text), full_text])
                 res_multi_edu_res_html += '</li>\n'
             res_multi_edu_res_html += '</ul>\n'
+    csvfile.close()
     return res_multi_edu_res_html
 
 
@@ -493,7 +497,6 @@ def contactm():
         subj = request.values.get("subject")
         fh.write('Author: ' + auth + '\n' + 'Email: ' + mail + '\n' + 'Subject: ' + subj + '\n' + 'Message: ' + mess)
         fh.close()
-            
     return render_template("contactm.html"), 201
 
 
@@ -560,6 +563,7 @@ def res():
         cur_time = str(datetime.now()).replace(' ', 'T').replace(':', '-')
         exc = open('backend/static/failed_queries_by_exception/' + cur_time + '.txt', 'w', encoding='utf-8')
         exc.write(str(query) + '; Exception: ' + str(e))
+        exc.close()
         res_html = '<p>Ваш запрос не может быть обработан.\n' \
                    'Если Вы уверены, что в запросе нет ошибки, свяжитесь с нами через форму на странице "Контакты".</p>'
     res_html = Markup(res_html)
