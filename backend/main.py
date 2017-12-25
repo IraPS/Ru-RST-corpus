@@ -14,7 +14,8 @@ app = Flask(__name__)
 
 
 def parse_query(query):
-    new_edu_indices = [i+1 for i, _ in enumerate(query) if _['add_type'] == 'next_edu_and']
+    new_edu_indices = [i+1 for i, _ in enumerate(query)
+                       if _['add_type'] == 'next_edu_and']
     slices = list()
     start = 0
     for i in new_edu_indices:
@@ -24,16 +25,20 @@ def parse_query(query):
     slices.append(query[start::])
     return slices
 
-messages = {'ro_s_in_edu_dont_match': 'Пожалуйста, выберите одинаковые риторические отношения внутри одной ЭДЕ.',
+messages = {'ro_s_in_edu_dont_match': 'Пожалуйста, выберите одинаковые риторические '
+                                      'отношения внутри одной ЭДЕ.',
             'no_input_for_word': 'Пожалуйста, введите значение в поле "слово".',
             'no_input_for_lemma': 'Пожалуйста, введите значение в поле "лемма".',
             'no_input_for_pos': 'Пожалуйста, выберите часть речи.',
             'no_input_for_marker': 'Пожалуйста, выберите риторический маркер.',
             'not_equal_parenth_amount': 'Пожалуйста, проверьте корректность '
-                                        'запроса, количество открывающих и закрывающих скобок не совпадает.',
-            'split_your_request': 'Ваш запрос необходимо разбить на несколько отдельных запросов. '
+                                        'запроса, количество открывающих и '
+                                        'закрывающих скобок не совпадает.',
+            'split_your_request': 'Ваш запрос необходимо разбить на несколько '
+                                  'отдельных запросов. '
                                   'Подробности см. в инструкции по поиску.',
-            'fail': 'Ваш запрос не может быть обработан.\nЕсли Вы уверены, что в запросе нет ошибки, '
+            'fail': 'Ваш запрос не может быть обработан.\nЕсли Вы уверены, '
+                    'что в запросе нет ошибки, '
                     'свяжитесь с нами через форму на странице "Контакты".'}
 
 
@@ -75,22 +80,25 @@ def check_query(parsed_query):
     return True
 
 
-markers = {"a": "a", "bezuslovno": "безусловно", "buduchi": "будучи", "budeto": "будь это",
-           "vitoge": "в итоге", "vosobennosti": "в особенности", "vramkah": "в рамках",
-           "vrezultate": "в результате", "vsamomdele": "в самом деле",
+markers = {"a": "a", "bezuslovno": "безусловно", "buduchi": "будучи",
+           "budeto": "будь это", "vitoge": "в итоге", "vosobennosti": "в особенности",
+           "vramkah": "в рамках", "vrezultate": "в результате", "vsamomdele": "в самом деле",
            "vsvojyochered": "в свою очередь", "vsvyazis": "в связи с", "vtechenie": "в течение",
            "vtovremya": "в то время", "vtozhevremya": "в то же время",
-           "vusloviyah": "в условиях", "vchastnosti": "в частности", "vposledstvii": "впоследствии",
-           "vkluchaya": "включая", "vmestotogo": "вместо того", "vmestoetogo": "вместо этого",
+           "vusloviyah": "в условиях", "vchastnosti": "в частности",
+           "vposledstvii": "впоследствии", "vkluchaya": "включая", "vmestotogo": "вместо того",
+           "vmestoetogo": "вместо этого",
            "vsezhe": "все же", "vsledstvie": "вследствие", "govoritsya": "говорится",
            "govorit_lem": "говорить", "dazhe": "даже", "dejstvitelno": "действительно",
            "dlya": "для", "dotakojstepeni": "до такой степени", "esli": "если",
            "zaverit_lem": "заверить", "zaveryat_lem": "заверять", "zayavit_lem": "заявить",
-           "zayavlat_lem": "заявлять", "i": "и", "izza": "из-за", "ili": "или", "inache": "иначе",
-           "ktomuzhe": "к тому же", "kogda": "когда", "kotoryj_lem": "который", "krometogo": "кроме того",
+           "zayavlat_lem": "заявлять", "i": "и", "izza": "из-за", "ili": "или",
+           "inache": "иначе", "ktomuzhe": "к тому же", "kogda": "когда",
+           "kotoryj_lem": "который", "krometogo": "кроме того",
            "libo": "либо", "lishtogda": "лишь тогда", "nasamomdele": "на самом деле",
-           "natotmoment": "на тот момент", "naetomfone": "на этом фоне", "napisat_lem": "написать",
-           "naprimer": "например", "naprotiv": "напротив", "nesmotryana": "несмотря на", "no": "но",
+           "natotmoment": "на тот момент", "naetomfone": "на этом фоне",
+           "napisat_lem": "написать", "naprimer": "например", "naprotiv": "напротив",
+           "nesmotryana": "несмотря на", "no": "но",
            "noi": "но и", "objavit_lem": "объявить", "odnako": "однако", "osobenno": "особенно",
            "pisat_lem": "писать", "podannym": "по данным", "pomneniu": "по мнению",
            "poocenkam": "по оценкам", "posvedeniam": "по сведениям", "poslovam": "по словам",
@@ -123,17 +131,20 @@ def request_with_one_cond_on_edu(query):
             else:
                 marker_lengh = str(len(marker_rus)+1)
                 if len(marker_rus.split()) > 1:
-                    request_one_cond_on_edu += ' REDUCE(s = " ", w in split(n.text_norm, " ")[0..{0}]|s + " " + w' \
-                                               ') CONTAINS \'{1}\''.format(marker_lengh, marker_rus)
+                    request_one_cond_on_edu += ' REDUCE(s = " ", w in split(n.text_norm, " ")' \
+                                               '[0..{0}]|s + " " + w) CONTAINS \'{1}\''.\
+                                               format(marker_lengh, marker_rus)
 
                 else:
                     request_one_cond_on_edu += ' \'{0}\' IN split(n.text_norm, " ")[0..{1}]'.\
                         format(marker_rus, marker_lengh)
 
         if el['type'] == 'word':
-            request_one_cond_on_edu += " '{0}' IN split(n.text_norm, ' ')".format(el['searched_for'])
+            request_one_cond_on_edu += " '{0}' IN split(n.text_norm, ' ')".\
+                format(el['searched_for'])
         if el['type'] == 'lemma' or el['type'] == 'pos':
-            request_one_cond_on_edu += ' n.lemmas CONTAINS "\'{0}\'"'.format(el['searched_for'])
+            request_one_cond_on_edu += ' n.lemmas CONTAINS "\'{0}\'"'.\
+                format(el['searched_for'])
         if el['type'] == '':
             request_one_cond_on_edu = 'MATCH (n) WHERE exists(n.text)'
     else:
@@ -144,14 +155,16 @@ def request_with_one_cond_on_edu(query):
             else:
                 marker_lengh = str(len(marker_rus)+1)
                 if len(marker_rus.split()) > 1:
-                    request_one_cond_on_edu += ' REDUCE(s = " ", w in split(n.text_norm, " ")[0..{0}]|s + " " + w' \
-                                               ') CONTAINS \'{1}\''.format(marker_lengh, marker_rus)
+                    request_one_cond_on_edu += ' REDUCE(s = " ", w in split(n.text_norm, " ")' \
+                                               '[0..{0}]|s + " " + w) CONTAINS \'{1}\''.\
+                                               format(marker_lengh, marker_rus)
 
                 else:
                     request_one_cond_on_edu += ' \'{0}\' IN split(n.text_norm, " ")[0..{1}]'.\
                         format(marker_rus, marker_lengh)
         request_one_cond_on_edu = re.sub('WHERE', 'WHERE (', request_one_cond_on_edu)
-        request_one_cond_on_edu = re.sub('MATCH \(n\)', 'MATCH (n)-[r]-()', request_one_cond_on_edu)
+        request_one_cond_on_edu = re.sub('MATCH \(n\)', 'MATCH (n)-[r]-()',
+                                         request_one_cond_on_edu)
         if el['type'] == 'word':
             request_one_cond_on_edu += " '{0}' IN split(n.text_norm, ' ')) AND type(r) IN {1}".\
                 format(el['searched_for'], ro)
@@ -159,7 +172,8 @@ def request_with_one_cond_on_edu(query):
             request_one_cond_on_edu += ' n.lemmas CONTAINS "\'{0}\'") AND type(r) IN {1}'.\
                 format(el['searched_for'], ro)
         if el['type'] == '':
-            request_one_cond_on_edu = 'MATCH (n)-[r]-() WHERE exists(n.text) AND type(r) IN {0}'.format(ro)
+            request_one_cond_on_edu = 'MATCH (n)-[r]-() WHERE exists(n.text) AND type(r) IN {0}'.\
+                                      format(ro)
     request_one_cond_on_edu += el['close_parenth']
     request_one_cond_on_edu += "\nRETURN n.Text_id, n.Id, n.text"
     return request_one_cond_on_edu
@@ -187,12 +201,14 @@ def create_db_requests(query):
                         type_chosen = True
                         marker_rus = markers[el['searched_for']]
                         if '_lem' in el['searched_for']:
-                            request_on_db += ' n.lemmas CONTAINS \'{0}\' {1}'.format(marker_rus, cond)
+                            request_on_db += ' n.lemmas CONTAINS \'{0}\' {1}'.\
+                                format(marker_rus, cond)
                         else:
                             marker_lengh = str(len(marker_rus)+1)
                             if len(marker_rus.split()) > 1:
-                                request_on_db += ' REDUCE(s = " ", w in split(n.text_norm, " ")[0..{0}]|s + " " + w' \
-                                                 ') CONTAINS \'{1}\' {2}'.format(marker_lengh, marker_rus, cond)
+                                request_on_db += ' REDUCE(s = " ", w in split(n.text_norm, " ")' \
+                                                 '[0..{0}]|s + " " + w) CONTAINS \'{1}\' {2}'.\
+                                                 format(marker_lengh, marker_rus, cond)
 
                             else:
                                 request_on_db += ' \'{0}\' IN split(n.text_norm, " ")[0..{1}] {2}'.\
@@ -215,12 +231,14 @@ def create_db_requests(query):
                         type_chosen = True
                         marker_rus = markers[el['searched_for']]
                         if '_lem' in el['searched_for']:
-                            request_on_db += ' n.lemmas CONTAINS \'{0}\' {1}'.format(marker_rus, cond)
+                            request_on_db += ' n.lemmas CONTAINS \'{0}\' {1}'.\
+                                format(marker_rus, cond)
                         else:
                             marker_lengh = str(len(marker_rus)+1)
                             if len(marker_rus.split()) > 1:
-                                request_on_db += ' REDUCE(s = " ", w in split(n.text_norm, " ")[0..{0}]|s + " " + w' \
-                                                 ') CONTAINS \'{1}\' {2}'.format(marker_lengh, marker_rus, cond)
+                                request_on_db += ' REDUCE(s = " ", w in split(n.text_norm, " ")' \
+                                                 '[0..{0}]|s + " " + w) CONTAINS \'{1}\' {2}'.\
+                                                 format(marker_lengh, marker_rus, cond)
 
                             else:
                                 request_on_db += ' \'{0}\' IN split(n.text_norm, " ")[0..{1}] {2}'.\
@@ -427,7 +445,8 @@ def return_singleedu_search_res_html(all_found, param_rus, vals, addtype, open_p
             edu_id = edu[0]
             edu_text = edu[1]
             res_single_edu_res_html += '<li><a href="tree/{0}.html?position=edu'.\
-                                       format(i)+str(edu_id)+'" target="_blank">' + str(edu_text) + '</a></li>'
+                                       format(i)+str(edu_id)+'" target="_blank">' +\
+                                       str(edu_text) + '</a></li>'
             csvwriter.writerow([str(i), str(edu_text)])
         res_single_edu_res_html += '</ul>'
     csvfile.close()
@@ -441,9 +460,11 @@ def return_search_res_html(query, param_rus, vals, addtype, open_p, close_p, ros
             db_requests = create_db_requests(query)
             all_found = get_found(db_requests)
             if len(all_found) > 1:
-                return return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros)
+                return return_multiedu_search_res_html(all_found, param_rus, vals,
+                                                       addtype, open_p, close_p, ros)
             else:
-                return return_singleedu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros)
+                return return_singleedu_search_res_html(all_found, param_rus, vals,
+                                                        addtype, open_p, close_p, ros)
         except py2neo.database.status.CypherSyntaxError:
             return messages['fail']
     else:
@@ -495,7 +516,8 @@ def contactm():
         auth = request.values.get("author")
         mail = request.values.get("email")
         subj = request.values.get("subject")
-        fh.write('Author: ' + auth + '\n' + 'Email: ' + mail + '\n' + 'Subject: ' + subj + '\n' + 'Message: ' + mess)
+        fh.write('Author: ' + auth + '\n' + 'Email: ' + mail + '\n' + 'Subject: '
+                 + subj + '\n' + 'Message: ' + mess)
         fh.close()
     return render_template("contactm.html"), 201
 
@@ -545,11 +567,13 @@ def res():
             close_p.append(q['close_parenth'])
             ros.append(q['ro'])
             print("SEARCH VALUES", parameter, value)
-            res_html = return_search_res_html(query, param_rus, vals, addtype, open_p, close_p, ros)
+            res_html = return_search_res_html(query, param_rus, vals,
+                                              addtype, open_p, close_p, ros)
             if res_html in messages.values():
                 if res_html == messages['fail']:
                     cur_time = str(datetime.now()).replace(' ', 'T').replace(':', '-')
-                    fq = open('backend/static/failed_queries/' + cur_time + '.txt', 'w', encoding='utf-8')
+                    fq = open('backend/static/failed_queries/' + cur_time + '.txt', 'w',
+                              encoding='utf-8')
                     fq.write(str(query))
                     fq.close()
                 break
@@ -561,11 +585,13 @@ def res():
                                 'Скачать</a> результаты поиска в формате csv.</b></p><br>'
     except Exception as e:
         cur_time = str(datetime.now()).replace(' ', 'T').replace(':', '-')
-        exc = open('backend/static/failed_queries_by_exception/' + cur_time + '.txt', 'w', encoding='utf-8')
+        exc = open('backend/static/failed_queries_by_exception/' + cur_time + '.txt', 'w',
+                   encoding='utf-8')
         exc.write(str(query) + '; Exception: ' + str(e))
         exc.close()
         res_html = '<p>Ваш запрос не может быть обработан.\n' \
-                   'Если Вы уверены, что в запросе нет ошибки, свяжитесь с нами через форму на странице "Контакты".</p>'
+                   'Если Вы уверены, что в запросе нет ошибки' \
+                   ', свяжитесь с нами через форму на странице "Контакты".</p>'
     res_html = Markup(res_html)
     return render_template("result.html", result=res_html), 201
 
