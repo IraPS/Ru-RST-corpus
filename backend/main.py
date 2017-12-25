@@ -318,13 +318,15 @@ def find_seq(texts_ids, result):
                     ids_result[text].append(res_ids)
     return text_result, ids_result
 
-def your_query_line(param_rus, vals, addtype, open_p, close_p):
+def your_query_line(param_rus, vals, addtype, open_p, close_p, ros):
     line = '<p><b>Ваш запрос: '
     for i in range(len(param_rus)):
         if param_rus[i] == 'риторический маркер':
             v = markers[vals[i]]
-        else:
+        elif param_rus[i] != '':
             v = vals[i]
+        else:
+            v = ''
         if i != 0 and addtype[i-1].startswith('same'):
             t = ' в той же ЭДЕ'
         elif i != 0:
@@ -337,24 +339,49 @@ def your_query_line(param_rus, vals, addtype, open_p, close_p):
             conj = ' ИЛИ '
         else:
             conj = ''
+        if ros[i] == ['any']:
+            if v != '':
+                roo = '(любое риторическое отношение)'
+            else:
+                roo = 'любое риторическое отношение'
+        else:
+            if v != '':
+                roo = '(в РО '
+                for r in range(len(ros[i])):
+                    roo += ros[i][r].capitalize()
+                    if r != len(ros[i])-1:
+                        roo += ', '
+                    else:
+                        roo += ')'
+            else:
+                roo = 'РО '
+                for r in range(len(ros[i])):
+                    roo += ros[i][r].capitalize()
+                    if r == len(ros[i])-1:
+                        roo += ' '
+                    else:
+                        roo += ', '
         line += open_p[i]
         line += param_rus[i]
-        line += ' "'
+        if v != '':
+            line += ' "'
         line += v
-        line += '" '
+        if v != '':
+            line += '" '
+        line += roo
         line += t
         line += close_p[i]
         line += conj
     line += '</b></p>'
     return line
 
-def return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p):
+def return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros):
     result = process_multi_edus_search(all_found)[1]
     texts_ids = process_multi_edus_search(all_found)[0]
     text_result = find_seq(texts_ids, result)[0]
     ids_result = find_seq(texts_ids, result)[1]
     res = str()
-    line = your_query_line(param_rus, vals, addtype, open_p, close_p)
+    line = your_query_line(param_rus, vals, addtype, open_p, close_p, ros)
     res += line
     csvfile = open('backend/static/search_result.csv', 'w', newline='', encoding='utf-8')
     csvwriter = csv.writer(csvfile)
@@ -377,9 +404,9 @@ def return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p,
     return res
 
 
-def return_singleedu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p):
+def return_singleedu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros):
     res = str()
-    line = your_query_line(param_rus, vals, addtype, open_p, close_p)
+    line = your_query_line(param_rus, vals, addtype, open_p, close_p, ros)
     res += line
     all_found = all_found[0]
     all_found.sort(key=operator.itemgetter(0))
@@ -402,16 +429,16 @@ def return_singleedu_search_res_html(all_found, param_rus, vals, addtype, open_p
     return res
 
 
-def return_search_res_html(query, param_rus, vals, addtype, open_p, close_p):
+def return_search_res_html(query, param_rus, vals, addtype, open_p, close_p, ros):
     checked = check_query(parse_query(query))
     if checked is True:
         try:
             DB_requests = create_DB_requests(query)
             all_found = get_found(DB_requests)
             if len(all_found) > 1:
-                return return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p)
+                return return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros)
             else:
-                return return_singleedu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p)
+                return return_singleedu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros)
         except:
             return messages['fail']
     else:
@@ -487,24 +514,31 @@ def res():
     query = eval(request.args.get("data"))
     print(query)
     res = str()
-    param_rus, vals, addtype, open_p, close_p = [], [], [], [], []
+    param_rus, vals, addtype, open_p, close_p, ros = [], [], [], [], [], []
     for q in query:
-        parameter = q['type']
-        if parameter == 'lemma':
-            param_rus.append('лемма')
-        elif parameter == 'word':
-            param_rus.append('словоформа')
-        elif parameter == 'pos':
-            param_rus.append('часть речи')
-        elif parameter == 'marker':
-            param_rus.append('риторический маркер')
-        value = q['searched_for']
-        vals.append(q['searched_for'])
+        try:
+            parameter = q['type']
+            if parameter == 'lemma':
+                param_rus.append('лемма')
+            elif parameter == 'word':
+                param_rus.append('словоформа')
+            elif parameter == 'pos':
+                param_rus.append('часть речи')
+            elif parameter == 'marker':
+                param_rus.append('риторический маркер')
+            value = q['searched_for']
+            vals.append(q['searched_for'])
+        except:
+            parameter = ''
+            param_rus.append('')
+            value = ''
+            vals.append('')
         addtype.append(q['add_type'])
         open_p.append(q['open_parenth'])
         close_p.append(q['close_parenth'])
+        ros.append(q['ro'])
         print("SEARCH VALUES", parameter, value)        
-        res = return_search_res_html(query, param_rus, vals, addtype, open_p, close_p)
+        res = return_search_res_html(query, param_rus, vals, addtype, open_p, close_p, ros)
         #print("RES", res)
         if res in messages.values():
             if res == messages['fail']:
