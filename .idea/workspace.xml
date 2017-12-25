@@ -2,8 +2,96 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa87725e-0bff-4573-8311-0dc65ea9ef73" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/main.py" afterPath="$PROJECT_DIR$/backend/main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/change_static_paths.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/1.html" afterPath="$PROJECT_DIR$/backend/templates/trees/1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/10.html" afterPath="$PROJECT_DIR$/backend/templates/trees/10.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/11.html" afterPath="$PROJECT_DIR$/backend/templates/trees/11.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/12.html" afterPath="$PROJECT_DIR$/backend/templates/trees/12.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/13.html" afterPath="$PROJECT_DIR$/backend/templates/trees/13.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/14.html" afterPath="$PROJECT_DIR$/backend/templates/trees/14.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/15.html" afterPath="$PROJECT_DIR$/backend/templates/trees/15.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/16.html" afterPath="$PROJECT_DIR$/backend/templates/trees/16.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/17.html" afterPath="$PROJECT_DIR$/backend/templates/trees/17.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/18.html" afterPath="$PROJECT_DIR$/backend/templates/trees/18.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/19.html" afterPath="$PROJECT_DIR$/backend/templates/trees/19.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/2.html" afterPath="$PROJECT_DIR$/backend/templates/trees/2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/20.html" afterPath="$PROJECT_DIR$/backend/templates/trees/20.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/21.html" afterPath="$PROJECT_DIR$/backend/templates/trees/21.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/22.html" afterPath="$PROJECT_DIR$/backend/templates/trees/22.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/23.html" afterPath="$PROJECT_DIR$/backend/templates/trees/23.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/24.html" afterPath="$PROJECT_DIR$/backend/templates/trees/24.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/25.html" afterPath="$PROJECT_DIR$/backend/templates/trees/25.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/26.html" afterPath="$PROJECT_DIR$/backend/templates/trees/26.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/27.html" afterPath="$PROJECT_DIR$/backend/templates/trees/27.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/28.html" afterPath="$PROJECT_DIR$/backend/templates/trees/28.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/29.html" afterPath="$PROJECT_DIR$/backend/templates/trees/29.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/3.html" afterPath="$PROJECT_DIR$/backend/templates/trees/3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/30.html" afterPath="$PROJECT_DIR$/backend/templates/trees/30.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/31.html" afterPath="$PROJECT_DIR$/backend/templates/trees/31.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/32.html" afterPath="$PROJECT_DIR$/backend/templates/trees/32.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/33.html" afterPath="$PROJECT_DIR$/backend/templates/trees/33.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/34.html" afterPath="$PROJECT_DIR$/backend/templates/trees/34.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/35.html" afterPath="$PROJECT_DIR$/backend/templates/trees/35.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/36.html" afterPath="$PROJECT_DIR$/backend/templates/trees/36.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/37.html" afterPath="$PROJECT_DIR$/backend/templates/trees/37.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/38.html" afterPath="$PROJECT_DIR$/backend/templates/trees/38.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/39.html" afterPath="$PROJECT_DIR$/backend/templates/trees/39.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/4.html" afterPath="$PROJECT_DIR$/backend/templates/trees/4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/40.html" afterPath="$PROJECT_DIR$/backend/templates/trees/40.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/41.html" afterPath="$PROJECT_DIR$/backend/templates/trees/41.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/42.html" afterPath="$PROJECT_DIR$/backend/templates/trees/42.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/43.html" afterPath="$PROJECT_DIR$/backend/templates/trees/43.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/44.html" afterPath="$PROJECT_DIR$/backend/templates/trees/44.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/45.html" afterPath="$PROJECT_DIR$/backend/templates/trees/45.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/46.html" afterPath="$PROJECT_DIR$/backend/templates/trees/46.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/47.html" afterPath="$PROJECT_DIR$/backend/templates/trees/47.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/48.html" afterPath="$PROJECT_DIR$/backend/templates/trees/48.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/49.html" afterPath="$PROJECT_DIR$/backend/templates/trees/49.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/5.html" afterPath="$PROJECT_DIR$/backend/templates/trees/5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/50.html" afterPath="$PROJECT_DIR$/backend/templates/trees/50.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/51.html" afterPath="$PROJECT_DIR$/backend/templates/trees/51.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/52.html" afterPath="$PROJECT_DIR$/backend/templates/trees/52.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/53.html" afterPath="$PROJECT_DIR$/backend/templates/trees/53.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/54.html" afterPath="$PROJECT_DIR$/backend/templates/trees/54.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/55.html" afterPath="$PROJECT_DIR$/backend/templates/trees/55.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/56.html" afterPath="$PROJECT_DIR$/backend/templates/trees/56.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/57.html" afterPath="$PROJECT_DIR$/backend/templates/trees/57.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/58.html" afterPath="$PROJECT_DIR$/backend/templates/trees/58.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/59.html" afterPath="$PROJECT_DIR$/backend/templates/trees/59.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/6.html" afterPath="$PROJECT_DIR$/backend/templates/trees/6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/60.html" afterPath="$PROJECT_DIR$/backend/templates/trees/60.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/61.html" afterPath="$PROJECT_DIR$/backend/templates/trees/61.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/62.html" afterPath="$PROJECT_DIR$/backend/templates/trees/62.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/63.html" afterPath="$PROJECT_DIR$/backend/templates/trees/63.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/64.html" afterPath="$PROJECT_DIR$/backend/templates/trees/64.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/65.html" afterPath="$PROJECT_DIR$/backend/templates/trees/65.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/66.html" afterPath="$PROJECT_DIR$/backend/templates/trees/66.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/67.html" afterPath="$PROJECT_DIR$/backend/templates/trees/67.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/68.html" afterPath="$PROJECT_DIR$/backend/templates/trees/68.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/69.html" afterPath="$PROJECT_DIR$/backend/templates/trees/69.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/7.html" afterPath="$PROJECT_DIR$/backend/templates/trees/7.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/70.html" afterPath="$PROJECT_DIR$/backend/templates/trees/70.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/71.html" afterPath="$PROJECT_DIR$/backend/templates/trees/71.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/72.html" afterPath="$PROJECT_DIR$/backend/templates/trees/72.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/73.html" afterPath="$PROJECT_DIR$/backend/templates/trees/73.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/74.html" afterPath="$PROJECT_DIR$/backend/templates/trees/74.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/75.html" afterPath="$PROJECT_DIR$/backend/templates/trees/75.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/76.html" afterPath="$PROJECT_DIR$/backend/templates/trees/76.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/77.html" afterPath="$PROJECT_DIR$/backend/templates/trees/77.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/78.html" afterPath="$PROJECT_DIR$/backend/templates/trees/78.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/79.html" afterPath="$PROJECT_DIR$/backend/templates/trees/79.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/8.html" afterPath="$PROJECT_DIR$/backend/templates/trees/8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/9.html" afterPath="$PROJECT_DIR$/backend/templates/trees/9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/aboutRST.html" afterPath="$PROJECT_DIR$/backend/templates/aboutRST.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/base.html" afterPath="$PROJECT_DIR$/backend/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/base_tree.html" afterPath="$PROJECT_DIR$/backend/templates/base_tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/contact.html" afterPath="$PROJECT_DIR$/backend/templates/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/contactm.html" afterPath="$PROJECT_DIR$/backend/templates/contactm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/download.html" afterPath="$PROJECT_DIR$/backend/templates/download.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/rhetrel.html" afterPath="$PROJECT_DIR$/backend/templates/rhetrel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/search.html" afterPath="$PROJECT_DIR$/backend/templates/search.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/static/search_result.csv" afterPath="$PROJECT_DIR$/backend/static/search_result.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/tree.html" afterPath="$PROJECT_DIR$/backend/templates/tree.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Ru-RST-corpus.iws" />
@@ -28,12 +116,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.508547" vertical-offset="7818" max-vertical-offset="8520">
-              <caret line="545" column="54" selection-start-line="545" selection-start-column="54" selection-end-line="545" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8520">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="change_static_paths.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/change_static_paths.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.591133" vertical-offset="0" max-vertical-offset="510">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#24#33#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,6 +149,10 @@
         <option value="$PROJECT_DIR$/backend/static/searching_DB.py" />
         <option value="$PROJECT_DIR$/backend/main1.py" />
         <option value="$PROJECT_DIR$/backend/main.py" />
+        <option value="$PROJECT_DIR$/backend/templates/download.html" />
+        <option value="$PROJECT_DIR$/change_static_paths.py" />
+        <option value="$PROJECT_DIR$/backend/templates/contactm.html" />
+        <option value="$PROJECT_DIR$/backend/templates/contact.html" />
       </list>
     </option>
   </component>
@@ -79,6 +183,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -125,13 +230,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -147,7 +251,7 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.change_static_paths">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -199,6 +303,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Ru-RST-corpus" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/main1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="change_static_paths" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Ru-RST-corpus" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/change_static_paths.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -327,16 +450,18 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.main" />
       <item index="1" class="java.lang.String" itemvalue="Python.searching_DB" />
       <item index="2" class="java.lang.String" itemvalue="Python.main1" />
+      <item index="3" class="java.lang.String" itemvalue="Python.change_static_paths" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.searching_DB" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.change_static_paths" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main" />
+        <item index="2" class="java.lang.String" itemvalue="Python.main1" />
+        <item index="3" class="java.lang.String" itemvalue="Python.searching_DB" />
       </list>
     </recent_temporary>
   </component>
@@ -376,24 +501,45 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40547946" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40547946" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40547946" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -542,11 +688,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backend/static/rstWeb/script/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4665">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/python3/lib/python3.4/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33251232" vertical-offset="4635" max-vertical-offset="16665">
+          <caret line="318" column="0" selection-start-line="318" selection-start-column="0" selection-end-line="318" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/templates/trees/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67241377" vertical-offset="1317" max-vertical-offset="1995">
+          <caret line="106" column="40" selection-start-line="106" selection-start-column="40" selection-end-line="106" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/backend/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.508547" vertical-offset="7818" max-vertical-offset="8520">
-          <caret line="545" column="54" selection-start-line="545" selection-start-column="54" selection-end-line="545" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8520">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/templates/download.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8821989" vertical-offset="53" max-vertical-offset="480">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#b#0;n#p#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/templates/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3137255" vertical-offset="137" max-vertical-offset="810">
+          <caret line="17" column="70" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/templates/contactm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33239436" vertical-offset="137" max-vertical-offset="840">
+          <caret line="17" column="70" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/templates/base_tree.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8036649" vertical-offset="908" max-vertical-offset="1395">
+          <caret line="81" column="40" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/change_static_paths.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.591133" vertical-offset="0" max-vertical-offset="510">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

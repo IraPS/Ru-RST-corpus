@@ -16,12 +16,12 @@
         <div class="col-md-6">
           <center><h2>Исходные тексты</h2></center>
 		  <center><p>формат .txt</p></center>
-          <a href="../static/corpus_txt.zip" download><center><img src="/static/img/download.png" alt="download_txt" class="img-responsive" id="downloading_raw"/></center></a>
+          <a href="../static/corpus_txt.zip" download><center><img src="{{url_for('static', filename='img/download.png')}}" alt="download_txt" class="img-responsive" id="downloading_raw"/></center></a>
         </div>
         <div class="col-md-6">
           <center><h2>Размеченные тексты</h2></center>
 		  <center><p>формат .rs3</p></center>
-          <a href="../static/corpus_rs3.zip" download><center><img src="/static/img/download.png" alt="download_rs3" class="img-responsive" id="downloading_annotated"/></center></a>
+          <a href="../static/corpus_rs3.zip" download><center><img src="{{url_for('static', filename='img/download.png')}}" alt="download_rs3" class="img-responsive" id="downloading_annotated"/></center></a>
        </div>
       </div>
 {% endblock %}

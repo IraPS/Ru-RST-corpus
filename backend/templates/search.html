@@ -6,13 +6,13 @@
     <div class="jumbotron">
       <div class="container">
         <h1>Поиск по корпусу риторических структур</h1>
-        <p>Ищите по слову, словосочетанию, риторическому отношению, маркеру риторического отношения. <br><a href="/static/Поиск_по_Корпусу_Риторических_Структур.pdf" target="_blank">Инструкция по поиску</a><br><a href="rhetrel.html" target="_blank">Подробнее о риторических отношениях (РО)</a></p>
+        <p>Ищите по слову, словосочетанию, риторическому отношению, маркеру риторического отношения. <br><a href="{{url_for('static', filename='Поиск_по_Корпусу_Риторических_Структур.pdf')}}" target="_blank">Инструкция по поиску</a><br><a href="rhetrel.html" target="_blank">Подробнее о риторических отношениях (РО)</a></p>
       </div>
     </div>
 {% endblock %}
 
 {% block content %}
-<form id="realform" action="/result.html" method="GET" target="_blank">
+<form id="realform" action="result.html" method="GET" target="_blank">
 	<input type="hidden" id="data" name="data"></input>
 </form>
 <form class="form-inline" id="searchform">
@@ -57,7 +57,7 @@
 				<option value="same_edu_or">В той же ЭДЕ, "OR"</option>
 				<option value="next_edu_and">В следующей ЭДЕ, "AND"</option>
 			</select>
-			<a href="#" class="closeimg"><img src="/static/img/close_red.png" style="display: inline-block;height:30px;padding:5px;" alt="delete" class="img-responsive"/></a>
+			<a href="#" class="closeimg"><img src="{{url_for('static', filename='img/close_red.png')}}" style="display: inline-block;height:30px;padding:5px;" alt="delete" class="img-responsive"/></a>
 		</div>
 		<p />
 	</div>
