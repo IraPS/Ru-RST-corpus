@@ -8,11 +8,6 @@ import py2neo
 
 GRAPH = py2neo.Graph()  # creating a graph for a database
 
-# кажддый "реальный" node имеет "Id", "Text_id", "text", "lemmas". Т.е. достаточно проверить, есть ли у node "text",
-# если есть, по нему можно искать. Если нет - то это фиктивный node, который появился в результате объединения ЭДЕ.
-
-# nodes = graph.find('EDU')
-# real_edus = [node for node in nodes if 'text' in node]
 
 MESSAGES = {'ro_s_in_edu_dont_match': 'Пожалуйста, выберите одинаковые риторические отношения внутри одной ЭДЕ.',
             'no_input_for_word': 'Пожалуйста, введите значение в поле "слово".',
@@ -27,6 +22,44 @@ MESSAGES = {'ro_s_in_edu_dont_match': 'Пожалуйста, выберите о
                 'Ваш запрос не может быть обработан.\n'
                 'Если Вы уверены, что в запросе нет ошибки, свяжитесь с нами через форму на странице "Контакты".'}
 
+
+MARKERS = {"a": "a", "bezuslovno": "безусловно", "buduchi": "будучи",
+           "budeto": "будь это", "vitoge": "в итоге", "vosobennosti": "в особенности",
+           "vramkah": "в рамках", "vrezultate": "в результате", "vsamomdele": "в самом деле",
+           "vsvojyochered": "в свою очередь", "vsvyazis": "в связи с", "vtechenie": "в течение",
+           "vtovremya": "в то время", "vtozhevremya": "в то же время",
+           "vusloviyah": "в условиях", "vchastnosti": "в частности",
+           "vposledstvii": "впоследствии", "vkluchaya": "включая", "vmestotogo": "вместо того",
+           "vmestoetogo": "вместо этого",
+           "vsezhe": "все же", "vsledstvie": "вследствие", "govoritsya": "говорится",
+           "govorit_lem": "говорить", "dazhe": "даже", "dejstvitelno": "действительно",
+           "dlya": "для", "dotakojstepeni": "до такой степени", "esli": "если",
+           "zaverit_lem": "заверить", "zaveryat_lem": "заверять", "zayavit_lem": "заявить",
+           "zayavlat_lem": "заявлять", "i": "и", "izza": "из-за", "ili": "или",
+           "inache": "иначе", "ktomuzhe": "к тому же", "kogda": "когда",
+           "kotoryj_lem": "который", "krometogo": "кроме того",
+           "libo": "либо", "lishtogda": "лишь тогда", "nasamomdele": "на самом деле",
+           "natotmoment": "на тот момент", "naetomfone": "на этом фоне",
+           "napisat_lem": "написать", "naprimer": "например", "naprotiv": "напротив",
+           "nesmotryana": "несмотря на", "no": "но",
+           "noi": "но и", "objavit_lem": "объявить", "odnako": "однако", "osobenno": "особенно",
+           "pisat_lem": "писать", "podannym": "по данным", "pomneniu": "по мнению",
+           "poocenkam": "по оценкам", "posvedeniam": "по сведениям", "poslovam": "по словам",
+           "podtverdit_lem": "подтвердить", "podtverzhdat_lem": "подтверждать",
+           "podcherkivat_lem": "подчеркивать", "podcherknut_lem": "подчеркнуть",
+           "pozdnee": "позднее", "pozzhe": "позже", "poka": "пока", "poskolku": "поскольку",
+           "posle": "после", "potomuchto": "потому что", "poetomu": "поэтому",
+           "prietom": "при этом", "priznavat_lem": "признавать", "priznano": "признано",
+           "priznat_lem": "признать", "radi": "ради", "rasskazat_lem": "рассказать",
+           "rasskazyvat_lem": "рассказывать", "sdrugojstorony": "с другой стороны",
+           "scelyu": "с целью", "skazat_lem": "сказать", "skoree": "скорее",
+           "sledovatelno": "следовательно", "sledomza": "следом за",
+           "soobshaetsya": "сообщается", "soobshat_lem": "сообщать", "soobshit_lem": "сообщить",
+           "taki": "так и", "takkak": "так как", "takchto": "так что",
+           "takzhe": "также", "toest": "то есть", "utverzhdat_lem": "утверждать",
+           "utverzhdaetsya": "утверждается", "hotya": "хотя"}
+
+
 def parse_query(query):
     """Parsing query on several queries for different EDUs."""
     new_edu_indices = [i+1 for i, _ in enumerate(query)
@@ -39,7 +72,8 @@ def parse_query(query):
         start = i
     slices.append(query[start::])
     return slices
-    
+
+
 def check_query(parsed_query):
     """Checking query correctness."""
     outer_parenth = True
@@ -77,6 +111,7 @@ def check_query(parsed_query):
     if not inner_parenth and outer_parenth:
         return MESSAGES['split_your_request']
     return True
+
 
 def request_with_one_cond_on_edu(query):
     """Produce request for DB on queries with no AND or OR condition on EDU."""

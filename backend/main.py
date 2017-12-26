@@ -23,43 +23,6 @@ MESSAGES = {'ro_s_in_edu_dont_match': 'Пожалуйста, выберите о
                 'Если Вы уверены, что в запросе нет ошибки, свяжитесь с нами через форму на странице "Контакты".'}
 
 
-MARKERS = {"a": "a", "bezuslovno": "безусловно", "buduchi": "будучи",
-           "budeto": "будь это", "vitoge": "в итоге", "vosobennosti": "в особенности",
-           "vramkah": "в рамках", "vrezultate": "в результате", "vsamomdele": "в самом деле",
-           "vsvojyochered": "в свою очередь", "vsvyazis": "в связи с", "vtechenie": "в течение",
-           "vtovremya": "в то время", "vtozhevremya": "в то же время",
-           "vusloviyah": "в условиях", "vchastnosti": "в частности",
-           "vposledstvii": "впоследствии", "vkluchaya": "включая", "vmestotogo": "вместо того",
-           "vmestoetogo": "вместо этого",
-           "vsezhe": "все же", "vsledstvie": "вследствие", "govoritsya": "говорится",
-           "govorit_lem": "говорить", "dazhe": "даже", "dejstvitelno": "действительно",
-           "dlya": "для", "dotakojstepeni": "до такой степени", "esli": "если",
-           "zaverit_lem": "заверить", "zaveryat_lem": "заверять", "zayavit_lem": "заявить",
-           "zayavlat_lem": "заявлять", "i": "и", "izza": "из-за", "ili": "или",
-           "inache": "иначе", "ktomuzhe": "к тому же", "kogda": "когда",
-           "kotoryj_lem": "который", "krometogo": "кроме того",
-           "libo": "либо", "lishtogda": "лишь тогда", "nasamomdele": "на самом деле",
-           "natotmoment": "на тот момент", "naetomfone": "на этом фоне",
-           "napisat_lem": "написать", "naprimer": "например", "naprotiv": "напротив",
-           "nesmotryana": "несмотря на", "no": "но",
-           "noi": "но и", "objavit_lem": "объявить", "odnako": "однако", "osobenno": "особенно",
-           "pisat_lem": "писать", "podannym": "по данным", "pomneniu": "по мнению",
-           "poocenkam": "по оценкам", "posvedeniam": "по сведениям", "poslovam": "по словам",
-           "podtverdit_lem": "подтвердить", "podtverzhdat_lem": "подтверждать",
-           "podcherkivat_lem": "подчеркивать", "podcherknut_lem": "подчеркнуть",
-           "pozdnee": "позднее", "pozzhe": "позже", "poka": "пока", "poskolku": "поскольку",
-           "posle": "после", "potomuchto": "потому что", "poetomu": "поэтому",
-           "prietom": "при этом", "priznavat_lem": "признавать", "priznano": "признано",
-           "priznat_lem": "признать", "radi": "ради", "rasskazat_lem": "рассказать",
-           "rasskazyvat_lem": "рассказывать", "sdrugojstorony": "с другой стороны",
-           "scelyu": "с целью", "skazat_lem": "сказать", "skoree": "скорее",
-           "sledovatelno": "следовательно", "sledomza": "следом за",
-           "soobshaetsya": "сообщается", "soobshat_lem": "сообщать", "soobshit_lem": "сообщить",
-           "taki": "так и", "takkak": "так как", "takchto": "так что",
-           "takzhe": "также", "toest": "то есть", "utverzhdat_lem": "утверждать",
-           "utverzhdaetsya": "утверждается", "hotya": "хотя"}
-
-
 @APP.route("/index.html")
 def index():
     """Main page."""
@@ -76,11 +39,6 @@ def about():
 def search():
     """Search page."""
     return render_template("search.html"), 201
-
-
-@APP.route("/tree.html")
-def search_result():
-    return render_template("tree.html"), 201
 
 
 @APP.route("/tree/<edu_id>.html")
