@@ -3,8 +3,7 @@
 from datetime import datetime
 import sys
 import os
-FILE_PATH = os.path.dirname(os.path.abspath(__file__))
-sys.path.append(FILE_PATH)
+sys.path.append(os.path.dirname(__file__))
 from searchdb import *
 from flask import Flask, request, render_template, Markup
 
