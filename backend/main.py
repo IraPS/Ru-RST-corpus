@@ -2,9 +2,10 @@
 
 from datetime import datetime
 import sys
-STATIC_PATH = "/home/snikiforova/Ru-RST-corpus/backend/static"
-sys.path.append(STATIC_PATH)
-from searching_DB import *
+import os
+FILE_PATH = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(FILE_PATH)
+from searchdb import *
 from flask import Flask, request, render_template, Markup
 
 APP = Flask(__name__)
