@@ -126,7 +126,7 @@ def request_with_one_cond_on_edu(query):
             if '_lem' in el['searched_for']:
                 request_one_cond_on_edu += ' n.lemmas CONTAINS \'{0}\''.format(marker_rus)
             else:
-                marker_lengh = str(len(marker_rus)+1)
+                marker_lengh = str(len(marker_rus.split())+1)
                 if len(marker_rus.split()) > 1:
                     request_one_cond_on_edu += ' REDUCE(s = " ", w in split(n.text_norm, " ")' \
                                                '[0..{0}]|s + " " + w) CONTAINS \'{1}\''.format(marker_lengh, marker_rus)
@@ -149,7 +149,7 @@ def request_with_one_cond_on_edu(query):
             if '_lem' in el['searched_for']:
                 request_one_cond_on_edu += ' n.lemmas CONTAINS \'{0}\''.format(marker_rus)
             else:
-                marker_lengh = str(len(marker_rus)+1)
+                marker_lengh = str(len(marker_rus.split())+1)
                 if len(marker_rus.split()) > 1:
                     request_one_cond_on_edu += ' REDUCE(s = " ", w in split(n.text_norm, " ")' \
                                                '[0..{0}]|s + " " + w) CONTAINS \'{1}\''.format(marker_lengh, marker_rus)
@@ -198,7 +198,7 @@ def create_db_requests(query):
                             request_on_db += ' n.lemmas CONTAINS \'{0}\' {1}'.\
                                 format(marker_rus, cond)
                         else:
-                            marker_lengh = str(len(marker_rus)+1)
+                            marker_lengh = str(len(marker_rus.split())+1)
                             if len(marker_rus.split()) > 1:
                                 request_on_db += ' REDUCE(s = " ", w in split(n.text_norm, " ")' \
                                                  '[0..{0}]|s + " " + w) CONTAINS \'{1}\' {2}'.\
@@ -228,7 +228,7 @@ def create_db_requests(query):
                             request_on_db += ' n.lemmas CONTAINS \'{0}\' {1}'.\
                                 format(marker_rus, cond)
                         else:
-                            marker_lengh = str(len(marker_rus)+1)
+                            marker_lengh = str(len(marker_rus.split())+1)
                             if len(marker_rus.split()) > 1:
                                 request_on_db += ' REDUCE(s = " ", w in split(n.text_norm, " ")' \
                                                  '[0..{0}]|s + " " + w) CONTAINS \'{1}\' {2}'.\
