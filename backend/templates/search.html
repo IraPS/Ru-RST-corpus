@@ -3,68 +3,67 @@
 {% block title %}Поиск{% endblock %}
 
 {% block jumbotron %}
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Поиск по корпусу риторических структур</h1>
-        <p>Ищите по слову, словосочетанию, риторическому отношению, маркеру риторического отношения. <br><a href="{{url_for('static', filename='Поиск_по_Корпусу_Риторических_Структур.pdf')}}" target="_blank">Инструкция по поиску</a><br><a href="rhetrel.html" target="_blank">Подробнее о риторических отношениях (РО)</a></p>
-      </div>
-    </div>
+<div class="jumbotron">
+   <div class="container">
+      <h1>Поиск по корпусу риторических структур</h1>
+      <p>Ищите по слову, словосочетанию, риторическому отношению, маркеру риторического отношения. <br><a href="{{url_for('static', filename='Поиск_по_Корпусу_Риторических_Структур.pdf')}}" target="_blank">Инструкция по поиску</a><br><a href="rhetrel.html" target="_blank">Подробнее о риторических отношениях (РО)</a></p>
+   </div>
+</div>
 {% endblock %}
 
 {% block content %}
 <form id="realform" action="result.html" method="GET" target="_blank">
-	<input type="hidden" id="data" name="data"></input>
+   <input type="hidden" id="data" name="data"></input>
 </form>
 <form class="form-inline" id="searchform">
-	<div class="block" style="display:none;">
-		<input type="text" class="parentheses_open" size="1"></input>
-		<select class="selectSearchOpt">
-			<option value="" selected>Поиск по...</option>
-			<option value="word">Поиск по словоформе</option>
-			<option value="lemma">Поиск по лемме</option>
-			<option value="pos">Поиск по части речи</option>
-			<option value="marker">Поиск по маркеру РО</option>
-		</select>
-		<div class="searchOption" style="display:inline;"></div>
-		<div class="placeForSearch" style="display:inline;">
-			<div class="form-group">
-				<label for="sel1">в</label>
-				<select class="multselect_ro" data-dropup-auto multiple>
-					<option value="any" selected>любом РО</option>
-					<option value="attribution">Attribution</option>
-					<option value="background">Background</option>
-					<option value="cause-effect">Cause-Effect</option>
-					<option value="comparison">Comparison</option>
-					<option value="concession">Concession</option>
-					<option value="condition">Condition</option>
-					<option value="contrast">Contrast</option>
-					<option value="elaboration">Elaboration</option>
-					<option value="evidence">Evidence</option>
-					<option value="interpretation">Interpretation-Evaluation</option>
-					<option value="joint">Joint</option>
-					<option value="preparation">Preparation</option>
-					<option value="purpose">Purpose</option>
-					<option value="restatement">Restatement</option>
-					<option value="same-unit">Same-Unit</option>
-					<option value="sequence">Sequence</option>
-					<option value="solutionhood">Solutionhood</option>
-				</select>
-			</div>
-			<input type="text" class="parentheses_close" size="1"></input>
-			<select class="add_search">
-				<option value="none" selected>Добавить поиск...</option>
-				<option value="same_edu_and">В той же ЭДЕ, "AND"</option>
-				<option value="same_edu_or">В той же ЭДЕ, "OR"</option>
-				<option value="next_edu_and">В следующей ЭДЕ, "AND"</option>
-			</select>
-			<a href="#" class="closeimg"><img src="{{url_for('static', filename='img/close_red.png')}}" style="display: inline-block;height:30px;padding:5px;" alt="delete" class="img-responsive"/></a>
-		</div>
-		<p />
-	</div>
-	<button type="submit" class="submit btn btn-primary">Поиск</button>
+   <div class="block" style="display:none;">
+      <input type="text" class="parentheses_open" size="1"></input>
+      <select class="selectSearchOpt">
+         <option value="" selected>Поиск по...</option>
+         <option value="word">Поиск по словоформе</option>
+         <option value="lemma">Поиск по лемме</option>
+         <option value="pos">Поиск по части речи</option>
+         <option value="marker">Поиск по маркеру РО</option>
+      </select>
+      <div class="searchOption" style="display:inline;"></div>
+      <div class="placeForSearch" style="display:inline;">
+         <div class="form-group">
+            <label for="sel1">в</label>
+            <select class="multselect_ro" data-dropup-auto multiple>
+               <option value="any" selected>любом РО</option>
+               <option value="attribution">Attribution</option>
+               <option value="background">Background</option>
+               <option value="cause-effect">Cause-Effect</option>
+               <option value="comparison">Comparison</option>
+               <option value="concession">Concession</option>
+               <option value="condition">Condition</option>
+               <option value="contrast">Contrast</option>
+               <option value="elaboration">Elaboration</option>
+               <option value="evidence">Evidence</option>
+               <option value="interpretation">Interpretation-Evaluation</option>
+               <option value="joint">Joint</option>
+               <option value="preparation">Preparation</option>
+               <option value="purpose">Purpose</option>
+               <option value="restatement">Restatement</option>
+               <option value="same-unit">Same-Unit</option>
+               <option value="sequence">Sequence</option>
+               <option value="solutionhood">Solutionhood</option>
+            </select>
+         </div>
+         <input type="text" class="parentheses_close" size="1"></input>
+         <select class="add_search">
+            <option value="none" selected>Добавить поиск...</option>
+            <option value="same_edu_and">В той же ЭДЕ, "AND"</option>
+            <option value="same_edu_or">В той же ЭДЕ, "OR"</option>
+            <option value="next_edu_and">В следующей ЭДЕ, "AND"</option>
+         </select>
+         <a href="#" class="closeimg"><img src="{{url_for('static', filename='img/close_red.png')}}" style="display: inline-block;height:30px;padding:5px;" alt="delete" class="img-responsive"/></a>
+      </div>
+      <p />
+   </div>
+   <button type="submit" class="submit btn btn-primary">Поиск</button>
 </form>
-
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-			  crossorigin="anonymous"></script>
+   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+   crossorigin="anonymous"></script>
 {% endblock %}
