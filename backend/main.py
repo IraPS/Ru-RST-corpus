@@ -476,12 +476,6 @@ def return_search_res_html(query, param_rus, vals, addtype, open_p, close_p, ros
         return checked
 
 
-@APP.route("/")
-def hello():
-    """Base flask check."""
-    return "Hello from Flask!"
-
-
 @APP.route("/index.html")
 def index():
     """Main page."""
