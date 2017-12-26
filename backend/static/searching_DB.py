@@ -458,7 +458,7 @@ def return_single_edu_search_res_html(all_found, param_rus, vals, addtype, open_
 
 
 def return_search_res_html(query, param_rus, vals, addtype, open_p, close_p, ros):
-    """Return the serach result html. If DB-request error, return user message."""
+    """Return the search result html. If DB-request error, return user message."""
     checked = check_query(parse_query(query))
     if checked is True:
         try:
