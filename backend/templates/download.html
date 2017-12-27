@@ -20,7 +20,7 @@
       <center>
          <p>формат .txt</p>
       </center>
-      <a href="../static/corpus_txt.zip" download>
+      <a href="{{url_for('static', filename='corpus_txt.zip')}}" download>
          <center><img src="{{url_for('static', filename='img/download.png')}}" alt="download_txt" class="img-responsive" id="downloading_raw"/></center>
       </a>
    </div>
@@ -31,7 +31,7 @@
       <center>
          <p>формат .rs3</p>
       </center>
-      <a href="../static/corpus_rs3.zip" download>
+      <a href="{{url_for('static', filename='corpus_rs3.zip')}}" download>
          <center><img src="{{url_for('static', filename='img/download.png')}}" alt="download_rs3" class="img-responsive" id="downloading_annotated"/></center>
       </a>
    </div>
