@@ -1,88 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa87725e-0bff-4573-8311-0dc65ea9ef73" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/1.html" afterPath="$PROJECT_DIR$/backend/templates/trees/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/10.html" afterPath="$PROJECT_DIR$/backend/templates/trees/10.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/11.html" afterPath="$PROJECT_DIR$/backend/templates/trees/11.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/12.html" afterPath="$PROJECT_DIR$/backend/templates/trees/12.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/13.html" afterPath="$PROJECT_DIR$/backend/templates/trees/13.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/14.html" afterPath="$PROJECT_DIR$/backend/templates/trees/14.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/15.html" afterPath="$PROJECT_DIR$/backend/templates/trees/15.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/16.html" afterPath="$PROJECT_DIR$/backend/templates/trees/16.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/17.html" afterPath="$PROJECT_DIR$/backend/templates/trees/17.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/18.html" afterPath="$PROJECT_DIR$/backend/templates/trees/18.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/19.html" afterPath="$PROJECT_DIR$/backend/templates/trees/19.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/2.html" afterPath="$PROJECT_DIR$/backend/templates/trees/2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/20.html" afterPath="$PROJECT_DIR$/backend/templates/trees/20.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/21.html" afterPath="$PROJECT_DIR$/backend/templates/trees/21.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/22.html" afterPath="$PROJECT_DIR$/backend/templates/trees/22.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/23.html" afterPath="$PROJECT_DIR$/backend/templates/trees/23.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/24.html" afterPath="$PROJECT_DIR$/backend/templates/trees/24.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/25.html" afterPath="$PROJECT_DIR$/backend/templates/trees/25.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/26.html" afterPath="$PROJECT_DIR$/backend/templates/trees/26.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/27.html" afterPath="$PROJECT_DIR$/backend/templates/trees/27.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/28.html" afterPath="$PROJECT_DIR$/backend/templates/trees/28.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/29.html" afterPath="$PROJECT_DIR$/backend/templates/trees/29.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/3.html" afterPath="$PROJECT_DIR$/backend/templates/trees/3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/30.html" afterPath="$PROJECT_DIR$/backend/templates/trees/30.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/31.html" afterPath="$PROJECT_DIR$/backend/templates/trees/31.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/32.html" afterPath="$PROJECT_DIR$/backend/templates/trees/32.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/33.html" afterPath="$PROJECT_DIR$/backend/templates/trees/33.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/34.html" afterPath="$PROJECT_DIR$/backend/templates/trees/34.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/35.html" afterPath="$PROJECT_DIR$/backend/templates/trees/35.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/36.html" afterPath="$PROJECT_DIR$/backend/templates/trees/36.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/37.html" afterPath="$PROJECT_DIR$/backend/templates/trees/37.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/38.html" afterPath="$PROJECT_DIR$/backend/templates/trees/38.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/39.html" afterPath="$PROJECT_DIR$/backend/templates/trees/39.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/4.html" afterPath="$PROJECT_DIR$/backend/templates/trees/4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/40.html" afterPath="$PROJECT_DIR$/backend/templates/trees/40.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/41.html" afterPath="$PROJECT_DIR$/backend/templates/trees/41.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/42.html" afterPath="$PROJECT_DIR$/backend/templates/trees/42.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/43.html" afterPath="$PROJECT_DIR$/backend/templates/trees/43.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/44.html" afterPath="$PROJECT_DIR$/backend/templates/trees/44.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/45.html" afterPath="$PROJECT_DIR$/backend/templates/trees/45.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/46.html" afterPath="$PROJECT_DIR$/backend/templates/trees/46.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/47.html" afterPath="$PROJECT_DIR$/backend/templates/trees/47.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/48.html" afterPath="$PROJECT_DIR$/backend/templates/trees/48.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/49.html" afterPath="$PROJECT_DIR$/backend/templates/trees/49.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/5.html" afterPath="$PROJECT_DIR$/backend/templates/trees/5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/50.html" afterPath="$PROJECT_DIR$/backend/templates/trees/50.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/51.html" afterPath="$PROJECT_DIR$/backend/templates/trees/51.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/52.html" afterPath="$PROJECT_DIR$/backend/templates/trees/52.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/53.html" afterPath="$PROJECT_DIR$/backend/templates/trees/53.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/54.html" afterPath="$PROJECT_DIR$/backend/templates/trees/54.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/55.html" afterPath="$PROJECT_DIR$/backend/templates/trees/55.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/56.html" afterPath="$PROJECT_DIR$/backend/templates/trees/56.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/57.html" afterPath="$PROJECT_DIR$/backend/templates/trees/57.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/58.html" afterPath="$PROJECT_DIR$/backend/templates/trees/58.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/59.html" afterPath="$PROJECT_DIR$/backend/templates/trees/59.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/6.html" afterPath="$PROJECT_DIR$/backend/templates/trees/6.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/60.html" afterPath="$PROJECT_DIR$/backend/templates/trees/60.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/61.html" afterPath="$PROJECT_DIR$/backend/templates/trees/61.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/62.html" afterPath="$PROJECT_DIR$/backend/templates/trees/62.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/63.html" afterPath="$PROJECT_DIR$/backend/templates/trees/63.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/64.html" afterPath="$PROJECT_DIR$/backend/templates/trees/64.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/65.html" afterPath="$PROJECT_DIR$/backend/templates/trees/65.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/66.html" afterPath="$PROJECT_DIR$/backend/templates/trees/66.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/67.html" afterPath="$PROJECT_DIR$/backend/templates/trees/67.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/68.html" afterPath="$PROJECT_DIR$/backend/templates/trees/68.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/69.html" afterPath="$PROJECT_DIR$/backend/templates/trees/69.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/7.html" afterPath="$PROJECT_DIR$/backend/templates/trees/7.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/70.html" afterPath="$PROJECT_DIR$/backend/templates/trees/70.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/71.html" afterPath="$PROJECT_DIR$/backend/templates/trees/71.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/72.html" afterPath="$PROJECT_DIR$/backend/templates/trees/72.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/73.html" afterPath="$PROJECT_DIR$/backend/templates/trees/73.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/74.html" afterPath="$PROJECT_DIR$/backend/templates/trees/74.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/75.html" afterPath="$PROJECT_DIR$/backend/templates/trees/75.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/76.html" afterPath="$PROJECT_DIR$/backend/templates/trees/76.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/77.html" afterPath="$PROJECT_DIR$/backend/templates/trees/77.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/78.html" afterPath="$PROJECT_DIR$/backend/templates/trees/78.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/79.html" afterPath="$PROJECT_DIR$/backend/templates/trees/79.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/8.html" afterPath="$PROJECT_DIR$/backend/templates/trees/8.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/templates/trees/9.html" afterPath="$PROJECT_DIR$/backend/templates/trees/9.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/static/search_result.csv" afterPath="$PROJECT_DIR$/backend/static/search_result.csv" />
-    </list>
+    <list default="true" id="aa87725e-0bff-4573-8311-0dc65ea9ef73" name="Default" comment="" />
     <ignored path="Ru-RST-corpus.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -463,7 +382,7 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40547946" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40547946" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
