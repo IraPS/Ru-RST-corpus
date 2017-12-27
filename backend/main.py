@@ -23,7 +23,7 @@ MESSAGES = {'ro_s_in_edu_dont_match': 'Пожалуйста, выберите о
                 'Если Вы уверены, что в запросе нет ошибки, свяжитесь с нами через форму на странице "Контакты".'}
 
 
-@APP.route("/index.html")
+@APP.route("/")
 def index():
     """Main page."""
     return render_template("index.html"), 201
