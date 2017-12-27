@@ -5,6 +5,7 @@ import operator
 import csv
 import re
 import py2neo
+from flask import url_for
 
 GRAPH = py2neo.Graph()  # creating a graph for a database
 
@@ -405,7 +406,7 @@ def return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p,
     res_multi_edu_res_html = str()
     line = your_query_line(param_rus, vals, addtype, open_p, close_p, ros)
     res_multi_edu_res_html += line
-    csvfile = open('backend/static/search_result.csv', 'w', newline='', encoding='utf-8')
+    csvfile = open(url_for('static', filename='search_result.csv'), 'w', newline='', encoding='utf-8')
     csvwriter = csv.writer(csvfile)
     s1_r1 = line.lstrip('<p><b>').rstrip('</p></b>')
     csvwriter.writerow([s1_r1, ''])
@@ -438,7 +439,7 @@ def return_single_edu_search_res_html(all_found, param_rus, vals, addtype, open_
     all_found = all_found[0]
     all_found.sort(key=operator.itemgetter(0))
     found_by_text = itertools.groupby(all_found, lambda x: x[0])
-    csvfile = open('backend/static/search_result.csv', 'w', newline='', encoding='utf-8')
+    csvfile = open(url_for('static', filename='search_result.csv'), 'w', newline='', encoding='utf-8')
     csvwriter = csv.writer(csvfile)
     s1_r1 = line.lstrip('<p><b>').rstrip('</p></b>')
     csvwriter.writerow([s1_r1, ''])
