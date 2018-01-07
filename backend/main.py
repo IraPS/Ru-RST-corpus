@@ -60,7 +60,7 @@ def contactm():
     mess = request.values.get("messagetext")
     if mess != '':
         cur_time = str(datetime.now()).replace(' ', 'T').replace(':', '-')
-        f_h = open('backend/static/messages_from_users/' + cur_time + '.txt', 'w', encoding='utf-8')
+        f_h = open(os.path.dirname(__file__)+'/static/messages_from_users/' + cur_time + '.txt', 'w', encoding='utf-8')
         auth = request.values.get("author")
         mail = request.values.get("email")
         subj = request.values.get("subject")
@@ -124,7 +124,7 @@ def res():
             if res_html in MESSAGES.values():
                 if res_html == MESSAGES['fail']:
                     cur_time = str(datetime.now()).replace(' ', 'T').replace(':', '-')
-                    f_q = open(url_for('static', filename='failed_queries/' + cur_time + '.txt'), 'w', encoding='utf-8')
+                    f_q = open(os.path.dirname(__file__)+'/static/failed_queries/' + cur_time + '.txt', 'w', encoding='utf-8')
                     f_q.write(str(query))
                     f_q.close()
                 break
@@ -132,11 +132,11 @@ def res():
                 if res_html.endswith('</b></p>'):
                     res_html += '<p><br>По Вашему запросу ничего не найдено.</p>'
                 else:
-                    res_html += '<br><p><b><a href="{{url_for('static', filename='search_result.csv')}}" download>' \
+                    res_html += '<br><p><b><a href="'+url_for("""static""", filename="""search_result.csv""")+'" download>' \
                                 'Скачать</a> результаты поиска в формате csv.</b></p><br>'
     except Exception as e:
         cur_time = str(datetime.now()).replace(' ', 'T').replace(':', '-')
-        exc = open(url_for('static', filename='failed_queries_by_exception/' + cur_time + '.txt'), 'w', encoding='utf-8')
+        exc = open(os.path.dirname(__file__)+'/static/failed_queries_by_exception/' + cur_time + '.txt', 'w', encoding='utf-8')
         exc.write(str(query) + '; Exception: ' + str(e))
         exc.close()
         res_html = '<p>Ваш запрос не может быть обработан.\n' \
