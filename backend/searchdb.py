@@ -4,11 +4,11 @@ import itertools
 import operator
 import csv
 import re
-import py2neo
+import os
 from flask import url_for
+import py2neo
 
 GRAPH = py2neo.Graph()  # creating a graph for a database
-
 
 MESSAGES = {'ro_s_in_edu_dont_match': 'Пожалуйста, выберите одинаковые риторические отношения внутри одной ЭДЕ.',
             'no_input_for_word': 'Пожалуйста, введите значение в поле "слово".',
@@ -25,7 +25,7 @@ MESSAGES = {'ro_s_in_edu_dont_match': 'Пожалуйста, выберите о
 
 
 MARKERS = {"a": "a", "bezuslovno": "безусловно", "buduchi": "будучи",
-           "budeto": "будь это", "vitoge": "в итоге", "vosobennosti": "в особенности",
+           "vitoge": "в итоге", "vosobennosti": "в особенности",
            "vramkah": "в рамках", "vrezultate": "в результате", "vsamomdele": "в самом деле",
            "vsvojyochered": "в свою очередь", "vsvyazis": "в связи с", "vtechenie": "в течение",
            "vtovremya": "в то время", "vtozhevremya": "в то же время",
@@ -34,31 +34,29 @@ MARKERS = {"a": "a", "bezuslovno": "безусловно", "buduchi": "буду�
            "vmestoetogo": "вместо этого",
            "vsezhe": "все же", "vsledstvie": "вследствие", "govoritsya": "говорится",
            "govorit_lem": "говорить", "dazhe": "даже", "dejstvitelno": "действительно",
-           "dlya": "для", "dotakojstepeni": "до такой степени", "esli": "если",
-           "zaverit_lem": "заверить", "zaveryat_lem": "заверять", "zayavit_lem": "заявить",
+           "dlya": "для", "esli": "если", "zaveryat_lem": "заверять",
            "zayavlat_lem": "заявлять", "i": "и", "izza": "из-за", "ili": "или",
-           "inache": "иначе", "ktomuzhe": "к тому же", "kogda": "когда",
+           "ktomuzhe": "к тому же", "kogda": "когда",
            "kotoryj_lem": "который", "krometogo": "кроме того",
-           "libo": "либо", "lishtogda": "лишь тогда", "nasamomdele": "на самом деле",
+           "libo": "либо", "nasamomdele": "на самом деле",
            "natotmoment": "на тот момент", "naetomfone": "на этом фоне",
            "napisat_lem": "написать", "naprimer": "например", "naprotiv": "напротив",
            "nesmotryana": "несмотря на", "no": "но",
-           "noi": "но и", "objavit_lem": "объявить", "odnako": "однако", "osobenno": "особенно",
+           "noi": "но и", "odnako": "однако", "osobenno": "особенно",
            "pisat_lem": "писать", "podannym": "по данным", "pomneniu": "по мнению",
            "poocenkam": "по оценкам", "posvedeniam": "по сведениям", "poslovam": "по словам",
-           "podtverdit_lem": "подтвердить", "podtverzhdat_lem": "подтверждать",
-           "podcherkivat_lem": "подчеркивать", "podcherknut_lem": "подчеркнуть",
+           "podtverzhdat_lem": "подтверждать", "podcherkivat_lem": "подчеркивать",
            "pozdnee": "позднее", "pozzhe": "позже", "poka": "пока", "poskolku": "поскольку",
            "posle": "после", "potomuchto": "потому что", "poetomu": "поэтому",
-           "prietom": "при этом", "priznavat_lem": "признавать", "priznano": "признано",
-           "priznat_lem": "признать", "radi": "ради", "rasskazat_lem": "рассказать",
+           "prietom": "при этом", "priznavat_lem": "признавать",
+           "priznat_lem": "признать", "radi": "ради",
            "rasskazyvat_lem": "рассказывать", "sdrugojstorony": "с другой стороны",
            "scelyu": "с целью", "skazat_lem": "сказать", "skoree": "скорее",
            "sledovatelno": "следовательно", "sledomza": "следом за",
-           "soobshaetsya": "сообщается", "soobshat_lem": "сообщать", "soobshit_lem": "сообщить",
+           "soobshaetsya": "сообщается", "soobshat_lem": "сообщать",
            "taki": "так и", "takkak": "так как", "takchto": "так что",
            "takzhe": "также", "toest": "то есть", "utverzhdat_lem": "утверждать",
-           "utverzhdaetsya": "утверждается", "hotya": "хотя"}
+           "hotya": "хотя"}
 
 
 def parse_query(query):
@@ -406,11 +404,11 @@ def return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p,
     res_multi_edu_res_html = str()
     line = your_query_line(param_rus, vals, addtype, open_p, close_p, ros)
     res_multi_edu_res_html += line
-    csvfile = open(url_for('static', filename='search_result.csv'), 'w', newline='', encoding='utf-8')
+    csvfile = open(os.path.dirname(__file__)+'/static/search_result.csv', 'w', newline='', encoding='utf-8')
     csvwriter = csv.writer(csvfile)
     s1_r1 = line.lstrip('<p><b>').rstrip('</p></b>')
-    csvwriter.writerow([s1_r1, ''])
-    csvwriter.writerow(['Текст', 'ЭДЕ'])
+    csvwriter.writerow([s1_r1, '', ''])
+    csvwriter.writerow(['Номер текста', 'ЭДЕ', 'Контекст'])
     for text in text_result:
         check_lenght_text_result = len(text_result[text])
         if check_lenght_text_result > 0:
@@ -424,7 +422,7 @@ def return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p,
                     if k != len(text_result[text][i])-1:
                         res_multi_edu_res_html += '<b>||</b>'
                 full_text = '||'.join(text_result[text][i])
-                csvwriter.writerow([str(text), full_text])
+                csvwriter.writerow([str(text), full_text, ''])
                 res_multi_edu_res_html += '</li>\n'
             res_multi_edu_res_html += '</ul>\n'
     csvfile.close()
@@ -439,11 +437,11 @@ def return_single_edu_search_res_html(all_found, param_rus, vals, addtype, open_
     all_found = all_found[0]
     all_found.sort(key=operator.itemgetter(0))
     found_by_text = itertools.groupby(all_found, lambda x: x[0])
-    csvfile = open(url_for('static', filename='search_result.csv'), 'w', newline='', encoding='utf-8')
+    csvfile = open(os.path.dirname(__file__)+'/static/search_result.csv', 'w', newline='', encoding='utf-8')
     csvwriter = csv.writer(csvfile)
     s1_r1 = line.lstrip('<p><b>').rstrip('</p></b>')
-    csvwriter.writerow([s1_r1, ''])
-    csvwriter.writerow(['Текст', 'ЭДЕ'])
+    csvwriter.writerow([s1_r1, '', ''])
+    csvwriter.writerow(['Номер текста', 'ЭДЕ', 'Контекст'])
     for i, l in found_by_text:
         edus = [(n[1], n[2]) for n in list(l)]
         res_single_edu_res_html += '<p>Текст № {0}'.format(i) + '</p>\n\n<ul>'
@@ -452,7 +450,7 @@ def return_single_edu_search_res_html(all_found, param_rus, vals, addtype, open_
             edu_text = edu[1]
             res_single_edu_res_html += '<li><a href="tree/{0}.html?position=edu'.format(i)+str(edu_id) +\
                                        '" target="_blank">' + str(edu_text) + '</a></li>'
-            csvwriter.writerow([str(i), str(edu_text)])
+            csvwriter.writerow([str(i), str(edu_text), ''])
         res_single_edu_res_html += '</ul>'
     csvfile.close()
     return res_single_edu_res_html
