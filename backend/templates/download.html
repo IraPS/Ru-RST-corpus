@@ -18,7 +18,7 @@
          <h2>Исходные тексты</h2>
       </center>
       <center>
-         <p>формат .txt</p>
+         <p>формат txt</p>
       </center>
       <a href="{{url_for('static', filename='corpus_txt.zip')}}" download>
          <center><img src="{{url_for('static', filename='img/download.png')}}" alt="download_txt" class="img-responsive" id="downloading_raw"/></center>
@@ -29,7 +29,7 @@
          <h2>Размеченные тексты</h2>
       </center>
       <center>
-         <p>формат .rs3</p>
+         <p>формат rs3  <img src="{{url_for('static', filename='img/blue_question_mark.png')}}" alt="quest_mark"  id="get_info_rs3" style="display:inline;" title="формат инструмента rstWeb; схож с xml"></p>
       </center>
       <a href="{{url_for('static', filename='corpus_rs3.zip')}}" download>
          <center><img src="{{url_for('static', filename='img/download.png')}}" alt="download_rs3" class="img-responsive" id="downloading_annotated"/></center>
@@ -37,3 +37,4 @@
    </div>
 </div>
 {% endblock %}
+
