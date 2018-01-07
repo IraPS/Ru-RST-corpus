@@ -72,7 +72,6 @@ $(function() {
 					<option value="a">a</option>\
 					<option value="bezuslovno">безусловно</option>\
 					<option value="buduchi">будучи</option>\
-					<option value="budeto">будь это</option>\
 					<option value="vitoge">в итоге</option>\
 					<option value="vosobennosti">в особенности</option>\
 					<option value="vramkah">в рамках</option>\
@@ -96,22 +95,17 @@ $(function() {
 					<option value="dazhe">даже</option>\
 					<option value="dejstvitelno">действительно</option>\
 					<option value="dlya">для</option>\
-					<option value="dotakojstepeni">до такой степени</option>\
 					<option value="esli">если</option>\
-					<option value="zaverit_lem">заверить</option>\
 					<option value="zaveryat_lem">заверять</option>\
-					<option value="zayavit_lem">заявить</option>\
 					<option value="zayavlat_lem">заявлять</option>\
 					<option value="i">и</option>\
 					<option value="izza">из-за</option>\
 					<option value="ili">или</option>\
-					<option value="inache">иначе</option>\
 					<option value="ktomuzhe">к тому же</option>\
 					<option value="kogda">когда</option>\
 					<option value="kotoryj_lem">который</option>\
 					<option value="krometogo">кроме того</option>\
 					<option value="libo">либо</option>\
-					<option value="lishtogda">лишь тогда</option>\
 					<option value="nasamomdele">на самом деле</option>\
 					<option value="natotmoment">на тот момент</option>\
 					<option value="naetomfone">на этом фоне</option>\
@@ -121,7 +115,6 @@ $(function() {
 					<option value="nesmotryana">несмотря на</option>\
 					<option value="no">но</option>\
 					<option value="noi">но и</option>\
-					<option value="objavit_lem">объявить</option>\
 					<option value="odnako">однако</option>\
 					<option value="osobenno">особенно</option>\
 					<option value="pisat_lem">писать</option>\
@@ -130,10 +123,8 @@ $(function() {
 					<option value="poocenkam">по оценкам</option>\
 					<option value="posvedeniam">по сведениям</option>\
 					<option value="poslovam">по словам</option>\
-					<option value="podtverdit_lem">подтвердить</option>\
 					<option value="podtverzhdat_lem">подтверждать</option>\
 					<option value="podcherkivat_lem">подчеркивать</option>\
-					<option value="podcherknut_lem">подчеркнуть</option>\
 					<option value="pozdnee">позднее</option>\
 					<option value="pozzhe">позже</option>\
 					<option value="poka">пока</option>\
@@ -143,10 +134,8 @@ $(function() {
 					<option value="poetomu">поэтому</option>\
 					<option value="prietom">при этом</option>\
 					<option value="priznavat_lem">признавать</option>\
-					<option value="priznano">признано</option>\
 					<option value="priznat_lem">признать</option>\
 					<option value="radi">ради</option>\
-					<option value="rasskazat_lem">рассказать</option>\
 					<option value="rasskazyvat_lem">рассказывать</option>\
 					<option value="sdrugojstorony">с другой стороны</option>\
 					<option value="scelyu">с целью</option>\
@@ -156,14 +145,12 @@ $(function() {
 					<option value="sledomza">следом за</option>\
 					<option value="soobshaetsya">сообщается</option>\
 					<option value="soobshat_lem">сообщать</option>\
-					<option value="soobshit_lem">сообщить</option>\
 					<option value="taki">так и</option>\
 					<option value="takkak">так как</option>\
 					<option value="takchto">так что</option>\
 					<option value="takzhe">также</option>\
 					<option value="toest">то есть</option>\
 					<option value="utverzhdat_lem">утверждать</option>\
-					<option value="utverzhdaetsya">утверждается</option>\
 					<option value="hotya">хотя</option></select>');
             } else {
                 $parblock.find(".searchOption").html(null);
