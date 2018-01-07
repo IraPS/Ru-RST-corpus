@@ -1,0 +1,160 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst" />
+			<rel name="attribution1" type="rst" />
+			<rel name="attribution2" type="rst" />
+			<rel name="attribution" type="rst" />
+			<rel name="background" type="rst" />
+			<rel name="cause-effect" type="rst" />
+			<rel name="comparison" type="multinuc" />
+			<rel name="concession" type="rst" />
+			<rel name="conclusion" type="rst" />
+			<rel name="condition" type="rst" />
+			<rel name="contrast" type="multinuc" />
+			<rel name="elaboration" type="rst" />
+			<rel name="evaluation" type="rst" />
+			<rel name="evidence" type="rst" />
+			<rel name="interpretation-evaluation" type="rst" />
+			<rel name="interpretation" type="rst" />
+			<rel name="joint" type="multinuc" />
+			<rel name="motivation" type="rst" />
+			<rel name="non_volitional_cause" type="rst" />
+			<rel name="non_volitional_effect" type="rst" />
+			<rel name="preparation" type="rst" />
+			<rel name="purpose" type="rst" />
+			<rel name="restatement" type="multinuc" />
+			<rel name="same-unit" type="multinuc" />
+			<rel name="sequence" type="multinuc" />
+			<rel name="solutionhood" type="rst" />
+			<rel name="volitional_cause" type="rst" />
+			<rel name="volitional_effect" type="rst" />
+		</relations>
+	</header>
+	<body>
+		<segment id="1" relname="antithesis">##### Главной сенсацией выборов стало то, что сенсация не состоялась.</segment>
+		<segment id="2" parent="73" relname="span">Поражение лейбористов сенсацией не стало,</segment>
+		<segment id="3" parent="2" relname="elaboration">оно могло бы быть гораздо более сокрушительным.</segment>
+		<segment id="4" parent="67" relname="span">Сенсация в том, что либерал-демократы,</segment>
+		<segment id="5" parent="4" relname="elaboration">коим прочили второе, а то и первое место,</segment>
+		<segment id="6" parent="68" relname="same-unit">остались на своём традиционном третьем месте.</segment>
+		<segment id="7" parent="69" relname="elaboration">Более того, они даже не смогут стать «делателями королей».</segment>
+		<segment id="8" parent="72" relname="span">В целом получилось так, что проиграли все.</segment>
+		<segment id="9" parent="71" relname="span">В первую очередь — вся Британия,</segment>
+		<segment id="10" parent="9" relname="elaboration">получившая «подвешенный» парламент.</segment>
+		<segment id="11" parent="77" relname="span">##### Хотя англосаксы считаются</segment>
+		<segment id="12" parent="11" relname="elaboration">(точнее, провозглашают себя)</segment>
+		<segment id="13" parent="76" relname="same-unit">некими оплотами классической демократии,</segment>
+		<segment id="14" parent="81" relname="span">их избирательные системы весьма своеобразны.</segment>
+		<segment id="15" parent="80" relname="span">Например, американская система выборщиков,</segment>
+		<segment id="16" parent="79" relname="contrast">из-за которой кандидат в президенты может получить больше голосов, чем его оппонент,</segment>
+		<segment id="17" parent="79" relname="contrast">но тем не менее проиграть.</segment>
+		<segment id="18" parent="83" relname="span">Британская система тоже не вполне совершенна</segment>
+		<segment id="19" parent="82" relname="span">— в каждом из 650 избирательных округов выигрывает тот кандидат,</segment>
+		<segment id="20" parent="19" relname="elaboration">который получил простое большинство голосов.</segment>
+		<segment id="21" parent="86" relname="span">Из-за этого теряется огромное количество голосов.</segment>
+		<segment id="22" parent="87" relname="span">Вполне очевидно, что французская система голосования в два тура или российская пропорциональная система гораздо справедливее</segment>
+		<segment id="23" parent="84" relname="joint">(к российской системе, разумеется, слово «справедливая» относится лишь формально,</segment>
+		<segment id="24" parent="84" relname="joint">к практике наших «выборов» это слово не имеет ни малейшего отношения).</segment>
+		<segment id="25" parent="94" relname="span">##### Либерал-демократы постоянно становятся жертвой этой системы,</segment>
+		<segment id="26" parent="89" relname="contrast">поскольку их голоса «размазаны» по стране,</segment>
+		<segment id="27" parent="89" relname="contrast">округов, где они имеют большинство, — менее 10%.</segment>
+		<segment id="28" parent="93" relname="span">В итоге пропали впустую успехи их лидера Ника Клегга в ходе нынешних предвыборных дебатов.</segment>
+		<segment id="29" parent="92" relname="span">Либерал-демократы даже потеряли места по сравнению с выборами 2005 года</segment>
+		<segment id="30" parent="90" relname="sequence">(было 62,</segment>
+		<segment id="31" parent="90" relname="sequence">стало 57).</segment>
+		<segment id="32" parent="103" relname="span">##### Более того, они даже не смогут стать «делателями королей».</segment>
+		<segment id="33" parent="95" relname="span">В мировой парламентской практике есть масса примеров того, как небольшая партия становилась, по сути, самой главной,</segment>
+		<segment id="34" parent="33" relname="cause-effect">поскольку именно её немногочисленные голоса обеспечивали решающее большинство при вступлении в коалицию с одной из крупных партий.</segment>
+		<segment id="35" parent="99" relname="span">В итоге крупные вынуждены заискивать перед мелкими,</segment>
+		<segment id="36" parent="35" relname="elaboration">которые из-за этого получают влияние, непропорциональное своей истинной популярности.</segment>
+		<segment id="37" parent="104" relname="span">Либерал-демократы, наоборот, даже таким способом не смогут добиться влияния, как раз пропорционального их популярности.</segment>
+		<segment id="38" parent="96" relname="span">Потому что даже суммирования их мест и 258 мест лейбористов</segment>
+		<segment id="39" parent="38" relname="elaboration">(пока ещё формально правящих)</segment>
+		<segment id="40" parent="97" relname="same-unit">не хватит для обеспечения большинства.</segment>
+		<segment id="41" parent="105" relname="comparison">А консерваторы уже заявили об отказе входить в коалицию с либералами.</segment>
+		<segment id="42" relname="antithesis">##### Консерваторы и их лидер Дэвид Кэмерон оказываются своеобразными недопобедителями.</segment>
+		<segment id="43" parent="107" relname="contrast">Им ещё с конца прошлого года все предсказывали возвращение к власти после 13-летнего перерыва.</segment>
+		<segment id="44" parent="107" relname="contrast">Но они не добрали 20 мест до единоличного большинства в 326.</segment>
+		<segment id="45" relname="antithesis">##### Тем более нечего радоваться лейбористам.</segment>
+		<segment id="46" parent="45" relname="elaboration">То, что они могли потерять ещё больше мест, — утешение крайне слабое.</segment>
+		<segment id="47" parent="110" relname="span">##### В общем, как-то так получилось, что проиграли все.</segment>
+		<segment id="48" parent="109" relname="span">В том числе и Британия в целом,</segment>
+		<segment id="49" parent="48" relname="elaboration">получившая впервые с 1974 года «подвешенный» парламент без большинства.</segment>
+		<segment id="50" parent="111" relname="joint">Соответственно, теперь возникает вопрос о том, кто с кем составит коалицию.</segment>
+		<segment id="51" parent="112" relname="span">##### Вариант «большой коалиции» (консерваторы плюс лейбористы),</segment>
+		<segment id="52" parent="51" relname="elaboration">подобной той, что была в Германии в 2005—2009 годах,</segment>
+		<segment id="53" parent="113" relname="same-unit">никем, видимо, даже не рассматривается.</segment>
+		<segment id="54" parent="116" relname="comparison">В коалицию с либерал-демократами, как было сказано выше, консерваторы не собираются по идейным соображениям,</segment>
+		<segment id="55" parent="114" relname="span">а лейбористам такая коалиция ничего не даст,</segment>
+		<segment id="56" parent="55" relname="elaboration">голосов всё равно не хватит до большинства.</segment>
+		<segment id="57" parent="117" relname="span">Таким образом, «делателями королей» могут стать мелкие партии, получившие 28 мест.</segment>
+		<segment id="58" parent="57" relname="elaboration">Причём их голоса надо брать «оптом» как консерваторам, так и лейбористам+либералам.</segment>
+		<segment id="59" relname="antithesis">##### Но, похоже, что оптом не получится,</segment>
+		<segment id="60" parent="121" relname="span">поскольку голоса «мелочи» поделились между ультраправыми,</segment>
+		<segment id="61" parent="60" relname="elaboration">союз с которыми неприемлем для лейбористов и либералов,</segment>
+		<segment id="62" parent="122" relname="span">шотландскими и уэльскими сепаратистами,</segment>
+		<segment id="63" parent="62" relname="elaboration">дружить с которыми явно не пристало консерваторам.</segment>
+		<segment id="64" parent="125" relname="joint">##### В итоге получилось поистине «Разъединённое королевство».</segment>
+		<segment id="65" parent="125" relname="joint">Вполне вероятно, что в этом году британцам вновь придётся голосовать.</segment>
+		<segment id="66" parent="126" relname="interpretation-evaluation">Прямо Молдавия какая-то.</segment>
+		<group id="67" type="span" parent="68" relname="same-unit"/>
+		<group id="68" type="multinuc" parent="69" relname="span"/>
+		<group id="69" type="span" parent="70" relname="span"/>
+		<group id="70" type="span" parent="74" relname="joint"/>
+		<group id="71" type="span" parent="8" relname="elaboration"/>
+		<group id="72" type="span" parent="70" relname="evaluation"/>
+		<group id="73" type="span" parent="74" relname="joint"/>
+		<group id="74" type="multinuc" parent="75" relname="span"/>
+		<group id="75" type="span" parent="1" relname="elaboration"/>
+		<group id="76" type="multinuc" parent="78" relname="span"/>
+		<group id="77" type="span" parent="76" relname="same-unit"/>
+		<group id="78" type="span" parent="14" relname="concession"/>
+		<group id="79" type="multinuc" parent="15" relname="elaboration"/>
+		<group id="80" type="span" parent="88" relname="comparison"/>
+		<group id="81" type="span" relname="antithesis"/>
+		<group id="82" type="span" parent="18" relname="elaboration"/>
+		<group id="83" type="span" parent="21" relname="cause-effect"/>
+		<group id="84" type="multinuc" parent="85" relname="span"/>
+		<group id="85" type="span" parent="22" relname="elaboration"/>
+		<group id="86" type="span" parent="88" relname="comparison"/>
+		<group id="87" type="span" parent="88" relname="comparison"/>
+		<group id="88" type="multinuc" relname="antithesis"/>
+		<group id="89" type="multinuc" parent="25" relname="cause-effect"/>
+		<group id="90" type="multinuc" parent="91" relname="span"/>
+		<group id="91" type="span" parent="29" relname="elaboration"/>
+		<group id="92" type="span" parent="28" relname="elaboration"/>
+		<group id="93" type="span" relname="antithesis"/>
+		<group id="94" type="span" parent="93" relname="cause-effect"/>
+		<group id="95" type="span" parent="32" relname="evidence"/>
+		<group id="96" type="span" parent="97" relname="same-unit"/>
+		<group id="97" type="multinuc" parent="98" relname="span"/>
+		<group id="98" type="span" parent="37" relname="cause-effect"/>
+		<group id="99" type="span" parent="100" relname="contrast"/>
+		<group id="100" type="multinuc" parent="106" relname="span"/>
+		<group id="102" type="span" parent="100" relname="contrast"/>
+		<group id="103" type="span" parent="106" relname="cause-effect"/>
+		<group id="104" type="span" parent="105" relname="comparison"/>
+		<group id="105" type="multinuc" parent="102" relname="span"/>
+		<group id="106" type="span" relname="antithesis"/>
+		<group id="107" type="multinuc" parent="108" relname="span"/>
+		<group id="108" type="span" parent="42" relname="elaboration"/>
+		<group id="109" type="span" parent="47" relname="elaboration"/>
+		<group id="110" type="span" parent="111" relname="joint"/>
+		<group id="111" type="multinuc" relname="antithesis"/>
+		<group id="112" type="span" parent="113" relname="same-unit"/>
+		<group id="113" type="multinuc" parent="120" relname="span"/>
+		<group id="114" type="span" parent="116" relname="comparison"/>
+		<group id="116" type="multinuc" parent="118" relname="span"/>
+		<group id="117" type="span" parent="119" relname="span"/>
+		<group id="118" type="span" parent="117" relname="cause-effect"/>
+		<group id="119" type="span" relname="antithesis"/>
+		<group id="120" type="span" parent="119" relname="background"/>
+		<group id="121" type="span" parent="123" relname="joint"/>
+		<group id="122" type="span" parent="123" relname="joint"/>
+		<group id="123" type="multinuc" parent="124" relname="span"/>
+		<group id="124" type="span" parent="59" relname="cause-effect"/>
+		<group id="125" type="multinuc" parent="126" relname="span"/>
+		<group id="126" type="span" relname="antithesis"/>
+  </body>
+</rst>

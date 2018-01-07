@@ -1,0 +1,340 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst" />
+			<rel name="attribution1" type="rst" />
+			<rel name="attribution2" type="rst" />
+			<rel name="attribution" type="rst" />
+			<rel name="background" type="rst" />
+			<rel name="cause-effect" type="rst" />
+			<rel name="comparison" type="multinuc" />
+			<rel name="concession" type="rst" />
+			<rel name="conclusion" type="rst" />
+			<rel name="condition" type="rst" />
+			<rel name="contrast" type="multinuc" />
+			<rel name="elaboration" type="rst" />
+			<rel name="evaluation" type="rst" />
+			<rel name="evidence" type="rst" />
+			<rel name="interpretation-evaluation" type="rst" />
+			<rel name="interpretation" type="rst" />
+			<rel name="joint" type="multinuc" />
+			<rel name="motivation" type="rst" />
+			<rel name="non_volitional_cause" type="rst" />
+			<rel name="non_volitional_effect" type="rst" />
+			<rel name="preparation" type="rst" />
+			<rel name="purpose" type="rst" />
+			<rel name="restatement" type="multinuc" />
+			<rel name="same-unit" type="multinuc" />
+			<rel name="sequence" type="multinuc" />
+			<rel name="solutionhood" type="rst" />
+			<rel name="volitional_cause" type="rst" />
+			<rel name="volitional_effect" type="rst" />
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="150" relname="span">##### Африка в последние недели не исчезает из фокуса внимания мировых СМИ</segment>
+		<segment id="2" parent="149" relname="span">(российские традиционно пренебрегают Чёрным континентом,</segment>
+		<segment id="3" parent="2" relname="interpretation-evaluation">а зря)</segment>
+		<segment id="4" parent="150" relname="cause-effect">. Сразу в четырёх странах Западной Африки происходят события, крайне важные для их будущего развития, равно как и всего региона.</segment>
+		<segment id="5" parent="160" relname="preparation">##### Начнём с Нигерии, самой населённой африканской страны.</segment>
+		<segment id="6" parent="148" relname="joint">Численность её граждан уже перевалила за 150 миллионов</segment>
+		<segment id="7" parent="148" relname="joint">и продолжает стремительно расти.</segment>
+		<segment id="8" parent="153" relname="span">Таким образом, она далеко обошла в плане демографического потенциала, например, Россию.</segment>
+		<segment id="9" parent="153" relname="interpretation-evaluation">Уже из одного этого факта следует значение Нигерии.</segment>
+		<segment id="10" parent="158" relname="joint">Кроме того, у неё второй после ЮАР ВВП на континенте,</segment>
+		<segment id="11" parent="158" relname="joint">страна является крупнейшим производителем нефти</segment>
+		<segment id="12" parent="154" relname="span">и входит в число так называемых Next Eleven,</segment>
+		<segment id="13" parent="12" relname="elaboration">то есть государств, определённых банком «Голдман Сакс» как могущих войти в число ведущих экономик XXI века.</segment>
+		<segment id="14" parent="155" relname="span">ВВП Нигерии продолжает стремительно расти,</segment>
+		<segment id="15" parent="14" relname="concession">несмотря на кризис.</segment>
+		<segment id="16" parent="156" relname="span">Она выполняет роль регионального жандарма,</segment>
+		<segment id="17" parent="16" relname="elaboration">посылая миротворческие контингенты в Либерию, Сьерра-Леоне, Кот д’Ивуар, а также в Дарфур.</segment>
+		<segment id="18" parent="166" relname="span">##### Но проклятием страны,</segment>
+		<segment id="19" parent="163" relname="joint">не дающим ей распрямиться во весь рост</segment>
+		<segment id="20" parent="163" relname="joint">и стать подлинным гигантом континента,</segment>
+		<segment id="21" parent="164" relname="background">помимо нефтяного проклятия,</segment>
+		<segment id="22" parent="168" relname="same-unit">является ужасающая политическая нестабильность и межрелигиозная и межэтническая рознь.</segment>
+		<segment id="23" parent="170" relname="span">Через семь лет после получения независимости Нигерия скатилась в гражданскую войну,</segment>
+		<segment id="24" parent="23" relname="elaboration">чуть не расколовшую страну.</segment>
+		<segment id="25" parent="172" relname="sequence">Последующие тридцать лет её единство удерживала череда диктаторов.</segment>
+		<segment id="26" parent="183" relname="joint">В итоге власть в руках гражданских находится лишь одиннадцатый год.</segment>
+		<segment id="27" parent="174" relname="cause-effect">##### В стране — более пятисот языков, несколько сот племён и народностей, часто с давней историей взаимной ненависти.</segment>
+		<segment id="28" parent="174" relname="span">Как следствие, всё возрастающее число штатов;</segment>
+		<segment id="29" parent="28" relname="elaboration">с трёх их число увеличилось до 36.</segment>
+		<segment id="30" parent="175" relname="span">Нигерия расколота примерно пополам на мусульманский север и христианский юг,</segment>
+		<segment id="31" parent="30" relname="elaboration">которые все пятьдесят лет независимости всё дальше уходят друг от друга.</segment>
+		<segment id="32" parent="179" relname="span">Достаточно сказать про ползучий процесс введения шариата,</segment>
+		<segment id="33" parent="177" relname="joint">охвативший уже двенадцать штатов</segment>
+		<segment id="34" parent="177" relname="joint">и порождающий множество проблем.</segment>
+		<segment id="35" parent="182" relname="span">Нельзя не упомянуть о клановости и присущей ей вопиющей коррупции,</segment>
+		<segment id="36" parent="181" relname="span">усугублённой нефтяными деньгами,</segment>
+		<segment id="37" parent="36" relname="elaboration">действующими в третьем мире почти всегда разлагающе.</segment>
+		<segment id="38" parent="196" relname="preparation">##### 7 марта нарыв в очередной раз прорвался.</segment>
+		<segment id="39" parent="196" relname="span">В районе города Джос, центре добычи олова, кочевники-фульбе (мусульмане) устроили резню местных христиан из племени бером</segment>
+		<segment id="40" parent="39" relname="cause-effect">в отместку за резню собратьев по вере полутора месяцами ранее.</segment>
+		<segment id="41" parent="189" relname="span">Джос — типичный горнодобывающий регион,</segment>
+		<segment id="42" parent="41" relname="elaboration">куда на заработки сходятся люди со всех уголков страны,</segment>
+		<segment id="43" parent="190" relname="span">поэтому население чрезвычайно перемешено как этнически, так и религиозно.</segment>
+		<segment id="44" parent="192" relname="joint">При густой плотности проживания,</segment>
+		<segment id="45" parent="192" relname="joint">при столкновении разных культур и укладов,</segment>
+		<segment id="46" parent="192" relname="joint">дефиците доступа к земле и ресурсам</segment>
+		<segment id="47" parent="194" relname="span">конфликты неизбежны,</segment>
+		<segment id="48" parent="194" relname="condition">особенно при сильной трайбалистской основе всей жизни.</segment>
+		<segment id="49" parent="198" relname="span">В 2001-м и в 2008 годах там уже шла резня,</segment>
+		<segment id="50" parent="49" relname="elaboration">стоившая жизни тысячам человек.</segment>
+		<segment id="51" parent="200" relname="comparison">В этот раз число жертв примерно полторы-две сотни.</segment>
+		<segment id="52" parent="215" relname="span">Ситуация невероятно осложнена тем, что президент Нигерии Умару Яр’Адуа с ноября не исполняет своих обязанностей.</segment>
+		<segment id="53" parent="203" relname="joint">Он отправился на лечение в Саудовскую Аравию</segment>
+		<segment id="54" parent="203" relname="joint">и пропал,</segment>
+		<segment id="55" parent="204" relname="span">лишь один раз дав интервью по телефону BBC,</segment>
+		<segment id="56" parent="55" relname="elaboration">в котором говорил задыхающимся, еле слышным голосом.</segment>
+		<segment id="57" parent="216" relname="span">В стране поднялась волна недоумения и возмущения.</segment>
+		<segment id="58" parent="206" relname="sequence">В конце концов Верховный суд дал властям две недели на решение этого вопроса,</segment>
+		<segment id="59" parent="205" relname="span">и в начале февраля сенат Нигерии вручил временный президентский мандат вице-президенту Гудлаку Джонатану,</segment>
+		<segment id="60" parent="59" relname="elaboration">который является христианином с юга в противоположность Яр’Адуа.</segment>
+		<segment id="61" parent="210" relname="contrast">Последний через несколько дней после передачи власти вернулся домой,</segment>
+		<segment id="62" parent="210" relname="contrast">но по-прежнему, по слухам, привязан к аппарату жизнеобеспечения.</segment>
+		<segment id="63" parent="211" relname="span">##### Таким образом, в момент ужасной резни,</segment>
+		<segment id="64" parent="63" relname="elaboration">грозящей перекинуться на другие штаты,</segment>
+		<segment id="65" parent="213" relname="same-unit">огромная страна столкнулась с проблемой легитимности власти.</segment>
+		<segment id="66" parent="248" relname="joint">Не стоит забывать, что Нигерия — империя, объединяющая ислам и христианство, имеет ключевое значение на континенте.</segment>
+		<segment id="67" parent="68" relname="cause-effect">Напомним, что у неё есть весьма двусмысленный договор о ядерном сотрудничестве с Ираном,</segment>
+		<segment id="68" parent="247" relname="span">вопрос атомной безопасности касается её напрямую.</segment>
+		<segment id="69" parent="231" relname="contrast">До сих пор ей удавалось сдерживать приток эмиссаров «Аль-Каиды» на север и атаки партизан-сепаратистов на нефтяном юге.</segment>
+		<segment id="70" parent="71" relname="condition">В случае же возникновения хаоса в Нигерии</segment>
+		<segment id="71" parent="226" relname="span">она неизбежно потянет за собой соседние страны.</segment>
+		<segment id="72" parent="234" relname="span">##### А таковой является в первую очередь расположенный к северу Нигер,</segment>
+		<segment id="73" parent="233" relname="span">с которым Нигерия делит воинственную народность хаоса,</segment>
+		<segment id="74" parent="73" relname="elaboration">известную своей приверженностью исламу.</segment>
+		<segment id="75" parent="246" relname="span">В середине февраля в этой стране произошёл военный переворот.</segment>
+		<segment id="76" parent="242" relname="span">Президент Мамаду Танджа,</segment>
+		<segment id="77" parent="239" relname="purpose">пытавшийся продлить своё правление вопреки конституции,</segment>
+		<segment id="78" parent="236" relname="joint">для чего распустил парламент</segment>
+		<segment id="79" parent="236" relname="joint">и управлял страной декретами,</segment>
+		<segment id="80" parent="238" relname="joint">был смещён военными</segment>
+		<segment id="81" parent="238" relname="joint">и взят под арест.</segment>
+		<segment id="82" parent="262" relname="span">Нигер — один из важнейших игроков на мировом рынке урана.</segment>
+		<segment id="83" parent="260" relname="joint">Стране принадлежит примерно 10% его запасов на планете,</segment>
+		<segment id="84" parent="260" relname="joint">урановая руда составляет три четверти её экспорта.</segment>
+		<segment id="85" parent="256" relname="span">##### По странному стечению обстоятельств в момент переворота в Нигере находилась делегация конгресса США.</segment>
+		<segment id="86" parent="85" relname="background">Напомним, что в «иракском досье», послужившем основанием для начала войны в 2003 году, фигурировали поставки ядерного сырья из Нигера в Ирак.</segment>
+		<segment id="87" parent="88" relname="cause-effect">Вашингтон давно внимательно отслеживает все сделки страны относительно уранового сырья,</segment>
+		<segment id="88" parent="253" relname="span">не случайно его реакция на переворот резко отличалась от реакции соседей Нигера.</segment>
+		<segment id="89" parent="252" relname="contrast">Если Африканский союз незамедлительно приостановил членство страны в своих рядах,</segment>
+		<segment id="90" parent="91" relname="attribution">то американский Госдеп выразил мнение,</segment>
+		<segment id="91" parent="251" relname="span">что свергнутый президент сам виноват в случившемся.</segment>
+		<segment id="92" parent="267" relname="span">##### Добавим, что 90% территории страны составляют пустыни,</segment>
+		<segment id="93" parent="92" relname="elaboration">в которых власть правительства существует лишь номинально.</segment>
+		<segment id="94" parent="265" relname="span">Они контролируются кочевниками-туарегами,</segment>
+		<segment id="95" parent="94" relname="elaboration">среди которых успешно скрываются террористы «Аль-Каиды» с отнюдь не мирными намерениями.</segment>
+		<segment id="96" parent="265" relname="evidence">Так, 8 марта они застрелили пятерых солдат.</segment>
+		<segment id="97" parent="270" relname="joint">Куда поведёт военная хунта страну, совершенно неясно.</segment>
+		<segment id="98" parent="276" relname="preparation">##### С запада в непосредственной близости от Нигерии находятся Кот д’Ивуар и Того.</segment>
+		<segment id="99" parent="276" relname="span">В первом в феврале разразился острейший политический кризис,</segment>
+		<segment id="100" parent="99" relname="elaboration">чуть было не приведший к возобновлению гражданской войны.</segment>
+		<segment id="101" parent="283" relname="span">Президент Лоран Гбагбо распустил правительство и центральную избирательную комиссию,</segment>
+		<segment id="102" parent="103" relname="attribution">обвинив председателя последней в том,</segment>
+		<segment id="103" parent="277" relname="span">что тот хочет незаконно внести в списки избирателей до полумиллиона неграждан.</segment>
+		<segment id="104" parent="275" relname="span">Дело в том, что когда страна находилась на пике экономического развития в 70—80-е годы, то она была наводнена трудовыми мигрантами из соседних стран, оставшимися в ней.</segment>
+		<segment id="105" parent="273" relname="cause-effect">Именно их присутствие</segment>
+		<segment id="106" parent="273" relname="span">породило в 2002 году гражданскую войну,</segment>
+		<segment id="107" parent="106" relname="elaboration">уничтожившую следы былого процветания.</segment>
+		<segment id="108" parent="280" relname="contrast">Срок мандата президента Гбагбо истёк ещё в 2005-м,</segment>
+		<segment id="109" parent="279" relname="span">но он виртуозно умудряется продлевать свои полномочия,</segment>
+		<segment id="110" parent="272" relname="joint">всякий раз изыскивая уважительную причину</segment>
+		<segment id="111" parent="272" relname="joint">и перенося на неопределённый срок новые выборы.</segment>
+		<segment id="112" parent="286" relname="joint">В стране действуют хрупкое перемирие и временное правительство.</segment>
+		<segment id="113" parent="290" relname="span">##### Но Гбагбо,</segment>
+		<segment id="114" parent="113" relname="elaboration">привычно рассчитывавший на усталость сограждан,</segment>
+		<segment id="115" parent="292" relname="same-unit">ошибся.</segment>
+		<segment id="116" parent="295" relname="joint">На улицы вышли десятки тысяч недовольных,</segment>
+		<segment id="117" parent="295" relname="joint">начались поджоги и погромы.</segment>
+		<segment id="118" parent="289" relname="joint">Ему пришлось идти на попятную,</segment>
+		<segment id="119" parent="289" relname="joint">назначить главой нового ЦИКа представителя оппозиции</segment>
+		<segment id="120" parent="289" relname="joint">и торжественно пообещать в мае-июне всё-таки провести выборы.</segment>
+		<segment id="121" parent="310" relname="span">Впрочем, в последнее мало кто верит.</segment>
+		<segment id="122" parent="308" relname="joint">Слишком велики у Гбагбо шансы проиграть</segment>
+		<segment id="123" parent="307" relname="span">и слишком соблазнительно вновь найти повод,</segment>
+		<segment id="124" parent="123" relname="purpose">чтобы в сто первый раз отсрочить неизбежное.</segment>
+		<segment id="125" parent="302" relname="span">В итоге былое чудо Африки,</segment>
+		<segment id="126" parent="301" relname="span">как называли Кот д’Ивуар</segment>
+		<segment id="127" parent="126" relname="cause-effect">за непривычные стабильность и благополучие,</segment>
+		<segment id="128" parent="304" relname="joint">сегодня прозябает в стагнации и нищете,</segment>
+		<segment id="129" parent="304" relname="joint">гражданская война готова там вспыхнуть вновь в любой момент.</segment>
+		<segment id="130" parent="314" relname="span">##### Между Кот д’Ивуаром и Нигерией находится Того,</segment>
+		<segment id="131" parent="130" relname="elaboration">где 4 марта прошли президентские выборы.</segment>
+		<segment id="132" parent="315" relname="span">Действующий президент Фор Гнасингбе — сын правившего 38 лет диктатора Эйадемы Гнасингбе,</segment>
+		<segment id="133" parent="132" relname="elaboration">известного тем, что скармливал крокодилам оппонентов,</segment>
+		<segment id="134" parent="317" relname="same-unit">объявлен победителем.</segment>
+		<segment id="135" parent="313" relname="span">Это незамедлительно привело к протестам оппозиции,</segment>
+		<segment id="136" parent="135" relname="elaboration">перешедшим в массовые беспорядки.</segment>
+		<segment id="137" parent="320" relname="span">Миссия наблюдателей от Евросоюза подтвердила нарушения;</segment>
+		<segment id="138" parent="137" relname="elaboration">так, власти раздавали рис в голодающих районах в обмен на голоса избирателей.</segment>
+		<segment id="139" parent="328" relname="span">##### Таким образом, Гвинейское побережье образует сегодня великую дугу нестабильности.</segment>
+		<segment id="140" parent="324" relname="span">Здесь переплелись и вызовы арабо-мусульманского мира,</segment>
+		<segment id="141" parent="140" relname="elaboration">олицетворяемые исламским фундаментализмом и «Аль-Каидой»,</segment>
+		<segment id="142" parent="325" relname="span">и традиционные проблемы Чёрной Африки:</segment>
+		<segment id="143" parent="142" relname="elaboration">диктатура, коррупция, трайбализм и клановость.</segment>
+		<segment id="144" parent="332" relname="span">Но глобализация делает происходящее там актуальным для всего мира.</segment>
+		<segment id="145" parent="330" relname="joint">Достаточно вспомнить, что «рождественский террорист», пытавшийся взорвать американский авиалайнер накануне Нового года, — выходец из Нигерии.</segment>
+		<segment id="146" parent="330" relname="joint">А в миротворческой миссии в Кот д’Ивуаре есть и российские офицеры.</segment>
+		<group id="148" type="multinuc" parent="152" relname="span"/>
+		<group id="149" type="span" parent="1" relname="background"/>
+		<group id="150" type="span" parent="151" relname="span"/>
+		<group id="151" type="span" relname="antithesis"/>
+		<group id="152" type="span" parent="8" relname="evidence"/>
+		<group id="153" type="span" parent="159" relname="span"/>
+		<group id="154" type="span" parent="158" relname="joint"/>
+		<group id="155" type="span" parent="158" relname="joint"/>
+		<group id="156" type="span" parent="158" relname="joint"/>
+		<group id="158" type="multinuc" parent="160" relname="span"/>
+		<group id="159" type="span" parent="158" relname="joint"/>
+		<group id="160" type="span" parent="161" relname="span"/>
+		<group id="161" type="span" relname="antithesis"/>
+		<group id="163" type="multinuc" parent="164" relname="span"/>
+		<group id="164" type="span" parent="165" relname="span"/>
+		<group id="165" type="span" parent="18" relname="elaboration"/>
+		<group id="166" type="span" parent="168" relname="same-unit"/>
+		<group id="168" type="multinuc" parent="169" relname="span"/>
+		<group id="169" type="span" parent="185" relname="span"/>
+		<group id="170" type="span" parent="172" relname="sequence"/>
+		<group id="172" type="multinuc" parent="173" relname="span"/>
+		<group id="173" type="span" parent="183" relname="joint"/>
+		<group id="174" type="span" parent="180" relname="span"/>
+		<group id="175" type="span" parent="187" relname="span"/>
+		<group id="177" type="multinuc" parent="178" relname="span"/>
+		<group id="178" type="span" parent="32" relname="elaboration"/>
+		<group id="179" type="span" parent="175" relname="elaboration"/>
+		<group id="180" type="span" parent="188" relname="joint"/>
+		<group id="181" type="span" parent="35" relname="elaboration"/>
+		<group id="182" type="span" parent="188" relname="joint"/>
+		<group id="183" type="multinuc" parent="184" relname="span"/>
+		<group id="184" type="span" parent="169" relname="elaboration"/>
+		<group id="185" type="span" relname="antithesis"/>
+		<group id="187" type="span" parent="188" relname="joint"/>
+		<group id="188" type="multinuc" relname="antithesis"/>
+		<group id="189" type="span" parent="43" relname="cause-effect"/>
+		<group id="190" type="span" parent="221" relname="joint"/>
+		<group id="192" type="multinuc" parent="193" relname="span"/>
+		<group id="193" type="span" parent="47" relname="condition"/>
+		<group id="194" type="span" parent="195" relname="span"/>
+		<group id="195" type="span" parent="220" relname="span"/>
+		<group id="196" type="span" parent="197" relname="span"/>
+		<group id="197" type="span" parent="223" relname="span"/>
+		<group id="198" type="span" parent="200" relname="comparison"/>
+		<group id="200" type="multinuc" parent="201" relname="span"/>
+		<group id="201" type="span" parent="195" relname="elaboration"/>
+		<group id="203" type="multinuc" parent="214" relname="span"/>
+		<group id="204" type="span" parent="203" relname="joint"/>
+		<group id="205" type="span" parent="206" relname="sequence"/>
+		<group id="206" type="multinuc" parent="207" relname="span"/>
+		<group id="207" type="span" parent="217" relname="span"/>
+		<group id="210" type="multinuc" parent="218" relname="span"/>
+		<group id="211" type="span" parent="213" relname="same-unit"/>
+		<group id="213" type="multinuc" parent="227" relname="span"/>
+		<group id="214" type="span" parent="52" relname="elaboration"/>
+		<group id="215" type="span" parent="57" relname="cause-effect"/>
+		<group id="216" type="span" parent="207" relname="cause-effect"/>
+		<group id="217" type="span" parent="219" relname="joint"/>
+		<group id="218" type="span" parent="219" relname="joint"/>
+		<group id="219" type="multinuc" parent="224" relname="span"/>
+		<group id="220" type="span" parent="221" relname="joint"/>
+		<group id="221" type="multinuc" parent="222" relname="span"/>
+		<group id="222" type="span" parent="197" relname="elaboration"/>
+		<group id="223" type="span" parent="225" relname="joint"/>
+		<group id="224" type="span" parent="225" relname="joint"/>
+		<group id="225" type="multinuc" relname="antithesis"/>
+		<group id="226" type="span" parent="231" relname="contrast"/>
+		<group id="227" type="span" parent="250" relname="span"/>
+		<group id="231" type="multinuc" parent="232" relname="span"/>
+		<group id="232" type="span" parent="248" relname="joint"/>
+		<group id="233" type="span" parent="72" relname="elaboration"/>
+		<group id="234" type="span" parent="246" relname="preparation"/>
+		<group id="236" type="multinuc" parent="239" relname="span"/>
+		<group id="238" type="multinuc" parent="240" relname="span"/>
+		<group id="239" type="span" parent="241" relname="span"/>
+		<group id="240" type="span" parent="244" relname="same-unit"/>
+		<group id="241" type="span" parent="76" relname="elaboration"/>
+		<group id="242" type="span" parent="244" relname="same-unit"/>
+		<group id="244" type="multinuc" parent="245" relname="span"/>
+		<group id="245" type="span" parent="75" relname="elaboration"/>
+		<group id="246" type="span" parent="263" relname="span"/>
+		<group id="247" type="span" parent="248" relname="joint"/>
+		<group id="248" type="multinuc" parent="249" relname="span"/>
+		<group id="249" type="span" parent="227" relname="background"/>
+		<group id="250" type="span" relname="antithesis"/>
+		<group id="251" type="span" parent="252" relname="contrast"/>
+		<group id="252" type="multinuc" parent="254" relname="span"/>
+		<group id="253" type="span" parent="255" relname="span"/>
+		<group id="254" type="span" parent="253" relname="elaboration"/>
+		<group id="255" type="span" parent="258" relname="joint"/>
+		<group id="256" type="span" parent="258" relname="joint"/>
+		<group id="258" type="multinuc" relname="antithesis"/>
+		<group id="260" type="multinuc" parent="261" relname="span"/>
+		<group id="261" type="span" parent="82" relname="elaboration"/>
+		<group id="262" type="span" parent="263" relname="background"/>
+		<group id="263" type="span" parent="264" relname="span"/>
+		<group id="264" type="span" relname="antithesis"/>
+		<group id="265" type="span" parent="266" relname="span"/>
+		<group id="266" type="span" parent="267" relname="elaboration"/>
+		<group id="267" type="span" parent="268" relname="span"/>
+		<group id="268" type="span" parent="270" relname="joint"/>
+		<group id="270" type="multinuc" relname="antithesis"/>
+		<group id="272" type="multinuc" parent="278" relname="span"/>
+		<group id="273" type="span" parent="274" relname="span"/>
+		<group id="274" type="span" parent="104" relname="elaboration"/>
+		<group id="275" type="span" parent="284" relname="background"/>
+		<group id="276" type="span" parent="282" relname="span"/>
+		<group id="277" type="span" parent="101" relname="elaboration"/>
+		<group id="278" type="span" parent="109" relname="elaboration"/>
+		<group id="279" type="span" parent="280" relname="contrast"/>
+		<group id="280" type="multinuc" parent="281" relname="span"/>
+		<group id="281" type="span" parent="286" relname="joint"/>
+		<group id="282" type="span" parent="284" relname="span"/>
+		<group id="283" type="span" parent="282" relname="elaboration"/>
+		<group id="284" type="span" parent="287" relname="span"/>
+		<group id="286" type="multinuc" relname="antithesis"/>
+		<group id="287" type="span" parent="286" relname="joint"/>
+		<group id="289" type="multinuc" parent="298" relname="span"/>
+		<group id="290" type="span" parent="292" relname="same-unit"/>
+		<group id="292" type="multinuc" parent="293" relname="span"/>
+		<group id="293" type="span" parent="297" relname="span"/>
+		<group id="295" type="multinuc" parent="296" relname="span"/>
+		<group id="296" type="span" parent="293" relname="evidence"/>
+		<group id="297" type="span" parent="298" relname="cause-effect"/>
+		<group id="298" type="span" parent="299" relname="span"/>
+		<group id="299" type="span" parent="300" relname="contrast"/>
+		<group id="300" type="multinuc" parent="311" relname="span"/>
+		<group id="301" type="span" parent="125" relname="elaboration"/>
+		<group id="302" type="span" parent="303" relname="same-unit"/>
+		<group id="303" type="multinuc" parent="306" relname="span"/>
+		<group id="304" type="multinuc" parent="305" relname="span"/>
+		<group id="305" type="span" parent="303" relname="same-unit"/>
+		<group id="306" type="span" parent="312" relname="joint"/>
+		<group id="307" type="span" parent="308" relname="joint"/>
+		<group id="308" type="multinuc" parent="309" relname="span"/>
+		<group id="309" type="span" parent="121" relname="cause-effect"/>
+		<group id="310" type="span" parent="300" relname="contrast"/>
+		<group id="311" type="span" parent="312" relname="joint"/>
+		<group id="312" type="multinuc" relname="antithesis"/>
+		<group id="313" type="span" parent="319" relname="span"/>
+		<group id="314" type="span" parent="322" relname="preparation"/>
+		<group id="315" type="span" parent="317" relname="same-unit"/>
+		<group id="317" type="multinuc" parent="318" relname="span"/>
+		<group id="318" type="span" parent="313" relname="cause-effect"/>
+		<group id="319" type="span" parent="321" relname="joint"/>
+		<group id="320" type="span" parent="321" relname="joint"/>
+		<group id="321" type="multinuc" parent="322" relname="span"/>
+		<group id="322" type="span" parent="323" relname="span"/>
+		<group id="323" type="span" relname="antithesis"/>
+		<group id="324" type="span" parent="326" relname="same-unit"/>
+		<group id="325" type="span" parent="326" relname="same-unit"/>
+		<group id="326" type="multinuc" parent="327" relname="span"/>
+		<group id="327" type="span" parent="139" relname="elaboration"/>
+		<group id="328" type="span" parent="333" relname="joint"/>
+		<group id="330" type="multinuc" parent="331" relname="span"/>
+		<group id="331" type="span" parent="144" relname="evidence"/>
+		<group id="332" type="span" parent="333" relname="joint"/>
+		<group id="333" type="multinuc" relname="antithesis"/>
+  </body>
+</rst>

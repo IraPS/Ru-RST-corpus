@@ -1,0 +1,164 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst" />
+			<rel name="attribution1" type="rst" />
+			<rel name="attribution2" type="rst" />
+			<rel name="attribution" type="rst" />
+			<rel name="background" type="rst" />
+			<rel name="cause-effect" type="rst" />
+			<rel name="comparison" type="multinuc" />
+			<rel name="concession" type="rst" />
+			<rel name="conclusion" type="rst" />
+			<rel name="condition" type="rst" />
+			<rel name="contrast" type="multinuc" />
+			<rel name="elaboration" type="rst" />
+			<rel name="evaluation" type="rst" />
+			<rel name="evidence" type="rst" />
+			<rel name="interpretation-evaluation" type="rst" />
+			<rel name="interpretation" type="rst" />
+			<rel name="joint" type="multinuc" />
+			<rel name="motivation" type="rst" />
+			<rel name="non_volitional_cause" type="rst" />
+			<rel name="non_volitional_effect" type="rst" />
+			<rel name="preparation" type="rst" />
+			<rel name="purpose" type="rst" />
+			<rel name="restatement" type="multinuc" />
+			<rel name="same-unit" type="multinuc" />
+			<rel name="sequence" type="multinuc" />
+			<rel name="solutionhood" type="rst" />
+			<rel name="volitional_cause" type="rst" />
+			<rel name="volitional_effect" type="rst" />
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="62" relname="span">##### В то время как внимание всего мира сосредоточено на Ираке, Северной Корее и возможном конфликте с Ираном</segment>
+		<segment id="2" parent="1" relname="cause-effect">в связи с его ядерной программой,</segment>
+		<segment id="3" parent="63" relname="span">Косово сошло с экранов радаров.</segment>
+		<segment id="4" parent="64" relname="span">Однако этому невниманию скоро придет конец,</segment>
+		<segment id="5" parent="4" relname="cause-effect">поскольку решение осудьбе этой провинции уже не за горами.</segment>
+		<segment id="6" parent="7" relname="attribution">##### Соединенные Штаты и их европейские друзья неоднократно заявляли</segment>
+		<segment id="7" parent="66" relname="span">о своем намерении принять трудное решение по вопросу отделения Косово от Сербии до конца текущего года.</segment>
+		<segment id="8" parent="67" relname="span">Это решение,</segment>
+		<segment id="9" parent="8" relname="elaboration">являющееся жизненно необходимым для будущего нестабильного региона,</segment>
+		<segment id="10" parent="69" relname="same-unit">станет испытанием решимости и единства стран Запада.</segment>
+		<segment id="11" parent="12" relname="attribution">##### Переговоры в этом году в Вене при посредничестве ООН показали,</segment>
+		<segment id="12" parent="71" relname="span">что соглашения между Косово и Сербией по "окончательному статусу" Косово не будет.</segment>
+		<segment id="13" parent="75" relname="contrast">Переговоры продолжаются,</segment>
+		<segment id="14" parent="73" relname="same-unit">но,</segment>
+		<segment id="15" parent="16" relname="attribution">как дипломатично сообщил Совету Безопасности представитель ООН на переговорах и бывший президент Финляндии Мартти Ахтисаари,</segment>
+		<segment id="16" parent="72" relname="span">пользы от них практически нет.</segment>
+		<segment id="17" parent="79" relname="span">##### Никакой сербский лидер не согласится на предоставление независимости Косово,</segment>
+		<segment id="18" parent="17" relname="cause-effect">потому что национализм остается доминирующей политической силой в стране.</segment>
+		<segment id="19" parent="76" relname="span">Действительно, премьер-министр Воислав Коштуница</segment>
+		<segment id="20" parent="19" relname="elaboration">- защитник сербского национализма -</segment>
+		<segment id="21" parent="78" relname="same-unit">всячески старается подорвать работу временного правительства Косово.</segment>
+		<segment id="22" parent="120" relname="span">Он спешит провести в текущем месяце национальный референдум по принятию новой конституции страны без серьезных дебатов в парламенте или обычной работы по ознакомлению населения с текстом документа.</segment>
+		<segment id="23" parent="80" relname="span">Главная цель новой конституции заключается в ее преамбуле,</segment>
+		<segment id="24" parent="23" relname="elaboration">которая закрепляет Косово как неотделимую часть Сербии.</segment>
+		<segment id="25" parent="81" relname="attribution">##### Этнические албанцы в Косово заявляют,</segment>
+		<segment id="26" parent="81" relname="span">что для них неприемлема любая связь с Сербией,</segment>
+		<segment id="27" parent="26" relname="concession">какой бы незначительной она не была.</segment>
+		<segment id="28" parent="117" relname="span">В 1990-х годах они фактически отвергли сербское правление в Косово,</segment>
+		<segment id="29" parent="28" relname="evidence">создав параллельные ведомства.</segment>
+		<segment id="30" parent="85" relname="span">Их вынужденный массовый исход из страны в 1999 году и последующее вмешательство НАТО,</segment>
+		<segment id="31" parent="83" relname="joint">положившее конец сербскому правлению</segment>
+		<segment id="32" parent="83" relname="joint">и создавшее квазигосударство под управлением ООН,</segment>
+		<segment id="33" parent="87" relname="same-unit">сделали неприемлемым любой выбор кроме независимости.</segment>
+		<segment id="34" parent="89" relname="span">##### В течение следующих двух месяцев Контактная группа по Балканам,</segment>
+		<segment id="35" parent="34" relname="elaboration">включающая США, Великобританию, Францию, Германию, Италию и Россию,</segment>
+		<segment id="36" parent="90" relname="same-unit">рассмотрит рекомендации Ахтисаари по окончательному статусу Косово</segment>
+		<segment id="37" parent="91" relname="span">и, возможно, направит свое предложение в Совет Безопасности,</segment>
+		<segment id="38" parent="37" relname="elaboration">который должен принять окончательное решение.</segment>
+		<segment id="39" parent="97" relname="contrast">Публично все члены Контактной группы стараются оставить вопрос об окончательном статусе Косово открытым,</segment>
+		<segment id="40" parent="41" relname="attribution">но неофициально США и некоторые их союзники сообщили,</segment>
+		<segment id="41" parent="96" relname="span">что предложат провозгласить независимость Косово в текущем году.</segment>
+		<segment id="42" parent="116" relname="joint">##### Некоторые члены Совета Безопасности (в частности Россия и Китай) относятся скептически</segment>
+		<segment id="43" parent="116" relname="joint">или настроены против подобного диктата,</segment>
+		<segment id="44" parent="116" relname="joint">и мало какие страны и правительства поддерживают идею разделения территории другой страны, независимо от обстоятельств.</segment>
+		<segment id="45" parent="98" relname="span">Одобрит ли Совет Безопасности независимость Косово, в значительной степени зависит от способности предотвратить вето со стороны России,</segment>
+		<segment id="46" parent="45" relname="elaboration">что потребует значительных дипломатических усилий.</segment>
+		<segment id="47" parent="109" relname="span">##### Также важна и природа дарованной независимости.</segment>
+		<segment id="48" parent="104" relname="joint">Необходимо обеспечить безопасность</segment>
+		<segment id="49" parent="104" relname="joint">и защитить меньшинства независимого Косово.</segment>
+		<segment id="50" parent="99" relname="span">Северное Косово,</segment>
+		<segment id="51" parent="50" relname="elaboration">в настоящее время в основном находящееся под контролем Белграда,</segment>
+		<segment id="52" parent="101" relname="same-unit">не должно быть обделенным во всех отношениях кроме имени.</segment>
+		<segment id="53" parent="54" relname="purpose">Чтобы уменьшить удар для Сербии,</segment>
+		<segment id="54" parent="102" relname="span">Совет Безопасности не должен допустить предоставления независимости таким образом, что в результате страна не сможет эффективно функционировать.</segment>
+		<segment id="55" parent="111" relname="condition">##### Если Совет Безопасности не сможет принять решения по окончательному статусу Косово,</segment>
+		<segment id="56" parent="111" relname="span">это приведет к тяжелым последствиям:</segment>
+		<segment id="57" parent="58" relname="cause-effect">Косово провозгласит независимость в одностороннем порядке,</segment>
+		<segment id="58" parent="110" relname="span">и всем странам придется решать, признать или не признать новообразованное государство.</segment>
+		<segment id="59" parent="60" relname="condition">Если это произойдет,</segment>
+		<segment id="60" parent="103" relname="span">то существует вероятность того, что сербы в Северном Косово провозгласят собственную независимость.</segment>
+		<segment id="61" parent="114" relname="joint">Как минимум, Сербия будет вести серьезную кампанию против признания независимости Косово.</segment>
+		<group id="62" type="span" parent="3" relname="background"/>
+		<group id="63" type="span" parent="65" relname="contrast"/>
+		<group id="64" type="span" parent="65" relname="contrast"/>
+		<group id="65" type="multinuc" relname="antithesis"/>
+		<group id="66" type="span" parent="129" relname="span"/>
+		<group id="67" type="span" parent="69" relname="same-unit"/>
+		<group id="69" type="multinuc" parent="70" relname="span"/>
+		<group id="70" type="span" parent="66" relname="elaboration"/>
+		<group id="71" type="span" parent="125" relname="joint"/>
+		<group id="72" type="span" parent="73" relname="same-unit"/>
+		<group id="73" type="multinuc" parent="74" relname="span"/>
+		<group id="74" type="span" parent="75" relname="contrast"/>
+		<group id="75" type="multinuc" parent="124" relname="span"/>
+		<group id="76" type="span" parent="78" relname="same-unit"/>
+		<group id="78" type="multinuc" parent="119" relname="span"/>
+		<group id="79" type="span" parent="122" relname="span"/>
+		<group id="80" type="span" parent="22" relname="elaboration"/>
+		<group id="81" type="span" parent="82" relname="span"/>
+		<group id="82" type="span" parent="118" relname="joint"/>
+		<group id="83" type="multinuc" parent="84" relname="span"/>
+		<group id="84" type="span" parent="30" relname="elaboration"/>
+		<group id="85" type="span" parent="87" relname="same-unit"/>
+		<group id="87" type="multinuc" parent="88" relname="span"/>
+		<group id="88" type="span" parent="118" relname="joint"/>
+		<group id="89" type="span" parent="90" relname="same-unit"/>
+		<group id="90" type="multinuc" parent="92" relname="span"/>
+		<group id="91" type="span" parent="94" relname="sequence"/>
+		<group id="92" type="span" parent="94" relname="sequence"/>
+		<group id="94" type="multinuc" parent="95" relname="span"/>
+		<group id="95" type="span" parent="137" relname="span"/>
+		<group id="96" type="span" parent="97" relname="contrast"/>
+		<group id="97" type="multinuc" parent="128" relname="span"/>
+		<group id="98" type="span" parent="135" relname="joint"/>
+		<group id="99" type="span" parent="101" relname="same-unit"/>
+		<group id="101" type="multinuc" parent="106" relname="span"/>
+		<group id="102" type="span" parent="107" relname="joint"/>
+		<group id="103" type="span" parent="114" relname="joint"/>
+		<group id="104" type="multinuc" parent="105" relname="span"/>
+		<group id="105" type="span" parent="107" relname="joint"/>
+		<group id="106" type="span" parent="107" relname="joint"/>
+		<group id="107" type="multinuc" parent="108" relname="span"/>
+		<group id="108" type="span" parent="47" relname="elaboration"/>
+		<group id="109" type="span" relname="antithesis"/>
+		<group id="110" type="span" parent="56" relname="elaboration"/>
+		<group id="111" type="span" parent="112" relname="span"/>
+		<group id="112" type="span" parent="114" relname="joint"/>
+		<group id="114" type="multinuc" relname="antithesis"/>
+		<group id="116" type="multinuc" parent="127" relname="span"/>
+		<group id="117" type="span" parent="118" relname="joint"/>
+		<group id="118" type="multinuc" parent="130" relname="span"/>
+		<group id="119" type="span" parent="121" relname="span"/>
+		<group id="120" type="span" parent="119" relname="elaboration"/>
+		<group id="121" type="span" parent="79" relname="evidence"/>
+		<group id="122" type="span" parent="131" relname="contrast"/>
+		<group id="124" type="span" parent="125" relname="joint"/>
+		<group id="125" type="multinuc" parent="126" relname="span"/>
+		<group id="126" type="span" parent="133" relname="span"/>
+		<group id="127" type="span" parent="97" relname="contrast"/>
+		<group id="128" type="span" parent="135" relname="joint"/>
+		<group id="129" type="span" relname="antithesis"/>
+		<group id="130" type="span" parent="131" relname="contrast"/>
+		<group id="131" type="multinuc" parent="132" relname="span"/>
+		<group id="132" type="span" parent="126" relname="elaboration"/>
+		<group id="133" type="span" relname="antithesis"/>
+		<group id="135" type="multinuc" parent="136" relname="span"/>
+		<group id="136" type="span" parent="95" relname="background"/>
+		<group id="137" type="span" relname="antithesis"/>
+  </body>
+</rst>

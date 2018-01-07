@@ -1,0 +1,204 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst" />
+			<rel name="attribution1" type="rst" />
+			<rel name="attribution2" type="rst" />
+			<rel name="attribution" type="rst" />
+			<rel name="background" type="rst" />
+			<rel name="cause-effect" type="rst" />
+			<rel name="comparison" type="multinuc" />
+			<rel name="concession" type="rst" />
+			<rel name="conclusion" type="rst" />
+			<rel name="condition" type="rst" />
+			<rel name="contrast" type="multinuc" />
+			<rel name="elaboration" type="rst" />
+			<rel name="evaluation" type="rst" />
+			<rel name="evidence" type="rst" />
+			<rel name="interpretation-evaluation" type="rst" />
+			<rel name="interpretation" type="rst" />
+			<rel name="joint" type="multinuc" />
+			<rel name="motivation" type="rst" />
+			<rel name="non_volitional_cause" type="rst" />
+			<rel name="non_volitional_effect" type="rst" />
+			<rel name="preparation" type="rst" />
+			<rel name="purpose" type="rst" />
+			<rel name="restatement" type="multinuc" />
+			<rel name="same-unit" type="multinuc" />
+			<rel name="sequence" type="multinuc" />
+			<rel name="solutionhood" type="rst" />
+			<rel name="volitional_cause" type="rst" />
+			<rel name="volitional_effect" type="rst" />
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="146" relname="preparation">##### В среду новолуние.</segment>
+		<segment id="2" parent="116" relname="span">Несколько планет на границах знаков обещают неопределённую и зыбкую неделю,</segment>
+		<segment id="3" parent="2" relname="elaboration">когда может поменяться то, с чем вы свыклись как с чем-то неизменным.</segment>
+		<segment id="4" parent="117" relname="span">Сейчас не стоит спешить кардинально решать все проблемы.</segment>
+		<segment id="5" parent="86" relname="span">Они более правильно решатся во второй половине сентября,</segment>
+		<segment id="6" parent="84" relname="joint">когда многое прояснится</segment>
+		<segment id="7" parent="84" relname="joint">и встанет на свои места — может быть, уже по-новому.</segment>
+		<segment id="8" parent="143" relname="span">На этой неделе лучше просто отложить все вопросы, которые ставят вас в тупик.</segment>
+		<segment id="9" parent="8" relname="elaboration">Побыть с пустой головой накануне важных для вас решений и начинаний второй половины сентября.</segment>
+		<segment id="10" parent="115" relname="contrast">##### День новолуния — всегда сравнительно неблагоприятный — выпадает на среду, 8 сентября.</segment>
+		<segment id="11" parent="114" relname="span">Однако ещё более мрачное расположение планет приходится на понедельник и вторник, мутные последние дни перед новолунием.</segment>
+		<segment id="12" parent="11" relname="elaboration">6— 7 сентября довольно высока вероятность каких-то крупных катастроф.</segment>
+		<segment id="13" parent="112" relname="preparation">##### В повседневной жизни понедельник и вторник, скорее всего, пройдут спокойно.</segment>
+		<segment id="14" parent="112" relname="span">6—7 сентября — естественные дни для некоторого выдоха. Чуть более расслабленного темпа.</segment>
+		<segment id="15" parent="93" relname="span">Во всяком случае, лучше придержать инициативу.</segment>
+		<segment id="16" parent="17" relname="condition">Если время терпит,</segment>
+		<segment id="17" parent="92" relname="span">не предпринимать ничего такого, что должно завершиться победой.</segment>
+		<segment id="18" parent="91" relname="span">В первой половине недели лучше немного поплыть по течению.</segment>
+		<segment id="19" parent="89" relname="joint">Доделать неоконченные дела.</segment>
+		<segment id="20" parent="89" relname="joint">Что-то подправить,</segment>
+		<segment id="21" parent="89" relname="joint">навести порядок.</segment>
+		<segment id="22" parent="89" relname="joint">Или просто избавиться от дел, которые стали обузой.</segment>
+		<segment id="23" parent="103" relname="span">##### Сам день новолуния, среду, лучше провести как можно более «незаметно».</segment>
+		<segment id="24" parent="23" relname="elaboration">Не хвататься за дела, которые не требуется затевать именно в этот день.</segment>
+		<segment id="25" parent="95" relname="span">Не беспокойтесь,</segment>
+		<segment id="26" parent="25" relname="condition">если появится ощущение упадка сил. Или какого-то общего тупика.</segment>
+		<segment id="27" parent="95" relname="cause-effect">В новолуние это нормально.</segment>
+		<segment id="28" parent="104" relname="elaboration">Уже в ближайшие дни наверняка появятся и новые идеи, и энергия.</segment>
+		<segment id="29" parent="102" relname="condition">Если вы не очень-то реагируете на лунные фазы,</segment>
+		<segment id="30" parent="97" relname="joint">не спешите раздражаться по поводу окружающих, которые немного впали в спячку</segment>
+		<segment id="31" parent="97" relname="joint">или реагируют слегка неадекватно.</segment>
+		<segment id="32" parent="101" relname="joint">Не принимайте это на свой счёт.</segment>
+		<segment id="33" parent="110" relname="elaboration">Через день-другой это пройдёт.</segment>
+		<segment id="34" parent="123" relname="span">##### Новолуние 8 сентября пройдёт на фоне не слишком грозного расположения планет.</segment>
+		<segment id="35" parent="34" relname="elaboration">В гороскопе этого новолуния, пожалуй, нет ярко выраженных указаний на какую-либо действительно страшную катастрофу или что-то вроде того в течение ближайшего месяца.</segment>
+		<segment id="36" parent="141" relname="preparation">##### Четверг, первый день нового лунного месяца, наверняка будет беспокойным. Каким-то неустойчивым.</segment>
+		<segment id="37" parent="135" relname="span">Непредвиденные стечения обстоятельств могут порядочно поломать ваши планы.</segment>
+		<segment id="38" parent="134" relname="span">На 9 сентября лучше не намечать ничего, что может легко сорваться,</segment>
+		<segment id="39" parent="38" relname="condition">когда что-то пойдёт не так.</segment>
+		<segment id="40" parent="136" relname="restatement">Не лучший день, чтобы начинать что-то основательное.</segment>
+		<segment id="41" parent="133" relname="span">Осторожнее вечером</segment>
+		<segment id="42" parent="132" relname="span">— довольно высока вероятность поломок и мелких, но досадных неудач.</segment>
+		<segment id="43" parent="42" relname="elaboration">Срезать угол в пути, невзирая на риск, этим вечером может быть особенно опасно.</segment>
+		<segment id="44" parent="131" relname="restatement">Во второй половине четверга лучше удерживаться от попыток грубо поднажать на дела, которые продвигаются недостаточно легко.</segment>
+		<segment id="45" parent="125" relname="condition">Если какое-то дело подзастряло,</segment>
+		<segment id="46" parent="124" relname="joint">его лучше оставить в покое</segment>
+		<segment id="47" parent="124" relname="joint">и не поддаваться первому импульсу добить начатое.</segment>
+		<segment id="48" parent="127" relname="joint">Оставьте всё как есть,</segment>
+		<segment id="49" parent="127" relname="joint">а завтра продолжите — с пришедшими умными мыслями насчёт того, как всё решить наилучшим образом.</segment>
+		<segment id="50" parent="151" relname="cause-effect">##### Пятница, скорее всего, пройдёт более ровно.</segment>
+		<segment id="51" parent="148" relname="span">Наиболее тонкие и деликатные дела,</segment>
+		<segment id="52" parent="51" relname="elaboration">которые особенно важно провести без неожиданных сбоев,</segment>
+		<segment id="53" parent="150" relname="same-unit">во второй половине недели лучше намечать на 10 сентября.</segment>
+		<segment id="54" parent="154" relname="condition">##### Если в субботу вас уже ранним утром ожидают достаточно напряжённые совместные дела,</segment>
+		<segment id="55" parent="153" relname="joint">постарайтесь тщательнее выбирать слова</segment>
+		<segment id="56" parent="153" relname="joint">и отмерять действия.</segment>
+		<segment id="57" parent="159" relname="comparison">Этим утром будет лучше чуть сильнее подстраховаться,</segment>
+		<segment id="58" parent="157" relname="joint">чем даже слегка отпустить тормоза</segment>
+		<segment id="59" parent="157" relname="joint">и сделать более резкое, чем нужно, движение.</segment>
+		<segment id="60" parent="161" relname="joint">Рискуете что-то сломать</segment>
+		<segment id="61" parent="161" relname="joint">или с кем-то поссориться.</segment>
+		<segment id="62" parent="163" relname="span">Вообще в эту субботу лучше не спешить что-то предпринимать ещё утром.</segment>
+		<segment id="63" parent="162" relname="span">Главное из намеченного на 11 сентября лучше сделать днём или вечером.</segment>
+		<segment id="64" parent="63" relname="elaboration">Часов после двух дня.</segment>
+		<segment id="65" parent="170" relname="span">##### Воскресенье — хороший день для серьёзных, глубоких решений.</segment>
+		<segment id="66" parent="65" relname="elaboration">Особенно таких, что принимаются в уединении, нежели совместных.</segment>
+		<segment id="67" parent="175" relname="span">12 сентября, день остановившегося Меркурия, не стоит слишком загружать далёкими поездками, ответственными сделками или деловыми переговорами.</segment>
+		<segment id="68" parent="67" relname="cause-effect">В воскресенье всё это слишком чревато задержками и осложнениями.</segment>
+		<segment id="69" parent="173" relname="comparison">Как и первые два дня недели,</segment>
+		<segment id="70" parent="171" relname="span">это день довольно высокой вероятности громких чрезвычайных происшествий.</segment>
+		<segment id="71" parent="70" relname="elaboration">Например, крупных аварий.</segment>
+		<segment id="72" parent="191" relname="preparation">##### О предстоящей неделе 13—19 сентября.</segment>
+		<segment id="73" parent="74" relname="cause-effect">Меркурий повернёт с попятного движения на прямое.</segment>
+		<segment id="74" parent="185" relname="span">Начинается более удачное, чем предыдущие три недели, время для реального рывка в новом направлении.</segment>
+		<segment id="75" parent="186" relname="joint">Растущая Луна тоже добавит немного попутного ветра.</segment>
+		<segment id="76" parent="181" relname="joint">Вы наверняка заметите, что дела пойдут быстрее,</segment>
+		<segment id="77" parent="179" relname="comparison">а трудные проблемы будут разрешаться легче,</segment>
+		<segment id="78" parent="179" relname="comparison">чем вы ожидали.</segment>
+		<segment id="79" parent="183" relname="joint">На этой неделе пора окончательно прекращать что-то дорабатывать,</segment>
+		<segment id="80" parent="183" relname="joint">исправлять</segment>
+		<segment id="81" parent="183" relname="joint">и улучшать</segment>
+		<segment id="82" parent="184" relname="cause-effect">— время идти вперёд.</segment>
+		<group id="84" type="multinuc" parent="85" relname="span"/>
+		<group id="85" type="span" parent="5" relname="elaboration"/>
+		<group id="86" type="span" parent="4" relname="elaboration"/>
+		<group id="89" type="multinuc" parent="90" relname="span"/>
+		<group id="90" type="span" parent="18" relname="elaboration"/>
+		<group id="91" type="span" parent="93" relname="elaboration"/>
+		<group id="92" type="span" parent="15" relname="elaboration"/>
+		<group id="93" type="span" parent="94" relname="span"/>
+		<group id="94" type="span" parent="14" relname="elaboration"/>
+		<group id="95" type="span" parent="104" relname="span"/>
+		<group id="97" type="multinuc" parent="99" relname="span"/>
+		<group id="99" type="span" parent="101" relname="joint"/>
+		<group id="101" type="multinuc" parent="102" relname="span"/>
+		<group id="102" type="span" parent="110" relname="span"/>
+		<group id="103" type="span" parent="109" relname="joint"/>
+		<group id="104" type="span" parent="108" relname="span"/>
+		<group id="108" type="span" parent="109" relname="joint"/>
+		<group id="109" type="multinuc" relname="antithesis"/>
+		<group id="110" type="span" parent="111" relname="span"/>
+		<group id="111" type="span" parent="109" relname="joint"/>
+		<group id="112" type="span" parent="113" relname="span"/>
+		<group id="113" type="span" relname="antithesis"/>
+		<group id="114" type="span" parent="115" relname="contrast"/>
+		<group id="115" type="multinuc" relname="antithesis"/>
+		<group id="116" type="span" parent="146" relname="span"/>
+		<group id="117" type="span" parent="144" relname="restatement"/>
+		<group id="123" type="span" relname="antithesis"/>
+		<group id="124" type="multinuc" parent="125" relname="span"/>
+		<group id="125" type="span" parent="129" relname="span"/>
+		<group id="127" type="multinuc" parent="128" relname="span"/>
+		<group id="128" type="span" parent="129" relname="elaboration"/>
+		<group id="129" type="span" parent="130" relname="span"/>
+		<group id="130" type="span" parent="131" relname="restatement"/>
+		<group id="131" type="multinuc" parent="139" relname="span"/>
+		<group id="132" type="span" parent="41" relname="cause-effect"/>
+		<group id="133" type="span" parent="140" relname="joint"/>
+		<group id="134" type="span" parent="37" relname="elaboration"/>
+		<group id="135" type="span" parent="136" relname="restatement"/>
+		<group id="136" type="multinuc" parent="137" relname="span"/>
+		<group id="137" type="span" parent="140" relname="joint"/>
+		<group id="139" type="span" parent="140" relname="joint"/>
+		<group id="140" type="multinuc" parent="141" relname="span"/>
+		<group id="141" type="span" parent="142" relname="span"/>
+		<group id="142" type="span" relname="antithesis"/>
+		<group id="143" type="span" parent="144" relname="restatement"/>
+		<group id="144" type="multinuc" parent="145" relname="span"/>
+		<group id="145" type="span" parent="116" relname="elaboration"/>
+		<group id="146" type="span" parent="147" relname="span"/>
+		<group id="147" type="span" relname="antithesis"/>
+		<group id="148" type="span" parent="150" relname="same-unit"/>
+		<group id="150" type="multinuc" parent="151" relname="span"/>
+		<group id="151" type="span" parent="164" relname="span"/>
+		<group id="153" type="multinuc" parent="154" relname="span"/>
+		<group id="154" type="span" parent="155" relname="span"/>
+		<group id="155" type="span" parent="168" relname="span"/>
+		<group id="157" type="multinuc" parent="158" relname="span"/>
+		<group id="158" type="span" parent="159" relname="comparison"/>
+		<group id="159" type="multinuc" parent="166" relname="span"/>
+		<group id="161" type="multinuc" parent="165" relname="span"/>
+		<group id="162" type="span" parent="62" relname="elaboration"/>
+		<group id="163" type="span" parent="169" relname="joint"/>
+		<group id="164" type="span" relname="antithesis"/>
+		<group id="165" type="span" parent="166" relname="cause-effect"/>
+		<group id="166" type="span" parent="167" relname="span"/>
+		<group id="167" type="span" parent="155" relname="elaboration"/>
+		<group id="168" type="span" parent="169" relname="joint"/>
+		<group id="169" type="multinuc" relname="antithesis"/>
+		<group id="170" type="span" parent="177" relname="joint"/>
+		<group id="171" type="span" parent="173" relname="comparison"/>
+		<group id="173" type="multinuc" parent="174" relname="span"/>
+		<group id="174" type="span" parent="177" relname="joint"/>
+		<group id="175" type="span" parent="177" relname="joint"/>
+		<group id="177" type="multinuc" relname="antithesis"/>
+		<group id="179" type="multinuc" parent="180" relname="span"/>
+		<group id="180" type="span" parent="181" relname="joint"/>
+		<group id="181" type="multinuc" parent="188" relname="span"/>
+		<group id="183" type="multinuc" parent="184" relname="span"/>
+		<group id="184" type="span" parent="190" relname="span"/>
+		<group id="185" type="span" parent="186" relname="joint"/>
+		<group id="186" type="multinuc" parent="187" relname="span"/>
+		<group id="187" type="span" parent="189" relname="span"/>
+		<group id="188" type="span" parent="187" relname="elaboration"/>
+		<group id="189" type="span" parent="191" relname="span"/>
+		<group id="190" type="span" parent="189" relname="elaboration"/>
+		<group id="191" type="span" parent="192" relname="span"/>
+		<group id="192" type="span" relname="antithesis"/>
+  </body>
+</rst>

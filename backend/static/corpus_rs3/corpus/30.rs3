@@ -1,0 +1,100 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst" />
+			<rel name="attribution1" type="rst" />
+			<rel name="attribution2" type="rst" />
+			<rel name="attribution" type="rst" />
+			<rel name="background" type="rst" />
+			<rel name="cause-effect" type="rst" />
+			<rel name="comparison" type="multinuc" />
+			<rel name="concession" type="rst" />
+			<rel name="conclusion" type="rst" />
+			<rel name="condition" type="rst" />
+			<rel name="contrast" type="multinuc" />
+			<rel name="elaboration" type="rst" />
+			<rel name="evaluation" type="rst" />
+			<rel name="evidence" type="rst" />
+			<rel name="interpretation-evaluation" type="rst" />
+			<rel name="interpretation" type="rst" />
+			<rel name="joint" type="multinuc" />
+			<rel name="motivation" type="rst" />
+			<rel name="non_volitional_cause" type="rst" />
+			<rel name="non_volitional_effect" type="rst" />
+			<rel name="preparation" type="rst" />
+			<rel name="purpose" type="rst" />
+			<rel name="restatement" type="multinuc" />
+			<rel name="same-unit" type="multinuc" />
+			<rel name="sequence" type="multinuc" />
+			<rel name="solutionhood" type="rst" />
+			<rel name="volitional_cause" type="rst" />
+			<rel name="volitional_effect" type="rst" />
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="35" relname="comparison">##### Хорошо известно, что в центре практически каждой крупной галактики находится массивная чёрная дыра.</segment>
+		<segment id="2" parent="35" relname="comparison">В то же время самые тяжёлые галактики окружены самыми массивными гало из тёмной материи.</segment>
+		<segment id="3" parent="4" relname="evidence">Это дало основания для предположений,</segment>
+		<segment id="4" parent="38" relname="span">что тёмная материя играет ключевую роль в росте чёрных дыр.</segment>
+		<segment id="5" parent="37" relname="attribution">Исследования учёных из Института внеземной физики общества Макса Планка, Университетской обсерватории Мюниха и Техасского университета в Остине, однако, показали,</segment>
+		<segment id="6" parent="36" relname="joint">что такой прямой связи не существует,</segment>
+		<segment id="7" parent="36" relname="joint">а рост чёрной дыры определяется процессом формирования галактического ядра.</segment>
+		<segment id="8" relname="antithesis">##### Галактики представляют собой скопления миллиардов звёзд, содержащие также межзвёздный газ и пыль.</segment>
+		<segment id="9" parent="43" relname="contrast">Большую часть этих соствляющих можно наблюдать с Земли в различных диапазонах волн: от радио- и инфракрасного диапазонов для более холодных объектов до ультрафиолетового и рентгеновского для более горячих.</segment>
+		<segment id="10" parent="43" relname="contrast">Однако существует два вида объектов, не излучающих электромагнитные волны и проявляющихся только через гравитационное взаимодействие.</segment>
+		<segment id="11" parent="49" relname="span">##### К первому виду таких объектов относятся гало так называемой тёмной материи, окружающие практически все известные галактики.</segment>
+		<segment id="12" parent="47" relname="joint">Тёмная материя не доступна для непосредственного наблюдения,</segment>
+		<segment id="13" parent="45" relname="joint">однако, значительно превосходит в общей массе видимую часть материи</segment>
+		<segment id="14" parent="45" relname="joint">и обнаруживает себя по своему гравитационному воздействию на движение звёзд и межзвёздного газа.</segment>
+		<segment id="15" parent="51" relname="contrast">Природа тёмной материи до сих пор не известна,</segment>
+		<segment id="16" parent="52" relname="span">однако предполагается, что она состоит из экзотических частиц, отличающихся от всех известных «нормальных» частиц,</segment>
+		<segment id="17" parent="16" relname="elaboration">из которых сделаны мы, Земля, Солнце и другие планеты и звёзды.</segment>
+		<segment id="18" parent="53" relname="span">##### Другим невидимым компонентом Вселенной являются сверхмассивные чёрные дыры,</segment>
+		<segment id="19" parent="18" relname="elaboration">находящиеся в центрах большинства галактик, имеющих ядро.</segment>
+		<segment id="20" parent="54" relname="span">Например, в центре нашей галактики, Млечного пути, находится чёрная дыра,</segment>
+		<segment id="21" parent="20" relname="elaboration">масса которой в миллион раз больше, чем масса Солнца.</segment>
+		<segment id="22" parent="55" relname="joint">Чёрные дыры недоступны для прямого наблюдения</segment>
+		<segment id="23" parent="55" relname="joint">и их свойства определяются только по движению звёзд вокруг них.</segment>
+		<segment id="24" parent="58" relname="span">##### В 2002 году возникла идея, заключающаяся в том, что существует тесная взаимосвязь между массой чёрной дыры и скоростью вращения галактического диска,</segment>
+		<segment id="25" parent="24" relname="elaboration">масса которого определяется массой гало тёмной материи в нём.</segment>
+		<segment id="26" parent="59" relname="span">Из этой идеи следовало предположение о том, что экзотическая материя каким-либо образом влияет на процесс формирования чёрной дыры.</segment>
+		<segment id="27" parent="65" relname="span">С другой стороны, за несколько лет до этого уже было показано, что масса чёрной дыры хорошо коррелирует с яркостью и массой галактического ядра.</segment>
+		<segment id="28" parent="61" relname="comparison">Поскольку чаще всего чем больше галактика,</segment>
+		<segment id="29" parent="61" relname="comparison">тем больше её ядро,</segment>
+		<segment id="30" parent="63" relname="span">оставалось непонятным, какая же из двух корреляций является основной с точки зрения динамики роста чёрной дыры.</segment>
+		<segment id="31" parent="32" relname="purpose">##### Для того, чтобы проверить выдвинутую идею о корреляции между массой чёрной дыры и массой гало тёмной материи,</segment>
+		<segment id="32" parent="66" relname="span">учёные провели ряд высококачественных спектральных измерений большого количества галактических дисков и их ядер.</segment>
+		<segment id="33" parent="67" relname="sequence">Увеличение точности измерений по сравнению с предшественниками позволило им сделать вывод, что предполагаемая корреляция отсутствует.</segment>
+		<group id="35" type="multinuc" parent="39" relname="span"/>
+		<group id="36" type="multinuc" parent="37" relname="span"/>
+		<group id="37" type="span" parent="41" relname="span"/>
+		<group id="38" type="span" parent="40" relname="span"/>
+		<group id="39" type="span" parent="38" relname="background"/>
+		<group id="40" type="span" parent="42" relname="contrast"/>
+		<group id="41" type="span" parent="42" relname="contrast"/>
+		<group id="42" type="multinuc" relname="antithesis"/>
+		<group id="43" type="multinuc" parent="44" relname="span"/>
+		<group id="44" type="span" parent="8" relname="elaboration"/>
+		<group id="45" type="multinuc" parent="47" relname="joint"/>
+		<group id="47" type="multinuc" parent="48" relname="span"/>
+		<group id="48" type="span" parent="11" relname="elaboration"/>
+		<group id="49" type="span" parent="50" relname="joint"/>
+		<group id="50" type="multinuc" relname="antithesis"/>
+		<group id="51" type="multinuc" parent="50" relname="joint"/>
+		<group id="52" type="span" parent="51" relname="contrast"/>
+		<group id="53" type="span" parent="57" relname="span"/>
+		<group id="54" type="span" parent="53" relname="elaboration"/>
+		<group id="55" type="multinuc" parent="56" relname="joint"/>
+		<group id="56" type="multinuc" relname="antithesis"/>
+		<group id="57" type="span" parent="56" relname="joint"/>
+		<group id="58" type="span" parent="26" relname="evidence"/>
+		<group id="59" type="span" parent="60" relname="comparison"/>
+		<group id="60" type="multinuc" relname="antithesis"/>
+		<group id="61" type="multinuc" parent="62" relname="span"/>
+		<group id="62" type="span" parent="30" relname="cause-effect"/>
+		<group id="63" type="span" parent="27" relname="elaboration"/>
+		<group id="65" type="span" parent="60" relname="comparison"/>
+		<group id="66" type="span" parent="67" relname="sequence"/>
+		<group id="67" type="multinuc" relname="antithesis"/>
+  </body>
+</rst>

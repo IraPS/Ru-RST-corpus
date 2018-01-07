@@ -1,0 +1,215 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst" />
+			<rel name="attribution1" type="rst" />
+			<rel name="attribution2" type="rst" />
+			<rel name="attribution" type="rst" />
+			<rel name="background" type="rst" />
+			<rel name="cause-effect" type="rst" />
+			<rel name="comparison" type="multinuc" />
+			<rel name="concession" type="rst" />
+			<rel name="conclusion" type="rst" />
+			<rel name="condition" type="rst" />
+			<rel name="contrast" type="multinuc" />
+			<rel name="elaboration" type="rst" />
+			<rel name="evaluation" type="rst" />
+			<rel name="evidence" type="rst" />
+			<rel name="interpretation-evaluation" type="rst" />
+			<rel name="interpretation" type="rst" />
+			<rel name="joint" type="multinuc" />
+			<rel name="motivation" type="rst" />
+			<rel name="non_volitional_cause" type="rst" />
+			<rel name="non_volitional_effect" type="rst" />
+			<rel name="preparation" type="rst" />
+			<rel name="purpose" type="rst" />
+			<rel name="restatement" type="multinuc" />
+			<rel name="same-unit" type="multinuc" />
+			<rel name="sequence" type="multinuc" />
+			<rel name="solutionhood" type="rst" />
+			<rel name="volitional_cause" type="rst" />
+			<rel name="volitional_effect" type="rst" />
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="2" relname="concession">##### Несмотря на то, что российский медиарынок на порядок отстаёт от американского,</segment>
+		<segment id="2" parent="89" relname="span">издатели отечественной прессы единодушны: планшетный компьютер iPad,</segment>
+		<segment id="3" parent="88" relname="span">который ещё даже не продаётся в РФ легально,</segment>
+		<segment id="4" parent="87" relname="span">даёт отрасли новую надежду на выживание,</segment>
+		<segment id="5" parent="4" relname="elaboration">которая больше похожа на ту самую спасительную соломинку.</segment>
+		<segment id="6" parent="99" relname="joint">##### 13 июля Ассоциация распространителей печатной продукции (АРПП) совместно с медиа-агентством Jet-Co провели семинар «Перспективы электронных носителей информации на медиарынке России. iPad — новые возможности в индустрии СМИ и книгоиздании».</segment>
+		<segment id="7" parent="99" relname="joint">Представители издательств, сопутствующих бизнесов и дистрибуторов прессы в интернете единодушно признали важность нового цифрового устройства и его перспективность для рынка.</segment>
+		<segment id="8" parent="92" relname="concession">Их даже не смутило то, что пока, по приблизительным оценкам,</segment>
+		<segment id="9" parent="92" relname="span">в Россию завезено около 90 тыс. этих устройств</segment>
+		<segment id="10" parent="9" relname="background">— причём все условно нелегально:</segment>
+		<segment id="11" parent="95" relname="cause-effect">Apple ещё не начала официальные продажи в нашей стране.</segment>
+		<segment id="12" parent="94" relname="joint">Поэтому отчаянные потребители везут планшеты из США сами</segment>
+		<segment id="13" parent="94" relname="joint">или, на свой страх и риск, покупают у «серых» дистрибуторов втридорога.</segment>
+		<segment id="14" parent="15" relname="evidence">Интерес к iPad столь высок,</segment>
+		<segment id="15" parent="97" relname="span">что даже переплата не имеет шансов сбить спрос.</segment>
+		<segment id="16" parent="104" relname="attribution">##### Между тем, по определению председателя правления АРПП Александра Оськина,</segment>
+		<segment id="17" parent="104" relname="span">массовым рынок iPad в России сможет стать только после того,</segment>
+		<segment id="18" parent="17" relname="condition">как число устройств перевалит за 2 млн.</segment>
+		<segment id="19" parent="20" relname="interpretation-evaluation">Пока же, по предварительным прогнозам,</segment>
+		<segment id="20" parent="106" relname="span">в год будут продавать «всего» по 500 тыс. штук.</segment>
+		<segment id="21" parent="109" relname="elaboration">Рынок в США больше нашего раз в двадцать.</segment>
+		<segment id="22" parent="108" relname="evidence">А ведь именно массовость имеет ключевую роль при принятии издателями решения о выходе на новые платформы,</segment>
+		<segment id="23" parent="107" relname="joint">и пока рынок невелик, «айпадные» версии газет и журналов, скорее, носят имиджевый характер</segment>
+		<segment id="24" parent="107" relname="joint">и имеют мало отношения к бизнесу.</segment>
+		<segment id="25" parent="116" relname="elaboration">##### Между тем нужно понимать,</segment>
+		<segment id="26" parent="115" relname="background">что мега-популярная новинка от Apple ценна не только сама по себе,</segment>
+		<segment id="27" parent="114" relname="same-unit">но и как катализатор рынка для нового поколения цифровых устройств,</segment>
+		<segment id="28" parent="112" relname="joint">позволяющих читать книги и прессу,</segment>
+		<segment id="29" parent="112" relname="joint">сёрфить в интернете, играть в цифровые игры</segment>
+		<segment id="30" parent="112" relname="joint">и развлекаться всеми возможными способами</segment>
+		<segment id="31" parent="112" relname="joint">— и делать это всё вместе или по отдельности.</segment>
+		<segment id="32" parent="118" relname="same-unit">В 2010— 11 годах на рынок выйдет ещё не один планшет,</segment>
+		<segment id="33" parent="118" relname="same-unit">в том числе весьма ожидаемый — от Samsung</segment>
+		<segment id="34" parent="120" relname="span">и рассчитанный именно на потребление газетного контента — Skiff от News Corp. Руперта Мёрдока.</segment>
+		<segment id="35" parent="126" relname="elaboration">##### Часть новых планшетов будет дешевле Apple</segment>
+		<segment id="36" parent="125" relname="contrast">(самые радужные прогнозы дают, как всегда, китайцы, которые не упустят возможности завоевать и рынок «айпадов»)</segment>
+		<segment id="37" parent="123" relname="same-unit">, однако не настолько, чтобы быть сразу же раскупленными потребителями,</segment>
+		<segment id="38" parent="123" relname="same-unit">которые «пожадничали» и не потратились на устройства первой волны.</segment>
+		<segment id="39" parent="129" relname="cause-effect">До тех пор, пока цена на новые устройства не опуститься ниже 300 долларов, а в идеале — до 99,</segment>
+		<segment id="40" parent="128" relname="joint">они не станут товарами первой необходимости,</segment>
+		<segment id="41" parent="128" relname="joint">а значит — будут восприниматься издателями только как приятный «бантик» на огромной коробке с печатными изданиями.</segment>
+		<segment id="42" parent="43" relname="attribution">Ситуация, по словам Александра Оськина,</segment>
+		<segment id="43" parent="131" relname="span">может измениться лишь к 2012 году.</segment>
+		<segment id="44" parent="136" relname="attribution">##### Результаты опроса, проведённого авторитетным в США интернет-ресурсом Mashable, показали,</segment>
+		<segment id="45" parent="135" relname="cause-effect">что прежде всего пользователи считают iPad дорогой игрушкой</segment>
+		<segment id="46" parent="135" relname="span">и покупают планшет,</segment>
+		<segment id="47" parent="133" relname="joint">чтобы играть</segment>
+		<segment id="48" parent="133" relname="joint">и развлекаться с его помощью.</segment>
+		<segment id="49" parent="140" relname="elaboration">В то же время он сочетает в себе такое количество функций,</segment>
+		<segment id="50" parent="138" relname="contrast">что это позволяет утверждать: iPad — не уникальный технологический продукт,</segment>
+		<segment id="51" parent="138" relname="contrast">а хорошо продуманный и конъюнктурный, следующий основным трендам,</segment>
+		<segment id="52" parent="139" relname="elaboration">которые будут определять медиа-потребление в течение ближайших 5—10 лет.</segment>
+		<segment id="53" parent="142" relname="span">К этим трендам относятся тачскрин, перманентное потребление медиа вместе с его «мобилизацией».</segment>
+		<segment id="54" parent="145" relname="attribution">По прогнозам экспертов,</segment>
+		<segment id="55" parent="144" relname="joint">мобильные приложения к 2012 году будут пользоваться большей популярностью, чем сайты СМИ.</segment>
+		<segment id="56" parent="57" relname="elaboration">Инфотейнмент — гибрид развлечения и новостной информации,</segment>
+		<segment id="57" parent="143" relname="span">в свою очередь, может заменить собой традиционную журналистику.</segment>
+		<segment id="58" parent="59" relname="elaboration">##### В итоге, это позволяет говорить о том,</segment>
+		<segment id="59" parent="149" relname="span">что iPad стал первым представителем lean back device, ленивых медиа.</segment>
+		<segment id="60" parent="156" relname="interpretation-evaluation">Теперь читать электронную газету можно лёжа на диване — и, казалось бы, что тут особенного?</segment>
+		<segment id="61" parent="151" relname="elaboration">Но вот первые исследования показали,</segment>
+		<segment id="62" parent="150" relname="contrast">что если обычно информационный сайт читают на протяжении нескольких минут,</segment>
+		<segment id="63" parent="150" relname="contrast">то iPad — час!</segment>
+		<segment id="64" parent="65" relname="elaboration">И вот этот факт действительно позволяет говорить о том,</segment>
+		<segment id="65" parent="153" relname="span">что благодаря планшетной революции восстанавливается привычка к длинному, вдумчивому чтению.</segment>
+		<segment id="66" parent="155" relname="joint">До сих пор, с момента развития интернета, веб-сёрфинг в массовом порядке заменял потребление медиа-контента.</segment>
+		<segment id="67" parent="68" relname="purpose">##### Однако для того, чтобы цифровой контент был доступен пользователям,</segment>
+		<segment id="68" parent="163" relname="span">необходимо развивать каналы дистрибуции в интернете.</segment>
+		<segment id="69" parent="160" relname="span">Один из вариантов — цифровые «киоски» компании Zinio,</segment>
+		<segment id="70" parent="69" relname="elaboration">о которой уже писал «Часкор», а также AppStore, Android Market и Nokia OviStore, то есть магазины мобильных приложений.</segment>
+		<segment id="71" parent="72" relname="condition">Пока что такие киоски выступают лишь как дополнение к другим каналам распространения</segment>
+		<segment id="72" parent="159" relname="span">— так как не позволяют издателям зарабатывать существенную прибыль.</segment>
+		<segment id="73" parent="161" relname="joint">По приблизительным расчётам, с момента запуска AppStore заработал 428 млн долларов,</segment>
+		<segment id="74" parent="161" relname="joint">данных по выручке СМИ на платформе планшетов пока нет.</segment>
+		<segment id="75" parent="76" relname="purpose">##### Чтобы наладить бизнес в приложениях,</segment>
+		<segment id="76" parent="169" relname="span">корпорация Apple вводит рекламную платформу iAd.</segment>
+		<segment id="77" parent="171" relname="contrast">Однако «входной билет» в систему стоит 1 млн долларов.</segment>
+		<segment id="78" parent="79" relname="elaboration">Впрочем, столь высокая цена не отпугнула рекламодателей:</segment>
+		<segment id="79" parent="170" relname="span">например, Nissan уже заплатил 10 млн.</segment>
+		<segment id="80" parent="81" relname="elaboration">##### Именно интерес рекламодателей и позволяет надеяться,</segment>
+		<segment id="81" parent="178" relname="span">что в некой перспективе СМИ в формате планшета ожидает финансовый успех.</segment>
+		<segment id="82" parent="83" relname="attribution">По данным генерального директора агентства Mosaic Игоря Пискунова,</segment>
+		<segment id="83" parent="177" relname="span">в России 26% рекламодателей рассматривают возможность размещения рекламы на iPad в 2010—11 годах.</segment>
+		<segment id="84" parent="175" relname="contrast">Самыми активными группами рекламодателей будут телекомщики, FMCG, авто-производители, виноделы, фармацевты и модные товары.</segment>
+		<segment id="85" parent="174" relname="span">Однако даже пионеры планшетной рекламы не готовы тратить на разработку больше 50—200 тыс. долларов,</segment>
+		<segment id="86" parent="85" relname="cause-effect">поскольку и отдача пока невелика.</segment>
+		<group id="87" type="span" parent="90" relname="same-unit"/>
+		<group id="88" type="span" parent="2" relname="elaboration"/>
+		<group id="89" type="span" parent="90" relname="same-unit"/>
+		<group id="90" type="multinuc" parent="91" relname="span"/>
+		<group id="91" type="span" relname="antithesis"/>
+		<group id="92" type="span" parent="93" relname="span"/>
+		<group id="93" type="span" parent="101" relname="joint"/>
+		<group id="94" type="multinuc" parent="95" relname="span"/>
+		<group id="95" type="span" parent="96" relname="span"/>
+		<group id="96" type="span" parent="98" relname="span"/>
+		<group id="97" type="span" parent="96" relname="background"/>
+		<group id="98" type="span" parent="101" relname="joint"/>
+		<group id="99" type="multinuc" parent="100" relname="span"/>
+		<group id="100" type="span" parent="102" relname="elaboration"/>
+		<group id="101" type="multinuc" parent="102" relname="span"/>
+		<group id="102" type="span" parent="103" relname="span"/>
+		<group id="103" type="span" relname="antithesis"/>
+		<group id="104" type="span" parent="105" relname="span"/>
+		<group id="105" type="span" parent="111" relname="joint"/>
+		<group id="106" type="span" parent="111" relname="joint"/>
+		<group id="107" type="multinuc" parent="108" relname="span"/>
+		<group id="108" type="span" parent="109" relname="span"/>
+		<group id="109" type="span" parent="110" relname="span"/>
+		<group id="110" type="span" parent="111" relname="joint"/>
+		<group id="111" type="multinuc" relname="antithesis"/>
+		<group id="112" type="multinuc" parent="113" relname="span"/>
+		<group id="113" type="span" parent="114" relname="same-unit"/>
+		<group id="114" type="multinuc" parent="115" relname="span"/>
+		<group id="115" type="span" parent="116" relname="span"/>
+		<group id="116" type="span" parent="117" relname="span"/>
+		<group id="117" type="span" parent="121" relname="joint"/>
+		<group id="118" type="multinuc" parent="119" relname="span"/>
+		<group id="119" type="span" parent="34" relname="elaboration"/>
+		<group id="120" type="span" parent="121" relname="joint"/>
+		<group id="121" type="multinuc" parent="122" relname="span"/>
+		<group id="122" type="span" relname="antithesis"/>
+		<group id="123" type="multinuc" parent="124" relname="span"/>
+		<group id="124" type="span" parent="125" relname="contrast"/>
+		<group id="125" type="multinuc" parent="126" relname="span"/>
+		<group id="126" type="span" parent="127" relname="span"/>
+		<group id="127" type="span" parent="132" relname="joint"/>
+		<group id="128" type="multinuc" parent="129" relname="span"/>
+		<group id="129" type="span" parent="130" relname="span"/>
+		<group id="130" type="span" parent="132" relname="joint"/>
+		<group id="131" type="span" parent="132" relname="joint"/>
+		<group id="132" type="multinuc" relname="antithesis"/>
+		<group id="133" type="multinuc" parent="134" relname="span"/>
+		<group id="134" type="span" parent="46" relname="purpose"/>
+		<group id="135" type="span" parent="136" relname="span"/>
+		<group id="136" type="span" parent="137" relname="span"/>
+		<group id="137" type="span" parent="147" relname="joint"/>
+		<group id="138" type="multinuc" parent="139" relname="span"/>
+		<group id="139" type="span" parent="140" relname="span"/>
+		<group id="140" type="span" parent="141" relname="span"/>
+		<group id="141" type="span" parent="53" relname="elaboration"/>
+		<group id="142" type="span" parent="147" relname="joint"/>
+		<group id="143" type="span" parent="144" relname="joint"/>
+		<group id="144" type="multinuc" parent="145" relname="span"/>
+		<group id="145" type="span" parent="146" relname="span"/>
+		<group id="146" type="span" parent="147" relname="joint"/>
+		<group id="147" type="multinuc" parent="148" relname="span"/>
+		<group id="148" type="span" relname="antithesis"/>
+		<group id="149" type="span" parent="157" relname="elaboration"/>
+		<group id="150" type="multinuc" parent="151" relname="span"/>
+		<group id="151" type="span" parent="152" relname="span"/>
+		<group id="152" type="span" parent="153" relname="cause-effect"/>
+		<group id="153" type="span" parent="154" relname="span"/>
+		<group id="154" type="span" parent="155" relname="joint"/>
+		<group id="155" type="multinuc" parent="156" relname="span"/>
+		<group id="156" type="span" parent="157" relname="span"/>
+		<group id="157" type="span" parent="158" relname="span"/>
+		<group id="158" type="span" relname="antithesis"/>
+		<group id="159" type="span" parent="164" relname="joint"/>
+		<group id="160" type="span" parent="166" relname="contrast"/>
+		<group id="161" type="multinuc" parent="162" relname="span"/>
+		<group id="162" type="span" parent="164" relname="joint"/>
+		<group id="163" type="span" parent="167" relname="elaboration"/>
+		<group id="164" type="multinuc" parent="165" relname="span"/>
+		<group id="165" type="span" parent="166" relname="contrast"/>
+		<group id="166" type="multinuc" parent="167" relname="span"/>
+		<group id="167" type="span" parent="168" relname="span"/>
+		<group id="168" type="span" relname="antithesis"/>
+		<group id="169" type="span" parent="172" relname="elaboration"/>
+		<group id="170" type="span" parent="171" relname="contrast"/>
+		<group id="171" type="multinuc" parent="172" relname="span"/>
+		<group id="172" type="span" parent="173" relname="span"/>
+		<group id="173" type="span" relname="antithesis"/>
+		<group id="174" type="span" parent="175" relname="contrast"/>
+		<group id="175" type="multinuc" parent="176" relname="span"/>
+		<group id="176" type="span" parent="179" relname="comparison"/>
+		<group id="177" type="span" parent="179" relname="comparison"/>
+		<group id="178" type="span" parent="179" relname="comparison"/>
+		<group id="179" type="multinuc" relname="antithesis"/>
+  </body>
+</rst>

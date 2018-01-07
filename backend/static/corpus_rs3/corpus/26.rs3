@@ -1,0 +1,177 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst" />
+			<rel name="attribution1" type="rst" />
+			<rel name="attribution2" type="rst" />
+			<rel name="attribution" type="rst" />
+			<rel name="background" type="rst" />
+			<rel name="cause-effect" type="rst" />
+			<rel name="comparison" type="multinuc" />
+			<rel name="concession" type="rst" />
+			<rel name="conclusion" type="rst" />
+			<rel name="condition" type="rst" />
+			<rel name="contrast" type="multinuc" />
+			<rel name="elaboration" type="rst" />
+			<rel name="evaluation" type="rst" />
+			<rel name="evidence" type="rst" />
+			<rel name="interpretation-evaluation" type="rst" />
+			<rel name="interpretation" type="rst" />
+			<rel name="joint" type="multinuc" />
+			<rel name="motivation" type="rst" />
+			<rel name="non_volitional_cause" type="rst" />
+			<rel name="non_volitional_effect" type="rst" />
+			<rel name="preparation" type="rst" />
+			<rel name="purpose" type="rst" />
+			<rel name="restatement" type="multinuc" />
+			<rel name="same-unit" type="multinuc" />
+			<rel name="sequence" type="multinuc" />
+			<rel name="solutionhood" type="rst" />
+			<rel name="volitional_cause" type="rst" />
+			<rel name="volitional_effect" type="rst" />
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="77" relname="preparation">##### 14 августа 2009 года исполнилось 17 лет с момента начала грузино-абхазского вооружённого конфликта.</segment>
+		<segment id="2" parent="3" relname="cause-effect">Тогда, в 1992 году, на территорию Абхазии (в советское время Абхазской АССР в составе Грузинской ССР) были введены войска Госсовета Грузии,</segment>
+		<segment id="3" parent="74" relname="span">что стало отправной точкой для военных действий.</segment>
+		<segment id="4" parent="73" relname="joint">За 14 месяцев вооружённого противостояния было убито около 8 тыс. человек,</segment>
+		<segment id="5" parent="73" relname="joint">порядка 18 тыс. человек получили ранения.</segment>
+		<segment id="6" parent="78" relname="span">##### Из 525 тыс. человек,</segment>
+		<segment id="7" parent="6" relname="elaboration">составлявших довоенное население Абхазии,</segment>
+		<segment id="8" parent="79" relname="same-unit">около 200 тысяч были вынуждены покинуть свои дома.</segment>
+		<segment id="9" parent="80" relname="joint">Сегодня, спустя 17 лет, Абхазия снова оказывается в фокусе внимания мировой политики.</segment>
+		<segment id="10" relname="antithesis">##### Только в течение нескольких дней августа - 2009 в российских и зарубежных СМИ маленькая республика не раз становилась предметом для журналистских материалов.</segment>
+		<segment id="11" parent="85" relname="joint">Здесь и демонстративный визит Владимира Путина (12 августа 2009 года),</segment>
+		<segment id="12" parent="85" relname="joint">и заявления по этому поводу официальных лиц Тбилиси, Вашингтона и Брюсселя (13—14 августа),</segment>
+		<segment id="13" parent="81" relname="span">и серия терактов</segment>
+		<segment id="14" parent="13" relname="elaboration">(практически совпавших с визитом российского премьер-министра) ,</segment>
+		<segment id="15" parent="85" relname="joint">и привлечение американских пиарщиков из агентства Saylor для улучшения имиджа республики на Западе.</segment>
+		<segment id="16" parent="86" relname="elaboration">По некоторым данным, эти услуги должны стоить 30 тыс. американских долларов ежемесячно.</segment>
+		<segment id="17" relname="antithesis">##### В прошлом году очередная годовщина начала грузино-абхазского вооружённого конфликта ознаменовалась возобновлением боевых действий между сторонами.</segment>
+		<segment id="18" parent="19" relname="elaboration">Воспользовавшись ситуацией в Южной Осетии и прямой военной поддержкой Москвы,</segment>
+		<segment id="19" parent="88" relname="span">абхазское руководство приняло решение отвоевать позиции в Кодорском ущелье.</segment>
+		<segment id="20" parent="91" relname="restatement">##### 12 августа 2008 года</segment>
+		<segment id="21" parent="89" relname="span">(то есть за два дня до очередной годовщины Великой Отечественной войны народа Абхазии,</segment>
+		<segment id="22" parent="21" relname="elaboration">как это событие официально называют в непризнанной республике)</segment>
+		<segment id="23" parent="92" relname="same-unit">грузинские военные и полицейские были вытеснены из абхазского «сердца».</segment>
+		<segment id="24" parent="25" relname="cause-effect">Война России и Грузии привела к тому,</segment>
+		<segment id="25" parent="103" relname="span">что статус Абхазии и Южной Осетии, ранее считавшихся непризнанными образованиями, был пересмотрен.</segment>
+		<segment id="26" parent="102" relname="span">Кардинально, впрочем, это ситуацию не изменило.</segment>
+		<segment id="27" parent="93" relname="joint">Независимость Сухума признала только РФ (и частично Никарагуа, не установив с Абхазией дипломатических отношений</segment>
+		<segment id="28" parent="93" relname="joint">и не ратифицировав декрет президента о признании через парламент)</segment>
+		<segment id="29" parent="96" relname="joint">. Другие государства (включая близкие Москве Белоруссию и Армению) «воздержались».</segment>
+		<segment id="30" parent="94" relname="joint">Абхазия участвует в женевских переговорах,</segment>
+		<segment id="31" parent="94" relname="joint">её признают стороной конфликта в ООН, ЕС и ОБСЕ.</segment>
+		<segment id="32" parent="100" relname="contrast">Однако с прекращением деятельности международных миссий в рамках международно признанных границ Грузии переговоры могут заглохнуть.</segment>
+		<segment id="33" relname="antithesis">##### История борьбы Абхазии за самоопределение драматична.</segment>
+		<segment id="34" parent="111" relname="preparation">Она поднимает несколько фундаментальных проблем для политического развития всего евразийского пространства.</segment>
+		<segment id="35" parent="110" relname="joint">Казус Абхазии стал наглядной демонстрацией парадоксов этнонационального самоопределения в Советском Союзе.</segment>
+		<segment id="36" parent="110" relname="joint">Республиканские движения за национальную независимость считали само собой разумеющейся сецессию.</segment>
+		<segment id="37" parent="106" relname="span">При этом они категорически отрицали такую модель для будущих независимых государств, как федерация</segment>
+		<segment id="38" parent="37" relname="elaboration">(видя в ней повторение модели Советского Союза и потенциальную угрозу сепаратизма)</segment>
+		<segment id="39" parent="107" relname="span">. Отсюда крайний этноцентризм таких движений и нежелание видеть представителей автономных, а не союзных элит среди своих партнёров и сторонников.</segment>
+		<segment id="40" parent="114" relname="contrast">##### В грузинском национальном движении только единицы высказывались за поиск диалога с абхазской элитой, привлечение её в ряды своих союзников (Ивлиан Хаиндрава, Давид Бердзенишвили).</segment>
+		<segment id="41" parent="114" relname="contrast">Однако их позиция не стала доминирующей.</segment>
+		<segment id="42" parent="116" relname="span">Не лучшим образом сработали и такие спонсоры «национально-освободительного проекта», как представители национальной теневой буржуазии,</segment>
+		<segment id="43" parent="42" relname="elaboration">не желавшие делиться с представителями иноэтничного бизнеса.</segment>
+		<segment id="44" parent="115" relname="contrast">Ради объективности стоит сказать и о том, что абхазское национальное движение периода заката СССР было во многих чертах зеркальным отражением грузинских диссидентов - националистов.</segment>
+		<segment id="45" parent="115" relname="contrast">Однако до военных действий 1992 года у сторон был теоретический шанс договориться.</segment>
+		<segment id="46" parent="124" relname="joint">##### Лишь отказ от компромиссов и жёсткая линия с обеих сторон сделали такое соглашение (и сценарий наподобие татарстанского или башкирского договора в РФ) невозможным.</segment>
+		<segment id="47" parent="124" relname="joint">Жестокий характер военных действий (особенно чувствительный у абхазов просто в силу малочисленности их этноса) сделал невозможным и сосуществование в рамках одного государства.</segment>
+		<segment id="48" parent="122" relname="comparison">В этой связи все ссылки на высокий процент межнациональных браков в советское время</segment>
+		<segment id="49" parent="122" relname="comparison">(равно как и размышления по поводу того, что будущий лидер Абхазии Владислав Ардзинба защищал свою докторскую диссертацию «Ритуалы и мифы древней Анатолии» в Тбилиси в 1985 году)</segment>
+		<segment id="50" parent="123" relname="same-unit">не слишком состоятельны.</segment>
+		<segment id="51" parent="126" relname="comparison">Сосуществование двух амбициозных элит было возможно в рамках советского проекта.</segment>
+		<segment id="52" parent="126" relname="comparison">Вне его (и вне репрессивных механизмов контроля над настроениями) такое сосуществование оказалось нереальным.</segment>
+		<segment id="53" parent="127" relname="joint">Два проекта Абхазии (грузинский и абхазский) оказались диаметрально противоположными друг другу,</segment>
+		<segment id="54" parent="127" relname="joint">ибо оба этих проекта предполагали не сосуществование, а доминирование.</segment>
+		<segment id="55" parent="56" relname="purpose">##### Для того чтобы контролировать два противоположных проекта,</segment>
+		<segment id="56" parent="137" relname="span">нужна была бы третья сила, считавшаяся легитимной двумя сторонами.</segment>
+		<segment id="57" parent="137" relname="antithesis">Такой силы ни в 1992 году, ни сегодня, спустя 17 лет, не нашлось.</segment>
+		<segment id="58" parent="136" relname="joint">Борьба за доминирование неизбежно привела к силовому спору и праву силы в качестве наиболее оптимального способа разрешения проблемы.</segment>
+		<segment id="59" parent="60" relname="condition">Если не остановить сегодня этот бесконечный спор,</segment>
+		<segment id="60" parent="135" relname="span">то у абхазов и грузин не будет даже возможности для установления добрососедских отношений.</segment>
+		<segment id="61" parent="145" relname="same-unit">##### В 1992 году,</segment>
+		<segment id="62" parent="63" relname="cause-effect">начав войну в Абхазии,</segment>
+		<segment id="63" parent="144" relname="span">Эдуард Шеварднадзе объективно способствовал победе абхазского сепаратистского проекта.</segment>
+		<segment id="64" parent="146" relname="span">В 2006 году Михаил Саакашвили,</segment>
+		<segment id="65" parent="64" relname="elaboration">вводя подразделения Грузии в верхнюю часть Кодори,</segment>
+		<segment id="66" parent="147" relname="same-unit">снова продемонстрировал,</segment>
+		<segment id="67" parent="149" relname="span">что для официального Тбилиси есть «свои жители Абхазии» (это её грузинская община, беженцы, временно перемещённые лица) и «чужаки» (абхазы).</segment>
+		<segment id="68" parent="150" relname="contrast">Военные же действия в Южной Осетии дали абхазам негативный опыт и возможный отрицательный паттерн для будущего.</segment>
+		<segment id="69" parent="152" relname="joint">Таким образом, в течение 17 лет Тбилиси по крайней мере трижды отталкивал Абхазию от себя.</segment>
+		<segment id="70" parent="152" relname="joint">Абхазы платили тем же (изгнание грузинского населения).</segment>
+		<segment id="71" parent="153" relname="joint">Насколько в этой связи обоснованно считать успешную реинтеграцию двух конфликтующих сторон возможной, необходимым и, главное, реалистичным делом?</segment>
+		<segment id="72" parent="153" relname="joint">Риторический вопрос.</segment>
+		<group id="73" type="multinuc" parent="76" relname="span"/>
+		<group id="74" type="span" parent="77" relname="span"/>
+		<group id="76" type="span" parent="74" relname="elaboration"/>
+		<group id="77" type="span" relname="antithesis"/>
+		<group id="78" type="span" parent="79" relname="same-unit"/>
+		<group id="79" type="multinuc" parent="80" relname="joint"/>
+		<group id="80" type="multinuc" relname="antithesis"/>
+		<group id="81" type="span" parent="85" relname="joint"/>
+		<group id="85" type="multinuc" parent="86" relname="span"/>
+		<group id="86" type="span" parent="87" relname="span"/>
+		<group id="87" type="span" parent="10" relname="elaboration"/>
+		<group id="88" type="span" parent="17" relname="elaboration"/>
+		<group id="89" type="span" parent="91" relname="restatement"/>
+		<group id="91" type="multinuc" parent="92" relname="same-unit"/>
+		<group id="92" type="multinuc" parent="104" relname="joint"/>
+		<group id="93" type="multinuc" parent="98" relname="span"/>
+		<group id="94" type="multinuc" parent="96" relname="joint"/>
+		<group id="96" type="multinuc" parent="97" relname="span"/>
+		<group id="97" type="span" parent="98" relname="elaboration"/>
+		<group id="98" type="span" parent="99" relname="span"/>
+		<group id="99" type="span" parent="100" relname="contrast"/>
+		<group id="100" type="multinuc" parent="101" relname="span"/>
+		<group id="101" type="span" parent="26" relname="elaboration"/>
+		<group id="102" type="span" parent="105" relname="interpretation-evaluation"/>
+		<group id="103" type="span" parent="104" relname="joint"/>
+		<group id="104" type="multinuc" parent="105" relname="span"/>
+		<group id="105" type="span" relname="antithesis"/>
+		<group id="106" type="span" parent="39" relname="background"/>
+		<group id="107" type="span" parent="110" relname="joint"/>
+		<group id="110" type="multinuc" parent="111" relname="span"/>
+		<group id="111" type="span" parent="112" relname="span"/>
+		<group id="112" type="span" parent="33" relname="elaboration"/>
+		<group id="114" type="multinuc" parent="118" relname="joint"/>
+		<group id="115" type="multinuc" parent="119" relname="span"/>
+		<group id="116" type="span" parent="118" relname="joint"/>
+		<group id="118" type="multinuc" parent="120" relname="span"/>
+		<group id="119" type="span" parent="120" relname="elaboration"/>
+		<group id="120" type="span" relname="antithesis"/>
+		<group id="122" type="multinuc" parent="123" relname="same-unit"/>
+		<group id="123" type="multinuc" parent="131" relname="span"/>
+		<group id="124" type="multinuc" parent="130" relname="span"/>
+		<group id="126" type="multinuc" parent="129" relname="span"/>
+		<group id="127" type="multinuc" parent="128" relname="span"/>
+		<group id="128" type="span" parent="129" relname="evidence"/>
+		<group id="129" type="span" parent="134" relname="span"/>
+		<group id="130" type="span" parent="132" relname="span"/>
+		<group id="131" type="span" parent="130" relname="elaboration"/>
+		<group id="132" type="span" parent="133" relname="joint"/>
+		<group id="133" type="multinuc" relname="antithesis"/>
+		<group id="134" type="span" parent="133" relname="joint"/>
+		<group id="135" type="span" parent="136" relname="joint"/>
+		<group id="136" type="multinuc" parent="143" relname="joint"/>
+		<group id="137" type="span" parent="138" relname="span"/>
+		<group id="138" type="span" parent="143" relname="joint"/>
+		<group id="143" type="multinuc" relname="antithesis"/>
+		<group id="144" type="span" parent="145" relname="same-unit"/>
+		<group id="145" type="multinuc" parent="151" relname="joint"/>
+		<group id="146" type="span" parent="147" relname="same-unit"/>
+		<group id="147" type="multinuc" parent="148" relname="span"/>
+		<group id="148" type="span" parent="67" relname="attribution"/>
+		<group id="149" type="span" parent="151" relname="joint"/>
+		<group id="150" type="multinuc" parent="156" relname="span"/>
+		<group id="151" type="multinuc" parent="150" relname="contrast"/>
+		<group id="152" type="multinuc" parent="154" relname="span"/>
+		<group id="153" type="multinuc" parent="155" relname="span"/>
+		<group id="154" type="span" parent="157" relname="span"/>
+		<group id="155" type="span" parent="154" relname="interpretation-evaluation"/>
+		<group id="156" type="span" relname="antithesis"/>
+		<group id="157" type="span" parent="156" relname="interpretation-evaluation"/>
+  </body>
+</rst>

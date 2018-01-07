@@ -1,0 +1,220 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst" />
+			<rel name="attribution1" type="rst" />
+			<rel name="attribution2" type="rst" />
+			<rel name="attribution" type="rst" />
+			<rel name="background" type="rst" />
+			<rel name="cause-effect" type="rst" />
+			<rel name="comparison" type="multinuc" />
+			<rel name="concession" type="rst" />
+			<rel name="conclusion" type="rst" />
+			<rel name="condition" type="rst" />
+			<rel name="contrast" type="multinuc" />
+			<rel name="elaboration" type="rst" />
+			<rel name="evaluation" type="rst" />
+			<rel name="evidence" type="rst" />
+			<rel name="interpretation-evaluation" type="rst" />
+			<rel name="interpretation" type="rst" />
+			<rel name="joint" type="multinuc" />
+			<rel name="motivation" type="rst" />
+			<rel name="non_volitional_cause" type="rst" />
+			<rel name="non_volitional_effect" type="rst" />
+			<rel name="preparation" type="rst" />
+			<rel name="purpose" type="rst" />
+			<rel name="restatement" type="multinuc" />
+			<rel name="same-unit" type="multinuc" />
+			<rel name="sequence" type="multinuc" />
+			<rel name="solutionhood" type="rst" />
+			<rel name="volitional_cause" type="rst" />
+			<rel name="volitional_effect" type="rst" />
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="2" relname="elaboration">##### В Сан-Франциско прошло технологическое шоу TechCrunch50 – конкурс-конференция, посвященная высокотехнологическим стартапам.</segment>
+		<segment id="2" parent="90" relname="span">Новинки сезона – микроблог для корпораций и Т9 для экранных клавиатур.</segment>
+		<segment id="3" parent="93" relname="same-unit">##### На прошлой неделе в Сан-Франциско в Design Center Concourse закончилась конференция,</segment>
+		<segment id="4" parent="91" relname="restatement">организованная TechCrunch,</segment>
+		<segment id="5" parent="91" relname="restatement">интернет-проектом, посвященным высоким технологиям и стартапам.</segment>
+		<segment id="6" parent="94" relname="joint">Всё прошло весьма солидно, с помпой.</segment>
+		<segment id="7" parent="94" relname="joint">Несмотря на кризис, было продано 1700 билетов по цене от 2000–3000 долл., много прессы.</segment>
+		<segment id="8" parent="94" relname="joint">Мероприятие проводилось второй раз.</segment>
+		<segment id="9" parent="94" relname="joint">В прошлом году было 40 финалистов, а сейчас – 52 из тысячи претендентов.</segment>
+		<segment id="10" parent="94" relname="joint">Конференция проходила три дня – каждый день работало по четыре секции (пять выступающих и 8 минут на презентацию каждому).</segment>
+		<segment id="11" parent="103" relname="elaboration">##### Победителем стал Yammer, получивший 50 000 долл..</segment>
+		<segment id="12" parent="102" relname="joint">Компания Geni создала сервис (в духе популярного микроблога Twitter) для нужд бизнеса и межкорпоративных коммуникаций.</segment>
+		<segment id="13" parent="97" relname="restatement">От 2 до 10 тыс. пользователей могут заниматься микроблогингом</segment>
+		<segment id="14" parent="95" relname="joint">(то есть отвечать на вопрос «что ты сейчас делаешь?»</segment>
+		<segment id="15" parent="95" relname="joint">и быстро обмениваться сообщениями)</segment>
+		<segment id="16" parent="99" relname="joint">. Yammer позволяет формировать закрытые группы</segment>
+		<segment id="17" parent="99" relname="joint">и работать как на сервере производителя, так и на сервере организации, которая им пользуется.</segment>
+		<segment id="18" parent="101" relname="span">В этом случае вы платите по доллару в месяц за каждого участника сети (три месяца, правда, бесплатно).</segment>
+		<segment id="19" parent="102" relname="joint">Yammer, разумеется, доступен через iPhone, Blackberry, программы мгновенного обмена сообщениями, SMS и e-mail.</segment>
+		<segment id="20" relname="antithesis">##### В числе победителей были и другие стартапы.</segment>
+		<segment id="21" parent="106" relname="span">##### Atmosphir – трехмерная игровая платформа,</segment>
+		<segment id="22" parent="105" relname="span">в которой можно собрать собственный игровой уровень,</segment>
+		<segment id="23" parent="22" relname="purpose">используя заданные элементы: мосты, открытые пространства, препятствия.</segment>
+		<segment id="24" parent="106" relname="interpretation-evaluation">Довольно незамысловатый редактор.</segment>
+		<segment id="25" parent="108" relname="joint">Программа доступно на Маке, PC и на Linux.</segment>
+		<segment id="26" parent="108" relname="joint">Автор творения – Minor Studios.</segment>
+		<segment id="27" parent="115" relname="elaboration">##### FitBit – гаджет в виде клипсы, похожий на hitech-прищепку для белья.</segment>
+		<segment id="28" parent="109" relname="joint">Она фиксирует, сколько ты нашагал в день,</segment>
+		<segment id="29" parent="109" relname="joint">и шлет отчеты в сеть.</segment>
+		<segment id="30" parent="111" relname="contrast">Вы можете радоваться</segment>
+		<segment id="31" parent="111" relname="contrast">и сокрушаться количеству соженных калорий.</segment>
+		<segment id="32" parent="114" relname="background">Для нового iPod, кстати, тоже предусмотрена похожая примочка от Nike.</segment>
+		<segment id="33" parent="117" relname="span">##### GoodGuide – это серьезный рекомендательный ресурс с постоянно расширяющимся ассортиметном товаров,</segment>
+		<segment id="34" parent="33" relname="elaboration">о которых можно получить справку на предмет их соответствия разным критериям, от полезности для здоровья до «социальной приемлемости».</segment>
+		<segment id="35" parent="118" relname="joint">Голосуют не только пользователи, но и независимые эксперты.</segment>
+		<segment id="36" parent="183" relname="elaboration">##### Онлайновый ресурс Grockit предназначен для самотестирования:</segment>
+		<segment id="37" parent="38" relname="purpose">предполагается, что суденты будут собираться вместе</segment>
+		<segment id="38" parent="180" relname="span">и отвечать на вопросы тестов, например, SAT.</segment>
+		<segment id="39" parent="181" relname="restatement">Логика организации ресурса схожа с World of Warcraft .</segment>
+		<segment id="40" parent="181" relname="restatement">Есть чат, где можно обсуждать вопросы заданий.</segment>
+		<segment id="41" parent="182" relname="joint">Стартап уже освоил 10 млн долл.</segment>
+		<segment id="42" parent="43" relname="elaboration">##### Swype – интересная программа для любых сенсорных дисплеев, которая позволяет вам без ошибок писать слова,</segment>
+		<segment id="43" parent="178" relname="span">просто соединяя движением пальца (или стилусом) буквы на виртуальной клавиатуре.</segment>
+		<segment id="44" parent="45" relname="attribution">Создатели уверяют,</segment>
+		<segment id="45" parent="170" relname="span">что можно достичь скорости 50 слов в минуту.</segment>
+		<segment id="46" parent="171" relname="span">Автор программы Клиф Кашлер – соавтор T9, программы, знакомой любому владельцу мобильного телефона,</segment>
+		<segment id="47" parent="46" relname="elaboration">которая предсказывает печатаемое слово по мере набора,</segment>
+		<segment id="48" parent="171" relname="evidence">тем самым ускоряя и упрощая переписку.</segment>
+		<segment id="49" parent="173" relname="joint">На iPhone эта программа называется WrittingPad.</segment>
+		<segment id="50" parent="173" relname="joint">Но пока не для русского языка.</segment>
+		<segment id="51" parent="155" relname="joint">##### Поскольку одни проекты находятся в стадии разработки не только «бета», но даже «альфа»,</segment>
+		<segment id="52" parent="155" relname="joint">а другие готовы прислать вам приглашение, но не сразу, а немного погодя,</segment>
+		<segment id="53" parent="156" relname="cause-effect">то в реальном доступе есть не так уж много участников конференции.</segment>
+		<segment id="54" parent="166" relname="elaboration">Из того, что удалось посмотреть автору, приглянулись два сервиса.</segment>
+		<segment id="55" parent="56" relname="elaboration">Первый – Dropbox –</segment>
+		<segment id="56" parent="158" relname="span">сервис для быстрой органиации совместного доступа к документам или для собственных нужд, или при работе в команде.</segment>
+		<segment id="57" parent="163" relname="elaboration">Второй любопытный сервис – TonchiDot – предназначен для «социального маркирования» для iPhone, разработанный в Токио:</segment>
+		<segment id="58" parent="159" relname="joint">идешь по городу</segment>
+		<segment id="59" parent="159" relname="joint">и видишь на экране информацию о тех местах, мимо которых проходишь (магазины, рестораны, кино, выставки и прочие достопримечательности).</segment>
+		<segment id="60" parent="161" relname="restatement">Так создается паралельный информационный мир или,</segment>
+		<segment id="61" parent="161" relname="restatement">как принято говорить в последнее время, «расширенная» реальность.</segment>
+		<segment id="62" parent="153" relname="elaboration">##### А в свете экономического кризиса интересен подход StockMood.</segment>
+		<segment id="63" parent="152" relname="elaboration">Команда разработчиков предлагает некий алгоритм, позволяющий оценить реакцию рынка ценных бумаг на новости.</segment>
+		<segment id="64" parent="147" relname="condition">Гипотеза следующая: если рынок в «хорошем настроении»,</segment>
+		<segment id="65" parent="142" relname="restatement">то у него есть некоторая предвзятость как для хороших</segment>
+		<segment id="66" parent="142" relname="restatement">(они преувеличиваются)</segment>
+		<segment id="67" parent="144" relname="restatement">, так и не очень хороших новостей</segment>
+		<segment id="68" parent="144" relname="restatement">(они преуменьшаются)</segment>
+		<segment id="69" parent="70" relname="condition">, если же, напротив, настроение рынка «плохое»,</segment>
+		<segment id="70" parent="149" relname="span">то все наоборот.</segment>
+		<segment id="71" parent="151" relname="purpose">"Английское название" позволяет проследить за «угрозами» повышенного оптимизма и пессимизма.</segment>
+		<segment id="72" parent="73" relname="elaboration">##### Так или иначе, внимательно знакомясь с творениями призеров и финалистов, появляется мысль:</segment>
+		<segment id="73" parent="139" relname="span">«Где-то я это видел».</segment>
+		<segment id="74" parent="75" relname="attribution">Впрочем, как писал в свое время Дэвид Маллингс в журнале Fast company,</segment>
+		<segment id="75" parent="128" relname="span">«есть три типа предпринимателей.</segment>
+		<segment id="76" parent="120" relname="sequence">Изобретатель создает что-то новое</segment>
+		<segment id="77" parent="120" relname="sequence">и пытается на этом заработать.</segment>
+		<segment id="78" parent="122" relname="sequence">Инноватор – адаптировать</segment>
+		<segment id="79" parent="122" relname="sequence">и модифицировать что-то для нового рынка.</segment>
+		<segment id="80" parent="124" relname="sequence">Инвестор – это только тот,</segment>
+		<segment id="81" parent="124" relname="sequence">кто инвестирует в идеи других.</segment>
+		<segment id="82" parent="83" relname="elaboration">Facebook и MySpace не оригинальны,</segment>
+		<segment id="83" parent="130" relname="span">но почему не вы их начали?</segment>
+		<segment id="84" parent="135" relname="joint">Майкл Делл не изобрел компьютеры, но сейчас он мультимиллионер.</segment>
+		<segment id="85" parent="131" relname="joint">Уоррен Баффет покупает прибыльные компании</segment>
+		<segment id="86" parent="131" relname="joint">и размещает капитал,</segment>
+		<segment id="87" parent="131" relname="joint">но ничего не изобретает».</segment>
+		<segment id="88" parent="133" relname="joint">Так что заходите на TechCrunch50</segment>
+		<segment id="89" parent="133" relname="joint">и пользуйтесь, чем понравится.</segment>
+		<group id="90" type="span" relname="antithesis"/>
+		<group id="91" type="multinuc" parent="92" relname="span"/>
+		<group id="92" type="span" parent="93" relname="same-unit"/>
+		<group id="93" type="multinuc" parent="94" relname="joint"/>
+		<group id="94" type="multinuc" relname="antithesis"/>
+		<group id="95" type="multinuc" parent="96" relname="span"/>
+		<group id="96" type="span" parent="97" relname="restatement"/>
+		<group id="97" type="multinuc" parent="98" relname="span"/>
+		<group id="98" type="span" parent="102" relname="joint"/>
+		<group id="99" type="multinuc" parent="100" relname="span"/>
+		<group id="100" type="span" parent="18" relname="elaboration"/>
+		<group id="101" type="span" parent="102" relname="joint"/>
+		<group id="102" type="multinuc" parent="103" relname="span"/>
+		<group id="103" type="span" parent="104" relname="span"/>
+		<group id="104" type="span" relname="antithesis"/>
+		<group id="105" type="span" parent="21" relname="elaboration"/>
+		<group id="106" type="span" parent="107" relname="span"/>
+		<group id="107" type="span" parent="108" relname="joint"/>
+		<group id="108" type="multinuc" relname="antithesis"/>
+		<group id="109" type="multinuc" parent="110" relname="span"/>
+		<group id="110" type="span" parent="113" relname="joint"/>
+		<group id="111" type="multinuc" parent="112" relname="span"/>
+		<group id="112" type="span" parent="113" relname="joint"/>
+		<group id="113" type="multinuc" parent="114" relname="span"/>
+		<group id="114" type="span" parent="115" relname="span"/>
+		<group id="115" type="span" parent="116" relname="span"/>
+		<group id="116" type="span" relname="antithesis"/>
+		<group id="117" type="span" parent="118" relname="joint"/>
+		<group id="118" type="multinuc" parent="119" relname="span"/>
+		<group id="119" type="span" relname="antithesis"/>
+		<group id="120" type="multinuc" parent="121" relname="span"/>
+		<group id="121" type="span" parent="126" relname="joint"/>
+		<group id="122" type="multinuc" parent="123" relname="span"/>
+		<group id="123" type="span" parent="126" relname="joint"/>
+		<group id="124" type="multinuc" parent="125" relname="span"/>
+		<group id="125" type="span" parent="126" relname="joint"/>
+		<group id="126" type="multinuc" parent="127" relname="span"/>
+		<group id="127" type="span" parent="129" relname="span"/>
+		<group id="128" type="span" parent="127" relname="elaboration"/>
+		<group id="129" type="span" parent="137" relname="joint"/>
+		<group id="130" type="span" parent="135" relname="joint"/>
+		<group id="131" type="multinuc" parent="132" relname="span"/>
+		<group id="132" type="span" parent="135" relname="joint"/>
+		<group id="133" type="multinuc" parent="134" relname="span"/>
+		<group id="134" type="span" parent="141" relname="span"/>
+		<group id="135" type="multinuc" parent="136" relname="span"/>
+		<group id="136" type="span" parent="137" relname="joint"/>
+		<group id="137" type="multinuc" parent="138" relname="span"/>
+		<group id="138" type="span" parent="140" relname="span"/>
+		<group id="139" type="span" parent="138" relname="elaboration"/>
+		<group id="140" type="span" parent="134" relname="elaboration"/>
+		<group id="141" type="span" relname="antithesis"/>
+		<group id="142" type="multinuc" parent="143" relname="span"/>
+		<group id="143" type="span" parent="146" relname="joint"/>
+		<group id="144" type="multinuc" parent="145" relname="span"/>
+		<group id="145" type="span" parent="146" relname="joint"/>
+		<group id="146" type="multinuc" parent="147" relname="span"/>
+		<group id="147" type="span" parent="148" relname="span"/>
+		<group id="148" type="span" parent="150" relname="contrast"/>
+		<group id="149" type="span" parent="150" relname="contrast"/>
+		<group id="150" type="multinuc" parent="151" relname="span"/>
+		<group id="151" type="span" parent="152" relname="span"/>
+		<group id="152" type="span" parent="153" relname="span"/>
+		<group id="153" type="span" parent="154" relname="span"/>
+		<group id="154" type="span" relname="antithesis"/>
+		<group id="155" type="multinuc" parent="156" relname="span"/>
+		<group id="156" type="span" parent="157" relname="span"/>
+		<group id="157" type="span" parent="168" relname="joint"/>
+		<group id="158" type="span" parent="165" relname="joint"/>
+		<group id="159" type="multinuc" parent="160" relname="span"/>
+		<group id="160" type="span" parent="162" relname="cause-effect"/>
+		<group id="161" type="multinuc" parent="162" relname="span"/>
+		<group id="162" type="span" parent="163" relname="span"/>
+		<group id="163" type="span" parent="164" relname="span"/>
+		<group id="164" type="span" parent="165" relname="joint"/>
+		<group id="165" type="multinuc" parent="166" relname="span"/>
+		<group id="166" type="span" parent="167" relname="span"/>
+		<group id="167" type="span" parent="168" relname="joint"/>
+		<group id="168" type="multinuc" parent="169" relname="span"/>
+		<group id="169" type="span" relname="antithesis"/>
+		<group id="170" type="span" parent="172" relname="interpretation-evaluation"/>
+		<group id="171" type="span" parent="172" relname="span"/>
+		<group id="172" type="span" parent="176" relname="span"/>
+		<group id="173" type="multinuc" parent="174" relname="span"/>
+		<group id="174" type="span" parent="175" relname="joint"/>
+		<group id="175" type="multinuc" parent="177" relname="span"/>
+		<group id="176" type="span" parent="175" relname="joint"/>
+		<group id="177" type="span" parent="179" relname="span"/>
+		<group id="178" type="span" parent="177" relname="elaboration"/>
+		<group id="179" type="span" relname="antithesis"/>
+		<group id="180" type="span" parent="182" relname="joint"/>
+		<group id="181" type="multinuc" parent="182" relname="joint"/>
+		<group id="182" type="multinuc" parent="183" relname="span"/>
+		<group id="183" type="span" parent="184" relname="span"/>
+		<group id="184" type="span" relname="antithesis"/>
+  </body>
+</rst>

@@ -1,0 +1,400 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst" />
+			<rel name="attribution1" type="rst" />
+			<rel name="attribution2" type="rst" />
+			<rel name="attribution" type="rst" />
+			<rel name="background" type="rst" />
+			<rel name="cause-effect" type="rst" />
+			<rel name="comparison" type="multinuc" />
+			<rel name="concession" type="rst" />
+			<rel name="conclusion" type="rst" />
+			<rel name="condition" type="rst" />
+			<rel name="contrast" type="multinuc" />
+			<rel name="elaboration" type="rst" />
+			<rel name="evaluation" type="rst" />
+			<rel name="evidence" type="rst" />
+			<rel name="interpretation-evaluation" type="rst" />
+			<rel name="interpretation" type="rst" />
+			<rel name="joint" type="multinuc" />
+			<rel name="motivation" type="rst" />
+			<rel name="non_volitional_cause" type="rst" />
+			<rel name="non_volitional_effect" type="rst" />
+			<rel name="preparation" type="rst" />
+			<rel name="purpose" type="rst" />
+			<rel name="restatement" type="multinuc" />
+			<rel name="same-unit" type="multinuc" />
+			<rel name="sequence" type="multinuc" />
+			<rel name="solutionhood" type="rst" />
+			<rel name="volitional_cause" type="rst" />
+			<rel name="volitional_effect" type="rst" />
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="202" relname="span">##### Кольца Урана — система планетных колец, окружающих Уран.</segment>
+		<segment id="2" parent="200" relname="joint">Среди других систем колец она занимает промежуточное положение по сложности строения между более развитой системой колец Сатурна и простыми системами колец Юпитера и Нептуна.</segment>
+		<segment id="3" parent="200" relname="joint">Кольца Урана были открыты 10 марта 1977 года Джеймсом Элиотом, Эдвардом Данхэмом и Дугласом Минком.</segment>
+		<segment id="4" parent="5" relname="attribution">##### За 200 лет до этого Уильям Гершель сообщал</segment>
+		<segment id="5" parent="184" relname="span">о наблюдениях колец у Урана,</segment>
+		<segment id="6" parent="7" relname="interpretation-evaluation">однако современные астрономы сомневаются</segment>
+		<segment id="7" parent="180" relname="span">в возможности такого открытия,</segment>
+		<segment id="8" parent="9" relname="cause-effect">так как кольца очень слабые и тёмные</segment>
+		<segment id="9" parent="179" relname="span">и не могли быть обнаружены с помощью астрономического оборудования того времени.</segment>
+		<segment id="10" parent="183" relname="sequence">Два новых кольца системы Урана были обнаружены «Вояджером-2» в 1986 году,</segment>
+		<segment id="11" parent="183" relname="sequence">ещё два внешних кольца были обнаружены телескопом «Хаббл» в 2003—2005 годах.</segment>
+		<segment id="12" parent="196" relname="span">##### По состоянию на 2008 год известно 13 отдельных колец.</segment>
+		<segment id="13" parent="191" relname="joint">В порядке увеличения расстояния от планеты они расположены так: 1986U2R/ζ, 6, 5, 4, α, β, η, γ, δ, λ, ε, ν и μ.</segment>
+		<segment id="14" parent="189" relname="contrast">Минимальный радиус имеет кольцо 1986U2R/ζ (38 000 км),</segment>
+		<segment id="15" parent="189" relname="contrast">максимальный — кольцо μ (приблизительно 98 000 км).</segment>
+		<segment id="16" parent="191" relname="joint">Между основными кольцами могут находиться слабые пылевые кольцевые скопления и незамкнутые арки.</segment>
+		<segment id="17" parent="190" relname="span">Кольца чрезвычайно тёмные,</segment>
+		<segment id="18" parent="17" relname="elaboration">альбедо Бонда для входящих в них частиц не превышает 2 %.</segment>
+		<segment id="19" parent="191" relname="joint">Вероятно, они состоят из водяного льда с включениями органики.</segment>
+		<segment id="20" parent="209" relname="joint">##### Большинство колец Урана непрозрачны,</segment>
+		<segment id="21" parent="209" relname="joint">их ширина не больше нескольких километров.</segment>
+		<segment id="22" parent="207" relname="span">В целом, кольцевая система содержит немного пыли,</segment>
+		<segment id="23" parent="22" relname="elaboration">она состоит в основном из крупных объектов диаметром от 20 сантиметров до 20 метров.</segment>
+		<segment id="24" parent="206" relname="span">Однако некоторые кольца оптически тонкие:</segment>
+		<segment id="25" parent="204" relname="contrast">широкое тусклое 1986U2R/ζ, μ и ν состоят из мелких частиц пыли,</segment>
+		<segment id="26" parent="204" relname="contrast">тогда как узкое тусклое λ содержит крупные тела.</segment>
+		<segment id="27" parent="210" relname="span">Относительно небольшое количество пыли в кольцевой системе объясняется</segment>
+		<segment id="28" parent="27" relname="cause-effect">аэродинамическим лобовым сопротивлением протяжённой экзосферы — короны Урана.</segment>
+		<segment id="29" parent="217" relname="span">##### Считается, что кольца Урана относительно молоды,</segment>
+		<segment id="30" parent="29" relname="elaboration">их возраст не превышает 600 миллионов лет.</segment>
+		<segment id="31" parent="219" relname="span">Кольцевая система Урана, вероятно, произошла от столкновений спутников, ранее обращавшихся по орбите вокруг планеты.</segment>
+		<segment id="32" parent="215" relname="cause-effect">В результате столкновений</segment>
+		<segment id="33" parent="215" relname="span">спутники, вероятно, постепенно разбивались на более мелкие частицы,</segment>
+		<segment id="34" parent="33" relname="elaboration">которые теперь существуют как кольца в строго ограниченных зонах максимальной гравитационной стабильности.</segment>
+		<segment id="35" parent="225" relname="span">##### До сих пор не ясен механизм, удерживающий узкие кольца в их границах.</segment>
+		<segment id="36" parent="221" relname="span">Первоначально считалось, что у каждого узкого кольца есть пара «спутников-пастухов»,</segment>
+		<segment id="37" parent="36" relname="elaboration">которые и поддерживают его форму,</segment>
+		<segment id="38" parent="223" relname="contrast">но в 1986 году Вояджер-2 обнаружил только одну пару таких спутников (Корделию и Офелию) вокруг самого яркого кольца — ε.</segment>
+		<segment id="39" parent="279" relname="preparation">##### История наблюдений</segment>
+		<segment id="40" parent="239" relname="span">##### В работах первооткрывателя Урана, Уильяма Гершеля, первое упоминание о кольцах встречается в его записи от 22 февраля 1789 года.</segment>
+		<segment id="41" parent="42" relname="attribution">В своих примечаниях к наблюдениям он отметил,</segment>
+		<segment id="42" parent="226" relname="span">что предполагает наличие колец у Урана.</segment>
+		<segment id="43" parent="227" relname="attribution">Гершель предположил,</segment>
+		<segment id="44" parent="227" relname="span">что они красного цвета</segment>
+		<segment id="45" parent="44" relname="elaboration">(что было подтверждено в 2006 году наблюдениями обсерватории Кек в случае предпоследнего кольца)</segment>
+		<segment id="46" parent="232" relname="contrast">. Записи Гершеля попали в журнал Королевского общества в 1797 году.</segment>
+		<segment id="47" parent="48" relname="cause-effect">Однако впоследствии, на протяжении почти двух столетий с 1797 по 1979 год, кольца в научной литературе не упоминаются вовсе,</segment>
+		<segment id="48" parent="230" relname="span">что, конечно, даёт право подозревать ошибку учёного.</segment>
+		<segment id="49" parent="50" relname="cause-effect">Тем не менее, достаточно точные описания увиденного Гершелем</segment>
+		<segment id="50" parent="229" relname="span">не дают повода просто так сбрасывать со счетов его наблюдения.</segment>
+		<segment id="51" parent="271" relname="span">##### Наличие кольцевой системы у Урана официально было подтверждено лишь 10 марта 1977 года американскими учёными.</segment>
+		<segment id="52" parent="269" relname="preparation">Открытие было сделано случайно</segment>
+		<segment id="53" parent="268" relname="contrast">— группа учёных планировала провести наблюдения атмосферы Урана при покрытии им звезды SAO 158687.</segment>
+		<segment id="54" parent="263" relname="same-unit">Однако,</segment>
+		<segment id="55" parent="56" relname="cause-effect">анализируя полученную после проведённых наблюдений информацию,</segment>
+		<segment id="56" parent="262" relname="span">они обнаружили покрытие звезды ещё до её покрытия Ураном,</segment>
+		<segment id="57" parent="264" relname="elaboration">причём произошло это несколько раз подряд.</segment>
+		<segment id="58" parent="59" relname="cause-effect">В результате исследований</segment>
+		<segment id="59" parent="266" relname="span">было открыто 9 колец Урана.</segment>
+		<segment id="60" parent="252" relname="sequence">##### Когда в окрестности Урана прибыл космический аппарат «Вояджер-2»,</segment>
+		<segment id="61" parent="252" relname="sequence">при помощи бортовой оптики было открыто ещё 2 кольца,</segment>
+		<segment id="62" parent="254" relname="span">и общее число известных колец возросло до 11.</segment>
+		<segment id="63" parent="250" relname="span">В декабре 2005 года космический телескоп «Хаббл» зарегистрировал ещё 2 ранее неизвестных кольца.</segment>
+		<segment id="64" parent="65" relname="cause-effect">Они были удалены от планеты на расстояние в два раза большее, чем ранее открытые кольца</segment>
+		<segment id="65" parent="249" relname="span">— и поэтому их часто называют «внешней системой колец Урана».</segment>
+		<segment id="66" parent="248" relname="span">Помимо колец, «Хаббл» помог открыть два ранее неизвестных небольших спутника,</segment>
+		<segment id="67" parent="66" relname="elaboration">один из которых (Маб) имеет ту же орбиту, что и самое внешнее кольцо.</segment>
+		<segment id="68" parent="255" relname="joint">Последние два кольца доводят общее количество известных колец Урана до 13.</segment>
+		<segment id="69" parent="260" relname="span">В апреле 2006 года изображения новых колец, полученные обсерваторией Кек на Гавайских островах, позволили различить их цвет.</segment>
+		<segment id="70" parent="246" relname="contrast">Одно из них было красным,</segment>
+		<segment id="71" parent="246" relname="contrast">а другое (самое внешнее) — синим.</segment>
+		<segment id="72" parent="247" relname="span">Предполагают, что синий цвет внешнего кольца обусловлен тем,</segment>
+		<segment id="73" parent="72" relname="cause-effect">что оно в дополнении к пыли обладает некоторой примесью мелких частиц водяного льда с поверхности Маба.</segment>
+		<segment id="74" parent="256" relname="joint">Внутренние кольца планеты выглядят серыми.</segment>
+		<segment id="75" parent="243" relname="joint">##### При наблюдениях с Земли можно заметить, что иногда кольца Урана своей плоскостью повёрнуты в сторону наблюдателя.</segment>
+		<segment id="76" parent="243" relname="joint">В 2007— 2008 годах кольца были обращены к наблюдателю ребром.</segment>
+		<segment id="77" parent="373" relname="preparation">##### Основные сведения</segment>
+		<segment id="78" parent="288" relname="span">##### Система колец Урана включает в себя 13 отчётливо различимых колец.</segment>
+		<segment id="79" parent="286" relname="joint">По расстоянию от планеты они расположены в следующем порядке: 1986U2R/ζ, 6, 5, 4, α, β, η, γ, δ, λ, ε, ν, и μ кольца.</segment>
+		<segment id="80" parent="284" relname="span">Их можно разделить на 3 группы:</segment>
+		<segment id="81" parent="282" relname="joint">9 узких главных колец (6, 5, 4, α, β, η, γ, δ, ε),</segment>
+		<segment id="82" parent="282" relname="joint">два пылевых кольца (1986U2R/ζ, λ)</segment>
+		<segment id="83" parent="282" relname="joint">и два внешних кольца (μ, ν).</segment>
+		<segment id="84" parent="300" relname="span">##### Главным образом, кольца Урана состоят из макрочастиц и небольшого количества пыли.</segment>
+		<segment id="85" parent="298" relname="joint">Пылевые частицы, как известно, присутствуют в 1986U2R/ζ, η, δ, λ, ν и μ кольцах.</segment>
+		<segment id="86" parent="296" relname="span">В дополнение к известным кольцам, скорее всего, существуют почти неразличимые пылевые полосы и весьма слабые и тонкие колечки между ними.</segment>
+		<segment id="87" parent="291" relname="joint">Эти слабые кольца и пылевые полосы могут существовать лишь временно</segment>
+		<segment id="88" parent="289" relname="span">или состоять из нескольких отдельных дужек,</segment>
+		<segment id="89" parent="88" relname="elaboration">которые могут иногда обнаруживаться во время покрытия планетой звезды.</segment>
+		<segment id="90" parent="294" relname="joint">Некоторые из них становились заметными во время серии пересечений Землёй плоскости колец в 2007 году.</segment>
+		<segment id="91" parent="294" relname="joint">Многие из пылевых полос между кольцами наблюдались при прямом рассеивании света ещё Вояджером-2.</segment>
+		<segment id="92" parent="302" relname="joint">Все кольца Урана показывают азимутальные изменения яркости.</segment>
+		<segment id="93" parent="308" relname="span">##### Кольца состоят из чрезвычайно тёмного вещества.</segment>
+		<segment id="94" parent="305" relname="joint">Геометрическое альбедо частиц составляющих кольца не превышает 5-6 %,</segment>
+		<segment id="95" parent="305" relname="joint">а альбедо Бонда и того меньше — около 2 %.</segment>
+		<segment id="96" parent="306" relname="span">Частицы колец демонстрируют повышение альбедо при прямом освещении</segment>
+		<segment id="97" parent="96" relname="cause-effect">так как частицы составляющие собой кольца — отбрасывают тени.</segment>
+		<segment id="98" parent="310" relname="joint">Кольца кажутся немного красноватыми в ультрафиолетовой и видимой части спектра и серыми в ближней инфракрасной.</segment>
+		<segment id="99" parent="310" relname="joint">Каких-либо идентифицируемых спектральных особенностей у колец не наблюдается.</segment>
+		<segment id="100" parent="319" relname="joint">##### Химический состав частиц колец неизвестен.</segment>
+		<segment id="101" parent="313" relname="span">Однако они не могут состоять из чистого водяного льда — как, например кольца Сатурна,</segment>
+		<segment id="102" parent="101" relname="evidence">потому что слишком тёмные, даже более тёмные, чем внутренние спутники Урана.</segment>
+		<segment id="103" parent="314" relname="span">Это указывает на то, что они являются смесью из льда и тёмного вещества.</segment>
+		<segment id="104" parent="316" relname="contrast">Природа этого вещества неизвестна,</segment>
+		<segment id="105" parent="316" relname="contrast">но это может быть органика, значительно затемнённая заряженными частицами из магнитосферы Урана.</segment>
+		<segment id="106" parent="312" relname="span">Возможно, кольца — это остатки от одного из внутренних спутников Урана,</segment>
+		<segment id="107" parent="106" relname="evidence">так как материал колец и внутренних спутников приблизительно схож.</segment>
+		<segment id="108" parent="325" relname="span">##### В целом система колец Урана не похожа на слабые, пылевые кольца Юпитера или широкие и сложные кольца Сатурна,</segment>
+		<segment id="109" parent="108" relname="elaboration">некоторые из которых состоят из имеющих очень высокую отражательную способность частичек водяного льда.</segment>
+		<segment id="110" parent="324" relname="span">Однако с последней упомянутой системой колец у колец Урана есть и общее:</segment>
+		<segment id="111" parent="322" relname="joint">кольцо F Сатурна и кольцо ε Урана являются узкими,</segment>
+		<segment id="112" parent="322" relname="joint">относительно тёмными</segment>
+		<segment id="113" parent="322" relname="joint">и оба «пасутся» парой спутников.</segment>
+		<segment id="114" parent="367" relname="joint">Недавно открытые внешние кольца Урана подобны внешним кольцам G и E Сатурна.</segment>
+		<segment id="115" parent="367" relname="joint">Небольшие колечки между широкими кольцами Сатурна также напоминают узкие кольца Урана.</segment>
+		<segment id="116" parent="367" relname="joint">Помимо этого — пылевые скопления между кольцами Урана могут быть схожи с пылевыми кольцами Юпитера.</segment>
+		<segment id="117" parent="363" relname="contrast">Кольцевая система Нептуна, напротив, похожа на кольцевую систему Урана,</segment>
+		<segment id="118" parent="321" relname="joint">но менее сложна,</segment>
+		<segment id="119" parent="321" relname="joint">более тёмная</segment>
+		<segment id="120" parent="321" relname="joint">и содержит больше пыли;</segment>
+		<segment id="121" parent="321" relname="joint">кольца Нептуна расположены от планеты дальше, чем у Урана.</segment>
+		<segment id="122" parent="123" relname="preparation">##### Узкие главные кольца</segment>
+		<segment id="123" parent="410" relname="span">##### ε (эпсилон)</segment>
+		<segment id="124" parent="359" relname="joint">##### Кольцо ε (эпсилон) — самое яркое и самое плотное из колец Урана</segment>
+		<segment id="125" parent="359" relname="joint">и ответственно примерно за две трети света, отражаемого кольцами.></segment>
+		<segment id="126" parent="359" relname="joint">У этого кольца самый высокий эксцентриситет из всех,</segment>
+		<segment id="127" parent="359" relname="joint">оно также обладает незначительным орбитальным наклонением.</segment>
+		<segment id="128" parent="129" relname="cause-effect">Эксцентриситет</segment>
+		<segment id="129" parent="356" relname="span">является причиной изменений яркости этого кольца.</segment>
+		<segment id="130" parent="354" relname="condition">Если создать для него «круговую карту яркости»,</segment>
+		<segment id="131" parent="353" relname="span">то можно было бы заметить, что яркость достигает наивысшего значения вблизи апоцентра</segment>
+		<segment id="132" parent="131" relname="elaboration">(самой удалённой точки орбиты)</segment>
+		<segment id="133" parent="351" relname="span">и уменьшается вблизи перицентра</segment>
+		<segment id="134" parent="133" relname="elaboration">(самой близкой к планете точке орбиты).</segment>
+		<segment id="135" parent="394" relname="span">##### Максимальный/минимальный яркостный контраст кольца — около 2,5—3,0.</segment>
+		<segment id="136" parent="392" relname="span">Эта разница</segment>
+		<segment id="137" parent="391" relname="span">связана с изменением ширины кольца,</segment>
+		<segment id="138" parent="137" relname="elaboration">которая составляет 19,7 км в перицентре и 96,4 км в апоцентре.</segment>
+		<segment id="139" parent="384" relname="condition">По мере того, как кольцо становится шире,</segment>
+		<segment id="140" parent="383" relname="joint">уменьшается количество взаимных «затенений» частицами друг друга</segment>
+		<segment id="141" parent="142" relname="cause-effect">и можно наблюдать большее их количество,</segment>
+		<segment id="142" parent="381" relname="span">что приводит к более высокой интегральной яркости.</segment>
+		<segment id="143" parent="385" relname="span">Вариации ширины кольца были измерены непосредственно со снимков, полученных «Вояджером-2»,</segment>
+		<segment id="144" parent="143" relname="cause-effect">так как кольцо ε было одним из двух колец, чья ширина различима на камерах «Вояджера».</segment>
+		<segment id="145" parent="386" relname="span">Это указывает на то, что кольцо является оптически глубоким.</segment>
+		<segment id="146" parent="377" relname="attribution">Действительно, наблюдения покрытия звёзд этим кольцом, проводимые с Земли и «Вояджера-2» показали,</segment>
+		<segment id="147" parent="376" relname="joint">что его нормальная «оптическая глубина» варьируется от 0,5 до 2,5,</segment>
+		<segment id="148" parent="376" relname="joint">и максимальна вблизи перицентра орбиты кольца.</segment>
+		<segment id="149" parent="379" relname="span">«Эквивалентная глубина» кольца ε — около 47 километров.</segment>
+		<segment id="150" parent="149" relname="elaboration">Эквивалентная глубина кольца не изменяется на протяжении всей его орбиты.</segment>
+		<segment id="151" parent="350" relname="joint">##### Кольца представлены крупным планом (сверху вниз) δ, γ, η, β и α.</segment>
+		<segment id="152" parent="350" relname="joint">Различимая ширина кольца η показывает оптически тонкий компонент.</segment>
+		<segment id="153" parent="347" relname="contrast">##### Геометрическая толщина кольца ε достоверно неизвестна,</segment>
+		<segment id="154" parent="347" relname="contrast">хотя, по некоторым оценкам, составляет примерно 150 метров.</segment>
+		<segment id="155" parent="156" relname="concession">Несмотря на столь малую толщину,</segment>
+		<segment id="156" parent="346" relname="span">кольцо состоит из нескольких слоёв частиц.</segment>
+		<segment id="157" parent="401" relname="span">Кольцо ε — достаточно «переполненное место» с коэффициентом заполнения оценённым различными источниками от 0,008 до 0,06 вблизи апоцентра.></segment>
+		<segment id="158" parent="344" relname="joint">Средний размер частичек в этом кольце 0,2— 20 метров,</segment>
+		<segment id="159" parent="344" relname="joint">расстояние между ними составляет в среднем 4,5 их средних радиусов.</segment>
+		<segment id="160" parent="161" relname="cause-effect">Из-за своей исключительной тонкости</segment>
+		<segment id="161" parent="342" relname="span">кольцо ε исчезает при наблюдении с ребра.</segment>
+		<segment id="162" parent="342" relname="elaboration">Такое случилось в 2007 году, во время серии пересечений Землёй плоскости колец.</segment>
+		<segment id="163" parent="341" relname="span">Низкое содержание космической пыли в кольце можно объяснить</segment>
+		<segment id="164" parent="163" relname="cause-effect">аэродинамическим лобовым сопротивлением расширенной атмосферной короны Урана.</segment>
+		<segment id="165" parent="336" relname="span">##### «Вояджер-2» получил странные сигналы от этого кольца при эксперименте «радиопокрытия».</segment>
+		<segment id="166" parent="165" relname="elaboration">Сигнал был похож на сильное повышение прямого рассеяния на длине волны в 3,6 см вблизи апоцентра кольца.</segment>
+		<segment id="167" parent="335" relname="joint">Такое сильное рассеяние требует наличия когерентной структуры.</segment>
+		<segment id="168" parent="335" relname="joint">Такая структура кольца ε была подтверждена многими последующими наблюдениями покрытий.</segment>
+		<segment id="169" parent="339" relname="joint">##### Кольцо ε выглядит состоящим из множества узких и оптически плотных колечек.</segment>
+		<segment id="170" parent="328" relname="span">У него есть два «спутника-пастуха»</segment>
+		<segment id="171" parent="170" relname="elaboration">— Корделия (внутренний) и Офелия (внешний).</segment>
+		<segment id="172" parent="327" relname="contrast">Внутренний край кольца находится в орбитальном резонансе 24:25 с Корделией,</segment>
+		<segment id="173" parent="327" relname="contrast">а внешний край в 14:13 с Офелией.</segment>
+		<segment id="174" parent="329" relname="span">Чтобы эффективно «пасти»</segment>
+		<segment id="175" parent="174" relname="elaboration">(удерживать в существующих рамках)</segment>
+		<segment id="176" parent="331" relname="same-unit">кольцо,</segment>
+		<segment id="177" parent="333" relname="span">масса каждого спутника должна быть как минимум в три раза больше массы кольца.</segment>
+		<segment id="178" parent="340" relname="span">Масса кольца ε оценивается около 1016 кг.</segment>
+		<group id="179" type="span" parent="180" relname="cause-effect"/>
+		<group id="180" type="span" parent="181" relname="span"/>
+		<group id="181" type="span" parent="186" relname="contrast"/>
+		<group id="183" type="multinuc" parent="197" relname="span"/>
+		<group id="184" type="span" parent="186" relname="contrast"/>
+		<group id="186" type="multinuc" parent="187" relname="span"/>
+		<group id="187" type="span" parent="198" relname="joint"/>
+		<group id="189" type="multinuc" parent="194" relname="span"/>
+		<group id="190" type="span" parent="191" relname="joint"/>
+		<group id="191" type="multinuc" parent="195" relname="span"/>
+		<group id="194" type="span" parent="191" relname="joint"/>
+		<group id="195" type="span" parent="12" relname="elaboration"/>
+		<group id="196" type="span" relname="antithesis"/>
+		<group id="197" type="span" parent="198" relname="joint"/>
+		<group id="198" type="multinuc" relname="antithesis"/>
+		<group id="200" type="multinuc" parent="201" relname="span"/>
+		<group id="201" type="span" parent="1" relname="elaboration"/>
+		<group id="202" type="span" relname="antithesis"/>
+		<group id="204" type="multinuc" parent="205" relname="span"/>
+		<group id="205" type="span" parent="24" relname="elaboration"/>
+		<group id="206" type="span" parent="212" relname="contrast"/>
+		<group id="207" type="span" parent="212" relname="contrast"/>
+		<group id="209" type="multinuc" relname="antithesis"/>
+		<group id="210" type="span" parent="213" relname="elaboration"/>
+		<group id="212" type="multinuc" parent="213" relname="span"/>
+		<group id="213" type="span" parent="214" relname="span"/>
+		<group id="214" type="span" parent="209" relname="joint"/>
+		<group id="215" type="span" parent="216" relname="span"/>
+		<group id="216" type="span" parent="31" relname="elaboration"/>
+		<group id="217" type="span" parent="220" relname="joint"/>
+		<group id="219" type="span" parent="220" relname="joint"/>
+		<group id="220" type="multinuc" relname="antithesis"/>
+		<group id="221" type="span" parent="223" relname="contrast"/>
+		<group id="223" type="multinuc" parent="224" relname="span"/>
+		<group id="224" type="span" parent="35" relname="elaboration"/>
+		<group id="225" type="span" relname="antithesis"/>
+		<group id="226" type="span" parent="237" relname="joint"/>
+		<group id="227" type="span" parent="228" relname="span"/>
+		<group id="228" type="span" parent="237" relname="joint"/>
+		<group id="229" type="span" parent="234" relname="contrast"/>
+		<group id="230" type="span" parent="232" relname="contrast"/>
+		<group id="232" type="multinuc" parent="233" relname="span"/>
+		<group id="233" type="span" parent="234" relname="contrast"/>
+		<group id="234" type="multinuc" parent="235" relname="span"/>
+		<group id="235" type="span" parent="241" relname="joint"/>
+		<group id="237" type="multinuc" parent="238" relname="span"/>
+		<group id="238" type="span" parent="40" relname="elaboration"/>
+		<group id="239" type="span" parent="241" relname="joint"/>
+		<group id="241" type="multinuc" parent="274" relname="span"/>
+		<group id="243" type="multinuc" parent="244" relname="span"/>
+		<group id="244" type="span" parent="277" relname="joint"/>
+		<group id="246" type="multinuc" parent="257" relname="span"/>
+		<group id="247" type="span" parent="257" relname="elaboration"/>
+		<group id="248" type="span" parent="255" relname="joint"/>
+		<group id="249" type="span" parent="63" relname="elaboration"/>
+		<group id="250" type="span" parent="255" relname="joint"/>
+		<group id="252" type="multinuc" parent="253" relname="span"/>
+		<group id="253" type="span" parent="62" relname="cause-effect"/>
+		<group id="254" type="span" parent="255" relname="joint"/>
+		<group id="255" type="multinuc" parent="261" relname="span"/>
+		<group id="256" type="multinuc" parent="259" relname="span"/>
+		<group id="257" type="span" parent="258" relname="span"/>
+		<group id="258" type="span" parent="256" relname="joint"/>
+		<group id="259" type="span" parent="69" relname="elaboration"/>
+		<group id="260" type="span" parent="255" relname="joint"/>
+		<group id="261" type="span" parent="277" relname="joint"/>
+		<group id="262" type="span" parent="263" relname="same-unit"/>
+		<group id="263" type="multinuc" parent="264" relname="span"/>
+		<group id="264" type="span" parent="265" relname="span"/>
+		<group id="265" type="span" parent="268" relname="contrast"/>
+		<group id="266" type="span" parent="273" relname="joint"/>
+		<group id="268" type="multinuc" parent="269" relname="span"/>
+		<group id="269" type="span" parent="270" relname="span"/>
+		<group id="270" type="span" parent="51" relname="elaboration"/>
+		<group id="271" type="span" parent="273" relname="joint"/>
+		<group id="273" type="multinuc" parent="278" relname="span"/>
+		<group id="274" type="span" parent="277" relname="joint"/>
+		<group id="277" type="multinuc" parent="279" relname="span"/>
+		<group id="278" type="span" parent="277" relname="joint"/>
+		<group id="279" type="span" parent="280" relname="span"/>
+		<group id="280" type="span" relname="antithesis"/>
+		<group id="282" type="multinuc" parent="283" relname="span"/>
+		<group id="283" type="span" parent="80" relname="elaboration"/>
+		<group id="284" type="span" parent="286" relname="joint"/>
+		<group id="286" type="multinuc" parent="287" relname="span"/>
+		<group id="287" type="span" parent="78" relname="elaboration"/>
+		<group id="288" type="span" parent="371" relname="joint"/>
+		<group id="289" type="span" parent="291" relname="joint"/>
+		<group id="291" type="multinuc" parent="292" relname="span"/>
+		<group id="292" type="span" parent="294" relname="joint"/>
+		<group id="294" type="multinuc" parent="295" relname="span"/>
+		<group id="295" type="span" parent="86" relname="elaboration"/>
+		<group id="296" type="span" parent="298" relname="joint"/>
+		<group id="298" type="multinuc" parent="299" relname="span"/>
+		<group id="299" type="span" parent="84" relname="elaboration"/>
+		<group id="300" type="span" parent="302" relname="joint"/>
+		<group id="302" type="multinuc" parent="303" relname="span"/>
+		<group id="303" type="span" parent="371" relname="joint"/>
+		<group id="305" type="multinuc" parent="307" relname="span"/>
+		<group id="306" type="span" parent="310" relname="joint"/>
+		<group id="307" type="span" parent="93" relname="elaboration"/>
+		<group id="308" type="span" parent="310" relname="joint"/>
+		<group id="310" type="multinuc" parent="311" relname="span"/>
+		<group id="311" type="span" parent="371" relname="joint"/>
+		<group id="312" type="span" parent="319" relname="joint"/>
+		<group id="313" type="span" parent="103" relname="evidence"/>
+		<group id="314" type="span" parent="318" relname="span"/>
+		<group id="316" type="multinuc" parent="317" relname="span"/>
+		<group id="317" type="span" parent="314" relname="elaboration"/>
+		<group id="318" type="span" parent="319" relname="joint"/>
+		<group id="319" type="multinuc" parent="372" relname="span"/>
+		<group id="321" type="multinuc" parent="362" relname="span"/>
+		<group id="322" type="multinuc" parent="323" relname="span"/>
+		<group id="323" type="span" parent="110" relname="elaboration"/>
+		<group id="324" type="span" parent="368" relname="contrast"/>
+		<group id="325" type="span" parent="368" relname="contrast"/>
+		<group id="327" type="multinuc" parent="338" relname="span"/>
+		<group id="328" type="span" parent="339" relname="joint"/>
+		<group id="329" type="span" parent="331" relname="same-unit"/>
+		<group id="331" type="multinuc" parent="332" relname="span"/>
+		<group id="332" type="span" parent="177" relname="purpose"/>
+		<group id="333" type="span" parent="178" relname="preparation"/>
+		<group id="335" type="multinuc" parent="405" relname="span"/>
+		<group id="336" type="span" parent="335" relname="joint"/>
+		<group id="338" type="span" parent="339" relname="joint"/>
+		<group id="339" type="multinuc" parent="404" relname="joint"/>
+		<group id="340" type="span" parent="339" relname="joint"/>
+		<group id="341" type="span" parent="399" relname="joint"/>
+		<group id="342" type="span" parent="396" relname="span"/>
+		<group id="344" type="multinuc" parent="397" relname="span"/>
+		<group id="346" type="span" parent="403" relname="joint"/>
+		<group id="347" type="multinuc" parent="348" relname="span"/>
+		<group id="348" type="span" parent="403" relname="joint"/>
+		<group id="350" type="multinuc" parent="407" relname="span"/>
+		<group id="351" type="span" parent="352" relname="contrast"/>
+		<group id="352" type="multinuc" parent="354" relname="span"/>
+		<group id="353" type="span" parent="352" relname="contrast"/>
+		<group id="354" type="span" parent="355" relname="span"/>
+		<group id="355" type="span" parent="356" relname="elaboration"/>
+		<group id="356" type="span" parent="360" relname="span"/>
+		<group id="359" type="multinuc" parent="409" relname="span"/>
+		<group id="360" type="span" parent="359" relname="joint"/>
+		<group id="362" type="span" parent="363" relname="contrast"/>
+		<group id="363" type="multinuc" parent="364" relname="span"/>
+		<group id="364" type="span" parent="367" relname="joint"/>
+		<group id="367" type="multinuc" parent="370" relname="span"/>
+		<group id="368" type="multinuc" parent="369" relname="span"/>
+		<group id="369" type="span" parent="367" relname="joint"/>
+		<group id="370" type="span" parent="371" relname="joint"/>
+		<group id="371" type="multinuc" parent="373" relname="span"/>
+		<group id="372" type="span" parent="371" relname="joint"/>
+		<group id="373" type="span" parent="374" relname="span"/>
+		<group id="374" type="span" relname="antithesis"/>
+		<group id="376" type="multinuc" parent="377" relname="span"/>
+		<group id="377" type="span" parent="378" relname="span"/>
+		<group id="378" type="span" parent="380" relname="joint"/>
+		<group id="379" type="span" parent="380" relname="joint"/>
+		<group id="380" type="multinuc" parent="387" relname="span"/>
+		<group id="381" type="span" parent="383" relname="joint"/>
+		<group id="383" type="multinuc" parent="384" relname="span"/>
+		<group id="384" type="span" parent="390" relname="span"/>
+		<group id="385" type="span" parent="145" relname="evidence"/>
+		<group id="386" type="span" parent="395" relname="span"/>
+		<group id="387" type="span" parent="386" relname="elaboration"/>
+		<group id="389" type="multinuc" parent="408" relname="span"/>
+		<group id="390" type="span" parent="392" relname="elaboration"/>
+		<group id="391" type="span" parent="136" relname="cause-effect"/>
+		<group id="392" type="span" parent="393" relname="span"/>
+		<group id="393" type="span" parent="135" relname="elaboration"/>
+		<group id="394" type="span" parent="389" relname="joint"/>
+		<group id="395" type="span" parent="389" relname="joint"/>
+		<group id="396" type="span" parent="399" relname="joint"/>
+		<group id="397" type="span" parent="399" relname="joint"/>
+		<group id="399" type="multinuc" parent="400" relname="span"/>
+		<group id="400" type="span" parent="157" relname="elaboration"/>
+		<group id="401" type="span" parent="403" relname="joint"/>
+		<group id="403" type="multinuc" parent="406" relname="span"/>
+		<group id="404" type="multinuc" parent="411" relname="span"/>
+		<group id="405" type="span" parent="404" relname="joint"/>
+		<group id="406" type="span" parent="404" relname="joint"/>
+		<group id="407" type="span" parent="404" relname="joint"/>
+		<group id="408" type="span" parent="404" relname="joint"/>
+		<group id="409" type="span" parent="404" relname="joint"/>
+		<group id="410" type="span" parent="411" relname="preparation"/>
+		<group id="411" type="span" parent="412" relname="span"/>
+		<group id="412" type="span" relname="antithesis"/>
+  </body>
+</rst>

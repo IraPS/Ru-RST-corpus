@@ -1,0 +1,123 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst" />
+			<rel name="attribution1" type="rst" />
+			<rel name="attribution2" type="rst" />
+			<rel name="attribution" type="rst" />
+			<rel name="background" type="rst" />
+			<rel name="cause-effect" type="rst" />
+			<rel name="comparison" type="multinuc" />
+			<rel name="concession" type="rst" />
+			<rel name="conclusion" type="rst" />
+			<rel name="condition" type="rst" />
+			<rel name="contrast" type="multinuc" />
+			<rel name="elaboration" type="rst" />
+			<rel name="evaluation" type="rst" />
+			<rel name="evidence" type="rst" />
+			<rel name="interpretation-evaluation" type="rst" />
+			<rel name="interpretation" type="rst" />
+			<rel name="joint" type="multinuc" />
+			<rel name="motivation" type="rst" />
+			<rel name="non_volitional_cause" type="rst" />
+			<rel name="non_volitional_effect" type="rst" />
+			<rel name="preparation" type="rst" />
+			<rel name="purpose" type="rst" />
+			<rel name="restatement" type="multinuc" />
+			<rel name="same-unit" type="multinuc" />
+			<rel name="sequence" type="multinuc" />
+			<rel name="solutionhood" type="rst" />
+			<rel name="volitional_cause" type="rst" />
+			<rel name="volitional_effect" type="rst" />
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="2" relname="condition">##### При сохранении текущих тенденций в развитии и распространении интернета</segment>
+		<segment id="2" parent="46" relname="span">к концу 2014 года число пользователей вырастет приблизительно на 30 млн человек.</segment>
+		<segment id="3" parent="46" relname="elaboration">При этом к наиболее активной части ( суточной аудитории ) можно будет отнести больше половины россиянин — 56 % , или примерно 63 млн человек.</segment>
+		<segment id="4" parent="47" relname="attribution">К такому выводу пришли аналитики проекта «Мир интернета» фонда «Общественное мнение».</segment>
+		<segment id="5" parent="6" relname="evidence">##### Регулярные замеры, проводимые ФОМом,</segment>
+		<segment id="6" parent="49" relname="span">свидетельствуют о постоянном росте числа интернет-пользователей в России.</segment>
+		<segment id="7" parent="8" relname="attribution">По данным последнего исследования «Интернет в России»,</segment>
+		<segment id="8" parent="50" relname="span">зимой 2010/2011 года доля интернет-пользователей среди взрослого населения составила 43% (50 млн человек).</segment>
+		<segment id="9" parent="51" relname="span">При этом трое из каждых десяти пользователей составляют активную аудиторию</segment>
+		<segment id="10" parent="9" relname="elaboration">— выходят в Сеть хотя бы раз в сутки.</segment>
+		<segment id="11" parent="54" relname="joint">Общая численность активной интернет-аудитории к концу 2010 года достигла 36 млн человек.</segment>
+		<segment id="12" parent="83" relname="joint">##### Среднеквартальный рост интернет-аудиторий за 2010 год в целом по стране для месячной , недельной и суточной аудиторий составил соответственно 4,5 и 8%.</segment>
+		<segment id="13" parent="58" relname="joint">Очевидно, что темпы роста аудитории интернет-пользователей будут снижаться,</segment>
+		<segment id="14" parent="57" relname="span">но вряд ли составят меньше 2—4% в квартал</segment>
+		<segment id="15" parent="14" relname="elaboration">— прирост, который в последнее время фиксируется в Москве и Санкт-Петербурге.</segment>
+		<segment id="16" parent="60" relname="span">##### Постоянный мониторинг распространения интернета в рамках исследования «Интернет в России»</segment>
+		<segment id="17" parent="16" relname="elaboration">(замеры ведутся с 2002 года)</segment>
+		<segment id="18" parent="62" relname="same-unit">позволил построить прогноз проникновения интернета на период 2011—2014 годов для России, Москвы и Санкт-Петербурга.</segment>
+		<segment id="19" parent="66" relname="attribution">##### По данным на зиму 2010/2011 года,</segment>
+		<segment id="20" parent="65" relname="comparison">в Москве к интернет-пользователям можно отнести две трети жителей (65%)</segment>
+		<segment id="21" parent="65" relname="comparison">в Санкт-Петербурге — несколько больше , чем две трети (70%).</segment>
+		<segment id="22" parent="68" relname="span">Через четыре года в Москве интернетом будут пользоваться примерно восемь из каждых десяти человек</segment>
+		<segment id="23" parent="22" relname="elaboration">( месячная аудитория составит 78%).</segment>
+		<segment id="24" parent="69" relname="condition">При сохранении текущих трендов развития</segment>
+		<segment id="25" parent="69" relname="span">в Санкт-Петербурге к концу 2014 года показатели распространения интернета довольно значительно превысят московские</segment>
+		<segment id="26" parent="25" relname="elaboration">: месячная интернет-аудитория составит примерно 89%.</segment>
+		<segment id="27" parent="90" relname="span">##### Одной из ключевых тенденций развития интернета можно назвать активный рост доли пользователей в старших возрастных группах.</segment>
+		<segment id="28" parent="71" relname="attribution">По данным исследования «Интернет в России»,</segment>
+		<segment id="29" parent="71" relname="span">зимой 2010/2011 года доля интернет-пользователей в возрастной группе 35—44 года достигла 55%</segment>
+		<segment id="30" parent="29" relname="elaboration">(рост за сезон составил 12%).</segment>
+		<segment id="31" parent="72" relname="elaboration">Ровно год назад таким был уровень проникновения интернета в более молодой группе — 25—34 года.</segment>
+		<segment id="32" parent="73" relname="span">##### Несмотря на то что рост доли пользователей среди 18—24-летних значительно ниже</segment>
+		<segment id="33" parent="32" relname="elaboration">— всего 7% за сезон,</segment>
+		<segment id="34" parent="74" relname="span">в этой группе к месячной аудитории относятся восемь из каждых десяти пользователей.</segment>
+		<segment id="35" parent="75" relname="attribution">Согласно прогнозу,</segment>
+		<segment id="36" parent="75" relname="span">к осени 2014 года численность интернет-аудитории в этой возрастной группе составит около 12 млн человек.</segment>
+		<segment id="37" parent="36" relname="elaboration">При этом около 95% молодёжи будут относиться к самой активной — суточной интернет-аудитории.</segment>
+		<segment id="38" parent="94" relname="joint">##### К концу 2014 года проникновение интернета среди 25—34-летних и 35—44-летних достигнет максимального значения (97—99%),</segment>
+		<segment id="39" parent="94" relname="joint">а численность пользователей в данных возрастных группах составит 22 млн и 19 млн человек соответственно.</segment>
+		<segment id="40" parent="78" relname="comparison">К концу прогнозного периода к интернет-пользователям можно будет отнести три четверти 45—54-летних (76%);</segment>
+		<segment id="41" parent="78" relname="comparison">в возрастной группе 55 лет и старше доля месячной аудитории составит лишь 24%.</segment>
+		<segment id="42" parent="81" relname="joint">##### Прогноз подготовлен в рамках проекта «Мир интернета» при участии доцента кафедры новых медиа и теории коммуникации МГУ Леонида Делицына.</segment>
+		<segment id="43" parent="79" relname="span">##### В основу прогнозной модели легли данные регулярного исследования «Интернет в России» за 2002—2011 годы</segment>
+		<segment id="44" parent="43" relname="elaboration">(последний опрос — зима 2010/2011 года).</segment>
+		<segment id="45" parent="81" relname="joint">По данным исследования выпускается регулярный бюллетень «Интернет в России» с периодичностью четыре раза в год.</segment>
+		<group id="46" type="span" parent="47" relname="span"/>
+		<group id="47" type="span" parent="48" relname="span"/>
+		<group id="48" type="span" relname="antithesis"/>
+		<group id="49" type="span" parent="56" relname="span"/>
+		<group id="50" type="span" parent="52" relname="span"/>
+		<group id="51" type="span" parent="50" relname="elaboration"/>
+		<group id="52" type="span" parent="54" relname="joint"/>
+		<group id="54" type="multinuc" parent="55" relname="span"/>
+		<group id="55" type="span" parent="49" relname="elaboration"/>
+		<group id="56" type="span" relname="antithesis"/>
+		<group id="57" type="span" parent="58" relname="joint"/>
+		<group id="58" type="multinuc" parent="59" relname="span"/>
+		<group id="59" type="span" parent="83" relname="joint"/>
+		<group id="60" type="span" parent="62" relname="same-unit"/>
+		<group id="62" type="multinuc" parent="63" relname="span"/>
+		<group id="63" type="span" parent="88" relname="span"/>
+		<group id="65" type="multinuc" parent="66" relname="span"/>
+		<group id="66" type="span" parent="67" relname="span"/>
+		<group id="67" type="span" parent="86" relname="joint"/>
+		<group id="68" type="span" parent="84" relname="comparison"/>
+		<group id="69" type="span" parent="70" relname="span"/>
+		<group id="70" type="span" parent="84" relname="comparison"/>
+		<group id="71" type="span" parent="72" relname="span"/>
+		<group id="72" type="span" parent="89" relname="span"/>
+		<group id="73" type="span" parent="34" relname="concession"/>
+		<group id="74" type="span" parent="92" relname="joint"/>
+		<group id="75" type="span" parent="76" relname="span"/>
+		<group id="76" type="span" parent="92" relname="joint"/>
+		<group id="78" type="multinuc" relname="antithesis"/>
+		<group id="79" type="span" parent="81" relname="joint"/>
+		<group id="81" type="multinuc" relname="antithesis"/>
+		<group id="83" type="multinuc" relname="antithesis"/>
+		<group id="84" type="multinuc" parent="85" relname="span"/>
+		<group id="85" type="span" parent="86" relname="joint"/>
+		<group id="86" type="multinuc" parent="87" relname="span"/>
+		<group id="87" type="span" parent="63" relname="elaboration"/>
+		<group id="88" type="span" relname="antithesis"/>
+		<group id="89" type="span" parent="27" relname="evidence"/>
+		<group id="90" type="span" relname="antithesis"/>
+		<group id="92" type="multinuc" relname="antithesis"/>
+		<group id="94" type="multinuc" parent="95" relname="span"/>
+		<group id="95" type="span" parent="78" relname="comparison"/>
+  </body>
+</rst>

@@ -1,0 +1,91 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst" />
+			<rel name="attribution1" type="rst" />
+			<rel name="attribution2" type="rst" />
+			<rel name="attribution" type="rst" />
+			<rel name="background" type="rst" />
+			<rel name="cause-effect" type="rst" />
+			<rel name="comparison" type="multinuc" />
+			<rel name="concession" type="rst" />
+			<rel name="conclusion" type="rst" />
+			<rel name="condition" type="rst" />
+			<rel name="contrast" type="multinuc" />
+			<rel name="elaboration" type="rst" />
+			<rel name="evaluation" type="rst" />
+			<rel name="evidence" type="rst" />
+			<rel name="interpretation-evaluation" type="rst" />
+			<rel name="interpretation" type="rst" />
+			<rel name="joint" type="multinuc" />
+			<rel name="motivation" type="rst" />
+			<rel name="non_volitional_cause" type="rst" />
+			<rel name="non_volitional_effect" type="rst" />
+			<rel name="preparation" type="rst" />
+			<rel name="purpose" type="rst" />
+			<rel name="restatement" type="multinuc" />
+			<rel name="same-unit" type="multinuc" />
+			<rel name="sequence" type="multinuc" />
+			<rel name="solutionhood" type="rst" />
+			<rel name="volitional_cause" type="rst" />
+			<rel name="volitional_effect" type="rst" />
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="32" relname="span">##### 22-летний житель Аризоны, открывший стрельбу,</segment>
+		<segment id="2" parent="1" relname="elaboration">в результате которой пострадали 20 человек,</segment>
+		<segment id="3" parent="33" relname="same-unit">и попытавшийся убить члена Конгресса США, впервые предстал перед судом по обвинению в совершении федерального преступления.</segment>
+		<segment id="4" parent="34" relname="joint">##### В понедельник Джаред Лофнер в наручниках и в сопровождении нескольких охранников доставлен в суд в города Феникс.</segment>
+		<segment id="5" parent="6" relname="attribution">Побритый наголо и одетый в тюремную форму, он сказал,</segment>
+		<segment id="6" parent="35" relname="span">что знает свои права.</segment>
+		<segment id="7" parent="38" relname="joint">##### Лофнер предстал перед судом через два дня после стрельбы в Тусоне.</segment>
+		<segment id="8" parent="36" relname="joint">Тогда были убиты шесть человек,</segment>
+		<segment id="9" parent="37" relname="joint">а член Палаты представителей Конгресса США от штата Аризона Гэбриэль Гиффордс получила ранение</segment>
+		<segment id="10" parent="37" relname="joint">и в настоящее время находится в критическом состоянии.</segment>
+		<segment id="11" parent="36" relname="joint">Были ранены еще 13 человек.</segment>
+		<segment id="12" parent="42" relname="attribution">##### В этот же день президент США Барак Обама заявил,</segment>
+		<segment id="13" parent="40" relname="joint">что страна и народ до сих пор скорбят</segment>
+		<segment id="14" parent="41" relname="span">и не могут оправиться от шока,</segment>
+		<segment id="15" parent="14" relname="elaboration">вызванного тем, что произошло в субботу.</segment>
+		<segment id="16" parent="44" relname="joint">Обама выступал в Белом доме через несколько часов после того, как по всей стране прошла минута молчания в память о жертвах этого преступления.</segment>
+		<segment id="17" parent="46" relname="joint">##### Президент и первая леди Мишель Обама задержались в Белом доме,</segment>
+		<segment id="18" parent="46" relname="joint">а персонал и посетители собрались на ступенях Капитолия.</segment>
+		<segment id="19" parent="47" relname="joint">Нью-йоркская фондовая биржа и государственные учреждения также почтили память погибших.</segment>
+		<segment id="20" parent="21" relname="attribution">##### Врачи, прооперировавшие и лечащие 40-летнюю Гиффордс, говорят,</segment>
+		<segment id="21" parent="48" relname="span">что они настроены немного более оптимистично.</segment>
+		<segment id="22" parent="49" relname="joint">По сообщениям докторов, она реагирует на простые команды.</segment>
+		<segment id="23" parent="50" relname="attribution">Вместе с тем, они предупреждают,</segment>
+		<segment id="24" parent="50" relname="span">что опасность еще не миновала,</segment>
+		<segment id="25" parent="24" relname="concession">хотя состояние их пациентки стабилизировалось.</segment>
+		<segment id="26" parent="39" relname="joint">##### В субботу во время встречи с избирателями возле одного из супермаркетов Гиффордс получила пулевое ранение в голову.</segment>
+		<segment id="27" parent="52" relname="span">##### Лофнеру предъявлено обвинение,</segment>
+		<segment id="28" parent="27" relname="elaboration">состоящее из нескольких пунктов.</segment>
+		<segment id="29" parent="53" relname="joint">Один из них – покушение на политическое убийство члена Конгресса,</segment>
+		<segment id="30" parent="53" relname="joint">два пункта – покушение на убийство сотрудника федерального правительства</segment>
+		<segment id="31" parent="53" relname="joint">и еще два пункта – покушение на убийство сотрудника федерального учреждения.</segment>
+		<group id="32" type="span" parent="33" relname="same-unit"/>
+		<group id="33" type="multinuc" parent="45" relname="preparation"/>
+		<group id="34" type="multinuc" parent="39" relname="joint"/>
+		<group id="35" type="span" parent="34" relname="joint"/>
+		<group id="36" type="multinuc" parent="38" relname="joint"/>
+		<group id="37" type="multinuc" parent="36" relname="joint"/>
+		<group id="38" type="multinuc" parent="39" relname="joint"/>
+		<group id="39" type="multinuc" parent="45" relname="span"/>
+		<group id="40" type="multinuc" parent="42" relname="span"/>
+		<group id="41" type="span" parent="40" relname="joint"/>
+		<group id="42" type="span" parent="43" relname="span"/>
+		<group id="43" type="span" parent="44" relname="joint"/>
+		<group id="44" type="multinuc" parent="39" relname="joint"/>
+		<group id="45" type="span" relname="antithesis"/>
+		<group id="46" type="multinuc" parent="47" relname="joint"/>
+		<group id="47" type="multinuc" parent="39" relname="joint"/>
+		<group id="48" type="span" parent="49" relname="joint"/>
+		<group id="49" type="multinuc" parent="39" relname="joint"/>
+		<group id="50" type="span" parent="51" relname="span"/>
+		<group id="51" type="span" parent="49" relname="joint"/>
+		<group id="52" type="span" parent="54" relname="preparation"/>
+		<group id="53" type="multinuc" parent="54" relname="span"/>
+		<group id="54" type="span" parent="55" relname="span"/>
+		<group id="55" type="span" parent="39" relname="joint"/>
+  </body>
+</rst>

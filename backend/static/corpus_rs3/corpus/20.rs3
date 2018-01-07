@@ -1,0 +1,131 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst" />
+			<rel name="attribution1" type="rst" />
+			<rel name="attribution2" type="rst" />
+			<rel name="attribution" type="rst" />
+			<rel name="background" type="rst" />
+			<rel name="cause-effect" type="rst" />
+			<rel name="comparison" type="multinuc" />
+			<rel name="concession" type="rst" />
+			<rel name="conclusion" type="rst" />
+			<rel name="condition" type="rst" />
+			<rel name="contrast" type="multinuc" />
+			<rel name="elaboration" type="rst" />
+			<rel name="evaluation" type="rst" />
+			<rel name="evidence" type="rst" />
+			<rel name="interpretation-evaluation" type="rst" />
+			<rel name="interpretation" type="rst" />
+			<rel name="joint" type="multinuc" />
+			<rel name="motivation" type="rst" />
+			<rel name="non_volitional_cause" type="rst" />
+			<rel name="non_volitional_effect" type="rst" />
+			<rel name="preparation" type="rst" />
+			<rel name="purpose" type="rst" />
+			<rel name="restatement" type="multinuc" />
+			<rel name="same-unit" type="multinuc" />
+			<rel name="sequence" type="multinuc" />
+			<rel name="solutionhood" type="rst" />
+			<rel name="volitional_cause" type="rst" />
+			<rel name="volitional_effect" type="rst" />
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="49" relname="span">##### Департамент собственной безопасности (ДСБ) МВД РФ проводит проверку в отношении подполковника милиции Артема Кузнецова,</segment>
+		<segment id="2" parent="1" relname="elaboration">который является фигурантом обнародованного на минувшей неделе видеоролика об обстоятельствах смерти в СИЗО юриста Сергея Магнитского,</segment>
+		<segment id="3" parent="49" relname="attribution">сообщает «Эхо Москвы».</segment>
+		<segment id="4" parent="50" relname="span">Видеоролик является частью информационной кампании на двуязычном сайте «Остановить неприкасаемых!» (russian-untouch ables.com),</segment>
+		<segment id="5" parent="4" relname="elaboration">где публикуются материалы о деле М агнитского,</segment>
+		<segment id="6" parent="51" relname="joint">и в среду 23 июня появление ролика вызвало большой общественный резонанс в русскоязыч ных блогах, стало причиной публик аций в СМИ. В частности, интенсивное обсуждение ролика происходило в блоге известного общественного активиста Алексея Навального.</segment>
+		<segment id="7" parent="54" relname="attribution">##### В ролике сообщается,</segment>
+		<segment id="8" parent="54" relname="span">что американские юристы, связанные с инвестиционным фондом Hermitage Capital Management, с которым сотрудничал Магнитский, предоставили российским властям документы, подтверждающие факты крупных денежных расходов членов семьи Артема Кузнецова в России и других странах,</segment>
+		<segment id="9" parent="8" relname="elaboration">несопоставимых с уровнем официально получаемых ими доходов.</segment>
+		<segment id="10" parent="57" relname="span">Авторы ролика, ссылаясь на руководителей фонда, увязывают это с причастностью Кузнецова с крупным хищениям из российского госбюджета.</segment>
+		<segment id="11" parent="55" relname="attribution">В частности, в ролике указывается,</segment>
+		<segment id="12" parent="55" relname="span">что при официальной зарплате Кузнецова 850 долларов США в месяц в рублевом эквиваленте ему бы потребовалось работать 322 года,</segment>
+		<segment id="13" parent="12" relname="purpose">чтобы заработать на имущество, записанное на его семью в течение последних нескольких лет.</segment>
+		<segment id="14" relname="antithesis">##### Работавший с Магнитским юрист Джемисон Файрстоун подготовил обращения с просьбой проверить источники обогащения семьи подполковника Кузнецова к президенту РФ, генпрокурору Юрию Чайке, а также в ДСБ и Управление организации профилактики коррупционных и иных правонарушений Департамента кадрового обеспечения МВД.</segment>
+		<segment id="15" parent="61" relname="attribution">Как пишет «Лента.ру»,</segment>
+		<segment id="16" parent="60" relname="joint">жалобы были направлены 21 мая,</segment>
+		<segment id="17" parent="60" relname="joint">ответов на них пока не поступало.</segment>
+		<segment id="18" parent="70" relname="span">##### В апреле 2010 года американский сенатор Бен Кардин выступил с предложением аннулировать вьездные визы в США для 60 российских чиновников,</segment>
+		<segment id="19" parent="18" relname="elaboration">связанных со смертью Магнитского.</segment>
+		<segment id="20" parent="67" relname="joint">Соответствующий запрос был подан госсекретарю США Хиллари Клинтон.</segment>
+		<segment id="21" parent="64" relname="joint">Решение об этом пока не принято,</segment>
+		<segment id="22" parent="64" relname="joint">но 24 июня Клинтон, выступая в Вашингтоне на российско-американском форуме «Гражданское общество — гражданскому обществу», что администрация Барака Обамы «глубоко озабочена» ситуацией вокруг дела Магнитского,</segment>
+		<segment id="23" parent="65" relname="attribution">пишет газета Telegraph.</segment>
+		<segment id="24" parent="72" relname="contrast">Форум был приурочен к визиту в США российского президента Дмитрия Медведева,</segment>
+		<segment id="25" parent="72" relname="contrast">но сам Медведев на нём не присутствовал.</segment>
+		<segment id="26" parent="77" relname="attribution">##### Сторонники Магнитского отмечают,</segment>
+		<segment id="27" parent="77" relname="span">что Артём Кузнецов со времени совершения приписываемых ему преступлений пошёл на повышение:</segment>
+		<segment id="28" parent="75" relname="sequence">ранее он служил в Управлении по налоговым преступлениям ГУВД Москвы,</segment>
+		<segment id="29" parent="75" relname="sequence">а с начала 2010 года перешел в Департамент экономической безопасности (ДЭБ) МВД.</segment>
+		<segment id="30" parent="80" relname="span">За последние месяцы было несколько громких случаев, когда частные лица или инициативные группы российских граждан публично сообщали о крупномасштабных фактах коррупции в органах российской власти с упоминанием конкретных эпизодов и называнием фамилий предполагаемых коррупционеров.</segment>
+		<segment id="31" parent="79" relname="span">В частности, особый резонанс имело дело о коррупции в банке ВТБ,</segment>
+		<segment id="32" parent="31" relname="elaboration">инициированное Алексеем Навальным.</segment>
+		<segment id="33" parent="80" relname="elaboration">Кроме того, фамилии предполагаемых правоохранителей-коррупционеров называл сбежавший из России бизнесмен Евгений Чичваркин.</segment>
+		<segment id="34" parent="87" relname="attribution">##### Комментаторы-активисты в блоге Навального сообщают о том,</segment>
+		<segment id="35" parent="83" relname="span">что они направляют многочисленные запросы,</segment>
+		<segment id="36" parent="35" relname="elaboration">связанные с озвучиваемыми случаями,</segment>
+		<segment id="37" parent="84" relname="same-unit">в блог президента РФ Медеведева,</segment>
+		<segment id="38" parent="86" relname="contrast">но такие комментарии не пропускаются модераторами блога.</segment>
+		<segment id="39" parent="90" relname="contrast">Они также пишут обращения по Интернету и в письменном виде в надзорные органы власти,</segment>
+		<segment id="40" parent="88" relname="joint">но оттуда, как правило, либо не приходит ответов,</segment>
+		<segment id="41" parent="88" relname="joint">либо приходят формальные ответы характера «ваше сообщение принято к сведению».</segment>
+		<segment id="42" parent="93" relname="span">Сам Навальный регулярно публикует в своём блоге приходящие ему письменные ответы властей на его запросы о случаях коррупции среди высокопоставленных чиновников:</segment>
+		<segment id="43" parent="42" relname="elaboration">ответы в общем случае можно охарактеризовать как попытки избежать проведения следственных действий.</segment>
+		<segment id="44" parent="95" relname="span">В частности, подобное происходит с обращениями, связанными с делом фирмы Daimler,</segment>
+		<segment id="45" parent="94" relname="span">которая сама призналась в подкупе российских чиновников,</segment>
+		<segment id="46" parent="45" relname="concession">хотя о «взятии дела на контроль» заявлял президент Медевдев.</segment>
+		<segment id="47" parent="96" relname="contrast">Представители власти несколько раз обещали через СМИ «провести проверки» в связи с громкими коррупционными делами,</segment>
+		<segment id="48" parent="96" relname="contrast">но конкретные действия пока свелись к увольнению или понижению нескольких милицейских чиновников.</segment>
+		<group id="49" type="span" parent="52" relname="span"/>
+		<group id="50" type="span" parent="51" relname="joint"/>
+		<group id="51" type="multinuc" parent="53" relname="span"/>
+		<group id="52" type="span" parent="53" relname="preparation"/>
+		<group id="53" type="span" relname="antithesis"/>
+		<group id="54" type="span" parent="58" relname="span"/>
+		<group id="55" type="span" parent="56" relname="span"/>
+		<group id="56" type="span" parent="10" relname="elaboration"/>
+		<group id="57" type="span" parent="59" relname="joint"/>
+		<group id="58" type="span" parent="59" relname="joint"/>
+		<group id="59" type="multinuc" relname="antithesis"/>
+		<group id="60" type="multinuc" parent="61" relname="span"/>
+		<group id="61" type="span" parent="62" relname="span"/>
+		<group id="62" type="span" parent="14" relname="elaboration"/>
+		<group id="64" type="multinuc" parent="65" relname="span"/>
+		<group id="65" type="span" parent="74" relname="span"/>
+		<group id="67" type="multinuc" parent="71" relname="sequence"/>
+		<group id="69" type="span" parent="67" relname="joint"/>
+		<group id="70" type="span" parent="71" relname="sequence"/>
+		<group id="71" type="multinuc" relname="antithesis"/>
+		<group id="72" type="multinuc" parent="73" relname="joint"/>
+		<group id="73" type="multinuc" parent="69" relname="span"/>
+		<group id="74" type="span" parent="73" relname="joint"/>
+		<group id="75" type="multinuc" parent="76" relname="span"/>
+		<group id="76" type="span" parent="27" relname="elaboration"/>
+		<group id="77" type="span" parent="78" relname="span"/>
+		<group id="78" type="span" parent="82" relname="joint"/>
+		<group id="79" type="span" parent="30" relname="elaboration"/>
+		<group id="80" type="span" parent="81" relname="span"/>
+		<group id="81" type="span" parent="82" relname="joint"/>
+		<group id="82" type="multinuc" relname="antithesis"/>
+		<group id="83" type="span" parent="84" relname="same-unit"/>
+		<group id="84" type="multinuc" parent="85" relname="span"/>
+		<group id="85" type="span" parent="86" relname="contrast"/>
+		<group id="86" type="multinuc" parent="87" relname="span"/>
+		<group id="87" type="span" parent="91" relname="span"/>
+		<group id="88" type="multinuc" parent="90" relname="contrast"/>
+		<group id="90" type="multinuc" parent="92" relname="joint"/>
+		<group id="91" type="span" parent="92" relname="joint"/>
+		<group id="92" type="multinuc" parent="99" relname="comparison"/>
+		<group id="93" type="span" parent="97" relname="span"/>
+		<group id="94" type="span" parent="44" relname="elaboration"/>
+		<group id="95" type="span" parent="93" relname="elaboration"/>
+		<group id="96" type="multinuc" parent="98" relname="joint"/>
+		<group id="97" type="span" parent="98" relname="joint"/>
+		<group id="98" type="multinuc" parent="99" relname="comparison"/>
+		<group id="99" type="multinuc" relname="antithesis"/>
+  </body>
+</rst>

@@ -1,0 +1,91 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst" />
+			<rel name="attribution1" type="rst" />
+			<rel name="attribution2" type="rst" />
+			<rel name="attribution" type="rst" />
+			<rel name="background" type="rst" />
+			<rel name="cause-effect" type="rst" />
+			<rel name="comparison" type="multinuc" />
+			<rel name="concession" type="rst" />
+			<rel name="conclusion" type="rst" />
+			<rel name="condition" type="rst" />
+			<rel name="contrast" type="multinuc" />
+			<rel name="elaboration" type="rst" />
+			<rel name="evaluation" type="rst" />
+			<rel name="evidence" type="rst" />
+			<rel name="interpretation-evaluation" type="rst" />
+			<rel name="interpretation" type="rst" />
+			<rel name="joint" type="multinuc" />
+			<rel name="motivation" type="rst" />
+			<rel name="non_volitional_cause" type="rst" />
+			<rel name="non_volitional_effect" type="rst" />
+			<rel name="preparation" type="rst" />
+			<rel name="purpose" type="rst" />
+			<rel name="restatement" type="multinuc" />
+			<rel name="same-unit" type="multinuc" />
+			<rel name="sequence" type="multinuc" />
+			<rel name="solutionhood" type="rst" />
+			<rel name="volitional_cause" type="rst" />
+			<rel name="volitional_effect" type="rst" />
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="60" relname="span">##### «Последнее восстание» в исполнении знаменитой российской арт-группы АЕС+Ф состоялось 12 сентября 2008 года на открытии V Сеульской международной биеннале медиаискусства.</segment>
+		<segment id="2" parent="30" relname="span">##### Мировую известность художникам Татьяне Арзамасовой, Льву Евзовичу и Евгению Святскому,</segment>
+		<segment id="3" parent="2" relname="elaboration">по начальным буквам фамилий которых и назван коллектив</segment>
+		<segment id="4" parent="30" relname="antithesis">(позже к художникам присоединился выдающийся фотограф Владимир Фридкес)</segment>
+		<segment id="5" parent="33" relname="same-unit">, принес скандальный «Исламский проект»,</segment>
+		<segment id="6" parent="36" relname="joint">в котором 100-метровый оплот американской независимости – статуя Свободы – облачается в паранджу,</segment>
+		<segment id="7" parent="36" relname="joint">католический храм Саграда Фамилия вонзает в небо исламские полумесяцы,</segment>
+		<segment id="8" parent="36" relname="joint">в Нью-Йорке горят небоскребы,</segment>
+		<segment id="9" parent="36" relname="joint">а на Красной площади сидят арабские боевики с «калашами» наперевес.</segment>
+		<segment id="10" parent="38" relname="elaboration">Примечательно то, что сделан был этот пророческий проект в 1996 году – до печально известных событий 11 сентября, до «Норд-Оста» и других страшных трагедий XXI столетия.</segment>
+		<segment id="11" parent="55" relname="joint">##### Работа «Последнее восстание» была начата в 2005 году.</segment>
+		<segment id="12" parent="41" relname="span">Она открывает зрителю вход в виртуальный высокотехнологичный мир,</segment>
+		<segment id="13" parent="39" relname="joint">где кровавая война – всего лишь игра,</segment>
+		<segment id="14" parent="39" relname="joint">пытки – развлечения современных валькирий,</segment>
+		<segment id="15" parent="39" relname="joint">где все против всех</segment>
+		<segment id="16" parent="39" relname="joint">и единственная форма существования – беспощадный бунт.</segment>
+		<segment id="17" parent="41" relname="elaboration">И этот мир deus ex machina превращается в новую реальность XXI века.</segment>
+		<segment id="18" parent="48" relname="same-unit">##### Помимо арт-группы АЕС+Ф</segment>
+		<segment id="19" parent="43" relname="joint">себя показать</segment>
+		<segment id="20" parent="43" relname="joint">и людей посмотреть</segment>
+		<segment id="21" parent="45" relname="span">приехал не менее плодовитый российский мультимедийный арт-коллектив Electroboutique со своими уникальными device-art объектами,</segment>
+		<segment id="22" parent="21" relname="elaboration">транслирующими протест против уродливых форм капитализма.</segment>
+		<segment id="23" parent="49" relname="elaboration">Демиургов и идеологов «критического искусства» зовут Алексей Шульгин и Аристарх Чернышев.</segment>
+		<segment id="24" parent="52" relname="joint">##### В общей сложности в выставке принимают участие 70 художников из 26 стран, включая Россию, Корею, Японию, Китай, Австралию, Францию, США, Нидерланды и Данию.</segment>
+		<segment id="25" parent="52" relname="joint">Продлится она 55 дней, до 5 ноября.</segment>
+		<segment id="26" parent="50" relname="span">На суд зрителей представлены инновационные произведения искусства,</segment>
+		<segment id="27" parent="26" relname="elaboration">созданные на стыке современного арта и хай-тека.</segment>
+		<segment id="28" parent="29" relname="attribution">Директор выставки Илхо Пайк считает,</segment>
+		<segment id="29" parent="51" relname="span">что Сеульская биеннале призвана категоризировать различия между традиционным и медиаискусством.</segment>
+		<group id="30" type="span" parent="31" relname="span"/>
+		<group id="31" type="span" parent="33" relname="same-unit"/>
+		<group id="33" type="multinuc" parent="34" relname="span"/>
+		<group id="34" type="span" parent="38" relname="span"/>
+		<group id="36" type="multinuc" parent="37" relname="span"/>
+		<group id="37" type="span" parent="34" relname="elaboration"/>
+		<group id="38" type="span" parent="56" relname="span"/>
+		<group id="39" type="multinuc" parent="40" relname="span"/>
+		<group id="40" type="span" parent="12" relname="elaboration"/>
+		<group id="41" type="span" parent="54" relname="span"/>
+		<group id="43" type="multinuc" parent="44" relname="span"/>
+		<group id="44" type="span" parent="45" relname="purpose"/>
+		<group id="45" type="span" parent="46" relname="span"/>
+		<group id="46" type="span" parent="48" relname="same-unit"/>
+		<group id="48" type="multinuc" parent="49" relname="span"/>
+		<group id="49" type="span" parent="53" relname="span"/>
+		<group id="50" type="span" parent="52" relname="joint"/>
+		<group id="51" type="span" parent="52" relname="joint"/>
+		<group id="52" type="multinuc" relname="antithesis"/>
+		<group id="53" type="span" relname="antithesis"/>
+		<group id="54" type="span" parent="55" relname="joint"/>
+		<group id="55" type="multinuc" parent="58" relname="span"/>
+		<group id="56" type="span" parent="58" relname="background"/>
+		<group id="58" type="span" parent="59" relname="span"/>
+		<group id="59" type="span" parent="1" relname="elaboration"/>
+		<group id="60" type="span" relname="antithesis"/>
+  </body>
+</rst>

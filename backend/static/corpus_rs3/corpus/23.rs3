@@ -1,0 +1,239 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst" />
+			<rel name="attribution1" type="rst" />
+			<rel name="attribution2" type="rst" />
+			<rel name="attribution" type="rst" />
+			<rel name="background" type="rst" />
+			<rel name="cause-effect" type="rst" />
+			<rel name="comparison" type="multinuc" />
+			<rel name="concession" type="rst" />
+			<rel name="conclusion" type="rst" />
+			<rel name="condition" type="rst" />
+			<rel name="contrast" type="multinuc" />
+			<rel name="elaboration" type="rst" />
+			<rel name="evaluation" type="rst" />
+			<rel name="evidence" type="rst" />
+			<rel name="interpretation-evaluation" type="rst" />
+			<rel name="interpretation" type="rst" />
+			<rel name="joint" type="multinuc" />
+			<rel name="motivation" type="rst" />
+			<rel name="non_volitional_cause" type="rst" />
+			<rel name="non_volitional_effect" type="rst" />
+			<rel name="preparation" type="rst" />
+			<rel name="purpose" type="rst" />
+			<rel name="restatement" type="multinuc" />
+			<rel name="same-unit" type="multinuc" />
+			<rel name="sequence" type="multinuc" />
+			<rel name="solutionhood" type="rst" />
+			<rel name="volitional_cause" type="rst" />
+			<rel name="volitional_effect" type="rst" />
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="2" relname="background">##### В преддверии публикации на «Часкоре» отрывков из документальной книги Альдо Нове</segment>
+		<segment id="2" parent="105" relname="span">переводчик и литературный критик Михаил Визель рассуждает о жанре non-fiction, «юных каннибалах» и «новых бедных».</segment>
+		<segment id="3" parent="104" relname="span">В мае 2006 года престижнейшее итальянское издательство «Эйнауди» выпустило книгу, которая при всём желании не могла бы затеряться среди новинок,</segment>
+		<segment id="4" parent="103" relname="span">хотя, как известно, на прилавках итальянских книжных магазинов затеряться проще, чем на каких бы то ни было :</segment>
+		<segment id="5" parent="4" relname="cause-effect">столько там изумительно оформленных и изданных книг.</segment>
+		<segment id="6" parent="102" relname="span">##### Но слишком уж вываливающимся, неудобным во всех смыслах было её название :</segment>
+		<segment id="7" parent="94" relname="joint">«Mi chiamo Roberta,</segment>
+		<segment id="8" parent="94" relname="joint">ho 40 anni,</segment>
+		<segment id="9" parent="94" relname="joint">guadagno 250 euro al mese...»,</segment>
+		<segment id="10" parent="96" relname="joint">то есть «Меня зовут Роберта,</segment>
+		<segment id="11" parent="96" relname="joint">мне 40 лет,</segment>
+		<segment id="12" parent="96" relname="joint">я получаю 250 евро в месяц».</segment>
+		<segment id="13" parent="120" relname="preparation">##### Впрочем, автор этой книги уже успел приучить публику к тому, что от него надо ждать чего-то возмутительного. И неожиданного.</segment>
+		<segment id="14" parent="117" relname="span">39-летний на тот момент ломбардец Антонелло Чентанин,</segment>
+		<segment id="15" parent="115" relname="restatement">пишущий под именем Альдо Нове</segment>
+		<segment id="16" parent="115" relname="restatement">(то есть буквально — Альдо Девятка),</segment>
+		<segment id="17" parent="113" relname="span">получил широкую известность десятью годами ранее,</segment>
+		<segment id="18" parent="17" relname="cause-effect">выпустив книгу «Супервубинда».</segment>
+		<segment id="19" parent="123" relname="span">##### «Супервубинда» — собрание коротких чернушных страшилок,</segment>
+		<segment id="20" parent="109" relname="span">в которых взбесившаяся реальность,</segment>
+		<segment id="21" parent="20" relname="elaboration">неотличимая от компьютерных игр и выпусков мировых теленовостей,</segment>
+		<segment id="22" parent="108" relname="joint">кровила,</segment>
+		<segment id="23" parent="108" relname="joint">потела,</segment>
+		<segment id="24" parent="108" relname="joint">испускала резкие звуки и запахи.</segment>
+		<segment id="25" parent="186" relname="span">##### Итальянские критики,</segment>
+		<segment id="26" parent="25" relname="background">убаюканные (после смерти в 1985 году Итало Кальвино и 1990-м — Альберто Моравиа) учёнейшим эрудитом Умберто Эко, изысканным сказочником Алессандро Барикко и подобными утончёнными господами,</segment>
+		<segment id="27" parent="188" relname="same-unit">ошалели</segment>
+		<segment id="28" parent="189" relname="cause-effect">— ничего подобного они не видели со времён футуристических скандалов!</segment>
+		<segment id="29" parent="124" relname="span">##### И окрестили новейшее течение</segment>
+		<segment id="30" parent="29" relname="elaboration">— а кроме самого Нове, в него «подтянулись» ещё несколько ярких городских парней, в первую очередь Николо Амманити и Тициано Скарпа,</segment>
+		<segment id="31" parent="127" relname="restatement">— gioventú cannibale,</segment>
+		<segment id="32" parent="127" relname="restatement">то есть «молодые каннибалы», или «юные людоеды».</segment>
+		<segment id="33" parent="198" relname="span">##### Русская публика тоже по достоинству оценила «Супервубинду»,</segment>
+		<segment id="34" parent="130" relname="span">которой очень повезло с русским переводчиком</segment>
+		<segment id="35" parent="34" relname="elaboration">— Геннадий Киселёв, перевоссоздавая её, вплотную подошёл к грани, отделяющей перевод от оригинального русского текста ...</segment>
+		<segment id="36" parent="37" relname="background">##### Впрочем, автор этих строк, совершенно независимо от Киселёва и одновременно с ним, тоже перевёл один из ключевых «каннибальских» рассказов Нове — «Любовная жизнь».</segment>
+		<segment id="37" parent="200" relname="span">##### Неудивительно, что, оказавшись в мае 2006 года в Генуе, я немедленно купил новую книгу Нове,</segment>
+		<segment id="38" parent="201" relname="span">и столь же неудивительно, что с «моим», то есть «каннибальским», этот Нове имеет мало общего.</segment>
+		<segment id="39" parent="131" relname="span">##### Я, в общем, ждал этого,</segment>
+		<segment id="40" parent="39" relname="cause-effect">потому что знал, что он (как и прочие повзрослевшие «каннибалы») давно преодолел юношеское искушение гипернатурализма.</segment>
+		<segment id="41" parent="196" relname="contrast">##### Но Альдо всё равно удалось меня удивить и озадачить.</segment>
+		<segment id="42" parent="132" relname="span">Подписанная его именем книга — это, собственно, не книга, а сборник интервью, взятых Нове по заданию коммунистической (!) газеты Liberazione у «новых бедных»</segment>
+		<segment id="43" parent="42" relname="elaboration">— итальянцев в возрасте от 28 до 45 лет, принадлежащих к самым разным социальным слоям и группам — от дизайнера до овцевода.</segment>
+		<segment id="44" parent="213" relname="preparation">##### Всех их объединяет одно :</segment>
+		<segment id="45" parent="208" relname="same-unit">они,</segment>
+		<segment id="46" parent="206" relname="background">как и обещает название книги,</segment>
+		<segment id="47" parent="48" relname="cause-effect">работают за гроши,</segment>
+		<segment id="48" parent="206" relname="span">перебиваясь от месяца к месяцу.</segment>
+		<segment id="49" parent="134" relname="joint">Хотя вроде бы не глупы,</segment>
+		<segment id="50" parent="134" relname="joint">не ленивы,</segment>
+		<segment id="51" parent="134" relname="joint">не подвержены разрушительным вредным привычкам ;</segment>
+		<segment id="52" parent="211" relname="span">они даже честные и совестливые</segment>
+		<segment id="53" parent="52" relname="interpretation-evaluation">— и не в этом ли всё дело?</segment>
+		<segment id="54" parent="136" relname="joint">##### Когда известный писатель «смиряется» до роли интервьюера</segment>
+		<segment id="55" parent="135" relname="span">и выпускает социально заряженную документальную книгу,</segment>
+		<segment id="56" parent="55" relname="cause-effect">потому что считает это более важным, чем собственный фикшн,</segment>
+		<segment id="57" parent="139" relname="same-unit">— это случай нечастый, но не уникальный.</segment>
+		<segment id="58" parent="141" relname="span">##### Можно вспомнить и «Подземку» Харуки Мураками</segment>
+		<segment id="59" parent="58" relname="elaboration">(собрание интервью с жертвами зариновой атаки в токийском метро),</segment>
+		<segment id="60" parent="142" relname="span">и «Грешников» Ильи Стогова</segment>
+		<segment id="61" parent="60" relname="elaboration">(беседы с оставшимися в живых персонажами питерской клубной тусовки 90-х)</segment>
+		<segment id="62" parent="143" relname="span">, не говоря уж про хемингуэевские репортажи</segment>
+		<segment id="63" parent="62" relname="elaboration">- памфлеты из охваченной гражданской войной Испании</segment>
+		<segment id="64" parent="150" relname="span">и американскую «новую журналистику»,</segment>
+		<segment id="65" parent="149" relname="span">догадавшуюся, что необычные персонажи эффективнее,</segment>
+		<segment id="66" parent="147" relname="contrast">когда они сысканы в жизни,</segment>
+		<segment id="67" parent="145" relname="joint">а не выдуманы</segment>
+		<segment id="68" parent="145" relname="joint">и не обобщены.</segment>
+		<segment id="69" parent="180" relname="span">##### Но «Роберта ...» выделяется и здесь.</segment>
+		<segment id="70" parent="179" relname="span">В ней не просто приводятся подлинные истории.</segment>
+		<segment id="71" parent="159" relname="same-unit">В этой книги Нове</segment>
+		<segment id="72" parent="73" relname="attribution">— и позже, в Москве, он сам подтвердил мне,</segment>
+		<segment id="73" parent="155" relname="span">что это было его сознательное намерение, —</segment>
+		<segment id="74" parent="158" relname="span">зафиксировал поразительную тенденцию.</segment>
+		<segment id="75" parent="172" relname="span">##### Впервые, наверное, со времён Возрождения в Италии (и в Европе?) сложилась ситуация, когда поколение детей живёт хуже, чем поколение их родителей.</segment>
+		<segment id="76" parent="170" relname="contrast">##### Родители нынешних 35 — 45-летних могли рассчитывать на социальную защиту (доступные детские сады, санатории, квалифицированная бесплатная медицина), на доступное жильё, на твёрдую пенсию.</segment>
+		<segment id="77" parent="161" relname="span">##### Сейчас для их выросших детей своя отдельная квартира — вещь куда менее доступная</segment>
+		<segment id="78" parent="77" relname="condition">(если только не досталась по наследству от тех же родителей или бабушек-дедушек)</segment>
+		<segment id="79" parent="166" relname="joint">, и, как говорится, в случае чего рассчитывать им приходится только на себя.</segment>
+		<segment id="80" parent="165" relname="span">И только в большом городе</segment>
+		<segment id="81" parent="163" relname="joint">— в маленьких городах нормальной работы за нормальные деньги нет</segment>
+		<segment id="82" parent="163" relname="joint">и не предвидится.</segment>
+		<segment id="83" parent="176" relname="span">##### Нам в России более чем знакома эта ситуация, не правда ли?</segment>
+		<segment id="84" parent="83" relname="elaboration">И в наступивший кризис она ещё заострилась.</segment>
+		<segment id="85" parent="174" relname="joint">Но ведь книга всё-таки 2006 года,</segment>
+		<segment id="86" parent="174" relname="joint">а интервью, в неё вошедшие, брались ещё раньше, в 2004—2005 годах.</segment>
+		<segment id="87" parent="225" relname="interpretation-evaluation">##### Важнее другое:</segment>
+		<segment id="88" parent="223" relname="span">Италия всегда шла в авангарде общеевропейских тенденций.</segment>
+		<segment id="89" parent="88" relname="elaboration">Возрождению, чтобы добраться до России, понадобилось не одно столетие.</segment>
+		<segment id="90" parent="224" relname="joint">Но в XXI веке всё происходит гораздо быстрее.</segment>
+		<segment id="91" parent="227" relname="span">Так что, боюсь, кризис здесь ни при чём.</segment>
+		<segment id="92" parent="222" relname="joint">##### А следующей книгой Нове оказалась классическая поэма, посвящённая Деве Марии.</segment>
+		<group id="94" type="multinuc" parent="98" relname="span"/>
+		<group id="96" type="multinuc" parent="97" relname="span"/>
+		<group id="97" type="span" parent="100" relname="restatement"/>
+		<group id="98" type="span" parent="100" relname="restatement"/>
+		<group id="100" type="multinuc" parent="101" relname="span"/>
+		<group id="101" type="span" parent="6" relname="elaboration"/>
+		<group id="102" type="span" parent="104" relname="cause-effect"/>
+		<group id="103" type="span" parent="3" relname="concession"/>
+		<group id="104" type="span" parent="106" relname="span"/>
+		<group id="105" type="span" parent="228" relname="preparation"/>
+		<group id="106" type="span" parent="221" relname="span"/>
+		<group id="108" type="multinuc" parent="111" relname="span"/>
+		<group id="109" type="span" parent="112" relname="same-unit"/>
+		<group id="111" type="span" parent="112" relname="same-unit"/>
+		<group id="112" type="multinuc" parent="122" relname="span"/>
+		<group id="113" type="span" parent="119" relname="same-unit"/>
+		<group id="115" type="multinuc" parent="116" relname="span"/>
+		<group id="116" type="span" parent="14" relname="elaboration"/>
+		<group id="117" type="span" parent="119" relname="same-unit"/>
+		<group id="119" type="multinuc" parent="120" relname="span"/>
+		<group id="120" type="span" parent="121" relname="span"/>
+		<group id="121" type="span" parent="220" relname="span"/>
+		<group id="122" type="span" parent="19" relname="elaboration"/>
+		<group id="123" type="span" parent="217" relname="joint"/>
+		<group id="124" type="span" parent="126" relname="same-unit"/>
+		<group id="126" type="multinuc" parent="129" relname="span"/>
+		<group id="127" type="multinuc" parent="128" relname="span"/>
+		<group id="128" type="span" parent="126" relname="same-unit"/>
+		<group id="129" type="span" parent="192" relname="joint"/>
+		<group id="130" type="span" parent="33" relname="background"/>
+		<group id="131" type="span" parent="196" relname="contrast"/>
+		<group id="132" type="span" parent="215" relname="span"/>
+		<group id="134" type="multinuc" parent="205" relname="span"/>
+		<group id="135" type="span" parent="136" relname="joint"/>
+		<group id="136" type="multinuc" parent="137" relname="span"/>
+		<group id="137" type="span" parent="139" relname="same-unit"/>
+		<group id="139" type="multinuc" parent="140" relname="span"/>
+		<group id="140" type="span" parent="154" relname="span"/>
+		<group id="141" type="span" parent="152" relname="joint"/>
+		<group id="142" type="span" parent="152" relname="joint"/>
+		<group id="143" type="span" parent="152" relname="joint"/>
+		<group id="145" type="multinuc" parent="146" relname="span"/>
+		<group id="146" type="span" parent="147" relname="contrast"/>
+		<group id="147" type="multinuc" parent="148" relname="span"/>
+		<group id="148" type="span" parent="65" relname="condition"/>
+		<group id="149" type="span" parent="64" relname="elaboration"/>
+		<group id="150" type="span" parent="152" relname="joint"/>
+		<group id="152" type="multinuc" parent="153" relname="span"/>
+		<group id="153" type="span" parent="140" relname="evidence"/>
+		<group id="154" type="span" parent="181" relname="contrast"/>
+		<group id="155" type="span" parent="74" relname="elaboration"/>
+		<group id="158" type="span" parent="159" relname="same-unit"/>
+		<group id="159" type="multinuc" parent="160" relname="span"/>
+		<group id="160" type="span" parent="178" relname="span"/>
+		<group id="161" type="span" parent="166" relname="joint"/>
+		<group id="163" type="multinuc" parent="164" relname="span"/>
+		<group id="164" type="span" parent="80" relname="cause-effect"/>
+		<group id="165" type="span" parent="167" relname="elaboration"/>
+		<group id="166" type="multinuc" parent="167" relname="span"/>
+		<group id="167" type="span" parent="168" relname="span"/>
+		<group id="168" type="span" parent="170" relname="contrast"/>
+		<group id="170" type="multinuc" parent="171" relname="span"/>
+		<group id="171" type="span" parent="75" relname="elaboration"/>
+		<group id="172" type="span" parent="160" relname="elaboration"/>
+		<group id="174" type="multinuc" parent="175" relname="span"/>
+		<group id="175" type="span" parent="176" relname="background"/>
+		<group id="176" type="span" parent="177" relname="span"/>
+		<group id="177" type="span" parent="222" relname="joint"/>
+		<group id="178" type="span" parent="70" relname="elaboration"/>
+		<group id="179" type="span" parent="69" relname="cause-effect"/>
+		<group id="180" type="span" parent="181" relname="contrast"/>
+		<group id="181" type="multinuc" parent="182" relname="span"/>
+		<group id="182" type="span" parent="222" relname="joint"/>
+		<group id="186" type="span" parent="188" relname="same-unit"/>
+		<group id="188" type="multinuc" parent="189" relname="span"/>
+		<group id="189" type="span" parent="190" relname="span"/>
+		<group id="190" type="span" parent="192" relname="joint"/>
+		<group id="192" type="multinuc" parent="193" relname="span"/>
+		<group id="193" type="span" parent="217" relname="joint"/>
+		<group id="196" type="multinuc" parent="197" relname="span"/>
+		<group id="197" type="span" parent="38" relname="elaboration"/>
+		<group id="198" type="span" parent="204" relname="joint"/>
+		<group id="200" type="span" parent="202" relname="joint"/>
+		<group id="201" type="span" parent="202" relname="joint"/>
+		<group id="202" type="multinuc" parent="203" relname="span"/>
+		<group id="203" type="span" parent="204" relname="joint"/>
+		<group id="204" type="multinuc" parent="218" relname="span"/>
+		<group id="205" type="span" parent="209" relname="concession"/>
+		<group id="206" type="span" parent="207" relname="span"/>
+		<group id="207" type="span" parent="208" relname="same-unit"/>
+		<group id="208" type="multinuc" parent="209" relname="span"/>
+		<group id="209" type="span" parent="210" relname="span"/>
+		<group id="210" type="span" parent="212" relname="joint"/>
+		<group id="211" type="span" parent="212" relname="joint"/>
+		<group id="212" type="multinuc" parent="213" relname="span"/>
+		<group id="213" type="span" parent="214" relname="span"/>
+		<group id="214" type="span" parent="132" relname="elaboration"/>
+		<group id="215" type="span" parent="222" relname="joint"/>
+		<group id="217" type="multinuc" parent="219" relname="span"/>
+		<group id="218" type="span" parent="217" relname="joint"/>
+		<group id="219" type="span" parent="121" relname="elaboration"/>
+		<group id="220" type="span" parent="106" relname="background"/>
+		<group id="221" type="span" parent="222" relname="joint"/>
+		<group id="222" type="multinuc" parent="228" relname="span"/>
+		<group id="223" type="span" parent="224" relname="joint"/>
+		<group id="224" type="multinuc" parent="225" relname="span"/>
+		<group id="225" type="span" parent="226" relname="span"/>
+		<group id="226" type="span" parent="91" relname="evidence"/>
+		<group id="227" type="span" parent="222" relname="joint"/>
+		<group id="228" type="span" parent="229" relname="span"/>
+		<group id="229" type="span" relname="antithesis"/>
+  </body>
+</rst>

@@ -1,0 +1,141 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst" />
+			<rel name="attribution1" type="rst" />
+			<rel name="attribution2" type="rst" />
+			<rel name="attribution" type="rst" />
+			<rel name="background" type="rst" />
+			<rel name="cause-effect" type="rst" />
+			<rel name="comparison" type="multinuc" />
+			<rel name="concession" type="rst" />
+			<rel name="conclusion" type="rst" />
+			<rel name="condition" type="rst" />
+			<rel name="contrast" type="multinuc" />
+			<rel name="elaboration" type="rst" />
+			<rel name="evaluation" type="rst" />
+			<rel name="evidence" type="rst" />
+			<rel name="interpretation-evaluation" type="rst" />
+			<rel name="interpretation" type="rst" />
+			<rel name="joint" type="multinuc" />
+			<rel name="motivation" type="rst" />
+			<rel name="non_volitional_cause" type="rst" />
+			<rel name="non_volitional_effect" type="rst" />
+			<rel name="preparation" type="rst" />
+			<rel name="purpose" type="rst" />
+			<rel name="restatement" type="multinuc" />
+			<rel name="same-unit" type="multinuc" />
+			<rel name="sequence" type="multinuc" />
+			<rel name="solutionhood" type="rst" />
+			<rel name="volitional_cause" type="rst" />
+			<rel name="volitional_effect" type="rst" />
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="57" relname="joint">##### Новости о грядущей эмиссии в США обвалили доллар</segment>
+		<segment id="2" parent="57" relname="joint">и подняли цену золота.</segment>
+		<segment id="3" parent="58" relname="elaboration">При этом рост количества долларов пока не зафиксирован.</segment>
+		<segment id="4" parent="62" relname="span">Со швейцарским франком ситуация противоположная:</segment>
+		<segment id="5" parent="59" relname="contrast">стало известно, что в феврале денежная масса Швейцарии увеличилась на 3,5%,</segment>
+		<segment id="6" parent="59" relname="contrast">однако биржевой курс франка и его покупательная способность за неделю выросли.</segment>
+		<segment id="7" relname="antithesis">##### Во время кризиса словно почва уходит из-под ног.</segment>
+		<segment id="8" parent="64" relname="joint">Привычные ценовые ориентиры превращаются в какие-то бессмысленные фантастические цифры.</segment>
+		<segment id="9" parent="64" relname="joint">Всё обваливается,</segment>
+		<segment id="10" parent="64" relname="joint">и о возможных пределах этого обвала можно только гадать.</segment>
+		<segment id="11" parent="71" relname="joint">Акции «Газпрома» обесценились в три с лишним раза.</segment>
+		<segment id="12" parent="69" relname="joint">А могут ли они упасть еще дальше: в 10, в 30, в 100 раз?</segment>
+		<segment id="13" parent="68" relname="joint">Чего стоит ожидать от мировых валют при наихудшем раскладе</segment>
+		<segment id="14" parent="68" relname="joint">и как понять, действительно ли сложившийся расклад — наихудший?</segment>
+		<segment id="15" parent="69" relname="joint">Вероятен ли, например, крах американского доллара?</segment>
+		<segment id="16" parent="69" relname="joint">И что в существующих условиях можно называть крахом?</segment>
+		<segment id="17" parent="75" relname="purpose">##### Чтобы помочь читателям, размышляющим над этими вопросами,</segment>
+		<segment id="18" parent="74" relname="joint">мы начинаем рассчитывать</segment>
+		<segment id="19" parent="74" relname="joint">и публиковать специальные показатели, измеряющие величину разрыва между текущей стоимостью самых популярных финансовых активов и оценкой, которую им мог бы дать наиболее скептический и консервативный аналитик.</segment>
+		<segment id="20" parent="76" relname="interpretation-evaluation">Ведь во время кризисов обычно выигрывает тот, кто опирается на самые мрачные и пессимистичные прогнозы.</segment>
+		<segment id="21" parent="78" relname="joint">##### Валютный глубиномер.</segment>
+		<segment id="22" parent="78" relname="joint">Индекс золотого дна.</segment>
+		<segment id="23" parent="24" relname="attribution">##### После того как Бен Бернанке заявил,</segment>
+		<segment id="24" parent="79" relname="span">что ФРС направит 1050 млрд долларов на скупку ипотечных бумаг и долгосрочных американских облигаций</segment>
+		<segment id="25" parent="79" relname="elaboration">(это произошло 18 марта)</segment>
+		<segment id="26" parent="81" relname="sequence">, доллар упал и относительно золота, и относительно прочих валют.</segment>
+		<segment id="27" parent="92" relname="contrast">За неделю унция золота подорожала с 921,6 до 952,1 доллара.</segment>
+		<segment id="28" parent="82" relname="span">Однако увеличение количества долларов,</segment>
+		<segment id="29" parent="28" relname="elaboration">ожидаемое рынками,</segment>
+		<segment id="30" parent="84" relname="same-unit">пока не зафиксировано.</segment>
+		<segment id="31" parent="88" relname="span">Наоборот, свежие данные от ФРС показывают уменьшение денежной массы:</segment>
+		<segment id="32" parent="31" relname="elaboration">на 9 марта М1 был равен 1534 млрд долларов.</segment>
+		<segment id="33" parent="90" relname="span">Таким образом, золотое содержание тысячи долларов поднялось до 5,3 грамма.</segment>
+		<segment id="34" parent="95" relname="joint">##### Когда покупательная способность валюты на рынке падает,</segment>
+		<segment id="35" parent="95" relname="joint">а ее реальная обеспеченность золотом растет,</segment>
+		<segment id="36" parent="94" relname="joint">это объясняется негативными ожиданиями</segment>
+		<segment id="37" parent="94" relname="joint">и приближает курс валюты к «золотому дну».</segment>
+		<segment id="38" parent="98" relname="joint">Итак, американский доллар немного утонул,</segment>
+		<segment id="39" parent="98" relname="joint">и его потенциал падения уменьшился с 84,75 до 83,77%.</segment>
+		<segment id="40" relname="antithesis">##### Таблица 1. Цена золота на Нью-Йоркской товарной бирже.</segment>
+		<segment id="41" parent="101" relname="span">##### Помимо ФРС, на этой неделе новые данные о денежной массе опубликовал Банк Швейцарии.</segment>
+		<segment id="42" parent="41" relname="elaboration">За февраль в этой стране агрегат М1 вырос на 3,5% — с 343 до 355 млрд франков.</segment>
+		<segment id="43" parent="104" relname="span">Соответственно золотое содержание тысячи франков упало с 3,03 до 2,93 грамма.</segment>
+		<segment id="44" parent="105" relname="span">При этом швейцарский франк особенно сильно поднялся относительно доллара:</segment>
+		<segment id="45" parent="102" relname="comparison">неделю назад курс был равен 1,186,</segment>
+		<segment id="46" parent="102" relname="comparison">а сейчас — 1,13.</segment>
+		<segment id="47" parent="109" relname="span">Таким образом, ожидания в отношении этой валюты благоприятны,</segment>
+		<segment id="48" parent="106" relname="joint">она всплыла,</segment>
+		<segment id="49" parent="106" relname="joint">и ее потенциал падения вырос с 89,34 до 89,87%.</segment>
+		<segment id="50" relname="antithesis">##### Таблица 2. Золотое содержание и потенциалы падения некоторых валют.</segment>
+		<segment id="51" relname="antithesis">##### У остальных валют покупательная способность остается в целом стабильной.</segment>
+		<segment id="52" parent="110" relname="comparison">Фунт и евро немного укрепились,</segment>
+		<segment id="53" parent="110" relname="comparison">а иена слегка упала,</segment>
+		<segment id="54" parent="111" relname="contrast">но это незначительные движения.</segment>
+		<segment id="55" parent="113" relname="comparison">##### Наименьшим потенциалом падения по-прежнему обладают американский доллар и швейцарский франк,</segment>
+		<segment id="56" parent="113" relname="comparison">наибольшим — японская иена и фунт стерлингов.</segment>
+		<group id="57" type="multinuc" parent="58" relname="span"/>
+		<group id="58" type="span" parent="61" relname="span"/>
+		<group id="59" type="multinuc" parent="60" relname="span"/>
+		<group id="60" type="span" parent="4" relname="elaboration"/>
+		<group id="61" type="span" parent="63" relname="comparison"/>
+		<group id="62" type="span" parent="63" relname="comparison"/>
+		<group id="63" type="multinuc" relname="antithesis"/>
+		<group id="64" type="multinuc" parent="72" relname="joint"/>
+		<group id="68" type="multinuc" parent="69" relname="joint"/>
+		<group id="69" type="multinuc" parent="71" relname="joint"/>
+		<group id="71" type="multinuc" parent="72" relname="joint"/>
+		<group id="72" type="multinuc" parent="73" relname="span"/>
+		<group id="73" type="span" parent="7" relname="elaboration"/>
+		<group id="74" type="multinuc" parent="75" relname="span"/>
+		<group id="75" type="span" parent="76" relname="span"/>
+		<group id="76" type="span" relname="antithesis"/>
+		<group id="78" type="multinuc" relname="antithesis"/>
+		<group id="79" type="span" parent="80" relname="span"/>
+		<group id="80" type="span" parent="81" relname="sequence"/>
+		<group id="81" type="multinuc" parent="87" relname="span"/>
+		<group id="82" type="span" parent="84" relname="same-unit"/>
+		<group id="84" type="multinuc" parent="89" relname="span"/>
+		<group id="87" type="span" relname="antithesis"/>
+		<group id="88" type="span" parent="33" relname="background"/>
+		<group id="89" type="span" parent="91" relname="contrast"/>
+		<group id="90" type="span" parent="91" relname="contrast"/>
+		<group id="91" type="multinuc" parent="92" relname="contrast"/>
+		<group id="92" type="multinuc" parent="93" relname="span"/>
+		<group id="93" type="span" parent="87" relname="elaboration"/>
+		<group id="94" type="multinuc" parent="97" relname="span"/>
+		<group id="95" type="multinuc" parent="96" relname="span"/>
+		<group id="96" type="span" parent="97" relname="background"/>
+		<group id="97" type="span" parent="99" relname="span"/>
+		<group id="98" type="multinuc" parent="100" relname="span"/>
+		<group id="99" type="span" parent="100" relname="background"/>
+		<group id="100" type="span" relname="antithesis"/>
+		<group id="101" type="span" parent="43" relname="background"/>
+		<group id="102" type="multinuc" parent="103" relname="span"/>
+		<group id="103" type="span" parent="44" relname="elaboration"/>
+		<group id="104" type="span" parent="108" relname="span"/>
+		<group id="105" type="span" parent="104" relname="elaboration"/>
+		<group id="106" type="multinuc" parent="107" relname="span"/>
+		<group id="107" type="span" parent="47" relname="elaboration"/>
+		<group id="108" type="span" relname="antithesis"/>
+		<group id="109" type="span" parent="108" relname="interpretation-evaluation"/>
+		<group id="110" type="multinuc" parent="111" relname="contrast"/>
+		<group id="111" type="multinuc" parent="112" relname="span"/>
+		<group id="112" type="span" parent="51" relname="elaboration"/>
+		<group id="113" type="multinuc" relname="antithesis"/>
+  </body>
+</rst>

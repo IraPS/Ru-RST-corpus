@@ -1,0 +1,303 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst" />
+			<rel name="attribution1" type="rst" />
+			<rel name="attribution2" type="rst" />
+			<rel name="attribution" type="rst" />
+			<rel name="background" type="rst" />
+			<rel name="cause-effect" type="rst" />
+			<rel name="comparison" type="multinuc" />
+			<rel name="concession" type="rst" />
+			<rel name="conclusion" type="rst" />
+			<rel name="condition" type="rst" />
+			<rel name="contrast" type="multinuc" />
+			<rel name="elaboration" type="rst" />
+			<rel name="evaluation" type="rst" />
+			<rel name="evidence" type="rst" />
+			<rel name="interpretation-evaluation" type="rst" />
+			<rel name="interpretation" type="rst" />
+			<rel name="joint" type="multinuc" />
+			<rel name="motivation" type="rst" />
+			<rel name="non_volitional_cause" type="rst" />
+			<rel name="non_volitional_effect" type="rst" />
+			<rel name="preparation" type="rst" />
+			<rel name="purpose" type="rst" />
+			<rel name="restatement" type="multinuc" />
+			<rel name="same-unit" type="multinuc" />
+			<rel name="sequence" type="multinuc" />
+			<rel name="solutionhood" type="rst" />
+			<rel name="volitional_cause" type="rst" />
+			<rel name="volitional_effect" type="rst" />
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="131" relname="elaboration">##### Фармацевтические препараты - не безусловное благо.</segment>
+		<segment id="2" parent="127" relname="contrast">С одной стороны, они спасают людям жизнь,</segment>
+		<segment id="3" parent="127" relname="contrast">а с другой - нередко становятся причиной новых болезней.</segment>
+		<segment id="4" parent="5" relname="evidence">Между тем во многих случаях нет необходимости прибегать к сильнодействующим химическим веществам,</segment>
+		<segment id="5" parent="129" relname="span">ведь в буквальном смысле у нас под ногами растут лекарства, созданные природой.</segment>
+		<segment id="6" parent="7" relname="elaboration">##### По данным экспертов Всемирной организации здравоохранения,</segment>
+		<segment id="7" parent="136" relname="span">от осложнений лекарственной терапии ежегодно погибает около одного процента жителей планеты.</segment>
+		<segment id="8" parent="133" relname="span">Гораздо больше людей страдают от побочных эффектов,</segment>
+		<segment id="9" parent="134" relname="joint">которые снижают качество жизни</segment>
+		<segment id="10" parent="134" relname="joint">и инициируют патологические процессы.</segment>
+		<segment id="11" parent="140" relname="elaboration">Альтернативой обычной фармакотерапии служит фитотерапия, то есть лечение растениями.</segment>
+		<segment id="12" parent="139" relname="comparison">Извлечения из лекарственных растений проявляют целебные свойства, сопоставимые с действием обычных лекарств,</segment>
+		<segment id="13" parent="139" relname="comparison">и дают меньше побочных эффектов.</segment>
+		<segment id="14" parent="15" relname="cause-effect">##### Фитотерапию часто относят к народной медицине</segment>
+		<segment id="15" parent="144" relname="span">и на этом основании делают вывод, что это ненаучный метод лечения.</segment>
+		<segment id="16" parent="17" relname="purpose">Чтобы разрешить сомнения,</segment>
+		<segment id="17" parent="145" relname="span">давайте уточним значение термина "народная медицина".</segment>
+		<segment id="18" parent="146" relname="span">Народную медицину следует рассматривать как совокупность знаний, навыков, традиций, привычек, приемов,</segment>
+		<segment id="19" parent="18" relname="elaboration">которые используют жители определенной местности для лечения, профилактики и оздоровления.</segment>
+		<segment id="20" parent="21" relname="purpose">Чтобы провести грань между официальной медициной и народной,</segment>
+		<segment id="21" parent="147" relname="span">достаточно взглянуть на народную медицину как на бытовую, существующую вне лечебных учреждений.</segment>
+		<segment id="22" parent="148" relname="span">Есть бытовая фитотерапия (или народная,</segment>
+		<segment id="23" parent="22" relname="cause-effect">поскольку любима народом),</segment>
+		<segment id="24" parent="149" relname="joint">точно так же, как есть и бытовая хирургия, терапия и даже гинекология.</segment>
+		<segment id="25" parent="155" relname="evidence">Не стоит противопоставлять традиционные навыки соответствующим направлениям медицины, правильнее рассматривать их как начальные ступени высокой лестницы специальных знаний.</segment>
+		<segment id="26" relname="antithesis">##### ЖИВЫЕ КОРНИ ФИТОТЕРАПИИ.</segment>
+		<segment id="27" parent="162" relname="joint">##### На протяжении практически всей человеческой истории растения были основными лекарствами.</segment>
+		<segment id="28" parent="162" relname="joint">Древний человек мог выжить только в определенных условиях.</segment>
+		<segment id="29" parent="160" relname="joint">Это и физико-химические параметры среды (температура, состав воздуха, наличие воды), и успешная конкуренция с другими биосистемами, например хищными животными и микроорганизмами, и достаточное количество пищи.</segment>
+		<segment id="30" parent="157" relname="span">Но для выживания нужны еще и лечебные факторы,</segment>
+		<segment id="31" parent="158" relname="joint">которые позволяют человеческому организму искусственно повышать свою жизнеспособность,</segment>
+		<segment id="32" parent="158" relname="joint">противостоять инфекциям,</segment>
+		<segment id="33" parent="158" relname="joint">ликвидировать повреждения.</segment>
+		<segment id="34" parent="165" relname="span">##### Если говорить о чем-то хотя бы приближенном к "вечному двигателю",</segment>
+		<segment id="35" parent="166" relname="span">то это, конечно, живая материя - биологические объекты.</segment>
+		<segment id="36" parent="167" relname="joint">Природа создала тончайшие механизмы, способные поддерживать жизнедеятельность практически в любых условиях планеты Земля, а значит, поглощать и трансформировать энергию;</segment>
+		<segment id="37" parent="167" relname="joint">воссоздавать и поддерживать структурную целостность (регенерация), размножаться, модифицировать окружающую среду.</segment>
+		<segment id="38" parent="171" relname="span">Человеческий организм - открытая саморегулирующаяся биологическая система.</segment>
+		<segment id="39" parent="169" relname="joint">Любая биосистема (и человек) способна в той или иной мере себя ремонтировать - лечить.</segment>
+		<segment id="40" parent="169" relname="joint">Лечение - процесс осмысленного использования факторов внешней среды и мобилизация механизмов саморегуляции для полного или частичного восстановления структурной и функциональной целостности организма.</segment>
+		<segment id="41" parent="42" relname="cause-effect">##### По замыслу природы, пищей человеку могут служить растения и животные.</segment>
+		<segment id="42" parent="178" relname="span">Следовательно, в них и теоретически и практически содержится полный набор средств для поддержания и регуляции жизнедеятельности.</segment>
+		<segment id="43" parent="176" relname="evidence">Медицина родилась одновременно с первыми людьми.</segment>
+		<segment id="44" parent="175" relname="joint">Съел то растение, которое "просит организм", - фитотерапия (терапия);</segment>
+		<segment id="45" parent="175" relname="joint">потер кожу в определенных местах - рефлексотерапия;</segment>
+		<segment id="46" parent="175" relname="joint">вытащил занозу - хирургия;</segment>
+		<segment id="47" parent="175" relname="joint">принял роды - акушерство и гинекология.</segment>
+		<segment id="48" parent="180" relname="joint">##### Постепенно человек накапливал опыт благоприятного воздействия на организм пищи и определенных растений,</segment>
+		<segment id="49" parent="180" relname="joint">появлялись люди, специализирующиеся в лечении соплеменников, - это и было началом медицины и фармакологии.</segment>
+		<segment id="50" parent="181" relname="cause-effect">Использование в лечебных целях растений стало началом фитотерапии.</segment>
+		<segment id="51" parent="185" relname="solutionhood">##### Можно ли называть наукой то, что делали врачеватели много веков назад?</segment>
+		<segment id="52" parent="184" relname="joint">Безусловно, ведь они делали это осмысленно,</segment>
+		<segment id="53" parent="184" relname="joint">используя определенные знания, практический опыт.</segment>
+		<segment id="54" parent="183" relname="span">Понятно, что они могли использовать лишь те знания,</segment>
+		<segment id="55" parent="54" relname="elaboration">которые были им доступны в те времена.</segment>
+		<segment id="56" parent="195" relname="evidence">Во главе угла стоял принцип: критерий истины - практика.</segment>
+		<segment id="57" parent="58" relname="solutionhood">А был ли ученым Гиппократ и, соответственно, медицина того времени - наукой?</segment>
+		<segment id="58" parent="187" relname="span">Думается, ответ однозначен: да.</segment>
+		<segment id="59" parent="188" relname="joint">Нельзя ведь считать серьезным возражением то,</segment>
+		<segment id="60" parent="188" relname="joint">что он не имел даже фельдшерского образования.</segment>
+		<segment id="61" parent="192" relname="evidence">Для современной медицины важно не только и не столько то,</segment>
+		<segment id="62" parent="191" relname="contrast">когда зародились тот или иной метод или средство и как это все называть,</segment>
+		<segment id="63" parent="191" relname="contrast">а их суть и опыт применения (не только позитивный).</segment>
+		<segment id="64" relname="antithesis">##### ФИТОТЕРАПИЯ СЕГОДНЯ.</segment>
+		<segment id="65" parent="200" relname="span">##### Фитотерапия постоянно впитывает в себя колоссальный поток информации,</segment>
+		<segment id="66" parent="65" relname="elaboration">который обогащает любую науку, любой медицинский метод.</segment>
+		<segment id="67" parent="68" relname="evidence">Это нормальный ход событий - опыт прошлого обогащается новыми данными,</segment>
+		<segment id="68" parent="201" relname="span">и на основе их квалифицированной интерпретации создаются алгоритмы более эффективного решения тех или иных проблем.</segment>
+		<segment id="69" parent="206" relname="elaboration">##### Нынешнее человечество переоценивает свою научность.</segment>
+		<segment id="70" parent="204" relname="joint">Переходя в виртуальные миры, отрываясь в своих теоретических рассуждениях (часто ошибочных) от реальности,</segment>
+		<segment id="71" parent="204" relname="joint">работая уже не с конкретными биологическими материалами, а с индексами, абстрактными символами, гипотетическими схемами,</segment>
+		<segment id="72" parent="206" relname="span">человек часто забывает о себе - первичном материале, об ограниченных и весьма специфических возможностях своего тела.</segment>
+		<segment id="73" parent="209" relname="evidence">##### Из чего же складывается современная фитотерапия?</segment>
+		<segment id="74" parent="208" relname="joint">Одно из направлений - изучение опыта лечения болезней различными медицинскими школами: русской, тибетской, индийской, греческой и другими (каждая нация имеет свои медицинские традиции)</segment>
+		<segment id="75" parent="208" relname="joint">. После экспертной и статистической обработки старинных рецептов проводят экспериментальную и клиническую проверку полученных данных.</segment>
+		<segment id="76" parent="220" relname="elaboration">##### Изучением химического состава лекарственных растений и продуктов их первичной переработки занимается фармакогнозия.</segment>
+		<segment id="77" parent="78" relname="condition">Если в былые времена целесообразность использования тех или иных растений определяли на основе эмпирического опыта,</segment>
+		<segment id="78" parent="211" relname="span">то с развитием химии и биохимии стало возможным подвести научную базу.</segment>
+		<segment id="79" parent="212" relname="joint">Выделение биологически активных веществ с известным спектром фармакологического действия послужило основой для производства фитопрепаратов.</segment>
+		<segment id="80" parent="212" relname="joint">Фитофармакология - важнейшая научная составляющая фитотерапии, изучающая взаимодействие растений и извлечений из них с живыми организмами.</segment>
+		<segment id="81" parent="214" relname="comparison">Человек не зря стремится окружить себя растениями</segment>
+		<segment id="82" parent="214" relname="comparison">- сажает деревья во дворах,</segment>
+		<segment id="83" parent="214" relname="comparison">ставит цветочные горшки на подоконник.</segment>
+		<segment id="84" parent="216" relname="joint">Известно, что некоторые растения благотворно влияют на психику, зрение, функции внутренних органов.</segment>
+		<segment id="85" parent="216" relname="joint">На эффекте химических соединений, которые выделяются растениями, основана ароматерапия.</segment>
+		<segment id="86" relname="antithesis">##### Принципы фитотерапии, алгоритмы лечения создаются на основе интеграции знаний о заболеваниях, о растениях, опыта использования растений.</segment>
+		<segment id="87" parent="222" relname="joint">##### В организме не бывает изолированных нарушений.</segment>
+		<segment id="88" parent="222" relname="joint">Любая болезнь - это совокупность изменений.</segment>
+		<segment id="89" parent="224" relname="sequence">Не случайно врачи крайне редко назначают одно лекарство,</segment>
+		<segment id="90" parent="224" relname="sequence">чаще подбирают несколько лекарственных средств, обеспечивающих комплексное воздействие.</segment>
+		<segment id="91" parent="92" relname="cause-effect">Многие современные лекарственные препараты включают несколько ингредиентов,</segment>
+		<segment id="92" parent="226" relname="span">благодаря чему достигается большая эффективность.</segment>
+		<segment id="93" parent="229" relname="interpretation-evaluation">Фитотерапия - яркий пример комплексного подхода.</segment>
+		<segment id="94" parent="232" relname="elaboration">##### Многолетняя практика фитотерапевта привела меня к убеждению,</segment>
+		<segment id="95" parent="231" relname="joint">что если правильно оценены имеющиеся в организме отклонения</segment>
+		<segment id="96" parent="231" relname="joint">и адекватно подобраны компоненты фитокомпозиции,</segment>
+		<segment id="97" parent="235" relname="joint">то происходит коррекция совокупности нарушений</segment>
+		<segment id="98" parent="99" relname="elaboration">и даже в трудных случаях возрастает вероятность,</segment>
+		<segment id="99" parent="234" relname="span">что основной желаемый эффект будет достигнут.</segment>
+		<segment id="100" parent="238" relname="span">Ведь в каждом растении содержатся тысячи химических соединений, способных запускать целый каскад биохимических реакций.</segment>
+		<segment id="101" parent="238" relname="elaboration">Это явление мы назвали "феноменом фармакологических сетей".</segment>
+		<segment id="102" parent="242" relname="span">##### Некоторые ученые и врачи относятся к многокомпонентным лекарствам (в том числе к фитосредствам) с опаской,</segment>
+		<segment id="103" parent="240" relname="joint">поскольку такие препараты нельзя полностью стандартизировать</segment>
+		<segment id="104" parent="240" relname="joint">и невозможно до конца объяснить механизмы их действия.</segment>
+		<segment id="105" parent="244" relname="background">Но даже применяя индивидуальное вещество,</segment>
+		<segment id="106" parent="243" relname="joint">нельзя точно прогнозировать результат, поскольку механизмы действия не всегда ясны,</segment>
+		<segment id="107" parent="243" relname="joint">а индивидуальные реакции организма многообразны.</segment>
+		<segment id="108" parent="246" relname="background">Пищевые продукты, фрукты, овощи тоже могут быть вредны,</segment>
+		<segment id="109" parent="246" relname="span">но мы пренебрегаем этим риском,</segment>
+		<segment id="110" parent="109" relname="cause-effect">поскольку он не сопоставим с полезным действием.</segment>
+		<segment id="111" parent="251" relname="joint">##### Человек очень интимно, на тонком биохимическом уровне связан с родной природой,</segment>
+		<segment id="112" parent="251" relname="joint">в ней его корни.</segment>
+		<segment id="113" parent="114" relname="elaboration">Из 20 000 видов растений, произрастающих на территории нашей страны,</segment>
+		<segment id="114" parent="253" relname="span">в народной медицине используют около 10 процентов.</segment>
+		<segment id="115" parent="254" relname="joint">Предварительному биохимическому изучению подвергнуто свыше 5000 видов, а всестороннему - не более 500.</segment>
+		<segment id="116" parent="255" relname="interpretation-evaluation">Это колоссальный потенциал.</segment>
+		<segment id="117" parent="262" relname="joint">По химическому составу растения гораздо ближе человеческому организму, чем синтетические препараты.</segment>
+		<segment id="118" parent="119" relname="elaboration">В ходе эволюции человек приспособился к усвоению природных химических соединений,</segment>
+		<segment id="119" parent="257" relname="span">поэтому они оказывают мягкий, физиологичный эффект.</segment>
+		<segment id="120" parent="258" relname="evidence">В природе есть вещества, необходимые для лечения самых разных заболеваний.</segment>
+		<segment id="121" parent="258" relname="span">Основываясь на практическом опыте, могу утверждать,</segment>
+		<segment id="122" parent="121" relname="evidence">что фитотерапия способна помочь в той или иной степени каждому пациенту при любом заболевании.</segment>
+		<segment id="123" parent="260" relname="joint">Лечение растениями занимает важное место в терапии функциональных расстройств, хронических рецидивирующих заболеваний терапевтического профиля, дерматозов, заболеваний нервной, иммунной, эндокринной систем, мочеполовых органов, опорно-двигательного аппарата.</segment>
+		<segment id="124" parent="260" relname="joint">Лекарственные растения имеют существенное значение при лечении онкологических заболеваний.</segment>
+		<segment id="125" parent="126" relname="elaboration">##### Кто постигнет секреты фитотерапии,</segment>
+		<segment id="126" parent="267" relname="span">тот найдет ключи к ощутимому повышению продолжительности и качества жизни.</segment>
+		<group id="127" type="multinuc" parent="128" relname="span"/>
+		<group id="128" type="span" parent="130" relname="joint"/>
+		<group id="129" type="span" parent="130" relname="joint"/>
+		<group id="130" type="multinuc" parent="131" relname="span"/>
+		<group id="131" type="span" parent="132" relname="span"/>
+		<group id="132" type="span" relname="antithesis"/>
+		<group id="133" type="span" parent="137" relname="joint"/>
+		<group id="134" type="multinuc" parent="135" relname="span"/>
+		<group id="135" type="span" parent="8" relname="elaboration"/>
+		<group id="136" type="span" parent="137" relname="joint"/>
+		<group id="137" type="multinuc" parent="138" relname="span"/>
+		<group id="138" type="span" parent="142" relname="contrast"/>
+		<group id="139" type="multinuc" parent="140" relname="span"/>
+		<group id="140" type="span" parent="141" relname="span"/>
+		<group id="141" type="span" parent="142" relname="contrast"/>
+		<group id="142" type="multinuc" parent="143" relname="span"/>
+		<group id="143" type="span" relname="antithesis"/>
+		<group id="144" type="span" parent="153" relname="joint"/>
+		<group id="145" type="span" parent="153" relname="joint"/>
+		<group id="146" type="span" parent="151" relname="joint"/>
+		<group id="147" type="span" parent="151" relname="joint"/>
+		<group id="148" type="span" parent="149" relname="joint"/>
+		<group id="149" type="multinuc" parent="150" relname="span"/>
+		<group id="150" type="span" parent="151" relname="joint"/>
+		<group id="151" type="multinuc" parent="152" relname="span"/>
+		<group id="152" type="span" parent="155" relname="span"/>
+		<group id="153" type="multinuc" parent="154" relname="span"/>
+		<group id="154" type="span" parent="152" relname="elaboration"/>
+		<group id="155" type="span" parent="156" relname="span"/>
+		<group id="156" type="span" relname="antithesis"/>
+		<group id="157" type="span" parent="160" relname="joint"/>
+		<group id="158" type="multinuc" parent="159" relname="span"/>
+		<group id="159" type="span" parent="30" relname="elaboration"/>
+		<group id="160" type="multinuc" parent="161" relname="span"/>
+		<group id="161" type="span" parent="164" relname="span"/>
+		<group id="162" type="multinuc" parent="163" relname="span"/>
+		<group id="163" type="span" parent="161" relname="elaboration"/>
+		<group id="164" type="span" relname="antithesis"/>
+		<group id="165" type="span" parent="35" relname="condition"/>
+		<group id="166" type="span" parent="173" relname="elaboration"/>
+		<group id="167" type="multinuc" parent="168" relname="span"/>
+		<group id="168" type="span" parent="172" relname="joint"/>
+		<group id="169" type="multinuc" parent="170" relname="span"/>
+		<group id="170" type="span" parent="38" relname="evidence"/>
+		<group id="171" type="span" parent="172" relname="joint"/>
+		<group id="172" type="multinuc" parent="173" relname="span"/>
+		<group id="173" type="span" parent="174" relname="span"/>
+		<group id="174" type="span" relname="antithesis"/>
+		<group id="175" type="multinuc" parent="176" relname="span"/>
+		<group id="176" type="span" parent="177" relname="span"/>
+		<group id="177" type="span" parent="179" relname="span"/>
+		<group id="178" type="span" parent="177" relname="elaboration"/>
+		<group id="179" type="span" relname="antithesis"/>
+		<group id="180" type="multinuc" parent="181" relname="span"/>
+		<group id="181" type="span" parent="182" relname="span"/>
+		<group id="182" type="span" relname="antithesis"/>
+		<group id="183" type="span" parent="197" relname="joint"/>
+		<group id="184" type="multinuc" parent="185" relname="span"/>
+		<group id="185" type="span" parent="186" relname="span"/>
+		<group id="186" type="span" parent="198" relname="evidence"/>
+		<group id="187" type="span" parent="189" relname="evidence"/>
+		<group id="188" type="multinuc" parent="189" relname="span"/>
+		<group id="189" type="span" parent="190" relname="span"/>
+		<group id="190" type="span" parent="194" relname="joint"/>
+		<group id="191" type="multinuc" parent="192" relname="span"/>
+		<group id="192" type="span" parent="193" relname="span"/>
+		<group id="193" type="span" parent="194" relname="joint"/>
+		<group id="194" type="multinuc" parent="195" relname="span"/>
+		<group id="195" type="span" parent="196" relname="span"/>
+		<group id="196" type="span" parent="197" relname="joint"/>
+		<group id="197" type="multinuc" parent="198" relname="span"/>
+		<group id="198" type="span" parent="199" relname="span"/>
+		<group id="199" type="span" relname="antithesis"/>
+		<group id="200" type="span" parent="202" relname="joint"/>
+		<group id="201" type="span" parent="202" relname="joint"/>
+		<group id="202" type="multinuc" parent="203" relname="span"/>
+		<group id="203" type="span" relname="antithesis"/>
+		<group id="204" type="multinuc" parent="205" relname="span"/>
+		<group id="205" type="span" parent="72" relname="background"/>
+		<group id="206" type="span" parent="207" relname="span"/>
+		<group id="207" type="span" relname="antithesis"/>
+		<group id="208" type="multinuc" parent="209" relname="span"/>
+		<group id="209" type="span" parent="210" relname="span"/>
+		<group id="210" type="span" relname="antithesis"/>
+		<group id="211" type="span" parent="212" relname="joint"/>
+		<group id="212" type="multinuc" parent="213" relname="span"/>
+		<group id="213" type="span" parent="219" relname="joint"/>
+		<group id="214" type="multinuc" parent="215" relname="span"/>
+		<group id="215" type="span" parent="217" relname="evidence"/>
+		<group id="216" type="multinuc" parent="217" relname="span"/>
+		<group id="217" type="span" parent="218" relname="span"/>
+		<group id="218" type="span" parent="219" relname="joint"/>
+		<group id="219" type="multinuc" parent="220" relname="span"/>
+		<group id="220" type="span" parent="221" relname="span"/>
+		<group id="221" type="span" relname="antithesis"/>
+		<group id="222" type="multinuc" parent="223" relname="span"/>
+		<group id="223" type="span" parent="228" relname="evidence"/>
+		<group id="224" type="multinuc" parent="225" relname="span"/>
+		<group id="225" type="span" parent="227" relname="joint"/>
+		<group id="226" type="span" parent="227" relname="joint"/>
+		<group id="227" type="multinuc" parent="228" relname="span"/>
+		<group id="228" type="span" parent="229" relname="span"/>
+		<group id="229" type="span" parent="230" relname="span"/>
+		<group id="230" type="span" relname="antithesis"/>
+		<group id="231" type="multinuc" parent="232" relname="span"/>
+		<group id="232" type="span" parent="233" relname="span"/>
+		<group id="233" type="span" parent="236" relname="cause-effect"/>
+		<group id="234" type="span" parent="235" relname="joint"/>
+		<group id="235" type="multinuc" parent="236" relname="span"/>
+		<group id="236" type="span" parent="237" relname="span"/>
+		<group id="237" type="span" parent="100" relname="evidence"/>
+		<group id="238" type="span" parent="239" relname="span"/>
+		<group id="239" type="span" relname="antithesis"/>
+		<group id="240" type="multinuc" parent="241" relname="span"/>
+		<group id="241" type="span" parent="102" relname="cause-effect"/>
+		<group id="242" type="span" parent="249" relname="elaboration"/>
+		<group id="243" type="multinuc" parent="244" relname="span"/>
+		<group id="244" type="span" parent="245" relname="span"/>
+		<group id="245" type="span" parent="248" relname="joint"/>
+		<group id="246" type="span" parent="247" relname="span"/>
+		<group id="247" type="span" parent="248" relname="joint"/>
+		<group id="248" type="multinuc" parent="249" relname="span"/>
+		<group id="249" type="span" parent="250" relname="span"/>
+		<group id="250" type="span" relname="antithesis"/>
+		<group id="251" type="multinuc" parent="252" relname="span"/>
+		<group id="252" type="span" parent="265" relname="elaboration"/>
+		<group id="253" type="span" parent="254" relname="joint"/>
+		<group id="254" type="multinuc" parent="255" relname="span"/>
+		<group id="255" type="span" parent="256" relname="span"/>
+		<group id="256" type="span" parent="264" relname="joint"/>
+		<group id="257" type="span" parent="262" relname="joint"/>
+		<group id="258" type="span" parent="259" relname="span"/>
+		<group id="259" type="span" parent="260" relname="joint"/>
+		<group id="260" type="multinuc" parent="261" relname="span"/>
+		<group id="261" type="span" parent="262" relname="joint"/>
+		<group id="262" type="multinuc" parent="263" relname="span"/>
+		<group id="263" type="span" parent="264" relname="joint"/>
+		<group id="264" type="multinuc" parent="265" relname="span"/>
+		<group id="265" type="span" parent="266" relname="span"/>
+		<group id="266" type="span" relname="antithesis"/>
+		<group id="267" type="span" relname="antithesis"/>
+  </body>
+</rst>

@@ -1,0 +1,170 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst" />
+			<rel name="attribution1" type="rst" />
+			<rel name="attribution2" type="rst" />
+			<rel name="attribution" type="rst" />
+			<rel name="background" type="rst" />
+			<rel name="cause-effect" type="rst" />
+			<rel name="comparison" type="multinuc" />
+			<rel name="concession" type="rst" />
+			<rel name="conclusion" type="rst" />
+			<rel name="condition" type="rst" />
+			<rel name="contrast" type="multinuc" />
+			<rel name="elaboration" type="rst" />
+			<rel name="evaluation" type="rst" />
+			<rel name="evidence" type="rst" />
+			<rel name="interpretation-evaluation" type="rst" />
+			<rel name="interpretation" type="rst" />
+			<rel name="joint" type="multinuc" />
+			<rel name="motivation" type="rst" />
+			<rel name="non_volitional_cause" type="rst" />
+			<rel name="non_volitional_effect" type="rst" />
+			<rel name="preparation" type="rst" />
+			<rel name="purpose" type="rst" />
+			<rel name="restatement" type="multinuc" />
+			<rel name="same-unit" type="multinuc" />
+			<rel name="sequence" type="multinuc" />
+			<rel name="solutionhood" type="rst" />
+			<rel name="volitional_cause" type="rst" />
+			<rel name="volitional_effect" type="rst" />
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="81" relname="preparation">##### Недавно Соединенные Штаты добились сомнительной чести похвастаться самым большим на земле количеством заключенных, содержащихся в тюрьмах и изоляторах предварительного заключения.</segment>
+		<segment id="2" parent="74" relname="span">Они достигли этого зенита, превзойдя стесненную в деньгах Россию</segment>
+		<segment id="3" parent="2" relname="elaboration">- на протяжении долгого времени бывшую их единственным соперником, в качестве общества массового лишения свободы -</segment>
+		<segment id="4" parent="73" relname="span">после того как Россия освободила тысячи заключенных,</segment>
+		<segment id="5" parent="4" relname="purpose">чтобы сэкономить на этом деньги.</segment>
+		<segment id="6" parent="75" relname="background">А несколькими годами раньше, когда Америка бросилась больше чем когда-либо сажать в тюрьмы людей за самые мелкие правонарушения,</segment>
+		<segment id="7" parent="75" relname="span">абсолютное количество американских заключенных превзошло число заключенных в Китае</segment>
+		<segment id="8" parent="7" relname="concession">- несмотря на то, что население Китая более чем в четыре раза превышает население Америки.</segment>
+		<segment id="9" parent="10" relname="attribution">Согласно исследованиям, проведенным министерством внутренних дел Великобритании,</segment>
+		<segment id="10" parent="76" relname="span">Америка в настоящее время держит в тюрьме более одной пятой заключенных во всем мире.</segment>
+		<segment id="11" parent="85" relname="span">##### В этом есть некоторая горькая ирония.</segment>
+		<segment id="12" parent="82" relname="span">Ведь Америка на самом деле является землей свободы, местом, где те,</segment>
+		<segment id="13" parent="12" relname="elaboration">кто часто страдал от несправедливости где-то в других местах,</segment>
+		<segment id="14" parent="83" relname="same-unit">могут наладить свою жизнь по-новому.</segment>
+		<segment id="15" parent="85" relname="interpretation-evaluation">Как трагично поэтому то, что за последние двадцать лет политические лидеры страны так часто пытались справиться с многими самыми вредоносными побочными эффектами нищеты - от хронического употребления наркотиков и налаживания уличной торговли ими до попрошайничества, принадлежности к какой-нибудь банде и нанесения граффити на стены общественных зданий - используя для этого массовое заключение под стражу.</segment>
+		<segment id="16" parent="89" relname="span">##### Как вдвойне трагично то, что это произошло вкупе с политическими нападками на программу президента Л. Джонсона «Великое общество»,</segment>
+		<segment id="17" parent="86" relname="joint">введенную в действие в 1960-е годы</segment>
+		<segment id="18" parent="86" relname="joint">и направленную на борьбу с бедностью;</segment>
+		<segment id="19" parent="87" relname="span">что инвестиции на развитие инфраструктуры, государственного образования, здравоохранения и профессиональное обучение,</segment>
+		<segment id="20" parent="19" relname="elaboration">которые могли бы сократить преступность более эффективно,</segment>
+		<segment id="21" parent="88" relname="same-unit">вместо этого в широких масштабах расходуются государством на строительство новых тюрем для заключения сотен тысяч мелких правонарушителей.</segment>
+		<segment id="22" parent="91" relname="interpretation-evaluation">При таком порочном круге преступлений, наказаний и отсутствия необходимых инвестиций на улучшение благосостояния бедных групп населения, нет ничего удивительного в том, что заселенность тюрем возросла до такой степени.</segment>
+		<segment id="23" parent="98" relname="preparation">##### Цифры, стоящие за этой расползающейся тюремной системой, исключительно впечатляющи.</segment>
+		<segment id="24" parent="94" relname="span">Приблизительно два миллиона американцев в настоящее время отбывают сроки в тюрьмах или изоляторах предварительного заключения,</segment>
+		<segment id="25" parent="93" relname="span">и из них более миллиона - за преступления, не связанные с насилием</segment>
+		<segment id="26" parent="25" relname="elaboration">(преобладают преступления, связанные с употреблением наркотиков и их продажей в небольших количествах)</segment>
+		<segment id="27" parent="96" relname="joint">. Из расчета на тысячу жителей в США процент заключенных в пять раз выше, чем в Англии,</segment>
+		<segment id="28" parent="96" relname="joint">в шесть раз выше, чем в Канаде,</segment>
+		<segment id="29" parent="96" relname="joint">и в семь раз выше, чем в Германии.</segment>
+		<segment id="30" parent="104" relname="joint">##### Где-то около 10% афроамериканцев в возрасте от 20 до 30 лет проводят это время за решеткой.</segment>
+		<segment id="31" parent="99" relname="span">В некоторых штатах,</segment>
+		<segment id="32" parent="31" relname="elaboration">где единственного уголовного преступления достаточно для того, чтобы лишить преступника права участия в выборах,</segment>
+		<segment id="33" parent="100" relname="same-unit">свыше четверти афроамериканцев мужского пола лишены гражданских прав.</segment>
+		<segment id="34" parent="101" relname="interpretation-evaluation">В столь сильно подвергаемой сомнению победе президента Буша на выборах, по-видимому, не последнюю роль сыграло то, что во Флориде проживает много людей, лишенных гражданских прав.</segment>
+		<segment id="35" parent="109" relname="span">##### Начиная с 1980 года, фактически был возведен «индустриальный тюремный комплекс»,</segment>
+		<segment id="36" parent="35" relname="elaboration">строительство которого поощрялось получающими от этого высокие доходы строительными компаниями и лоббистами профсоюзов тюремной охраны.</segment>
+		<segment id="37" parent="111" relname="joint">Несколько штатов, и среди них Калифорния, тратят на тюрьмы больше, чем на высшее образование.</segment>
+		<segment id="38" parent="105" relname="span">Несмотря на то, что число преступлений за последние десять лет существенно уменьшилось,</segment>
+		<segment id="39" parent="38" relname="elaboration">(большинство криминалистов больше связывают это с демографией - просто в последнее время стало меньше молодых людей - чем с лишением свободы)</segment>
+		<segment id="40" parent="107" relname="span">населенность тюрем продолжала стремительно расти.</segment>
+		<segment id="41" parent="106" relname="comparison">Большая часть этого роста связана скорее с тем, что общественность ощущает воображаемую волну преступности, и с тем, как она воспринимает людей с «бандитской» внешностью, а также с реакцией политиков на периодически появляющиеся газетные заголовки об убийствах,</segment>
+		<segment id="42" parent="106" relname="comparison">чем с каким-либо реальным уровнем преступности.</segment>
+		<segment id="43" parent="113" relname="joint">##### Реальное число так называемых злостных преступлений на самом деле снизилось;</segment>
+		<segment id="44" parent="113" relname="joint">среди тех, кто отбывает длительные сроки за решеткой, увеличилось число мелких хулиганов, наркоманов и душевно больных людей.</segment>
+		<segment id="45" parent="114" relname="comparison">В Америке сейчас в пять раз больше заключенных,</segment>
+		<segment id="46" parent="114" relname="comparison">чем было в 1980 году.</segment>
+		<segment id="47" parent="121" relname="preparation">##### Одна из наиболее пугающих доработок - это распространение так называемых законов «Три судимости и ты вне игры».</segment>
+		<segment id="48" parent="116" relname="span">Калифорнийская версия этих законов,</segment>
+		<segment id="49" parent="48" relname="elaboration">за которую проголосовали граждане на референдуме 1993 года и которую привели в действие законодатели в 1994 году,</segment>
+		<segment id="50" parent="120" relname="span">предусматривает пожизненное заключение для любого преступника,</segment>
+		<segment id="51" parent="118" relname="joint">ранее имевшего две судимости по серьезным обвинениям</segment>
+		<segment id="52" parent="118" relname="joint">и признанного виновным в совершении любого третьего уголовного преступления.</segment>
+		<segment id="53" parent="124" relname="span">К концу прошлого года в Калифорнии по этому закону отбывали пожизненное заключение около 7000 человек.</segment>
+		<segment id="54" parent="123" relname="span">Из них многие тысячи отбывают пожизненное заключение за незначительные «третьи судимости»,</segment>
+		<segment id="55" parent="54" relname="elaboration">а именно: незначительные преступления связанные с наркотиками, кражи из автомобилей, мелкое мошенничество, кражи со взломом и вождение автомобиля в нетрезвом состоянии (даже нанесение граффити с размером ущерба 400 долларов и выше считается уголовным преступлением согласно новой классификации).</segment>
+		<segment id="56" parent="133" relname="joint">##### Один такой человек, Билли Очоа, пятидесятивосьмилетний наркоман со стажем, употребляющий героин, отбывает сейчас наказание в супермаксе (тюрьме особо строгого режима) сроком в общей сложности 326 лет за то, что мошенническим путем получил социальное пособие на сумму 2100 долларов.</segment>
+		<segment id="57" parent="131" relname="cause-effect">Поскольку Очоа за последние несколько десятилетий отбывал наказание за несколько грабежей со взломом,</segment>
+		<segment id="58" parent="130" relname="background">то когда его поймали в Лос-Анджелесе за тем, что он мошенническим путем получал талоны на бесплатное питание и ночлег,</segment>
+		<segment id="59" parent="129" relname="joint">его дело в суде попало под действие закона о «трех судимостях»,</segment>
+		<segment id="60" parent="127" relname="span">и ему был вынесен приговор по тринадцати отдельным пунктам,</segment>
+		<segment id="61" parent="60" relname="elaboration">согласно которому он должен отбывать заключение в одной самых строгих в Америке тюрем с очень строгим режимом содержания заключенных.</segment>
+		<segment id="62" parent="134" relname="interpretation-evaluation">Приговор, вынесенный Очоа, помимо того, что он нелепо жесток, может, в конечном счете, обойтись налогоплательщикам в миллион долларов.</segment>
+		<segment id="63" parent="142" relname="span">##### Во многих американских тюрьмах строгого режима заключенные постоянно находятся фактически в изоляции.</segment>
+		<segment id="64" parent="139" relname="joint">Их кормят в своих камерах,</segment>
+		<segment id="65" parent="139" relname="joint">только полчаса в день разрешают заниматься физическими упражнениями,</segment>
+		<segment id="66" parent="137" relname="joint">не всегда позволяют смотреть телевизор</segment>
+		<segment id="67" parent="137" relname="joint">и слушать радио,</segment>
+		<segment id="68" parent="138" relname="joint">или даже приукрашать бетонные стены камер</segment>
+		<segment id="69" parent="141" relname="span">- есть официальные заключения, что такие условия привели многих из них в состояние серьезного психоза.</segment>
+		<segment id="70" parent="142" relname="interpretation-evaluation">Америка, как могло до этого дойти?</segment>
+		<segment id="71" relname="antithesis">##### Сейчас, когда весь мир смотрит, как Америка сражается, защищая свои ценности, наступило время обратить внимание на эти крайности ее системы уголовного правосудия.</segment>
+		<segment id="72" parent="71" relname="interpretation-evaluation">Это трагедия, когда великая демократическая держава имеет такую уродливую и обширную систему тюрем, разрушающую ее репутацию и ее государственное устройство.</segment>
+		<group id="73" type="span" parent="74" relname="background"/>
+		<group id="74" type="span" parent="77" relname="span"/>
+		<group id="75" type="span" parent="78" relname="span"/>
+		<group id="76" type="span" parent="80" relname="joint"/>
+		<group id="77" type="span" parent="80" relname="joint"/>
+		<group id="78" type="span" parent="80" relname="joint"/>
+		<group id="80" type="multinuc" parent="81" relname="span"/>
+		<group id="81" type="span" relname="antithesis"/>
+		<group id="82" type="span" parent="83" relname="same-unit"/>
+		<group id="83" type="multinuc" parent="84" relname="span"/>
+		<group id="84" type="span" parent="11" relname="elaboration"/>
+		<group id="85" type="span" relname="antithesis"/>
+		<group id="86" type="multinuc" parent="16" relname="elaboration"/>
+		<group id="87" type="span" parent="88" relname="same-unit"/>
+		<group id="88" type="multinuc" parent="91" relname="span"/>
+		<group id="89" type="span" parent="90" relname="joint"/>
+		<group id="90" type="multinuc" relname="antithesis"/>
+		<group id="91" type="span" parent="92" relname="span"/>
+		<group id="92" type="span" parent="90" relname="joint"/>
+		<group id="93" type="span" parent="24" relname="elaboration"/>
+		<group id="94" type="span" parent="97" relname="joint"/>
+		<group id="96" type="multinuc" parent="97" relname="joint"/>
+		<group id="97" type="multinuc" parent="98" relname="span"/>
+		<group id="98" type="span" relname="antithesis"/>
+		<group id="99" type="span" parent="100" relname="same-unit"/>
+		<group id="100" type="multinuc" parent="101" relname="span"/>
+		<group id="101" type="span" parent="103" relname="span"/>
+		<group id="103" type="span" parent="104" relname="joint"/>
+		<group id="104" type="multinuc" relname="antithesis"/>
+		<group id="105" type="span" parent="40" relname="concession"/>
+		<group id="106" type="multinuc" parent="108" relname="span"/>
+		<group id="107" type="span" parent="111" relname="joint"/>
+		<group id="108" type="span" parent="112" relname="interpretation-evaluation"/>
+		<group id="109" type="span" parent="111" relname="joint"/>
+		<group id="111" type="multinuc" parent="112" relname="span"/>
+		<group id="112" type="span" relname="antithesis"/>
+		<group id="113" type="multinuc" parent="115" relname="joint"/>
+		<group id="114" type="multinuc" parent="115" relname="joint"/>
+		<group id="115" type="multinuc" relname="antithesis"/>
+		<group id="116" type="span" parent="117" relname="joint"/>
+		<group id="117" type="multinuc" parent="121" relname="span"/>
+		<group id="118" type="multinuc" parent="119" relname="span"/>
+		<group id="119" type="span" parent="50" relname="elaboration"/>
+		<group id="120" type="span" parent="117" relname="joint"/>
+		<group id="121" type="span" parent="122" relname="span"/>
+		<group id="122" type="span" parent="126" relname="joint"/>
+		<group id="123" type="span" parent="53" relname="elaboration"/>
+		<group id="124" type="span" parent="126" relname="joint"/>
+		<group id="126" type="multinuc" relname="antithesis"/>
+		<group id="127" type="span" parent="129" relname="joint"/>
+		<group id="129" type="multinuc" parent="130" relname="span"/>
+		<group id="130" type="span" parent="131" relname="span"/>
+		<group id="131" type="span" parent="132" relname="span"/>
+		<group id="132" type="span" parent="133" relname="joint"/>
+		<group id="133" type="multinuc" parent="134" relname="span"/>
+		<group id="134" type="span" relname="antithesis"/>
+		<group id="137" type="multinuc" parent="138" relname="joint"/>
+		<group id="138" type="multinuc" parent="139" relname="joint"/>
+		<group id="139" type="multinuc" parent="140" relname="span"/>
+		<group id="140" type="span" parent="69" relname="cause-effect"/>
+		<group id="141" type="span" parent="63" relname="elaboration"/>
+		<group id="142" type="span" relname="antithesis"/>
+  </body>
+</rst>

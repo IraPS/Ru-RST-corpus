@@ -1,0 +1,155 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst" />
+			<rel name="attribution1" type="rst" />
+			<rel name="attribution2" type="rst" />
+			<rel name="attribution" type="rst" />
+			<rel name="background" type="rst" />
+			<rel name="cause-effect" type="rst" />
+			<rel name="comparison" type="multinuc" />
+			<rel name="concession" type="rst" />
+			<rel name="conclusion" type="rst" />
+			<rel name="condition" type="rst" />
+			<rel name="contrast" type="multinuc" />
+			<rel name="elaboration" type="rst" />
+			<rel name="evaluation" type="rst" />
+			<rel name="evidence" type="rst" />
+			<rel name="interpretation-evaluation" type="rst" />
+			<rel name="interpretation" type="rst" />
+			<rel name="joint" type="multinuc" />
+			<rel name="motivation" type="rst" />
+			<rel name="non_volitional_cause" type="rst" />
+			<rel name="non_volitional_effect" type="rst" />
+			<rel name="preparation" type="rst" />
+			<rel name="purpose" type="rst" />
+			<rel name="restatement" type="multinuc" />
+			<rel name="same-unit" type="multinuc" />
+			<rel name="sequence" type="multinuc" />
+			<rel name="solutionhood" type="rst" />
+			<rel name="volitional_cause" type="rst" />
+			<rel name="volitional_effect" type="rst" />
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="74" relname="preparation">##### Никого не удивляет тот факт, что во время первых лет правления задачей нового молодого лидера арабского государства должно стать доказательство своего статуса и правопреемственности.</segment>
+		<segment id="2" parent="71" relname="span">Сирийский президент Башар-аль Ассад,</segment>
+		<segment id="3" parent="2" relname="elaboration">который сменил на этом посту своего отца Хафиз-аль-Ассада,</segment>
+		<segment id="4" parent="68" relname="attribution">должен был настоятельно продемонстрировать,</segment>
+		<segment id="5" parent="67" relname="comparison">что он контролирует ситуацию в стране даже в большей степени,</segment>
+		<segment id="6" parent="66" relname="span">чем другие новые арабские лидеры,</segment>
+		<segment id="7" parent="6" relname="elaboration">такие как король Иордании Абдула или король Марокко Мухамед.</segment>
+		<segment id="8" parent="72" relname="span">Выбор Башар-аль-Ассада президентом страны через несколько минут после смерти Ассада 10 июня 2000 года ошеломил всю государственную систему Сирии,</segment>
+		<segment id="9" parent="8" relname="concession">несмотря на то, что общественное мнение подготавливалось к этому шагу в течение нескольких лет.</segment>
+		<segment id="10" parent="11" relname="condition">##### Не предоставив общественности четкой и эффективной программы внутренних реформ,</segment>
+		<segment id="11" parent="78" relname="span">молодой президент попытался возместить провалы во внутренней политике достижениями в международных делах.</segment>
+		<segment id="12" parent="76" relname="span">В этой связи арабо-израильский конфликт предоставил президенту возможность проявить лидерские способности,</segment>
+		<segment id="13" parent="75" relname="span">особенно после избрания Ариеля Шарона,</segment>
+		<segment id="14" parent="13" relname="condition">политика, которого ругают в арабском мире,</segment>
+		<segment id="15" parent="77" relname="same-unit">на пост премьер-министра Израиля.</segment>
+		<segment id="16" parent="80" relname="span">##### Во время последней встречи на высшем уровне лидеров арабских государств,</segment>
+		<segment id="17" parent="16" relname="elaboration">прошедшей в Бейруте,</segment>
+		<segment id="18" parent="81" relname="span">молодой президент сыграл на отсутствии глав Египта, Ливии и Палестины,</segment>
+		<segment id="19" parent="18" relname="purpose">чтобы навязать контакт с аудиторией из Сирии и в других арабских странах.</segment>
+		<segment id="20" parent="84" relname="joint">В хорошо отрепетированном и уверенном выступлении, напоминающем манеру своего отца, Башар-аль-Ассад обратился к своим коллегам с просьбой поддержать палестинцев в их праве на сопротивление</segment>
+		<segment id="21" parent="84" relname="joint">и разорвать отношения с Израилем,</segment>
+		<segment id="22" parent="83" relname="joint">призывал к примирению между Кувейтом и Ираком</segment>
+		<segment id="23" parent="83" relname="joint">и поддержал мирные инициативы саудовского принца Абдулы.</segment>
+		<segment id="24" parent="91" relname="span">##### В глазах сирийской общественности молодой президент,</segment>
+		<segment id="25" parent="24" relname="elaboration">выдвинувший такие требования,</segment>
+		<segment id="26" parent="89" relname="span">предстал как политик,</segment>
+		<segment id="27" parent="26" relname="elaboration">который глубоко понимает насущные вопросы дня.</segment>
+		<segment id="28" parent="92" relname="joint">Такое уверенное выступление придало сирийскому президенту больший статус.</segment>
+		<segment id="29" parent="92" relname="joint">Еще важнее то обстоятельство, что это выступление отвлекло внимание от экономических и политических реформ внутри Сирии по крайней мере в настоящей момент.</segment>
+		<segment id="30" parent="100" relname="joint">##### Первоначально, вступление в должность президента Башара было ознаменовано умеренной, но заметной политической оттепелью.</segment>
+		<segment id="31" parent="96" relname="span">Относительно открытые обсуждения проходили в популярных форумах и частных дискуссионных клубах,</segment>
+		<segment id="32" parent="31" relname="elaboration">которые широко распространились по стране.</segment>
+		<segment id="33" parent="97" relname="span">Через несколько месяцев деятельность этих клубов была резко остановлено,</segment>
+		<segment id="34" parent="95" relname="span">так как служба безопасности вынудила принять рад строгих правил,</segment>
+		<segment id="35" parent="34" relname="elaboration">по которым эти открытые собрания должны быть прекращены.</segment>
+		<segment id="36" parent="102" relname="span">Кратковременность сирийской «оттепели» нанесла удар по ожиданиям сирийской интеллигенции и профессионалов,</segment>
+		<segment id="37" parent="36" relname="elaboration">как молодых, так и зрелых.</segment>
+		<segment id="38" parent="105" relname="span">##### Этот удар ощущался еще острее,</segment>
+		<segment id="39" parent="38" relname="condition">после того как стало понятно, что закрытие этих популярных форумов не вызовет широкой общественной реакции.</segment>
+		<segment id="40" parent="41" relname="background">Осознав, что новое правительство вновь оттесняет сирийскую интеллигенцию на политические задворки,</segment>
+		<segment id="41" parent="103" relname="span">интеллектуалы обратили свой взор на Шарона и растущий конфликт между израильтянами и палестинцами.</segment>
+		<segment id="42" parent="104" relname="restatement">Проблема Палестины отвлекла внимание от внутренних проблем страны, предоставив сирийским интеллектуалам политически безопасный способ дать выход своим разочарованиям.</segment>
+		<segment id="43" parent="44" relname="background">##### Что же до сирийских обывателей, представляющих аморфную смесь из средних граждан и политического консенсуса, у них не только отсутствует симпатия к интеллигенции, но и вообще какой-нибудь систематический интерес к внутренней политике.</segment>
+		<segment id="44" relname="antithesis">Основная забота среднего гражданина Сирии - это реальное улучшение уровня жизни и сокращение безработицы.</segment>
+		<segment id="45" relname="antithesis">##### Сирийские обыватели предпочитают не обсуждать более широкий спектр преобразований, такие как реформа гражданского права, права женщин и роль религии в обществе.</segment>
+		<segment id="46" parent="107" relname="joint">К сожалению или к счастью, ограничения в этих сферах жизни постоянны</segment>
+		<segment id="47" parent="107" relname="joint">и всем понятны в Сирии.</segment>
+		<segment id="48" parent="108" relname="joint">Оспаривать их в тяжелое и нестабильное время - нежелательная перспектива.</segment>
+		<segment id="49" relname="antithesis">##### Пассивность сирийского общества - это результат молчаливого соглашения между государством и народом.</segment>
+		<segment id="50" parent="111" relname="comparison">Государство не заигрывает с социальными вопросами,</segment>
+		<segment id="51" parent="111" relname="comparison">а народ не вовлекается во внутреннюю политику.</segment>
+		<segment id="52" parent="112" relname="joint">Одновременно, с взаимного согласия, арабо-изриальский конфликт является вопросом, по которому разворачиваются дебаты как в сирийском правительстве, так и среди подданных.</segment>
+		<segment id="53" parent="114" relname="span">##### Под предлогом арабо-израильского конфликта,</segment>
+		<segment id="54" parent="53" relname="elaboration">который красноречиво обсуждается во всех слоях сирийского общества,</segment>
+		<segment id="55" parent="115" relname="same-unit">замалчивается подавление основных свобод.</segment>
+		<segment id="56" parent="116" relname="span">То,</segment>
+		<segment id="57" parent="56" relname="antithesis">что кажется политическим конфликтом,</segment>
+		<segment id="58" parent="117" relname="same-unit">приобрело социо-культурные аспекты.</segment>
+		<segment id="59" parent="124" relname="preparation">##### Поэтому правомерно поставить вопрос может ли сирийский президент действительно выйти с реальной инициативой по разрешению арабо-израильского конфликта.</segment>
+		<segment id="60" parent="61" relname="concession">Несмотря на диктаторский характер режима</segment>
+		<segment id="61" parent="121" relname="span">президент аль Ассад по-прежнему должен удовлетворять общественное настроение в отношении Израиля.</segment>
+		<segment id="62" parent="122" relname="span">В случае предательства этого консенсуса появляется риск того, что народ мобилизуется на обсуждение внутренних проблем.</segment>
+		<segment id="63" parent="120" relname="span">Это явление характерно для всего Ближнего Востока,</segment>
+		<segment id="64" parent="63" relname="elaboration">а Сирия представляет наиболее яркий пример.</segment>
+		<group id="66" type="span" parent="67" relname="comparison"/>
+		<group id="67" type="multinuc" parent="68" relname="span"/>
+		<group id="68" type="span" parent="69" relname="span"/>
+		<group id="69" type="span" parent="70" relname="same-unit"/>
+		<group id="70" type="multinuc" parent="73" relname="span"/>
+		<group id="71" type="span" parent="70" relname="same-unit"/>
+		<group id="72" type="span" parent="73" relname="background"/>
+		<group id="73" type="span" parent="74" relname="span"/>
+		<group id="74" type="span" relname="antithesis"/>
+		<group id="75" type="span" parent="12" relname="elaboration"/>
+		<group id="76" type="span" parent="77" relname="same-unit"/>
+		<group id="77" type="multinuc" parent="79" relname="span"/>
+		<group id="78" type="span" parent="79" relname="background"/>
+		<group id="79" type="span" relname="antithesis"/>
+		<group id="80" type="span" parent="81" relname="condition"/>
+		<group id="81" type="span" parent="86" relname="span"/>
+		<group id="83" type="multinuc" parent="85" relname="joint"/>
+		<group id="84" type="multinuc" parent="85" relname="joint"/>
+		<group id="85" type="multinuc" parent="87" relname="joint"/>
+		<group id="86" type="span" parent="87" relname="joint"/>
+		<group id="87" type="multinuc" relname="antithesis"/>
+		<group id="88" type="multinuc" parent="93" relname="span"/>
+		<group id="89" type="span" parent="88" relname="same-unit"/>
+		<group id="91" type="span" parent="88" relname="same-unit"/>
+		<group id="92" type="multinuc" parent="94" relname="span"/>
+		<group id="93" type="span" relname="antithesis"/>
+		<group id="94" type="span" parent="93" relname="interpretation-evaluation"/>
+		<group id="95" type="span" parent="33" relname="cause-effect"/>
+		<group id="96" type="span" parent="98" relname="sequence"/>
+		<group id="97" type="span" parent="98" relname="sequence"/>
+		<group id="98" type="multinuc" parent="100" relname="joint"/>
+		<group id="100" type="multinuc" parent="101" relname="joint"/>
+		<group id="101" type="multinuc" relname="antithesis"/>
+		<group id="102" type="span" parent="101" relname="joint"/>
+		<group id="103" type="span" parent="104" relname="restatement"/>
+		<group id="104" type="multinuc" parent="106" relname="span"/>
+		<group id="105" type="span" relname="antithesis"/>
+		<group id="106" type="span" parent="105" relname="elaboration"/>
+		<group id="107" type="multinuc" parent="108" relname="joint"/>
+		<group id="108" type="multinuc" parent="109" relname="span"/>
+		<group id="109" type="span" parent="45" relname="elaboration"/>
+		<group id="111" type="multinuc" parent="112" relname="joint"/>
+		<group id="112" type="multinuc" parent="113" relname="span"/>
+		<group id="113" type="span" parent="49" relname="elaboration"/>
+		<group id="114" type="span" parent="115" relname="same-unit"/>
+		<group id="115" type="multinuc" parent="118" relname="span"/>
+		<group id="116" type="span" parent="117" relname="same-unit"/>
+		<group id="117" type="multinuc" parent="119" relname="span"/>
+		<group id="118" type="span" relname="antithesis"/>
+		<group id="119" type="span" parent="118" relname="interpretation-evaluation"/>
+		<group id="120" type="span" parent="62" relname="elaboration"/>
+		<group id="121" type="span" parent="123" relname="joint"/>
+		<group id="122" type="span" parent="123" relname="joint"/>
+		<group id="123" type="multinuc" parent="124" relname="span"/>
+		<group id="124" type="span" relname="antithesis"/>
+  </body>
+</rst>

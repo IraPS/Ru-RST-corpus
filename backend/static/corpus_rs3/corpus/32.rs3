@@ -1,0 +1,94 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst" />
+			<rel name="attribution1" type="rst" />
+			<rel name="attribution2" type="rst" />
+			<rel name="attribution" type="rst" />
+			<rel name="background" type="rst" />
+			<rel name="cause-effect" type="rst" />
+			<rel name="comparison" type="multinuc" />
+			<rel name="concession" type="rst" />
+			<rel name="conclusion" type="rst" />
+			<rel name="condition" type="rst" />
+			<rel name="contrast" type="multinuc" />
+			<rel name="elaboration" type="rst" />
+			<rel name="evaluation" type="rst" />
+			<rel name="evidence" type="rst" />
+			<rel name="interpretation-evaluation" type="rst" />
+			<rel name="interpretation" type="rst" />
+			<rel name="joint" type="multinuc" />
+			<rel name="motivation" type="rst" />
+			<rel name="non_volitional_cause" type="rst" />
+			<rel name="non_volitional_effect" type="rst" />
+			<rel name="preparation" type="rst" />
+			<rel name="purpose" type="rst" />
+			<rel name="restatement" type="multinuc" />
+			<rel name="same-unit" type="multinuc" />
+			<rel name="sequence" type="multinuc" />
+			<rel name="solutionhood" type="rst" />
+			<rel name="volitional_cause" type="rst" />
+			<rel name="volitional_effect" type="rst" />
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="64" relname="preparation">##### Фернандо Алонсо в первый раз в своей карьере пилота Формулы-1 выиграл Гран-при Монако.</segment>
+		<segment id="2" parent="42" relname="span">##### В конце субботней классификации Михаэль Шумахер допустил ошибку в повороте Раскассэ (La Rascasse),</segment>
+		<segment id="3" parent="29" relname="joint">заблокировав свои колёса</segment>
+		<segment id="4" parent="29" relname="joint">и остановившись менее чем в метре от отбойников.</segment>
+		<segment id="5" parent="6" relname="cause-effect">Неудачно остановившаяся машина стала помехой для быстрых кругов многих гонщиков, включая Фернандо Алонсо,</segment>
+		<segment id="6" parent="40" relname="span">и это вызвало расследование FIA.</segment>
+		<segment id="7" parent="43" relname="attribution">Согласно официальному заявлению,</segment>
+		<segment id="8" parent="9" relname="cause-effect">Михаэль был наказан "за неспортивное поведение" лишением всех своих быстрых кругов</segment>
+		<segment id="9" parent="43" relname="span">и, таким образом, стартовал с пит-лейна с полным запасом топлива.</segment>
+		<segment id="10" parent="32" relname="span">Команда Феррари не подавала аппеляцию,</segment>
+		<segment id="11" parent="10" relname="cause-effect">поскольку применённая статья 112 спортивного регламента запрещает оспаривание этого решение.</segment>
+		<segment id="12" parent="31" relname="span">Квалификация стала одной из самых худших за всю историю команды,</segment>
+		<segment id="13" parent="30" relname="span">поскольку Фелипе Масса также был вынужден стартовать с последнего ряда стартового поля,</segment>
+		<segment id="14" parent="13" relname="cause-effect">ввиду того, что он разбил свою машину.</segment>
+		<segment id="15" parent="60" relname="joint">Оба болида Феррари были выставлены с новыми моторами.</segment>
+		<segment id="16" parent="39" relname="span">##### Испанец провёл прекрасную гонку,</segment>
+		<segment id="17" parent="16" relname="elaboration">пролидировав бо́льшую часть гонки.</segment>
+		<segment id="18" parent="45" relname="span">Неудача постигла обоих его преследователей - Кими Райкконена и Марка Уэббера,</segment>
+		<segment id="19" parent="18" relname="elaboration">чьи моторы взорвались практически одновременно за 30 кругов до финиша.</segment>
+		<segment id="20" parent="49" relname="sequence">После этого, Алонсо финишировал в гордом одиночестве.</segment>
+		<segment id="21" parent="46" relname="span">##### С огромными отрывами на втором и третьем местах финишировали Хуану Пабло Монтойе из команды МакЛарен-Мерседес и Дэвид Култхард.</segment>
+		<segment id="22" parent="21" relname="elaboration">Третье место стало первым подиумом команды Red Bull.</segment>
+		<segment id="23" parent="38" relname="span">##### На церемонии награждения призёры не стали принимать традиционный "душ" из шампанского,</segment>
+		<segment id="24" parent="37" relname="span">отдавая дань погибшему Эдуард Мишлен,</segment>
+		<segment id="25" parent="33" relname="span">одному из президентов группы компаний Michelin,</segment>
+		<segment id="26" parent="25" relname="elaboration">в составе которой и поставщик шин для Формулы-1,</segment>
+		<segment id="27" parent="35" relname="joint">погибшему за два дня до гонки.</segment>
+		<group id="29" type="multinuc" parent="41" relname="span"/>
+		<group id="30" type="span" parent="12" relname="cause-effect"/>
+		<group id="31" type="span" parent="60" relname="joint"/>
+		<group id="32" type="span" parent="55" relname="joint"/>
+		<group id="33" type="span" parent="35" relname="joint"/>
+		<group id="35" type="multinuc" parent="36" relname="span"/>
+		<group id="36" type="span" parent="24" relname="elaboration"/>
+		<group id="37" type="span" parent="23" relname="cause-effect"/>
+		<group id="38" type="span" parent="62" relname="joint"/>
+		<group id="39" type="span" parent="48" relname="joint"/>
+		<group id="40" type="span" parent="52" relname="joint"/>
+		<group id="41" type="span" parent="2" relname="elaboration"/>
+		<group id="42" type="span" parent="52" relname="joint"/>
+		<group id="43" type="span" parent="44" relname="span"/>
+		<group id="44" type="span" parent="55" relname="joint"/>
+		<group id="45" type="span" parent="48" relname="joint"/>
+		<group id="46" type="span" parent="62" relname="joint"/>
+		<group id="48" type="multinuc" parent="50" relname="span"/>
+		<group id="49" type="multinuc" parent="63" relname="span"/>
+		<group id="50" type="span" parent="49" relname="sequence"/>
+		<group id="52" type="multinuc" parent="57" relname="sequence"/>
+		<group id="55" type="multinuc" parent="56" relname="span"/>
+		<group id="56" type="span" parent="57" relname="sequence"/>
+		<group id="57" type="multinuc" parent="58" relname="span"/>
+		<group id="58" type="span" parent="62" relname="joint"/>
+		<group id="60" type="multinuc" parent="61" relname="span"/>
+		<group id="61" type="span" parent="62" relname="joint"/>
+		<group id="62" type="multinuc" parent="64" relname="span"/>
+		<group id="63" type="span" parent="62" relname="joint"/>
+		<group id="64" type="span" parent="65" relname="span"/>
+		<group id="65" type="span" relname="antithesis"/>
+  </body>
+</rst>

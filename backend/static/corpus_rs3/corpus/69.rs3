@@ -1,0 +1,174 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst" />
+			<rel name="attribution1" type="rst" />
+			<rel name="attribution2" type="rst" />
+			<rel name="attribution" type="rst" />
+			<rel name="background" type="rst" />
+			<rel name="cause-effect" type="rst" />
+			<rel name="comparison" type="multinuc" />
+			<rel name="concession" type="rst" />
+			<rel name="conclusion" type="rst" />
+			<rel name="condition" type="rst" />
+			<rel name="contrast" type="multinuc" />
+			<rel name="elaboration" type="rst" />
+			<rel name="evaluation" type="rst" />
+			<rel name="evidence" type="rst" />
+			<rel name="interpretation-evaluation" type="rst" />
+			<rel name="interpretation" type="rst" />
+			<rel name="joint" type="multinuc" />
+			<rel name="motivation" type="rst" />
+			<rel name="non_volitional_cause" type="rst" />
+			<rel name="non_volitional_effect" type="rst" />
+			<rel name="preparation" type="rst" />
+			<rel name="purpose" type="rst" />
+			<rel name="restatement" type="multinuc" />
+			<rel name="same-unit" type="multinuc" />
+			<rel name="sequence" type="multinuc" />
+			<rel name="solutionhood" type="rst" />
+			<rel name="volitional_cause" type="rst" />
+			<rel name="volitional_effect" type="rst" />
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="2" relname="concession">##### ﻿Несмотря на частые заверения в обратном,</segment>
+		<segment id="2" parent="72" relname="span">фундаментальная проблема на Ближнем Востоке состоит не во вмешательстве Запада.</segment>
+		<segment id="3" parent="71" relname="same-unit">Напротив, реальная проблема в том, что западные державы,</segment>
+		<segment id="4" parent="69" relname="concession">сколько они ни вмешиваются,</segment>
+		<segment id="5" parent="68" relname="joint">оказываются не в состоянии ни вести войну,</segment>
+		<segment id="6" parent="68" relname="joint">ни наладить диалог.</segment>
+		<segment id="7" parent="77" relname="span">В результате все жители региона находятся в заложниках у ближневосточных диктаторских режимов и множащихся террористов.</segment>
+		<segment id="8" parent="9" relname="cause-effect">##### Сторонники иракской войны не понимали, какие сложности связаны с ведением эффективной войны за либерализацию и демократизацию.</segment>
+		<segment id="9" parent="81" relname="span">В результате их политика просто привела к устранению двух основных конкурентов Ирана в регионе: Талибана и режима Саддама Хусейна.</segment>
+		<segment id="10" parent="79" relname="joint">Это дало Ирану превосходный шанс выдвинуться на роль регионального гегемона,</segment>
+		<segment id="11" parent="79" relname="joint">и не похоже, чтоб лидеры Ирана позволили этому шансу ускользнуть.</segment>
+		<segment id="12" parent="85" relname="span">##### Сторонники диалога с Ираном и его союзницей – Сирией, например, бывший госсекретарь США Джеймс Бейкер, находятся под влиянием заблуждения, что они действительно смогут добиться взаимопонимания,</segment>
+		<segment id="13" parent="83" relname="joint">которое позволит США красиво уйти из Ирака</segment>
+		<segment id="14" parent="83" relname="joint">и будет содействовать стабилизации в этой истерзанной стране.</segment>
+		<segment id="15" parent="90" relname="span">Это заблуждение основано на двух ложных предположениях:</segment>
+		<segment id="16" parent="86" relname="span">что Иран и Сирия могут добиться успеха в Ираке,</segment>
+		<segment id="17" parent="16" relname="elaboration">где США потерпели неудачу,</segment>
+		<segment id="18" parent="88" relname="joint">и что международное сообщество может себе позволить заплатить ту цену, которая требуется для обеспечения их сотрудничества.</segment>
+		<segment id="19" parent="115" relname="joint">##### Да, Сирия и Иран играют важную роль в поддержке иракских повстанцев,</segment>
+		<segment id="20" parent="115" relname="joint">и Сирия по-прежнему поощряет переброску боевиков-исламистов и оружия по всей ее границе с Ираком.</segment>
+		<segment id="21" parent="117" relname="contrast">Но идея о том, что эту деятельность можно остановить волевым решением – наивна.</segment>
+		<segment id="22" parent="128" relname="span">##### Во-первых, интересы шиитских сообществ в Ираке и Иране не совпадают.</segment>
+		<segment id="23" parent="124" relname="span">Иракские шииты никогда не подчинялись иранскому диктату,</segment>
+		<segment id="24" parent="23" relname="evidence">и многие из них участвовали в войне Саддама Хусейна против Ирана в 1980 году.</segment>
+		<segment id="25" parent="122" relname="cause-effect">В конце концов, иракские шииты – арабы,</segment>
+		<segment id="26" parent="27" relname="concession">и если они сейчас и готовы координировать свою деятельность с собратьями-персами,</segment>
+		<segment id="27" parent="121" relname="span">то главной их целью всегда будет оставаться обеспечение независимого курса, и как можно скорее,</segment>
+		<segment id="28" parent="121" relname="concession">несмотря даже на то, что они при этом продолжают конфликтовать между собой в Ираке.</segment>
+		<segment id="29" parent="130" relname="joint">Убедить их разрешить свои внутренние противоречия Ирану будет ничуть не легче, чем США.</segment>
+		<segment id="30" parent="134" relname="span">##### Президент Сирии Башер Аль-Ассад сталкивается с аналогичной дилеммой.</segment>
+		<segment id="31" parent="92" relname="joint">Хотя он открыл сирийскую границу для боевиков</segment>
+		<segment id="32" parent="92" relname="joint">и предоставил свободу действий сторонникам Саддама,</segment>
+		<segment id="33" parent="94" relname="span">этот его выбор, возможно, не вполне добровольный.</segment>
+		<segment id="34" parent="95" relname="cause-effect">Сирия помогала Саддаму действовать в обход программы ООН «Нефть в обмен на продовольствие»,</segment>
+		<segment id="35" parent="95" relname="span">и в результате иракские деньги начали оседать у жителей приграничных регионов,</segment>
+		<segment id="36" parent="35" relname="elaboration">которые по обычаям, диалекту и мировоззрению всегда были ближе к иракским соседям, чем к своим землякам-сирийцам.</segment>
+		<segment id="37" parent="97" relname="background">В отсутствие денежных вливаний от властей</segment>
+		<segment id="38" parent="97" relname="span">местные жители стали лояльны иракским баасистам,</segment>
+		<segment id="39" parent="38" relname="elaboration">которые помогли им улучшить жизнь.</segment>
+		<segment id="40" parent="113" relname="elaboration">Действительно, даже местные службы безопасности не желали подчиниться приказам о закрытии границ, поступавшим от Ассада и его клики.</segment>
+		<segment id="41" parent="42" relname="cause-effect">##### При таких обстоятельствах создается впечатление, что ни Сирия, ни Иран не в состоянии устроить в Иране ничего, кроме кровопролития.</segment>
+		<segment id="42" parent="135" relname="span">Тогда какая польза от предлагаемого диалога между США и этими государствами – кроме продолжения поддержки их коррумпированных, но амбициозных режимов?</segment>
+		<segment id="43" parent="98" relname="span">##### Ситуация еще более осложняется,</segment>
+		<segment id="44" parent="43" relname="condition">если принять во внимание расследование ООН убийства бывшего премьер-министра Ливана Рафика Аль-Харири.</segment>
+		<segment id="45" parent="46" relname="attribution">Ассад хочет,</segment>
+		<segment id="46" parent="99" relname="span">чтобы это событие было предано забвению</segment>
+		<segment id="47" parent="48" relname="attribution">– и сторонники диалога думают,</segment>
+		<segment id="48" parent="100" relname="span">что могут выполнить его пожелание,</segment>
+		<segment id="49" parent="100" relname="purpose">в надежде разрушить союз Сирии с Ираном.</segment>
+		<segment id="50" parent="151" relname="span">##### Но это просто очередное ошибочное (не говоря уже о том, что аморальное) предположение.</segment>
+		<segment id="51" parent="143" relname="joint">Союзу Сирии и Ирана более двух десятков лет,</segment>
+		<segment id="52" parent="143" relname="joint">и верность ему была открыто провозглашена двумя правящими режимами не далее как в январе 2005 года.</segment>
+		<segment id="53" parent="148" relname="joint">Действительно, сейчас власти двух стран срослись как сиамские близнецы.</segment>
+		<segment id="54" parent="148" relname="joint">Недавний отказ Ассада посетить встречу на высшем уровне в Тегеране с участием руководителей Ирана и Ирака был просто тактическим ходом, рассчитанным на привлечение симпатий сторонников диалога.</segment>
+		<segment id="55" parent="148" relname="joint">##### На самом деле Иран вложил в Сирию сотни миллионов долларов,</segment>
+		<segment id="56" parent="148" relname="joint">а объем двусторонней торговли достигает миллиардов долларов в год.</segment>
+		<segment id="57" parent="104" relname="joint">Влияние Ирана на службы безопасности Сирии растет</segment>
+		<segment id="58" parent="104" relname="joint">и ширится,</segment>
+		<segment id="59" parent="148" relname="joint">а кроме того, Иран финансирует создание шиитского сирийского ополчения, в качестве компенсации за падение влияния Ассада в армии и в среде алавитского меньшинства.</segment>
+		<segment id="60" parent="109" relname="preparation">##### Ассад не может закрывать на все это глаза.</segment>
+		<segment id="61" parent="108" relname="span">Никакая сделка не будет для него достаточно привлекательной,</segment>
+		<segment id="62" parent="61" relname="concession">даже если частью ее станет возвращение Голанских высот.</segment>
+		<segment id="63" parent="108" relname="cause-effect">Для Ассада и его сторонников выживание важнее суверенитета.</segment>
+		<segment id="64" parent="65" relname="evidence">##### И то, что известные комментаторы и политические деятели рекомендуют вступить в диалог с Сирией и/или с Ираном</segment>
+		<segment id="65" parent="110" relname="span">– свидетельство того, насколько непоследовательными и отстраненными стали западные державы по отношению к живым реалиям самого беспокойного региона мира.</segment>
+		<segment id="66" parent="110" relname="interpretation-evaluation">Такова, по всей видимости, цена их самонадеянности.</segment>
+		<group id="68" type="multinuc" parent="69" relname="span"/>
+		<group id="69" type="span" parent="70" relname="span"/>
+		<group id="70" type="span" parent="71" relname="same-unit"/>
+		<group id="71" type="multinuc" parent="74" relname="span"/>
+		<group id="72" type="span" parent="75" relname="contrast"/>
+		<group id="74" type="span" parent="75" relname="contrast"/>
+		<group id="75" type="multinuc" parent="76" relname="span"/>
+		<group id="76" type="span" parent="7" relname="cause-effect"/>
+		<group id="77" type="span" relname="antithesis"/>
+		<group id="79" type="multinuc" parent="80" relname="span"/>
+		<group id="80" type="span" parent="81" relname="elaboration"/>
+		<group id="81" type="span" parent="136" relname="span"/>
+		<group id="83" type="multinuc" parent="84" relname="span"/>
+		<group id="84" type="span" parent="12" relname="elaboration"/>
+		<group id="85" type="span" parent="137" relname="span"/>
+		<group id="86" type="span" parent="88" relname="joint"/>
+		<group id="88" type="multinuc" parent="89" relname="span"/>
+		<group id="89" type="span" parent="15" relname="elaboration"/>
+		<group id="90" type="span" parent="85" relname="elaboration"/>
+		<group id="92" type="multinuc" parent="93" relname="span"/>
+		<group id="93" type="span" parent="33" relname="concession"/>
+		<group id="94" type="span" parent="133" relname="span"/>
+		<group id="95" type="span" parent="96" relname="span"/>
+		<group id="96" type="span" parent="131" relname="cause-effect"/>
+		<group id="97" type="span" parent="113" relname="span"/>
+		<group id="98" type="span" parent="155" relname="span"/>
+		<group id="99" type="span" parent="102" relname="joint"/>
+		<group id="100" type="span" parent="101" relname="span"/>
+		<group id="101" type="span" parent="102" relname="joint"/>
+		<group id="102" type="multinuc" parent="112" relname="span"/>
+		<group id="104" type="multinuc" parent="105" relname="span"/>
+		<group id="105" type="span" parent="148" relname="joint"/>
+		<group id="108" type="span" parent="109" relname="span"/>
+		<group id="109" type="span" parent="156" relname="span"/>
+		<group id="110" type="span" parent="111" relname="span"/>
+		<group id="111" type="span" parent="158" relname="joint"/>
+		<group id="112" type="span" parent="153" relname="contrast"/>
+		<group id="113" type="span" parent="131" relname="span"/>
+		<group id="115" type="multinuc" parent="116" relname="span"/>
+		<group id="116" type="span" parent="117" relname="contrast"/>
+		<group id="117" type="multinuc" parent="118" relname="span"/>
+		<group id="118" type="span" parent="141" relname="span"/>
+		<group id="121" type="span" parent="122" relname="span"/>
+		<group id="122" type="span" parent="123" relname="span"/>
+		<group id="123" type="span" parent="126" relname="joint"/>
+		<group id="124" type="span" parent="126" relname="joint"/>
+		<group id="126" type="multinuc" parent="127" relname="span"/>
+		<group id="127" type="span" parent="22" relname="elaboration"/>
+		<group id="128" type="span" parent="130" relname="joint"/>
+		<group id="130" type="multinuc" parent="138" relname="span"/>
+		<group id="131" type="span" parent="132" relname="span"/>
+		<group id="132" type="span" parent="94" relname="evidence"/>
+		<group id="133" type="span" parent="30" relname="elaboration"/>
+		<group id="134" type="span" parent="139" relname="joint"/>
+		<group id="135" type="span" relname="antithesis"/>
+		<group id="136" type="span" relname="antithesis"/>
+		<group id="137" type="span" relname="antithesis"/>
+		<group id="138" type="span" parent="139" relname="joint"/>
+		<group id="139" type="multinuc" parent="140" relname="span"/>
+		<group id="140" type="span" parent="118" relname="evidence"/>
+		<group id="141" type="span" relname="antithesis"/>
+		<group id="143" type="multinuc" parent="144" relname="span"/>
+		<group id="144" type="span" parent="150" relname="span"/>
+		<group id="148" type="multinuc" parent="149" relname="span"/>
+		<group id="149" type="span" parent="144" relname="elaboration"/>
+		<group id="150" type="span" parent="50" relname="evidence"/>
+		<group id="151" type="span" parent="153" relname="contrast"/>
+		<group id="153" type="multinuc" parent="154" relname="span"/>
+		<group id="154" type="span" parent="98" relname="elaboration"/>
+		<group id="155" type="span" relname="antithesis"/>
+		<group id="156" type="span" parent="158" relname="joint"/>
+		<group id="158" type="multinuc" relname="antithesis"/>
+  </body>
+</rst>

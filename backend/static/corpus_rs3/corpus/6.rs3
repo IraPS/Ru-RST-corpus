@@ -1,0 +1,262 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst" />
+			<rel name="attribution1" type="rst" />
+			<rel name="attribution2" type="rst" />
+			<rel name="attribution" type="rst" />
+			<rel name="background" type="rst" />
+			<rel name="cause-effect" type="rst" />
+			<rel name="comparison" type="multinuc" />
+			<rel name="concession" type="rst" />
+			<rel name="conclusion" type="rst" />
+			<rel name="condition" type="rst" />
+			<rel name="contrast" type="multinuc" />
+			<rel name="elaboration" type="rst" />
+			<rel name="evaluation" type="rst" />
+			<rel name="evidence" type="rst" />
+			<rel name="interpretation-evaluation" type="rst" />
+			<rel name="interpretation" type="rst" />
+			<rel name="joint" type="multinuc" />
+			<rel name="motivation" type="rst" />
+			<rel name="non_volitional_cause" type="rst" />
+			<rel name="non_volitional_effect" type="rst" />
+			<rel name="preparation" type="rst" />
+			<rel name="purpose" type="rst" />
+			<rel name="restatement" type="multinuc" />
+			<rel name="same-unit" type="multinuc" />
+			<rel name="sequence" type="multinuc" />
+			<rel name="solutionhood" type="rst" />
+			<rel name="volitional_cause" type="rst" />
+			<rel name="volitional_effect" type="rst" />
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="120" relname="span">##### Агрессия НАТО против Югославии,</segment>
+		<segment id="2" parent="1" relname="elaboration">случившаяся 10 лет назад (23 марта — 10 июня 1999 года),</segment>
+		<segment id="3" parent="121" relname="same-unit">вызвала в России очень сильную эмоциональную реакцию и,</segment>
+		<segment id="4" parent="5" relname="interpretation-evaluation">как у нас водится,</segment>
+		<segment id="5" parent="122" relname="span">подверглась сильнейшей мифологизации.</segment>
+		<segment id="6" parent="125" relname="same-unit">В итоге,</segment>
+		<segment id="7" parent="8" relname="interpretation-evaluation">как это ни парадоксально,</segment>
+		<segment id="8" parent="124" relname="span">некоторые полезные выводы политического и военного характера не сделаны до сих пор.</segment>
+		<segment id="9" parent="131" relname="joint">##### В России до сих пор не принято обсуждать причины этой войны.</segment>
+		<segment id="10" parent="131" relname="joint">Граждане нашей страны почти поголовно убедили самих себя, что Запад всегда воюет за нефть.</segment>
+		<segment id="11" parent="129" relname="span">Однако югославская война совсем никаким боком не лезет в нефтяную теорию.</segment>
+		<segment id="12" parent="11" relname="evidence">Здесь нет ни нефти, ни газа, ни даже какого-нибудь паршивенького транзитного трубопровода.</segment>
+		<segment id="13" parent="130" relname="span">Не проходит и вспомогательная теория о получении «плацдарма на Балканах».</segment>
+		<segment id="14" parent="127" relname="joint">У НАТО и без Югославии давно нет проблем с плацдармами на Балканах,</segment>
+		<segment id="15" parent="127" relname="joint">тем более что территория и инфраструктура Косова в этом плане не дает им абсолютно ничего эксклюзивного.</segment>
+		<segment id="16" parent="136" relname="span">##### Из-за этого приходится (за неимением других вариантов) верить в правдивость официальной западной версии</segment>
+		<segment id="17" parent="16" relname="elaboration">— «гуманитарной интервенции».</segment>
+		<segment id="18" parent="135" relname="span">Запад сам себя психологически накачал,</segment>
+		<segment id="19" parent="134" relname="span">устроив многомесячную истерику по поводу «этнических чисток»,</segment>
+		<segment id="20" parent="19" relname="elaboration">совершаемых режимом Милошевича против «беззащитных» албанцев.</segment>
+		<segment id="21" parent="140" relname="contrast">Нельзя сказать, что истерика не имела под собой совсем никаких оснований,</segment>
+		<segment id="22" parent="137" relname="span">но некоторые особенности противоположной стороны (албанских боевиков,</segment>
+		<segment id="23" parent="22" relname="elaboration">представлявших собой смесь наркоторговцев, исламских экстремистов, а главным образом просто бандитов)</segment>
+		<segment id="24" parent="139" relname="span">как-то выпали из виду западных политиков и журналистов,</segment>
+		<segment id="25" parent="24" relname="elaboration">утративших даже видимость объективности.</segment>
+		<segment id="26" parent="141" relname="span">Тем не менее агрессия,</segment>
+		<segment id="27" parent="26" relname="elaboration">ставшая ошибкой и преступлением одновременно,</segment>
+		<segment id="28" parent="142" relname="same-unit">была совершена из лучших побуждений.</segment>
+		<segment id="29" parent="144" relname="same-unit">О том,</segment>
+		<segment id="30" parent="143" relname="span">что получилось сегодня из этих побуждений,</segment>
+		<segment id="31" parent="30" relname="attribution">«Частный корреспондент» уже писал в статье «Казус Косова».</segment>
+		<segment id="32" parent="150" relname="span">##### Кроме того, в России привыкли видеть в НАТО чудовищную военную силу, готовую растерзать всё на своем пути.</segment>
+		<segment id="33" parent="149" relname="contrast">Югославская агрессия, казалось бы, стала лучшим подтверждением данного мнения.</segment>
+		<segment id="34" parent="149" relname="contrast">Правда, на фоне мифов и эмоций у нас и в этом плане кое-чего не заметили.</segment>
+		<segment id="35" parent="167" relname="span">##### Во-первых, агрессии бы не случилось,</segment>
+		<segment id="36" parent="35" relname="condition">если бы Югославия имела возможность дать достойный ответ.</segment>
+		<segment id="37" parent="151" relname="span">Очень показательно, что Венгрия</segment>
+		<segment id="38" parent="37" relname="elaboration">(единственная на тот момент страна — член НАТО, имевшая с Югославией общую сухопутную границу)</segment>
+		<segment id="39" parent="152" relname="same-unit">лишь допустила на свои аэродромы американские самолеты-заправщики и спасательные вертолеты (то есть вспомогательные, но не боевые силы)</segment>
+		<segment id="40" parent="155" relname="span">, а также вытребовала эскадрилью американских истребителей</segment>
+		<segment id="41" parent="154" relname="same-unit">для выполнения</segment>
+		<segment id="42" parent="43" relname="attribution">(это было специально подчеркнуто венгерскими официальными лицами)</segment>
+		<segment id="43" parent="153" relname="span">исключительно задач ПВО.</segment>
+		<segment id="44" parent="158" relname="joint">Венгрия вступила в НАТО всего за месяц до агрессии.</segment>
+		<segment id="45" parent="157" relname="contrast">Как и все остальные новые члены альянса, она хотела, чтобы ее защищали,</segment>
+		<segment id="46" parent="157" relname="contrast">но не имела ни малейшего желания подвергать себя опасности.</segment>
+		<segment id="47" parent="165" relname="span">##### Не одни венгры страдали отсутствием энтузиазма.</segment>
+		<segment id="48" parent="162" relname="joint">Например, экипаж одного из норвежских тральщиков отказался отправляться к югославским берегам.</segment>
+		<segment id="49" parent="50" relname="cause-effect">Хотя никакой войны на море в 1999 году не было вообще,</segment>
+		<segment id="50" parent="160" relname="span">поэтому поход тральщика в Адриатику больше напоминал бы круиз,</segment>
+		<segment id="51" parent="161" relname="contrast">но даже теоретическая опасность возмутила «викингов».</segment>
+		<segment id="52" parent="166" relname="span">В целом, правда, старые члены НАТО вроде бы воевали активно.</segment>
+		<segment id="53" parent="163" relname="joint">Именно потому, что достать их территории югославы не могли,</segment>
+		<segment id="54" parent="163" relname="joint">да и ПВО сербов оказалась почти бессильной.</segment>
+		<segment id="55" parent="172" relname="span">По нашим СМИ до сих пор гуляет масса альтернативных списков огромных потерь,</segment>
+		<segment id="56" parent="55" relname="elaboration">которые ВВС НАТО якобы понесли в югославском небе.</segment>
+		<segment id="57" parent="171" relname="span">У этих списков есть, увы, один небольшой недостаток — полное отсутствие доказательств.</segment>
+		<segment id="58" parent="57" relname="concession">Хотя бы в виде фотографий сбитых самолетов и вертолетов.</segment>
+		<segment id="59" parent="174" relname="span">Объяснения отсутствия этих фотографий настолько смехотворны,</segment>
+		<segment id="60" parent="59" relname="elaboration">что нет смысла их повторять.</segment>
+		<segment id="61" parent="176" relname="same-unit">И здесь,</segment>
+		<segment id="62" parent="63" relname="interpretation-evaluation">как ни печально,</segment>
+		<segment id="63" parent="175" relname="span">приходится верить официальным данным НАТО о потере непосредственно над Югославией всего двух самолетов (F-117А и F-16С ВВС США).</segment>
+		<segment id="64" parent="185" relname="preparation">Причем даже в гибели этих машин роль югославской ПВО неочевидна.</segment>
+		<segment id="65" parent="177" relname="contrast">Пляски сербов на обломках «невидимки» F-117 видел весь мир,</segment>
+		<segment id="66" parent="177" relname="contrast">однако до сих пор, по прошествии 10 лет, остается неясным, кто его сбил: то ли ЗРК С-125, то ли ЗРК «Куб», то ли истребитель МиГ-29.</segment>
+		<segment id="67" parent="180" relname="span">Поскольку времени для окончательного решения данного вопроса прошло более чем достаточно</segment>
+		<segment id="68" parent="67" relname="interpretation-evaluation">(неужели у югославов совсем отсутствовала аппаратура боевого документирования?) ,</segment>
+		<segment id="69" parent="178" relname="span">появляется подозрение, что и здесь верна официальная американская версия</segment>
+		<segment id="70" parent="69" relname="elaboration">— самолет упал сам.</segment>
+		<segment id="71" parent="72" relname="cause-effect">F-117 обладает отвратительными аэродинамическими качествами,</segment>
+		<segment id="72" parent="182" relname="span">поэтому до десятка «невидимок» (из всего 59 серийных машин) разбилось без всякой войны</segment>
+		<segment id="73" parent="183" relname="span">(недаром в конце прошлого года этот самолет был снят с вооружения ВВС США).</segment>
+		<segment id="74" parent="190" relname="span">##### Однако даже такая низкая эффективность ПВО противника не обеспечила высокой эффективности натовской авиации</segment>
+		<segment id="75" parent="188" relname="joint">(причем эта не слишком высокая эффективность — «заслуга» в первую очередь ВВС США,</segment>
+		<segment id="76" parent="189" relname="span">а применительно к европейцам термин «эффективность» просто не имел смысла:</segment>
+		<segment id="77" parent="76" relname="elaboration">война в Югославии показала, что без американцев европейцы в военном плане не могут вообще ничего) .</segment>
+		<segment id="78" parent="192" relname="contrast">Если гражданские объекты (в первую очередь инфраструктуру) она бомбила успешно,</segment>
+		<segment id="79" parent="191" relname="span">то вооруженные силы Югославии (особенно сухопутные войска) практически никак не пострадали,</segment>
+		<segment id="80" parent="79" relname="attribution">что через год после окончания войны официально признало командование США</segment>
+		<segment id="81" parent="191" relname="elaboration">(потери югославов в тяжелой технике составили менее 2%) .</segment>
+		<segment id="82" parent="83" relname="condition">И если бы НАТО начало наземную операцию,</segment>
+		<segment id="83" parent="197" relname="span">мясорубка получилась бы страшная.</segment>
+		<segment id="84" parent="196" relname="span">Однако натовцев спас обожествленный нашей патриотической общественностью Милошевич</segment>
+		<segment id="85" parent="195" relname="joint">(ныне покойный),</segment>
+		<segment id="86" parent="195" relname="joint">капитулировавший в самый неудачный момент.</segment>
+		<segment id="87" parent="201" relname="joint">##### К началу июня 1999 года США и компания были в очевидном тупике.</segment>
+		<segment id="88" parent="200" relname="contrast">Они уничтожили большинство назначенных целей,</segment>
+		<segment id="89" parent="199" relname="span">однако югославская армия уверенно контролировала Косово,</segment>
+		<segment id="90" parent="89" relname="elaboration">практически выбив оттуда албанских боевиков.</segment>
+		<segment id="91" parent="202" relname="span">Надо было либо свертывать операцию,</segment>
+		<segment id="92" parent="91" relname="elaboration">не добившись поставленных задач,</segment>
+		<segment id="93" parent="203" relname="joint">либо начинать наземное вторжение.</segment>
+		<segment id="94" parent="207" relname="joint">Первый вариант, видимо, привел бы к отставке всех правительств стран альянса.</segment>
+		<segment id="95" parent="207" relname="joint">Второй означал бы бойню.</segment>
+		<segment id="96" parent="97" relname="attribution">Как уже было сказано,</segment>
+		<segment id="97" parent="205" relname="span">югославская армия почти не пострадала от воздушных атак,</segment>
+		<segment id="98" parent="97" relname="elaboration">горно-лесистая местность очень способствовала бы успешной обороне.</segment>
+		<segment id="99" parent="206" relname="joint">Именно в этот момент Милошевич капитулировал.</segment>
+		<segment id="100" parent="213" relname="joint">##### С военной точки зрения капитуляцию в такой ситуации нельзя назвать иначе как преступлением.</segment>
+		<segment id="101" parent="210" relname="span">Либо надо было сдаваться сразу,</segment>
+		<segment id="102" parent="101" relname="elaboration">в марте, когда страна еще не была разрушена,</segment>
+		<segment id="103" parent="209" relname="joint">либо стоять до конца.</segment>
+		<segment id="104" parent="212" relname="sequence">Но Милошевич сначала загнал противника в тупик,</segment>
+		<segment id="105" parent="212" relname="sequence">а затем сам же его оттуда вывел, попутно дав ему окончательно разрушить Сербию.</segment>
+		<segment id="106" parent="216" relname="attribution">##### Через две недели после окончания югославской кампании итальянский адмирал Гвидо Вентурони честно сказал,</segment>
+		<segment id="107" parent="215" relname="joint">что в начале июня НАТО было уже на пределе своих возможностей,</segment>
+		<segment id="108" parent="215" relname="joint">а европейцы без США вообще не способны проводить самостоятельные операции.</segment>
+		<segment id="109" parent="219" relname="joint">##### Страны НАТО превосходили Югославию по суммарному экономическому потенциалу в 700 раз</segment>
+		<segment id="110" parent="219" relname="joint">(а военные потенциалы были просто несопоставимы)</segment>
+		<segment id="111" parent="220" relname="contrast">, однако через 2,5 месяца войны были на пределе возможностей!</segment>
+		<segment id="112" parent="222" relname="contrast">Они практически не понесли потерь в ходе войны,</segment>
+		<segment id="113" parent="221" relname="comparison">однако их материальные расходы на эту войну оказались почти такими же,</segment>
+		<segment id="114" parent="221" relname="comparison">какой ущерб они нанесли Югославии.</segment>
+		<segment id="115" parent="224" relname="interpretation-evaluation">В этом — обратная сторона высокотехнологичной войны и желания воевать без потерь.</segment>
+		<segment id="116" parent="227" relname="span">История с броском российских десантников в Приштину,</segment>
+		<segment id="117" parent="116" relname="elaboration">заслуживающая отдельного описания,</segment>
+		<segment id="118" parent="226" relname="same-unit">война в Афганистане лишь подтвердили выводы о крайне ограниченной дееспособности самого мощного в мире военного блока.</segment>
+		<segment id="119" parent="228" relname="interpretation-evaluation">##### Хотя провести мир в ад по дороге, вымощенной благими намерениями, он еще может.</segment>
+		<group id="120" type="span" parent="121" relname="same-unit"/>
+		<group id="121" type="multinuc" parent="123" relname="joint"/>
+		<group id="122" type="span" parent="123" relname="joint"/>
+		<group id="123" type="multinuc" parent="126" relname="span"/>
+		<group id="124" type="span" parent="125" relname="same-unit"/>
+		<group id="125" type="multinuc" parent="126" relname="interpretation-evaluation"/>
+		<group id="126" type="span" parent="133" relname="span"/>
+		<group id="127" type="multinuc" parent="13" relname="evidence"/>
+		<group id="128" type="multinuc" parent="132" relname="contrast"/>
+		<group id="129" type="span" parent="128" relname="joint"/>
+		<group id="130" type="span" parent="128" relname="joint"/>
+		<group id="131" type="multinuc" parent="132" relname="contrast"/>
+		<group id="132" type="multinuc" parent="147" relname="cause-effect"/>
+		<group id="133" type="span" relname="antithesis"/>
+		<group id="134" type="span" parent="18" relname="elaboration"/>
+		<group id="135" type="span" parent="145" relname="joint"/>
+		<group id="136" type="span" parent="146" relname="preparation"/>
+		<group id="137" type="span" parent="138" relname="same-unit"/>
+		<group id="138" type="multinuc" parent="140" relname="contrast"/>
+		<group id="139" type="span" parent="138" relname="same-unit"/>
+		<group id="140" type="multinuc" parent="145" relname="joint"/>
+		<group id="141" type="span" parent="142" relname="same-unit"/>
+		<group id="142" type="multinuc" parent="145" relname="joint"/>
+		<group id="143" type="span" parent="144" relname="same-unit"/>
+		<group id="144" type="multinuc" parent="145" relname="joint"/>
+		<group id="145" type="multinuc" parent="146" relname="span"/>
+		<group id="146" type="span" parent="147" relname="span"/>
+		<group id="147" type="span" parent="148" relname="span"/>
+		<group id="148" type="span" relname="antithesis"/>
+		<group id="149" type="multinuc" parent="32" relname="evidence"/>
+		<group id="150" type="span" parent="164" relname="joint"/>
+		<group id="151" type="span" parent="152" relname="same-unit"/>
+		<group id="152" type="multinuc" parent="156" relname="joint"/>
+		<group id="153" type="span" parent="154" relname="same-unit"/>
+		<group id="154" type="multinuc" parent="40" relname="purpose"/>
+		<group id="155" type="span" parent="156" relname="joint"/>
+		<group id="156" type="multinuc" parent="159" relname="joint"/>
+		<group id="157" type="multinuc" parent="158" relname="joint"/>
+		<group id="158" type="multinuc" parent="159" relname="joint"/>
+		<group id="159" type="multinuc" parent="169" relname="span"/>
+		<group id="160" type="span" parent="161" relname="contrast"/>
+		<group id="161" type="multinuc" parent="162" relname="joint"/>
+		<group id="162" type="multinuc" parent="47" relname="evidence"/>
+		<group id="163" type="multinuc" parent="52" relname="evidence"/>
+		<group id="164" type="multinuc" relname="antithesis"/>
+		<group id="165" type="span" parent="164" relname="joint"/>
+		<group id="166" type="span" parent="164" relname="joint"/>
+		<group id="167" type="span" parent="169" relname="preparation"/>
+		<group id="169" type="span" parent="170" relname="span"/>
+		<group id="170" type="span" parent="164" relname="joint"/>
+		<group id="171" type="span" parent="173" relname="joint"/>
+		<group id="172" type="span" parent="173" relname="joint"/>
+		<group id="173" type="multinuc" relname="antithesis"/>
+		<group id="174" type="span" parent="173" relname="joint"/>
+		<group id="175" type="span" parent="176" relname="same-unit"/>
+		<group id="176" type="multinuc" parent="173" relname="joint"/>
+		<group id="177" type="multinuc" parent="184" relname="joint"/>
+		<group id="178" type="span" parent="181" relname="span"/>
+		<group id="180" type="span" parent="178" relname="cause-effect"/>
+		<group id="181" type="span" parent="184" relname="joint"/>
+		<group id="182" type="span" parent="73" relname="cause-effect"/>
+		<group id="183" type="span" parent="184" relname="joint"/>
+		<group id="184" type="multinuc" parent="185" relname="span"/>
+		<group id="185" type="span" parent="186" relname="span"/>
+		<group id="186" type="span" parent="173" relname="joint"/>
+		<group id="188" type="multinuc" parent="74" relname="elaboration"/>
+		<group id="189" type="span" parent="188" relname="joint"/>
+		<group id="190" type="span" parent="194" relname="joint"/>
+		<group id="191" type="span" parent="193" relname="span"/>
+		<group id="192" type="multinuc" parent="194" relname="joint"/>
+		<group id="193" type="span" parent="192" relname="contrast"/>
+		<group id="194" type="multinuc" parent="173" relname="joint"/>
+		<group id="195" type="multinuc" parent="84" relname="elaboration"/>
+		<group id="196" type="span" parent="198" relname="contrast"/>
+		<group id="197" type="span" parent="198" relname="contrast"/>
+		<group id="198" type="multinuc" parent="204" relname="preparation"/>
+		<group id="199" type="span" parent="200" relname="contrast"/>
+		<group id="200" type="multinuc" parent="201" relname="joint"/>
+		<group id="201" type="multinuc" parent="204" relname="span"/>
+		<group id="202" type="span" parent="203" relname="joint"/>
+		<group id="203" type="multinuc" parent="201" relname="joint"/>
+		<group id="204" type="span" parent="211" relname="span"/>
+		<group id="205" type="span" parent="206" relname="joint"/>
+		<group id="206" type="multinuc" parent="208" relname="joint"/>
+		<group id="207" type="multinuc" parent="208" relname="joint"/>
+		<group id="208" type="multinuc" parent="201" relname="joint"/>
+		<group id="209" type="multinuc" parent="214" relname="contrast"/>
+		<group id="210" type="span" parent="209" relname="joint"/>
+		<group id="211" type="span" relname="antithesis"/>
+		<group id="212" type="multinuc" parent="214" relname="contrast"/>
+		<group id="213" type="multinuc" relname="antithesis"/>
+		<group id="214" type="multinuc" parent="213" relname="joint"/>
+		<group id="215" type="multinuc" parent="216" relname="span"/>
+		<group id="216" type="span" parent="217" relname="span"/>
+		<group id="217" type="span" parent="218" relname="joint"/>
+		<group id="218" type="multinuc" relname="antithesis"/>
+		<group id="219" type="multinuc" parent="220" relname="contrast"/>
+		<group id="220" type="multinuc" parent="223" relname="joint"/>
+		<group id="221" type="multinuc" parent="222" relname="contrast"/>
+		<group id="222" type="multinuc" parent="223" relname="joint"/>
+		<group id="223" type="multinuc" parent="224" relname="span"/>
+		<group id="224" type="span" parent="225" relname="span"/>
+		<group id="225" type="span" parent="218" relname="joint"/>
+		<group id="226" type="multinuc" parent="228" relname="span"/>
+		<group id="227" type="span" parent="226" relname="same-unit"/>
+		<group id="228" type="span" parent="229" relname="span"/>
+		<group id="229" type="span" parent="218" relname="joint"/>
+  </body>
+</rst>

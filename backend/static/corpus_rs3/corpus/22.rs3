@@ -1,0 +1,314 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst" />
+			<rel name="attribution1" type="rst" />
+			<rel name="attribution2" type="rst" />
+			<rel name="attribution" type="rst" />
+			<rel name="background" type="rst" />
+			<rel name="cause-effect" type="rst" />
+			<rel name="comparison" type="multinuc" />
+			<rel name="concession" type="rst" />
+			<rel name="conclusion" type="rst" />
+			<rel name="condition" type="rst" />
+			<rel name="contrast" type="multinuc" />
+			<rel name="elaboration" type="rst" />
+			<rel name="evaluation" type="rst" />
+			<rel name="evidence" type="rst" />
+			<rel name="interpretation-evaluation" type="rst" />
+			<rel name="interpretation" type="rst" />
+			<rel name="joint" type="multinuc" />
+			<rel name="motivation" type="rst" />
+			<rel name="non_volitional_cause" type="rst" />
+			<rel name="non_volitional_effect" type="rst" />
+			<rel name="preparation" type="rst" />
+			<rel name="purpose" type="rst" />
+			<rel name="restatement" type="multinuc" />
+			<rel name="same-unit" type="multinuc" />
+			<rel name="sequence" type="multinuc" />
+			<rel name="solutionhood" type="rst" />
+			<rel name="volitional_cause" type="rst" />
+			<rel name="volitional_effect" type="rst" />
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="135" relname="span">##### Внутри 22-й Московской международной книжной выставки-ярмарки,</segment>
+		<segment id="2" parent="1" relname="elaboration">проходившей в начале сентября 2009 года на ВВЦ,</segment>
+		<segment id="3" parent="134" relname="span">работала внутренняя выставка — «Книгабайт»,</segment>
+		<segment id="4" parent="3" relname="elaboration">посвящённая электронному книгоизданию.</segment>
+		<segment id="5" parent="133" relname="joint">И хотя место экспозиция занимала скромное,</segment>
+		<segment id="6" parent="133" relname="joint">да и участников у неё тоже немного,</segment>
+		<segment id="7" parent="140" relname="span">но по их бодрым, в отличие от большинства издателей, лицам было понятно — у них всё хорошо.</segment>
+		<segment id="8" parent="140" relname="interpretation-evaluation">Крах целой отрасли начался без паники.</segment>
+		<segment id="9" parent="142" relname="preparation">##### Особо тревожных нот тоже слышно не было.</segment>
+		<segment id="10" parent="142" relname="span">Точнее, услышать что-либо было вообще сложно,</segment>
+		<segment id="11" parent="141" relname="span">поскольку издатели книг бумажных пустились во все тяжкие</segment>
+		<segment id="12" parent="11" relname="elaboration">и, помимо традиционных встреч с известными авторами, устраивали на своих стендах песни и пляски народов СССР.</segment>
+		<segment id="13" parent="217" relname="joint">Мерное гудение установленной на стенде Xerox полноценной мини-типографии для печати книг по требованию казалось вполне мирным,</segment>
+		<segment id="14" parent="217" relname="joint">а ритмичные звуки, издаваемые автоматическим книжным сканером, похожим одновременно на пыточные устройства маркиза де Сада и электрическую гильотину, погружали в печальные думы о судьбе книги.</segment>
+		<segment id="15" parent="148" relname="sequence">Вот коробка с фотоэлементами и лампами подсветки опускается к раскрытой книге,</segment>
+		<segment id="16" parent="146" relname="joint">начинает подниматься,</segment>
+		<segment id="17" parent="146" relname="joint">включая мигающую подсветку,</segment>
+		<segment id="18" parent="148" relname="sequence">страница автоматически переворачивается,</segment>
+		<segment id="19" parent="148" relname="sequence">коробка опускается снова.</segment>
+		<segment id="20" parent="306" relname="restatement">И так 1700 страниц в час.</segment>
+		<segment id="21" parent="306" relname="restatement">За 2 секунды — страница.</segment>
+		<segment id="22" parent="307" relname="interpretation-evaluation">Теперь вы знаете, с какой скоростью умирают бумажные книги.</segment>
+		<segment id="23" parent="149" relname="span">##### На лицах представителей одного из участников «Книгабайта» — корпорации «Электронный архив»,</segment>
+		<segment id="24" parent="23" relname="elaboration">которая трудится на ниве оцифровки всего, на чём есть буквы,</segment>
+		<segment id="25" parent="150" relname="same-unit">— печали, однако, заметно не было.</segment>
+		<segment id="26" parent="185" relname="joint">Они энергично засовывали новые и новые старые книги в нутро книжного сканера,</segment>
+		<segment id="27" parent="185" relname="joint">бодро демонстрировали работу программы оцифровки и архивирования,</segment>
+		<segment id="28" parent="185" relname="joint">гордо хвастались тем, что целиком оцифровали все диссертации в Российской государственной библиотеке,</segment>
+		<segment id="29" parent="185" relname="joint">и поработали на Президентскую библиотеку,</segment>
+		<segment id="30" parent="185" relname="joint">и оцифровали все издания XIX века в Архангельской областной библиотеке,</segment>
+		<segment id="31" parent="185" relname="joint">и что-то там (высоко поднятые брови) по лицензии по работе с секретными документами...</segment>
+		<segment id="32" parent="191" relname="span">##### И радость была на их лицах.</segment>
+		<segment id="33" parent="189" relname="joint">Потому что к ним подходили не такие весёлые издатели</segment>
+		<segment id="34" parent="151" relname="span">и грустно интересовались,</segment>
+		<segment id="35" parent="34" relname="attribution">почём стоит оцифровать и их книги тоже.</segment>
+		<segment id="36" parent="37" relname="interpretation-evaluation">Было, правда, не очень понятно,</segment>
+		<segment id="37" parent="211" relname="span">почему грустят издатели</segment>
+		<segment id="38" parent="152" relname="span">— то ли им было жалко денег</segment>
+		<segment id="39" parent="38" relname="elaboration">(совсем недорого, кстати, по рубль двадцать за 2 секунды работы сканера)</segment>
+		<segment id="40" parent="212" relname="joint">, то ли они грустили, что Google с его сервисом Google Books далеко,</segment>
+		<segment id="41" parent="212" relname="joint">то ли предчувствовали, что в этом сканере их жизнь и закончится.</segment>
+		<segment id="42" parent="215" relname="joint">В «Эларе» тоже чувствуют, что издатели никуда не денутся.</segment>
+		<segment id="43" parent="296" relname="preparation">##### Не меньшей деловитостью отличались сотрудники Xerox.</segment>
+		<segment id="44" parent="296" relname="span">Им было чем заняться:</segment>
+		<segment id="45" parent="292" relname="joint">мини-типография жужжала</segment>
+		<segment id="46" parent="292" relname="joint">и гудела,</segment>
+		<segment id="47" parent="290" relname="joint">потому что к стенду Xerox подходили посетители выставки</segment>
+		<segment id="48" parent="289" relname="span">и не могли удержаться от участия в редком пока аттракционе.</segment>
+		<segment id="49" parent="194" relname="sequence">Жмёшь на кнопку,</segment>
+		<segment id="50" parent="194" relname="sequence">платишь деньги,</segment>
+		<segment id="51" parent="287" relname="span">и через 15— 20 минут получаешь ещё тёплую книжку.</segment>
+		<segment id="52" parent="51" relname="elaboration">Совсем как настоящую, но напечатанную специально для тебя и в твоём присутствии.</segment>
+		<segment id="53" parent="278" relname="span">Выбор был невелик</segment>
+		<segment id="54" parent="53" relname="elaboration">— цифровые материалы для нескольких книг были предоставлены издательством «Альпина Паблишерз».</segment>
+		<segment id="55" parent="56" relname="interpretation-evaluation">В общем, было даже не важно,</segment>
+		<segment id="56" parent="195" relname="span">какие книги можно заказать,</segment>
+		<segment id="57" parent="58" relname="interpretation-evaluation">главное</segment>
+		<segment id="58" parent="196" relname="span">— их можно было тут же получить.</segment>
+		<segment id="59" parent="199" relname="contrast">Мини-типография явно не походила на «букмашину»,</segment>
+		<segment id="60" parent="199" relname="contrast">но всё ещё впереди.</segment>
+		<segment id="61" parent="279" relname="span">В конце концов, кризис — самое подходящее время, чтобы задуматься над тем, стоит ли вкладывать деньги в тиражи,</segment>
+		<segment id="62" parent="61" relname="condition">если нет никакой гарантии, что их кто-то купит.</segment>
+		<segment id="63" parent="282" relname="joint">А так — по книжке — глядишь, издатель и окупит какие-то расходы.</segment>
+		<segment id="64" parent="153" relname="span">##### Оптимистичное настроение не покидало и участников пресс-конференции,</segment>
+		<segment id="65" parent="64" relname="elaboration">которую вёл председатель оргкомитета «Книгабайта» Андрей Гельмиза.</segment>
+		<segment id="66" parent="218" relname="span">«За два года мы создали рынок электронных книг в России»</segment>
+		<segment id="67" parent="66" relname="attribution">, — с места в карьер начал Алексей Кузьмин, директор крупнейшего онлайнового магазина электронных книг «Литрес».</segment>
+		<segment id="68" parent="273" relname="span">«Литресу» и вправду есть чем гордиться.</segment>
+		<segment id="69" parent="271" relname="joint">За год продажи в магазине выросли в 5 раз.</segment>
+		<segment id="70" parent="269" relname="span">Каждый день магазин продаёт около 5 тыс. книг.</segment>
+		<segment id="71" parent="219" relname="span">При невеликой средней цене художественной книги</segment>
+		<segment id="72" parent="71" relname="elaboration">(это большая часть ассортимента в «Литресе»)</segment>
+		<segment id="73" parent="219" relname="elaboration">— 30 рублей —</segment>
+		<segment id="74" parent="221" relname="same-unit">набирается приятная сумма, сравнимая с оборотами довольно большого книжного магазина.</segment>
+		<segment id="75" parent="229" relname="span">##### Помимо продаж через свой сайт, «Литрес» вовсю развивает партнёрские программы с интернет-провайдерами и операторами мобильной связи.</segment>
+		<segment id="76" parent="75" relname="elaboration">Последние такие соглашения «Литрес» заключил с «Билайном» и МТС.</segment>
+		<segment id="77" parent="225" relname="joint">Схема продажи чрезвычайно занимательна</segment>
+		<segment id="78" parent="225" relname="joint">и должна затронуть даже чёрствое сердце старого книжника</segment>
+		<segment id="79" parent="223" relname="span">— книги продаются, в сущности, побайтно:</segment>
+		<segment id="80" parent="79" relname="elaboration">абонент сети, он же читатель, просто платит за скачанные байты.</segment>
+		<segment id="81" parent="154" relname="span">Гениальная бизнес-модель,</segment>
+		<segment id="82" parent="81" relname="elaboration">которая не снилась ни Гуттенбергу, ни Сытину!</segment>
+		<segment id="83" parent="154" relname="elaboration">Они же тоже могли продавать книги за количество букв.</segment>
+		<segment id="84" parent="262" relname="solutionhood">.. И где они теперь?</segment>
+		<segment id="85" parent="231" relname="joint">А «Литрес» тут,</segment>
+		<segment id="86" parent="231" relname="joint">и, кажется, неплохо себя чувствует.</segment>
+		<segment id="87" parent="230" relname="span">Даже разрабатывает новый формат электронных книг,</segment>
+		<segment id="88" parent="155" relname="span">твёрдо держась старой русской традиции,</segment>
+		<segment id="89" parent="88" relname="elaboration">чтобы всё было по-своему.</segment>
+		<segment id="90" parent="160" relname="cause-effect">Разработанный российскими любителями электронных книг формат FB2 уже устарел,</segment>
+		<segment id="91" parent="160" relname="span">и вот на смену ему «Литрес» готовит новый — FB3,</segment>
+		<segment id="92" parent="159" relname="span">который, конечно же, будет лучше и удобнее, чем формат EPUB,</segment>
+		<segment id="93" parent="157" relname="joint">разработанный Международным форумом электронного книгоиздания</segment>
+		<segment id="94" parent="157" relname="joint">и по неведомым причинам и по протекции IT-гигантов Adobe, Google и Sony претендующий на универсальность.</segment>
+		<segment id="95" parent="259" relname="preparation">##### Оптимизм демонстрировал и крупный издательский бизнес.</segment>
+		<segment id="96" parent="97" relname="attribution">В ответ на вопрос ведущего,</segment>
+		<segment id="97" parent="162" relname="span">не боится ли он электронных книг,</segment>
+		<segment id="98" parent="232" relname="span">директор по электронной коммерции издательства «Эксмо» Сергей Анурьев со смехом отверг эти подозрения.</segment>
+		<segment id="99" parent="233" relname="span">Действительно, не «Литреса» же бояться «Эксмо»,</segment>
+		<segment id="100" parent="99" relname="cause-effect">если большая часть ассортимента «главного магазина электронных книг страны» формируется книгами именно этого издательства.</segment>
+		<segment id="101" parent="169" relname="same-unit">Этот рынок,</segment>
+		<segment id="102" parent="167" relname="attribution">отметил издатель,</segment>
+		<segment id="103" parent="166" relname="contrast">растёт экстенсивно,</segment>
+		<segment id="104" parent="166" relname="contrast">но пока он очень мал.</segment>
+		<segment id="105" parent="164" relname="same-unit">В обороте «Эксмо»,</segment>
+		<segment id="106" parent="107" relname="attribution">признался Сергей Анурьев,</segment>
+		<segment id="107" parent="163" relname="span">электронные книги составляют не более нескольких долей процента.</segment>
+		<segment id="108" parent="252" relname="joint">Но надежда на то, что эта доля станет больше, у «Эксмо» есть.</segment>
+		<segment id="109" parent="238" relname="span">##### Надежды «Эксмо» пока не очень склонны разделять издательства помельче.</segment>
+		<segment id="110" parent="237" relname="span">Их отношение к электронным книгам пока опасливо-пренебрежительное:</segment>
+		<segment id="111" parent="235" relname="contrast">пираты сопрут</segment>
+		<segment id="112" parent="235" relname="contrast">или денег не светит.</segment>
+		<segment id="113" parent="235" relname="contrast">Или и то и другое.</segment>
+		<segment id="114" parent="247" relname="span">Правда, пиратства, судя по всему, настоящие электронные книготорговцы не боятся.</segment>
+		<segment id="115" parent="171" relname="span">Отвечая на вопрос «Частного корреспондента» о сущности революционной сделки, которую «Литрес» заключил с «Либрусек»,</segment>
+		<segment id="116" parent="170" relname="span">популярной в интернете пиратской библиотекой русскоязычных книг,</segment>
+		<segment id="117" parent="116" relname="elaboration">базирующейся в Эквадоре,</segment>
+		<segment id="118" parent="241" relname="attribution">Алексей Кузьмин сказал:</segment>
+		<segment id="119" parent="239" relname="span">«Основные потери у нас от Эквадора на новинках.</segment>
+		<segment id="120" parent="119" relname="cause-effect">Первые недели две идёт вал продаж.</segment>
+		<segment id="121" parent="172" relname="span">И теперь мы даём им информацию о новых книгах</segment>
+		<segment id="122" parent="121" relname="elaboration">— автор, название и т.д. —</segment>
+		<segment id="123" parent="174" relname="same-unit">заранее.</segment>
+		<segment id="124" parent="183" relname="joint">Всё это обрабатывается,</segment>
+		<segment id="125" parent="126" relname="condition">и если эти книги кто-то закачивает на «Либрусек»,</segment>
+		<segment id="126" parent="175" relname="span">то их скачивание блокируется на 28 дней».</segment>
+		<segment id="127" parent="181" relname="joint">После этого, судя по всему, «Литрес» умывает руки,</segment>
+		<segment id="128" parent="181" relname="joint">терпеливые и экономные читатели электронных книг идут на «Либрусек».</segment>
+		<segment id="129" parent="176" relname="span">А издателям,</segment>
+		<segment id="130" parent="129" relname="elaboration">которые нынче больше страдают от кризиса, чем от пиратов,</segment>
+		<segment id="131" parent="178" relname="same-unit">остаётся, видимо, дожидаться того дня, когда они поймут, что кризис бумажного книгоиздания уже не кончится никогда.</segment>
+		<group id="133" type="multinuc" parent="138" relname="span"/>
+		<group id="134" type="span" parent="137" relname="same-unit"/>
+		<group id="135" type="span" parent="137" relname="same-unit"/>
+		<group id="137" type="multinuc" parent="139" relname="span"/>
+		<group id="138" type="span" parent="7" relname="concession"/>
+		<group id="139" type="span" parent="317" relname="span"/>
+		<group id="140" type="span" parent="316" relname="span"/>
+		<group id="141" type="span" parent="10" relname="cause-effect"/>
+		<group id="142" type="span" parent="314" relname="span"/>
+		<group id="146" type="multinuc" parent="147" relname="span"/>
+		<group id="147" type="span" parent="148" relname="sequence"/>
+		<group id="148" type="multinuc" parent="304" relname="span"/>
+		<group id="149" type="span" parent="150" relname="same-unit"/>
+		<group id="150" type="multinuc" parent="186" relname="span"/>
+		<group id="151" type="span" parent="188" relname="span"/>
+		<group id="152" type="span" parent="212" relname="joint"/>
+		<group id="153" type="span" parent="276" relname="preparation"/>
+		<group id="154" type="span" parent="222" relname="span"/>
+		<group id="155" type="span" parent="87" relname="background"/>
+		<group id="157" type="multinuc" parent="158" relname="span"/>
+		<group id="158" type="span" parent="92" relname="elaboration"/>
+		<group id="159" type="span" parent="91" relname="elaboration"/>
+		<group id="160" type="span" parent="161" relname="span"/>
+		<group id="161" type="span" parent="261" relname="elaboration"/>
+		<group id="162" type="span" parent="98" relname="solutionhood"/>
+		<group id="163" type="span" parent="164" relname="same-unit"/>
+		<group id="164" type="multinuc" parent="250" relname="span"/>
+		<group id="166" type="multinuc" parent="167" relname="span"/>
+		<group id="167" type="span" parent="168" relname="span"/>
+		<group id="168" type="span" parent="169" relname="same-unit"/>
+		<group id="169" type="multinuc" parent="254" relname="span"/>
+		<group id="170" type="span" parent="115" relname="elaboration"/>
+		<group id="171" type="span" parent="245" relname="solutionhood"/>
+		<group id="172" type="span" parent="174" relname="same-unit"/>
+		<group id="174" type="multinuc" parent="184" relname="span"/>
+		<group id="175" type="span" parent="183" relname="joint"/>
+		<group id="176" type="span" parent="178" relname="same-unit"/>
+		<group id="178" type="multinuc" parent="179" relname="span"/>
+		<group id="179" type="span" parent="181" relname="joint"/>
+		<group id="181" type="multinuc" parent="182" relname="span"/>
+		<group id="182" type="span" parent="244" relname="joint"/>
+		<group id="183" type="multinuc" parent="240" relname="span"/>
+		<group id="184" type="span" parent="183" relname="joint"/>
+		<group id="185" type="multinuc" relname="antithesis"/>
+		<group id="186" type="span" parent="185" relname="joint"/>
+		<group id="188" type="span" parent="189" relname="joint"/>
+		<group id="189" type="multinuc" parent="190" relname="span"/>
+		<group id="190" type="span" parent="32" relname="cause-effect"/>
+		<group id="191" type="span" parent="301" relname="joint"/>
+		<group id="194" type="multinuc" parent="202" relname="span"/>
+		<group id="195" type="span" parent="198" relname="contrast"/>
+		<group id="196" type="span" parent="198" relname="contrast"/>
+		<group id="198" type="multinuc" parent="280" relname="span"/>
+		<group id="199" type="multinuc" parent="284" relname="span"/>
+		<group id="202" type="span" parent="48" relname="elaboration"/>
+		<group id="211" type="span" parent="214" relname="span"/>
+		<group id="212" type="multinuc" parent="213" relname="span"/>
+		<group id="213" type="span" parent="211" relname="elaboration"/>
+		<group id="214" type="span" parent="215" relname="joint"/>
+		<group id="215" type="multinuc" parent="300" relname="span"/>
+		<group id="217" type="multinuc" parent="312" relname="span"/>
+		<group id="218" type="span" parent="275" relname="joint"/>
+		<group id="219" type="span" parent="220" relname="span"/>
+		<group id="220" type="span" parent="221" relname="same-unit"/>
+		<group id="221" type="multinuc" parent="268" relname="span"/>
+		<group id="222" type="span" parent="227" relname="interpretation-evaluation"/>
+		<group id="223" type="span" parent="227" relname="span"/>
+		<group id="225" type="multinuc" parent="226" relname="span"/>
+		<group id="226" type="span" parent="223" relname="preparation"/>
+		<group id="227" type="span" parent="228" relname="span"/>
+		<group id="228" type="span" parent="265" relname="joint"/>
+		<group id="229" type="span" parent="267" relname="span"/>
+		<group id="230" type="span" parent="231" relname="joint"/>
+		<group id="231" type="multinuc" parent="261" relname="span"/>
+		<group id="232" type="span" parent="256" relname="span"/>
+		<group id="233" type="span" parent="232" relname="evidence"/>
+		<group id="235" type="multinuc" parent="236" relname="span"/>
+		<group id="236" type="span" parent="110" relname="elaboration"/>
+		<group id="237" type="span" parent="109" relname="elaboration"/>
+		<group id="238" type="span" parent="249" relname="contrast"/>
+		<group id="239" type="span" parent="240" relname="cause-effect"/>
+		<group id="240" type="span" parent="241" relname="span"/>
+		<group id="241" type="span" parent="242" relname="span"/>
+		<group id="242" type="span" parent="243" relname="span"/>
+		<group id="243" type="span" parent="244" relname="joint"/>
+		<group id="244" type="multinuc" parent="245" relname="span"/>
+		<group id="245" type="span" parent="246" relname="span"/>
+		<group id="246" type="span" parent="114" relname="elaboration"/>
+		<group id="247" type="span" parent="249" relname="contrast"/>
+		<group id="249" type="multinuc" relname="antithesis"/>
+		<group id="250" type="span" parent="252" relname="joint"/>
+		<group id="252" type="multinuc" parent="253" relname="span"/>
+		<group id="253" type="span" parent="254" relname="elaboration"/>
+		<group id="254" type="span" parent="255" relname="span"/>
+		<group id="255" type="span" parent="258" relname="joint"/>
+		<group id="256" type="span" parent="258" relname="joint"/>
+		<group id="258" type="multinuc" parent="259" relname="span"/>
+		<group id="259" type="span" parent="260" relname="span"/>
+		<group id="260" type="span" relname="antithesis"/>
+		<group id="261" type="span" parent="262" relname="span"/>
+		<group id="262" type="span" parent="263" relname="span"/>
+		<group id="263" type="span" parent="265" relname="joint"/>
+		<group id="265" type="multinuc" parent="266" relname="span"/>
+		<group id="266" type="span" parent="229" relname="elaboration"/>
+		<group id="267" type="span" relname="antithesis"/>
+		<group id="268" type="span" parent="70" relname="elaboration"/>
+		<group id="269" type="span" parent="271" relname="joint"/>
+		<group id="271" type="multinuc" parent="272" relname="span"/>
+		<group id="272" type="span" parent="68" relname="elaboration"/>
+		<group id="273" type="span" parent="275" relname="joint"/>
+		<group id="275" type="multinuc" parent="276" relname="span"/>
+		<group id="276" type="span" parent="277" relname="span"/>
+		<group id="277" type="span" relname="antithesis"/>
+		<group id="278" type="span" parent="281" relname="joint"/>
+		<group id="279" type="span" parent="282" relname="joint"/>
+		<group id="280" type="span" parent="281" relname="joint"/>
+		<group id="281" type="multinuc" parent="286" relname="span"/>
+		<group id="282" type="multinuc" parent="283" relname="span"/>
+		<group id="283" type="span" parent="284" relname="elaboration"/>
+		<group id="284" type="span" parent="285" relname="span"/>
+		<group id="285" type="span" parent="298" relname="joint"/>
+		<group id="286" type="span" parent="287" relname="elaboration"/>
+		<group id="287" type="span" parent="288" relname="span"/>
+		<group id="288" type="span" parent="194" relname="sequence"/>
+		<group id="289" type="span" parent="290" relname="joint"/>
+		<group id="290" type="multinuc" parent="294" relname="span"/>
+		<group id="292" type="multinuc" parent="293" relname="span"/>
+		<group id="293" type="span" parent="295" relname="span"/>
+		<group id="294" type="span" parent="293" relname="cause-effect"/>
+		<group id="295" type="span" parent="44" relname="elaboration"/>
+		<group id="296" type="span" parent="297" relname="span"/>
+		<group id="297" type="span" parent="298" relname="joint"/>
+		<group id="298" type="multinuc" relname="antithesis"/>
+		<group id="300" type="span" parent="301" relname="joint"/>
+		<group id="301" type="multinuc" relname="antithesis"/>
+		<group id="304" type="span" parent="310" relname="joint"/>
+		<group id="306" type="multinuc" parent="307" relname="span"/>
+		<group id="307" type="span" parent="308" relname="span"/>
+		<group id="308" type="span" parent="310" relname="joint"/>
+		<group id="310" type="multinuc" parent="311" relname="span"/>
+		<group id="311" type="span" parent="312" relname="elaboration"/>
+		<group id="312" type="span" parent="313" relname="span"/>
+		<group id="313" type="span" parent="315" relname="joint"/>
+		<group id="314" type="span" parent="315" relname="joint"/>
+		<group id="315" type="multinuc" relname="antithesis"/>
+		<group id="316" type="span" parent="139" relname="elaboration"/>
+		<group id="317" type="span" relname="antithesis"/>
+  </body>
+</rst>

@@ -1,0 +1,154 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst" />
+			<rel name="attribution1" type="rst" />
+			<rel name="attribution2" type="rst" />
+			<rel name="attribution" type="rst" />
+			<rel name="background" type="rst" />
+			<rel name="cause-effect" type="rst" />
+			<rel name="comparison" type="multinuc" />
+			<rel name="concession" type="rst" />
+			<rel name="conclusion" type="rst" />
+			<rel name="condition" type="rst" />
+			<rel name="contrast" type="multinuc" />
+			<rel name="elaboration" type="rst" />
+			<rel name="evaluation" type="rst" />
+			<rel name="evidence" type="rst" />
+			<rel name="interpretation-evaluation" type="rst" />
+			<rel name="interpretation" type="rst" />
+			<rel name="joint" type="multinuc" />
+			<rel name="motivation" type="rst" />
+			<rel name="non_volitional_cause" type="rst" />
+			<rel name="non_volitional_effect" type="rst" />
+			<rel name="preparation" type="rst" />
+			<rel name="purpose" type="rst" />
+			<rel name="restatement" type="multinuc" />
+			<rel name="same-unit" type="multinuc" />
+			<rel name="sequence" type="multinuc" />
+			<rel name="solutionhood" type="rst" />
+			<rel name="volitional_cause" type="rst" />
+			<rel name="volitional_effect" type="rst" />
+		</relations>
+	</header>
+	<body>
+		<segment id="1" relname="antithesis">##### Кремль опять провоцирует Запад в связи с долгим и болезненным процессом предоставления формальной независимости Косово.</segment>
+		<segment id="2" parent="69" relname="joint">В отличие от скандала с американской системой противоракетной обороны в Европе, этот конфликт не подает признаков урегулирования</segment>
+		<segment id="3" parent="69" relname="joint">и угрожает еще больше осложнить и без того нелегкие отношения между Россией и Западом.</segment>
+		<segment id="4" relname="antithesis">##### Россия постоянно ставила палки в колеса усилиям Запада, направленным на создание независимого Косово.</segment>
+		<segment id="5" parent="72" relname="joint">После года переговоров между Сербией и Косово Кремль отклонил приведенные в докладе посредника ООН рекомендации о предоставлении Косово контролируемой независимости,</segment>
+		<segment id="6" parent="72" relname="joint">не позволил Совету Безопасности принять этот доклад</segment>
+		<segment id="7" parent="73" relname="span">и настоял на дополнительных трехмесячных переговорах между Сербией и Косово</segment>
+		<segment id="8" parent="7" relname="elaboration">- даже после того, как компромисс стал невозможным.</segment>
+		<segment id="9" parent="75" relname="joint">##### Три недели тому назад в Совете Безопасности ООН Россия опять настаивала на том, что любое соглашение требует одобрения Сербии и Косово</segment>
+		<segment id="10" parent="75" relname="joint">и что необходимы дальнейшие переговоры.</segment>
+		<segment id="11" parent="78" relname="contrast">Россия прекрасно понимает, что такие переговоры будут безрезультатными,</segment>
+		<segment id="12" parent="76" relname="span">но считает, что еще один казалось бы невинный призыв к дальнейшим переговорам поколеблет единство ЕС,</segment>
+		<segment id="13" parent="12" relname="interpretation-evaluation">что, по-видимому, является главной целью Путина.</segment>
+		<segment id="14" parent="80" relname="joint">Дальнейшее промедление может также привести к вспышке насилия в Косово</segment>
+		<segment id="15" parent="80" relname="joint">и подорвать международную поддержку независимости.</segment>
+		<segment id="16" parent="89" relname="joint">##### Ненависть, которую Путин питает к 'раболепным' отношениям с Западом ельцинской эпохи, подогревает его сопротивление.</segment>
+		<segment id="17" parent="89" relname="joint">Но промедление со стороны Запада в решении вопроса о статусе Косово позволила этому сопротивлению набрать силу.</segment>
+		<segment id="18" parent="91" relname="span">Действительно, Запад все время неправильно интерпретировал намерения России в отношении Косово.</segment>
+		<segment id="19" parent="20" relname="attribution">Многие утверждали,</segment>
+		<segment id="20" parent="85" relname="span">что Кремль старается отсрочить неизбежное,</segment>
+		<segment id="21" parent="86" relname="contrast">но в конечном счете не станет чинить препятствий независимости.</segment>
+		<segment id="22" parent="88" relname="joint">Сегодня, в последнюю минуту Россия остается верна своей обструкционистской позиции,</segment>
+		<segment id="23" parent="88" relname="joint">а президентские выборы в марте, скорее всего, только усилят антизападные настроения.</segment>
+		<segment id="24" relname="antithesis">##### Так что же может сделать Путин,</segment>
+		<segment id="25" parent="94" relname="span">когда Соединенные Штаты и большинство стран-членов Европейского Союза в ближайшие месяцы признают независимость Косово без благословения ООН,</segment>
+		<segment id="26" parent="25" relname="elaboration">как они сегодня планируют?</segment>
+		<segment id="27" parent="95" relname="span">##### Маловероятно, чтобы Кремль попытался совершить еще одну военную интервенцию в Косово</segment>
+		<segment id="28" parent="27" relname="elaboration">(их попытка в 1999 году высадить войска в аэропорту Приштины закончилась полным фиаско)</segment>
+		<segment id="29" parent="96" relname="joint">, но у него есть ряд альтернатив, которые должны заставить Запад задуматься.</segment>
+		<segment id="30" relname="antithesis">##### Поддержка Кремля способствовала националистической непримиримости Сербии в отношении Косово.</segment>
+		<segment id="31" parent="99" relname="attribution">По словам России,</segment>
+		<segment id="32" parent="98" relname="joint">она не даст Сербии карт-бланш,</segment>
+		<segment id="33" parent="98" relname="joint">но, скорее всего, поддержит усилия сербского правительства по изоляции и дестабилизации независимого Косово.</segment>
+		<segment id="34" parent="105" relname="joint">##### Тогда как сама Сербия выступала против разделения Косово,</segment>
+		<segment id="35" parent="36" relname="cause-effect">Россия может поддержать предложение Сербии об отделении населенного сербами севера территории,</segment>
+		<segment id="36" parent="101" relname="span">что откроет 'ящик Пандоры'</segment>
+		<segment id="37" parent="102" relname="joint">и может спровоцировать раздел Сербии, Боснии и Македонии.</segment>
+		<segment id="38" parent="103" relname="span">Такое предложение может найти некоторую поддержку в Европе и других странах как приемлемый компромисс,</segment>
+		<segment id="39" parent="38" relname="concession">даже если это снова дестабилизирует Балканы.</segment>
+		<segment id="40" parent="106" relname="joint">##### Россия, конечно же, продолжит свои дипломатические усилия, направленные на то, чтобы убедить мир, что переговоры являются единственным путем решения проблемы, и что она не может быть решена вне ООН.</segment>
+		<segment id="41" parent="106" relname="joint">Это найдет поддержку у многих стран-членов ООН, включая государства, имеющие крупные недовольные национальные меньшинства.</segment>
+		<segment id="42" parent="107" relname="span">##### Россия может предпринять шаги не только на Балканах, но и на Кавказе с его самопровозглашенными независимыми регионами, особенно в Грузии.</segment>
+		<segment id="43" parent="42" relname="interpretation-evaluation">Провозглашение независимости Косово, скорее всего, приведет к аналогичному провозглашению независимости со стороны отколовшегося от Грузии региона - Абхазии, которую Россия вполне может признать.</segment>
+		<segment id="44" parent="108" relname="condition">Если Грузия предпримет военные действия,</segment>
+		<segment id="45" parent="46" relname="purpose">чтобы предотвратить это,</segment>
+		<segment id="46" parent="108" relname="span">российские военные могут ответить силой, создав ситуацию, которая может выйти из-под контроля.</segment>
+		<segment id="47" parent="112" relname="condition">##### В то время как США и ЕС не хотят осложнения отношений с Россией,</segment>
+		<segment id="48" parent="111" relname="joint">они не должны отступать перед лицом упорства России;</segment>
+		<segment id="49" parent="111" relname="joint">на карту поставлен вопрос безопасности Европы.</segment>
+		<segment id="50" parent="114" relname="joint">Но они также должны продолжать усилия по предотвращению конфронтации с Россией на всех фронтах.</segment>
+		<segment id="51" parent="52" relname="attribution">##### Запад должен дать ясно понять Сербии,</segment>
+		<segment id="52" parent="115" relname="span">что решительно отреагирует на любые попытки эскалации насилия и раздела Косово.</segment>
+		<segment id="53" parent="115" relname="interpretation-evaluation">Дополнительное присутствие войск НАТО, помимо запланированной миссии ЕС, для контроля независимости Косово было бы очень кстати.</segment>
+		<segment id="54" relname="antithesis">##### Путинская Россия, не придающая большого значения власти закона, преподносит свои дипломатические усилия под маской соблюдения норм международного права, в частности резолюции 1244 Совета Безопасности ООН,</segment>
+		<segment id="55" parent="119" relname="span">положившей конец войне в Косово. Давно уже пора начать дипломатическое наступление,</segment>
+		<segment id="56" parent="116" relname="joint">чтобы ослабить аргументы России,</segment>
+		<segment id="57" parent="116" relname="joint">а также напомнить миру о том, что произошло в Косово.</segment>
+		<segment id="58" parent="120" relname="span">##### В резолюции 1244 не говорится о том, что Косово должно оставаться в составе Сербии,</segment>
+		<segment id="59" parent="58" relname="elaboration">как на том настаивают Россия и Сербия;</segment>
+		<segment id="60" parent="121" relname="comparison">не исключает она и независимость Косово.</segment>
+		<segment id="61" parent="122" relname="interpretation-evaluation">Действительно, любой благоразумный человек, прочтя эту резолюцию, особенно в контексте конфликтов на Балканах в течение последних двух десятилетий, признал бы, что независимость Косово отвечает целям резолюции и сохранения контроля ООН над этой провинцией на протяжении последних восьми лет.</segment>
+		<segment id="62" parent="123" relname="joint">##### Что касается Абхазии, то Запад должен отметить уникальный характер Косово</segment>
+		<segment id="63" parent="123" relname="joint">и подчеркнуть колоссальные усилия, прилагаемые им там с 1999 года.</segment>
+		<segment id="64" parent="124" relname="joint">Мир должен дать ясно понять, что военное вмешательство России в Абхазии неприемлемо, одновременно удерживая правительство Грузии от военного реагирования на любую провокацию.</segment>
+		<segment id="65" parent="125" relname="joint">##### То, как Россия отреагирует на поддержку Западом предстоящего провозглашения независимости Косово, станет проверкой нашего прогресса со времен холодной войны.</segment>
+		<segment id="66" parent="125" relname="joint">Посредством осторожного управления процессом независимости Косово и стараний улучшить отношения с Россией Запад может смягчить самые тяжелые последствия этой конфронтации.</segment>
+		<segment id="67" parent="126" relname="interpretation-evaluation">В любом случае, новая холодная война может стать немного холоднее.</segment>
+		<group id="69" type="multinuc" parent="70" relname="span"/>
+		<group id="70" type="span" parent="1" relname="elaboration"/>
+		<group id="72" type="multinuc" parent="74" relname="span"/>
+		<group id="73" type="span" parent="72" relname="joint"/>
+		<group id="74" type="span" parent="4" relname="elaboration"/>
+		<group id="75" type="multinuc" parent="83" relname="joint"/>
+		<group id="76" type="span" parent="78" relname="contrast"/>
+		<group id="78" type="multinuc" parent="82" relname="span"/>
+		<group id="80" type="multinuc" parent="81" relname="span"/>
+		<group id="81" type="span" parent="82" relname="interpretation-evaluation"/>
+		<group id="82" type="span" parent="84" relname="span"/>
+		<group id="83" type="multinuc" relname="antithesis"/>
+		<group id="84" type="span" parent="83" relname="joint"/>
+		<group id="85" type="span" parent="86" relname="contrast"/>
+		<group id="86" type="multinuc" parent="90" relname="span"/>
+		<group id="88" type="multinuc" parent="93" relname="joint"/>
+		<group id="89" type="multinuc" parent="93" relname="joint"/>
+		<group id="90" type="span" parent="18" relname="elaboration"/>
+		<group id="91" type="span" parent="93" relname="joint"/>
+		<group id="93" type="multinuc" relname="antithesis"/>
+		<group id="94" type="span" parent="24" relname="elaboration"/>
+		<group id="95" type="span" parent="96" relname="joint"/>
+		<group id="96" type="multinuc" relname="antithesis"/>
+		<group id="98" type="multinuc" parent="99" relname="span"/>
+		<group id="99" type="span" parent="100" relname="span"/>
+		<group id="100" type="span" parent="30" relname="elaboration"/>
+		<group id="101" type="span" parent="102" relname="joint"/>
+		<group id="102" type="multinuc" parent="104" relname="joint"/>
+		<group id="103" type="span" parent="104" relname="joint"/>
+		<group id="104" type="multinuc" parent="105" relname="joint"/>
+		<group id="105" type="multinuc" relname="antithesis"/>
+		<group id="106" type="multinuc" relname="antithesis"/>
+		<group id="107" type="span" parent="110" relname="joint"/>
+		<group id="108" type="span" parent="109" relname="span"/>
+		<group id="109" type="span" parent="110" relname="joint"/>
+		<group id="110" type="multinuc" relname="antithesis"/>
+		<group id="111" type="multinuc" parent="112" relname="span"/>
+		<group id="112" type="span" parent="113" relname="span"/>
+		<group id="113" type="span" parent="114" relname="joint"/>
+		<group id="114" type="multinuc" relname="antithesis"/>
+		<group id="115" type="span" relname="antithesis"/>
+		<group id="116" type="multinuc" parent="118" relname="span"/>
+		<group id="118" type="span" parent="55" relname="purpose"/>
+		<group id="119" type="span" parent="54" relname="elaboration"/>
+		<group id="120" type="span" parent="121" relname="comparison"/>
+		<group id="121" type="multinuc" parent="122" relname="span"/>
+		<group id="122" type="span" relname="antithesis"/>
+		<group id="123" type="multinuc" parent="124" relname="joint"/>
+		<group id="124" type="multinuc" relname="antithesis"/>
+		<group id="125" type="multinuc" parent="126" relname="span"/>
+		<group id="126" type="span" relname="antithesis"/>
+  </body>
+</rst>

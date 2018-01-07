@@ -1,0 +1,92 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst" />
+			<rel name="attribution1" type="rst" />
+			<rel name="attribution2" type="rst" />
+			<rel name="attribution" type="rst" />
+			<rel name="background" type="rst" />
+			<rel name="cause-effect" type="rst" />
+			<rel name="comparison" type="multinuc" />
+			<rel name="concession" type="rst" />
+			<rel name="conclusion" type="rst" />
+			<rel name="condition" type="rst" />
+			<rel name="contrast" type="multinuc" />
+			<rel name="elaboration" type="rst" />
+			<rel name="evaluation" type="rst" />
+			<rel name="evidence" type="rst" />
+			<rel name="interpretation-evaluation" type="rst" />
+			<rel name="interpretation" type="rst" />
+			<rel name="joint" type="multinuc" />
+			<rel name="motivation" type="rst" />
+			<rel name="non_volitional_cause" type="rst" />
+			<rel name="non_volitional_effect" type="rst" />
+			<rel name="preparation" type="rst" />
+			<rel name="purpose" type="rst" />
+			<rel name="restatement" type="multinuc" />
+			<rel name="same-unit" type="multinuc" />
+			<rel name="sequence" type="multinuc" />
+			<rel name="solutionhood" type="rst" />
+			<rel name="volitional_cause" type="rst" />
+			<rel name="volitional_effect" type="rst" />
+		</relations>
+	</header>
+	<body>
+		<segment id="1" relname="antithesis">##### Радикальная исламистская группировка "Ансар аль-Сунна" взяла на себя ответственность за взрывы в Волгограде, совершенные в декабре прошлого года.</segment>
+		<segment id="2" parent="30" relname="attribution">В видео, размещенном исламистами на одном из экстремистских сайтов, говорится о том,</segment>
+		<segment id="3" parent="30" relname="span">что "операцию" провели два смертника</segment>
+		<segment id="4" parent="3" relname="elaboration">- некие Сулейман и Абдуррахман.</segment>
+		<segment id="5" parent="32" relname="span">Кроме того, утверждается, что боевики готовятся совершить новые теракты во время зимней Олимпиады в Сочи,</segment>
+		<segment id="6" parent="5" relname="attribution">передает Deutsche Welle.</segment>
+		<segment id="7" parent="39" relname="joint">##### На видео боевики держат в руках автоматы.</segment>
+		<segment id="8" parent="38" relname="span">Их заявления сопровождаются демонстрацией фотографий с мест волгоградских терактов,</segment>
+		<segment id="9" parent="8" relname="elaboration">взятых из прессы.</segment>
+		<segment id="10" parent="37" relname="span">В ролике также есть кадры,</segment>
+		<segment id="11" parent="35" relname="sequence">на которых неизвестные изготавливают взрывчатку,</segment>
+		<segment id="12" parent="35" relname="sequence">а позже едут в машине, держа в руках предмет, похожий на взрыватель.</segment>
+		<segment id="13" parent="46" relname="joint">##### В результате двух взрывов, прогремевших в Волгограде 29 и 30 декабря 2013 года, погибли более 30 человек.</segment>
+		<segment id="14" parent="15" relname="attribution">Ранее в СМИ появились сообщения о том,</segment>
+		<segment id="15" parent="41" relname="span">что волгоградские смертники приехали в город из Дагестана.</segment>
+		<segment id="16" parent="43" relname="span">Один из них</segment>
+		<segment id="17" parent="16" relname="elaboration">- Аскер Самедов</segment>
+		<segment id="18" parent="42" relname="span">- являлся активным членом буйнакской террористической группировки,</segment>
+		<segment id="19" parent="18" relname="elaboration">которая имела отношение и к первому теракту в Волгограде осенью прошлого года.</segment>
+		<segment id="20" parent="51" relname="joint">Между тем группировка "Ансар аль-Сунна" была основана в сентябре 2003 года.</segment>
+		<segment id="21" parent="49" relname="joint">Она базируется в северном и центральном Ираке</segment>
+		<segment id="22" parent="49" relname="joint">и, не исключено, что в действительности она не имеет ни малейшего отношения к терактам в Волгограде,</segment>
+		<segment id="23" parent="50" relname="attribution">отмечает РБК.</segment>
+		<segment id="24" relname="antithesis">##### - Западная пресса: "Самая большая опасность для Игр может исходить от еще не известных исламистов"</segment>
+		<segment id="25" parent="26" relname="attribution">##### В то же время главный редактор сайта "Агентура.ru" Андрей Солдатов предполагает,</segment>
+		<segment id="26" parent="60" relname="span">что российские СМИ, сообщившие об "иракской группировке "Ансар аль-Сунна", скорее всего, ошибаются.</segment>
+		<segment id="27" parent="58" relname="attribution">Он полагает,</segment>
+		<segment id="28" parent="57" relname="joint">что эта группировка - новая</segment>
+		<segment id="29" parent="57" relname="joint">и базируется на Кавказе...</segment>
+		<group id="30" type="span" parent="31" relname="span"/>
+		<group id="31" type="span" parent="33" relname="span"/>
+		<group id="32" type="span" parent="31" relname="elaboration"/>
+		<group id="33" type="span" parent="1" relname="elaboration"/>
+		<group id="35" type="multinuc" parent="36" relname="span"/>
+		<group id="36" type="span" parent="10" relname="elaboration"/>
+		<group id="37" type="span" parent="40" relname="elaboration"/>
+		<group id="38" type="span" parent="39" relname="joint"/>
+		<group id="39" type="multinuc" parent="40" relname="span"/>
+		<group id="40" type="span" relname="antithesis"/>
+		<group id="41" type="span" parent="46" relname="joint"/>
+		<group id="42" type="span" parent="44" relname="same-unit"/>
+		<group id="43" type="span" parent="44" relname="same-unit"/>
+		<group id="44" type="multinuc" parent="54" relname="span"/>
+		<group id="46" type="multinuc" relname="antithesis"/>
+		<group id="49" type="multinuc" parent="50" relname="span"/>
+		<group id="50" type="span" parent="52" relname="span"/>
+		<group id="51" type="multinuc" parent="53" relname="comparison"/>
+		<group id="52" type="span" parent="51" relname="joint"/>
+		<group id="53" type="multinuc" parent="54" relname="background"/>
+		<group id="54" type="span" parent="55" relname="span"/>
+		<group id="55" type="span" parent="46" relname="joint"/>
+		<group id="57" type="multinuc" parent="58" relname="span"/>
+		<group id="58" type="span" parent="59" relname="span"/>
+		<group id="59" type="span" parent="61" relname="joint"/>
+		<group id="60" type="span" parent="61" relname="joint"/>
+		<group id="61" type="multinuc" relname="antithesis"/>
+  </body>
+</rst>

@@ -1,0 +1,294 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst" />
+			<rel name="attribution1" type="rst" />
+			<rel name="attribution2" type="rst" />
+			<rel name="attribution" type="rst" />
+			<rel name="background" type="rst" />
+			<rel name="cause-effect" type="rst" />
+			<rel name="comparison" type="multinuc" />
+			<rel name="concession" type="rst" />
+			<rel name="conclusion" type="rst" />
+			<rel name="condition" type="rst" />
+			<rel name="contrast" type="multinuc" />
+			<rel name="elaboration" type="rst" />
+			<rel name="evaluation" type="rst" />
+			<rel name="evidence" type="rst" />
+			<rel name="interpretation-evaluation" type="rst" />
+			<rel name="interpretation" type="rst" />
+			<rel name="joint" type="multinuc" />
+			<rel name="motivation" type="rst" />
+			<rel name="non_volitional_cause" type="rst" />
+			<rel name="non_volitional_effect" type="rst" />
+			<rel name="preparation" type="rst" />
+			<rel name="purpose" type="rst" />
+			<rel name="restatement" type="multinuc" />
+			<rel name="same-unit" type="multinuc" />
+			<rel name="sequence" type="multinuc" />
+			<rel name="solutionhood" type="rst" />
+			<rel name="volitional_cause" type="rst" />
+			<rel name="volitional_effect" type="rst" />
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="145" relname="contrast">##### 10 марта исполнилось 70 лет со дня смерти Михаила Булгакова.</segment>
+		<segment id="2" parent="145" relname="contrast">Но это не означает, что его произведения автоматически стали общественным достоянием.</segment>
+		<segment id="3" parent="4" relname="attribution">Руководитель отдела авторского права юридической компании «Усков и Партнёры» Михаил Родионов рассказал «Часкору»</segment>
+		<segment id="4" parent="143" relname="span">о нюансах авторского права</segment>
+		<segment id="5" parent="144" relname="joint">и поделился мнением по поводу национализации советского кино.</segment>
+		<segment id="6" parent="147" relname="contrast">##### — После 10 марта начались активные разговоры о том, что произведения Михаила Булгакова переходят в общественное достояние.</segment>
+		<segment id="7" parent="147" relname="contrast">Так ли это?</segment>
+		<segment id="8" parent="148" relname="contrast">##### — Истечение срока правовой охраны и переход произведения в общественное достояние нужно исчислять не просто исходя из биографических данных,</segment>
+		<segment id="9" parent="148" relname="contrast">а исходя из обстоятельств истории создания и обнародования каждого произведения.</segment>
+		<segment id="10" parent="149" relname="span">В достаточно большом количестве случаев действующий закон</segment>
+		<segment id="11" parent="10" relname="elaboration">— часть 4 ГК РФ —</segment>
+		<segment id="12" parent="150" relname="same-unit">предусматривает пролонгированный срок охраны авторства.</segment>
+		<segment id="13" parent="155" relname="joint">##### Булгаков умер в 1940 году.</segment>
+		<segment id="14" parent="154" relname="sequence">Раньше у нас действовал закон о 50-летнем сроке охраны авторства.</segment>
+		<segment id="15" parent="153" relname="span">И существует переходное положение,</segment>
+		<segment id="16" parent="17" relname="condition">если ранее установленный 50-летний срок истёк к 1 января 1993 года,</segment>
+		<segment id="17" parent="152" relname="span">то 70-летний срок не применяется.</segment>
+		<segment id="18" parent="19" relname="condition">Исходя из этого положения,</segment>
+		<segment id="19" parent="156" relname="span">общий срок охраны авторского права Булгакова истёк почти 20 лет назад.</segment>
+		<segment id="20" parent="159" relname="joint">##### Однако, например, роман «Мастер и Маргарита» был опубликован в 1966—1967 годах.</segment>
+		<segment id="21" parent="158" relname="span">В отношении этого произведения действует положение статьи 1281 пункт 3 ГК РФ,</segment>
+		<segment id="22" parent="21" relname="elaboration">в соответствии с которой при обнародовании произведения после смерти автора срок правовой охраны исчисляется с 1 января года, следующего за годом опубликования произведения.</segment>
+		<segment id="23" parent="161" relname="joint">##### Нужно энциклопедически точно устанавливать, когда было опубликовано каждое произведение,</segment>
+		<segment id="24" parent="161" relname="joint">и отсюда исчислять срок охраны авторских прав.</segment>
+		<segment id="25" parent="162" relname="joint">Всё, что было опубликовано при жизни Булгакова, например «Дни Турбиных», уже давно общественное достояние.</segment>
+		<segment id="26" parent="162" relname="joint">То, что было опубликовано после смерти — в зависимости от даты публикации.</segment>
+		<segment id="27" parent="162" relname="joint">##### Кроме того, сроки действия авторского права исчисляются не с календарной даты смерти или публикации, а с 1 января года следующего за годом смерти автора или обнародования произведения.</segment>
+		<segment id="28" parent="29" relname="solutionhood">##### — Какие ещё особенности существуют?</segment>
+		<segment id="29" parent="173" relname="span">##### — Например, соавторство.</segment>
+		<segment id="30" parent="170" relname="restatement">Исчисления срока действия авторского права в этом случае осуществляется исходя из даты кончины пережившего соавтора,</segment>
+		<segment id="31" parent="170" relname="restatement">то есть того из соавторов, кто прожил дольше всех.</segment>
+		<segment id="32" parent="175" relname="joint">Один из знаменитых случаев соавторства — Ильф и Петров.</segment>
+		<segment id="33" parent="174" relname="joint">Ильф умер в 1937 году,</segment>
+		<segment id="34" parent="174" relname="joint">а Петров погиб в 1942 году.</segment>
+		<segment id="35" parent="178" relname="same-unit">У тех авторов,</segment>
+		<segment id="36" parent="177" relname="joint">кто воевал</segment>
+		<segment id="37" parent="177" relname="joint">и работал в годы войны,</segment>
+		<segment id="38" parent="178" relname="same-unit">срок авторского права продлевается на четыре года.</segment>
+		<segment id="39" parent="179" relname="joint">Таким образом, действие авторского права на «Двенадцать стульев» не истекло по состоянию на 1 января 1993 года</segment>
+		<segment id="40" parent="179" relname="joint">и будет охраняться как минимум до 2017 года.</segment>
+		<segment id="41" parent="180" relname="joint">##### Авторское право репрессированных авторов охраняется, начиная с года реабилитации.</segment>
+		<segment id="42" parent="181" relname="contrast">##### 70-летний срок — только самое общее правило охраны авторского права.</segment>
+		<segment id="43" parent="181" relname="contrast">Но в значительном числе случаев срок действия авторского права на практике может быть пролонгирован.</segment>
+		<segment id="44" parent="182" relname="joint">##### По конституции нет ценности выше, чем права и свободы человека и гражданина.</segment>
+		<segment id="45" parent="182" relname="joint">И мы всегда должны исходить из презумпции действия авторских прав.</segment>
+		<segment id="46" parent="47" relname="condition">Если мы говорим об авторе, который является нашим ближайшим современником,</segment>
+		<segment id="47" parent="183" relname="span">то, скорее всего, авторское право действует.</segment>
+		<segment id="48" parent="184" relname="joint">##### Хорошо, что у книг есть выходные данные.</segment>
+		<segment id="49" parent="184" relname="joint">А ведь есть ещё колоссальное количество мультфильмов.</segment>
+		<segment id="50" parent="185" relname="joint">Есть дореволюционные фильмы, созданные в Российской империи,</segment>
+		<segment id="51" parent="185" relname="joint">но их авторы умерли в эмиграции в 60—70 годы.</segment>
+		<segment id="52" parent="184" relname="joint">По отношению к ним советские декреты и первые законодательные акты в области авторского права не действуют.</segment>
+		<segment id="53" parent="186" relname="joint">Вот и получается, что фильм вроде немой, старый</segment>
+		<segment id="54" parent="186" relname="joint">и все о нём забыли,</segment>
+		<segment id="55" parent="187" relname="contrast">а он вполне себе охраняемый объект авторского права.</segment>
+		<segment id="56" parent="213" relname="preparation">##### — Кстати, о кино.</segment>
+		<segment id="57" parent="189" relname="joint">Вы наверняка слышали об инициативе перевода произведений, созданных в советский период при поддержке государства, в общественное достояние по аналогии с американским Copyright Royalty Board.</segment>
+		<segment id="58" parent="189" relname="joint">Как вы к этому относитесь?</segment>
+		<segment id="59" parent="191" relname="span">##### — Здесь к вопросу нужно подходить,</segment>
+		<segment id="60" parent="59" relname="elaboration">по возможности не отдаваясь во власть эмоций.</segment>
+		<segment id="61" parent="192" relname="span">Существует действующее постановление правительства РФ № 524,</segment>
+		<segment id="62" parent="61" relname="elaboration">подписанное премьером Сергеем Кириенко ещё в 1998 году.</segment>
+		<segment id="63" parent="193" relname="joint">Им установлены минимальные ставки отчислений кинематографистам при использовании фильмов, созданных до 1992 года, то есть на советских киностудиях.</segment>
+		<segment id="64" parent="193" relname="joint">Права на аудиовизуальные произведения, созданные в советские годы, осуществляются правопреемниками этих студий.</segment>
+		<segment id="65" parent="194" relname="contrast">Был «Мосфильм»</segment>
+		<segment id="66" parent="194" relname="contrast">— стал киноконцерн «Мосфильм»,</segment>
+		<segment id="67" parent="196" relname="contrast">был «Ленфильм»</segment>
+		<segment id="68" parent="196" relname="contrast">— стало акционерное общество «Ленфильм» и так далее.</segment>
+		<segment id="69" parent="70" relname="condition">##### Когда студия-правообладатель продаёт созданный до 1992 года фильм телеканалам или выпускает его на диске,</segment>
+		<segment id="70" parent="199" relname="span">она должна выплачивать соответствующие отчисления авторам — режиссёру, сценаристу, оператору, художнику.</segment>
+		<segment id="71" parent="202" relname="contrast">С другой стороны, судьба прав на многие фильмы не ясна.</segment>
+		<segment id="72" parent="200" relname="joint">Они неоднократно продавались</segment>
+		<segment id="73" parent="200" relname="joint">и перепродавались,</segment>
+		<segment id="74" parent="201" relname="span">в результате чего непонятно, кто и от каких доходов должен начислять советским кинематографистам причитающиеся им по постановлению 1998 года отчисления.</segment>
+		<segment id="75" parent="76" relname="attribution">##### Я знаю,</segment>
+		<segment id="76" parent="206" relname="span">что Киностудия им. Горького имела практику выплаты отчислений авторам советских лент.</segment>
+		<segment id="77" parent="204" relname="span">Поэтому, когда мы упоминаем Татьяну Лиознову и её «Семнадцать мгновений весны»,</segment>
+		<segment id="78" parent="77" relname="elaboration">который не сходит с экранов телевидения,</segment>
+		<segment id="79" parent="205" relname="span">то можно с уверенностью говорить о том, что она как режиссёр-постановщик имеет право на авторские отчисления из доходов от использования этого фильма.</segment>
+		<segment id="80" parent="211" relname="contrast">Возможно, это копеечные отчисления.</segment>
+		<segment id="81" parent="209" relname="joint">Но если речь идёт о постоянно транслируемых фильмах</segment>
+		<segment id="82" parent="209" relname="joint">и если постановление правительства 1998 года правообладателями исполняется,</segment>
+		<segment id="83" parent="210" relname="span">то речь может идти о значительной прибавке к пенсиям ветеранов нашего кино.</segment>
+		<segment id="84" parent="211" relname="contrast">Хотя пенсии многих старых мастеров зачастую не соответствуют их вкладу в искусство.</segment>
+		<segment id="85" parent="219" relname="joint">##### Никита Сергеевич Михалков, как и остальные авторы, творившие в советский период, должен получать отчисления за свои фильмы.</segment>
+		<segment id="86" parent="217" relname="attribution">И меня удивляет,</segment>
+		<segment id="87" parent="215" relname="span">что человек, находящийся внутри процесса,</segment>
+		<segment id="88" parent="87" relname="elaboration">председатель Союза кинематографистов,</segment>
+		<segment id="89" parent="90" relname="elaboration">имея возможность привлечь внимание к этому,</segment>
+		<segment id="90" parent="214" relname="span">так мало об этом говорит.</segment>
+		<segment id="91" parent="239" relname="preparation">##### Что же касается национализации.</segment>
+		<segment id="92" parent="220" relname="joint">Да, есть мировой прецедент в лице США.</segment>
+		<segment id="93" parent="220" relname="joint">Все авторские работы, которые оплачивает правительство США, автоматически становятся общественным достоянием.</segment>
+		<segment id="94" parent="220" relname="joint">В этом есть своя справедливость.</segment>
+		<segment id="95" parent="222" relname="joint">Государство тратит деньги налогоплательщиков</segment>
+		<segment id="96" parent="221" relname="span">и создаёт не только социальные блага, но и культурный продукт,</segment>
+		<segment id="97" parent="96" relname="elaboration">который должен принадлежать всем.</segment>
+		<segment id="98" parent="223" relname="span">##### Есть широко известные результаты работы американского правительства во время Великой депрессии,</segment>
+		<segment id="99" parent="98" relname="elaboration">когда привлекались художники и фотографы, отражавшие жизнь страны в те годы.</segment>
+		<segment id="100" parent="224" relname="span">Были созданы прекрасные фотографии,</segment>
+		<segment id="101" parent="100" relname="elaboration">впоследствии вошедшие в золотой фонд.</segment>
+		<segment id="102" parent="226" relname="joint">Они являются собственностью народа.</segment>
+		<segment id="103" parent="229" relname="joint">##### Но это другая правовая система как таковая.</segment>
+		<segment id="104" parent="229" relname="joint">У нас нет такого прецедента, чтобы при живом авторе его произведения переводились в общественное достояние только на том основании, что они делались за государственный счёт.</segment>
+		<segment id="105" parent="228" relname="contrast">Другой вопрос: справедливо это или нет,</segment>
+		<segment id="106" parent="228" relname="contrast">но действующее законодательство этого не предусматривает.</segment>
+		<segment id="107" parent="108" relname="attribution">##### Мне лично кажется,</segment>
+		<segment id="108" parent="230" relname="span">что вместо переписывания законов гораздо более действенным было бы надлежащее исполнение существующих.</segment>
+		<segment id="109" parent="110" relname="condition">Если кинематографисты должны по постановлению правительства получать отчисления от использования советских фильмов,</segment>
+		<segment id="110" parent="231" relname="span">то они должны их получать.</segment>
+		<segment id="111" parent="232" relname="joint">Но отменять авторское право на советское кино</segment>
+		<segment id="112" parent="232" relname="joint">и говорить о том, что это ничьё, общественное, не совсем правильно.</segment>
+		<segment id="113" parent="234" relname="joint">У нас это будет воспринято как анархия.</segment>
+		<segment id="114" parent="234" relname="joint">Фильм же создаётся многими людьми.</segment>
+		<segment id="115" parent="235" relname="joint">Да, нынешние их версии кто-то реставрировал,</segment>
+		<segment id="116" parent="235" relname="joint">чистил звук,</segment>
+		<segment id="117" parent="235" relname="joint">оцифровывал.</segment>
+		<segment id="118" parent="244" relname="joint">##### Нужно обеспечить авторов фильма пусть скромным, но вознаграждением.</segment>
+		<segment id="119" parent="241" relname="span">А это можно сделать,</segment>
+		<segment id="120" parent="119" relname="condition">только если фильмы кому-то принадлежат.</segment>
+		<segment id="121" parent="122" relname="condition">И если нормативный акт не работает,</segment>
+		<segment id="122" parent="243" relname="span">нужно, чтобы он заработал, пусть и в судебном порядке.</segment>
+		<segment id="123" parent="247" relname="joint">##### — Тем не менее авторы советского кино оказываются в более незащищённом положении, чем авторы современного кино.</segment>
+		<segment id="124" parent="245" relname="joint">Им либо забывают перечислить деньги,</segment>
+		<segment id="125" parent="245" relname="joint">либо это сущие копейки,</segment>
+		<segment id="126" parent="246" relname="contrast">а основной поток денег идёт не причастным людям.</segment>
+		<segment id="127" parent="249" relname="joint">##### — Я намеренно не касаюсь сейчас позиции конкретных деятелей.</segment>
+		<segment id="128" parent="251" relname="attribution">Но считаю,</segment>
+		<segment id="129" parent="250" relname="joint">что Никита Сергеевич Михалков как председатель СК должен взяться</segment>
+		<segment id="130" parent="250" relname="joint">и поставить вопрос, чтобы при каждом публичном использовании соответствующих произведений авторы советских фильмов не забывались нынешними правообладателями.</segment>
+		<segment id="131" parent="249" relname="joint">В постановлении 1998 года указаны конкретные проценты авторских отчислений (см. приложение).</segment>
+		<segment id="132" parent="133" relname="elaboration">##### Когда наступил кризис 1998 года,</segment>
+		<segment id="133" parent="253" relname="span">никто не следил за тем, чтобы авторам выплачивали вознаграждения.</segment>
+		<segment id="134" parent="254" relname="joint">Если бы кто-то хотел урегулировать,</segment>
+		<segment id="135" parent="254" relname="joint">если бы была инициатива творческого союза,</segment>
+		<segment id="136" parent="255" relname="span">то закон было бы не так просто обойти.</segment>
+		<segment id="137" parent="138" relname="attribution">##### Мы прекрасно понимаем,</segment>
+		<segment id="138" parent="259" relname="span">что авторы год от года не молодеют.</segment>
+		<segment id="139" parent="140" relname="attribution">Возможно, они и знают,</segment>
+		<segment id="140" parent="257" relname="span">что им причитается,</segment>
+		<segment id="141" parent="258" relname="contrast">но нет ни сил, ни средств на разбирательства.</segment>
+		<segment id="142" relname="antithesis">##### Беседовала Юлия Бурмистрова</segment>
+		<group id="143" type="span" parent="144" relname="joint"/>
+		<group id="144" type="multinuc" parent="146" relname="joint"/>
+		<group id="145" type="multinuc" parent="146" relname="joint"/>
+		<group id="146" type="multinuc" relname="antithesis"/>
+		<group id="147" type="multinuc" parent="167" relname="solutionhood"/>
+		<group id="148" type="multinuc" parent="151" relname="joint"/>
+		<group id="149" type="span" parent="150" relname="same-unit"/>
+		<group id="150" type="multinuc" parent="151" relname="joint"/>
+		<group id="151" type="multinuc" parent="166" relname="preparation"/>
+		<group id="152" type="span" parent="15" relname="elaboration"/>
+		<group id="153" type="span" parent="154" relname="sequence"/>
+		<group id="154" type="multinuc" parent="157" relname="joint"/>
+		<group id="155" type="multinuc" parent="166" relname="span"/>
+		<group id="156" type="span" parent="160" relname="contrast"/>
+		<group id="157" type="multinuc" parent="155" relname="joint"/>
+		<group id="158" type="span" parent="159" relname="joint"/>
+		<group id="159" type="multinuc" parent="160" relname="contrast"/>
+		<group id="160" type="multinuc" parent="165" relname="joint"/>
+		<group id="161" type="multinuc" parent="163" relname="preparation"/>
+		<group id="162" type="multinuc" parent="163" relname="span"/>
+		<group id="163" type="span" parent="164" relname="span"/>
+		<group id="164" type="span" parent="165" relname="joint"/>
+		<group id="165" type="multinuc" parent="157" relname="joint"/>
+		<group id="166" type="span" parent="167" relname="span"/>
+		<group id="167" type="span" parent="168" relname="span"/>
+		<group id="168" type="span" parent="180" relname="joint"/>
+		<group id="170" type="multinuc" parent="171" relname="span"/>
+		<group id="171" type="span" parent="172" relname="span"/>
+		<group id="172" type="span" parent="176" relname="joint"/>
+		<group id="173" type="span" parent="171" relname="condition"/>
+		<group id="174" type="multinuc" parent="175" relname="joint"/>
+		<group id="175" type="multinuc" parent="176" relname="joint"/>
+		<group id="176" type="multinuc" parent="180" relname="joint"/>
+		<group id="177" type="multinuc" parent="178" relname="same-unit"/>
+		<group id="178" type="multinuc" parent="176" relname="joint"/>
+		<group id="179" type="multinuc" parent="176" relname="joint"/>
+		<group id="180" type="multinuc" relname="antithesis"/>
+		<group id="181" type="multinuc" parent="180" relname="joint"/>
+		<group id="182" type="multinuc" parent="180" relname="joint"/>
+		<group id="183" type="span" parent="182" relname="joint"/>
+		<group id="184" type="multinuc" parent="188" relname="comparison"/>
+		<group id="185" type="multinuc" parent="184" relname="joint"/>
+		<group id="186" type="multinuc" parent="187" relname="contrast"/>
+		<group id="187" type="multinuc" parent="184" relname="joint"/>
+		<group id="188" type="multinuc" relname="antithesis"/>
+		<group id="189" type="multinuc" parent="212" relname="preparation"/>
+		<group id="191" type="span" parent="197" relname="preparation"/>
+		<group id="192" type="span" parent="193" relname="joint"/>
+		<group id="193" type="multinuc" parent="197" relname="span"/>
+		<group id="194" type="multinuc" parent="195" relname="joint"/>
+		<group id="195" type="multinuc" parent="193" relname="joint"/>
+		<group id="196" type="multinuc" parent="195" relname="joint"/>
+		<group id="197" type="span" parent="198" relname="span"/>
+		<group id="198" type="span" parent="212" relname="span"/>
+		<group id="199" type="span" parent="202" relname="contrast"/>
+		<group id="200" type="multinuc" parent="74" relname="cause-effect"/>
+		<group id="201" type="span" parent="203" relname="joint"/>
+		<group id="202" type="multinuc" parent="203" relname="joint"/>
+		<group id="203" type="multinuc" parent="193" relname="joint"/>
+		<group id="204" type="span" parent="79" relname="condition"/>
+		<group id="205" type="span" parent="207" relname="span"/>
+		<group id="206" type="span" parent="205" relname="cause-effect"/>
+		<group id="207" type="span" parent="208" relname="joint"/>
+		<group id="208" type="multinuc" parent="193" relname="joint"/>
+		<group id="209" type="multinuc" parent="83" relname="condition"/>
+		<group id="210" type="span" parent="211" relname="contrast"/>
+		<group id="211" type="multinuc" parent="208" relname="joint"/>
+		<group id="212" type="span" parent="213" relname="span"/>
+		<group id="213" type="span" relname="antithesis"/>
+		<group id="214" type="span" parent="216" relname="same-unit"/>
+		<group id="215" type="span" parent="216" relname="same-unit"/>
+		<group id="216" type="multinuc" parent="217" relname="span"/>
+		<group id="217" type="span" parent="218" relname="span"/>
+		<group id="218" type="span" parent="219" relname="joint"/>
+		<group id="219" type="multinuc" parent="193" relname="joint"/>
+		<group id="220" type="multinuc" parent="227" relname="joint"/>
+		<group id="221" type="span" parent="222" relname="joint"/>
+		<group id="222" type="multinuc" parent="220" relname="joint"/>
+		<group id="223" type="span" parent="225" relname="joint"/>
+		<group id="224" type="span" parent="226" relname="joint"/>
+		<group id="225" type="multinuc" parent="227" relname="joint"/>
+		<group id="226" type="multinuc" parent="225" relname="joint"/>
+		<group id="227" type="multinuc" parent="238" relname="contrast"/>
+		<group id="228" type="multinuc" parent="229" relname="joint"/>
+		<group id="229" type="multinuc" parent="237" relname="joint"/>
+		<group id="230" type="span" parent="236" relname="joint"/>
+		<group id="231" type="span" parent="233" relname="contrast"/>
+		<group id="232" type="multinuc" parent="234" relname="joint"/>
+		<group id="233" type="multinuc" parent="236" relname="joint"/>
+		<group id="234" type="multinuc" parent="233" relname="contrast"/>
+		<group id="235" type="multinuc" parent="234" relname="joint"/>
+		<group id="236" type="multinuc" parent="237" relname="joint"/>
+		<group id="237" type="multinuc" parent="238" relname="contrast"/>
+		<group id="238" type="multinuc" parent="239" relname="span"/>
+		<group id="239" type="span" parent="240" relname="span"/>
+		<group id="240" type="span" relname="antithesis"/>
+		<group id="241" type="span" parent="242" relname="joint"/>
+		<group id="242" type="multinuc" parent="244" relname="joint"/>
+		<group id="243" type="span" parent="242" relname="joint"/>
+		<group id="244" type="multinuc" parent="248" relname="joint"/>
+		<group id="245" type="multinuc" parent="246" relname="contrast"/>
+		<group id="246" type="multinuc" parent="247" relname="joint"/>
+		<group id="247" type="multinuc" parent="248" relname="joint"/>
+		<group id="248" type="multinuc" relname="antithesis"/>
+		<group id="249" type="multinuc" parent="248" relname="joint"/>
+		<group id="250" type="multinuc" parent="251" relname="span"/>
+		<group id="251" type="span" parent="252" relname="span"/>
+		<group id="252" type="span" parent="249" relname="joint"/>
+		<group id="253" type="span" parent="256" relname="joint"/>
+		<group id="254" type="multinuc" parent="136" relname="condition"/>
+		<group id="255" type="span" parent="256" relname="joint"/>
+		<group id="256" type="multinuc" parent="248" relname="joint"/>
+		<group id="257" type="span" parent="258" relname="contrast"/>
+		<group id="258" type="multinuc" parent="260" relname="joint"/>
+		<group id="259" type="span" parent="260" relname="joint"/>
+		<group id="260" type="multinuc" parent="248" relname="joint"/>
+  </body>
+</rst>

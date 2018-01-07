@@ -1,0 +1,404 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst" />
+			<rel name="attribution1" type="rst" />
+			<rel name="attribution2" type="rst" />
+			<rel name="attribution" type="rst" />
+			<rel name="background" type="rst" />
+			<rel name="cause-effect" type="rst" />
+			<rel name="comparison" type="multinuc" />
+			<rel name="concession" type="rst" />
+			<rel name="conclusion" type="rst" />
+			<rel name="condition" type="rst" />
+			<rel name="contrast" type="multinuc" />
+			<rel name="elaboration" type="rst" />
+			<rel name="evaluation" type="rst" />
+			<rel name="evidence" type="rst" />
+			<rel name="interpretation-evaluation" type="rst" />
+			<rel name="interpretation" type="rst" />
+			<rel name="joint" type="multinuc" />
+			<rel name="motivation" type="rst" />
+			<rel name="non_volitional_cause" type="rst" />
+			<rel name="non_volitional_effect" type="rst" />
+			<rel name="preparation" type="rst" />
+			<rel name="purpose" type="rst" />
+			<rel name="restatement" type="multinuc" />
+			<rel name="same-unit" type="multinuc" />
+			<rel name="sequence" type="multinuc" />
+			<rel name="solutionhood" type="rst" />
+			<rel name="volitional_cause" type="rst" />
+			<rel name="volitional_effect" type="rst" />
+		</relations>
+	</header>
+	<body>
+		<segment id="1" parent="176" relname="preparation">##### И евро такой молодой.</segment>
+		<segment id="2" parent="175" relname="cause-effect">##### Единая европейская валюта стремительно набирает вес.</segment>
+		<segment id="3" parent="172" relname="span">В результате в России,</segment>
+		<segment id="4" parent="3" relname="background">где доллар все еще правит бал,</segment>
+		<segment id="5" parent="174" relname="same-unit">начинают дорожать немецкие автомобили, итальянская мебель, французская одежда и турпоездки в Старый Свет.</segment>
+		<segment id="6" parent="215" relname="preparation">##### Евросценарии.</segment>
+		<segment id="7" parent="214" relname="solutionhood">##### Естественно, всех волнует вопрос, продолжит ли евро свое триумфальное шествие в ближайшие месяцы.</segment>
+		<segment id="8" parent="214" relname="span">Существует несколько прогнозных сценариев.</segment>
+		<segment id="9" parent="180" relname="attribution">Ряд экспертов убежден,</segment>
+		<segment id="10" parent="179" relname="joint">что рост евро - явление временное,</segment>
+		<segment id="11" parent="179" relname="joint">и вызвано оно в первую очередь неопределенностью вокруг Ирака и его нефтяного потенциала.</segment>
+		<segment id="12" parent="182" relname="attribution">По их логике,</segment>
+		<segment id="13" parent="14" relname="condition">как только Ирак будет взят под американский контроль,</segment>
+		<segment id="14" parent="182" relname="span">доллар вновь пойдет вверх.</segment>
+		<segment id="15" parent="184" relname="attribution">Пессимисты, напротив, предупреждают,</segment>
+		<segment id="16" parent="184" relname="span">что слабость доллара</segment>
+		<segment id="17" parent="16" relname="cause-effect">порождена отнюдь не ожиданием войны, а экономической ситуацией в США.</segment>
+		<segment id="18" parent="203" relname="sequence">"Тенденция к падению доллара наметилась еще задолго до того,</segment>
+		<segment id="19" parent="203" relname="sequence">как начались разговоры об операции против Ирака"</segment>
+		<segment id="20" parent="204" relname="attribution">, - подчеркивает германский эксперт Вильфрид Херц.</segment>
+		<segment id="21" parent="201" relname="span">Это подтверждается и данными о движении капитала.</segment>
+		<segment id="22" parent="199" relname="attribution">Согласно информации Deutsche Bank,</segment>
+		<segment id="23" parent="198" relname="contrast">за 2002 год в европейские гособлигации инвесторы вложили 52 миллиарда евро,</segment>
+		<segment id="24" parent="194" relname="span">тогда как в 2001-м ситуация была прямо противоположной:</segment>
+		<segment id="25" parent="24" relname="elaboration">тогда из Европы в основном за океан перекочевало 84 миллиарда.</segment>
+		<segment id="26" parent="189" relname="span">То, что мировые деньги изменили маршрут,</segment>
+		<segment id="27" parent="26" relname="interpretation-evaluation">очень плохо для американской экономики.</segment>
+		<segment id="28" parent="29" relname="purpose">Ведь для того чтобы покрывать дефицит платежного баланса,</segment>
+		<segment id="29" parent="190" relname="span">США необходимо получать от иностранных инвесторов 1,4 миллиарда долларов ежедневно.</segment>
+		<segment id="30" parent="191" relname="span">Если же деньги покидают Америку,</segment>
+		<segment id="31" parent="30" relname="interpretation-evaluation">это означает, что для инвесторов риск инвестиций в экономику США перевешивает ожидания возможной прибыли.</segment>
+		<segment id="32" parent="187" relname="span">И это происходит,</segment>
+		<segment id="33" parent="186" relname="span">несмотря на необычайно слабый рост европейской экономики</segment>
+		<segment id="34" parent="33" relname="elaboration">(1-2 процента в зависимости от страны).</segment>
+		<segment id="35" parent="187" relname="interpretation-evaluation">Очевидно, действиями инвесторов руководит логика "пусть поменьше, но зато надежно".</segment>
+		<segment id="36" parent="258" relname="preparation">##### Большинство европейских экспертов прогнозирует курс в диапазоне 1,05-1,10 доллара за евро как оптимальный.</segment>
+		<segment id="37" parent="223" relname="span">"Тенденция к укреплению евро может продолжиться и в 2003 году</segment>
+		<segment id="38" parent="218" relname="span">- здесь сработает "эффект толпы",</segment>
+		<segment id="39" parent="38" relname="elaboration">при котором усилению этой валюты будет способствовать массовый перевод средств из долларов.</segment>
+		<segment id="40" parent="222" relname="span">Эти настроения могут усиливаться и на государственном уровне</segment>
+		<segment id="41" parent="220" relname="joint">- недавно об увеличении доли золотовалютных резервов в евро заявил Центральный банк РФ,</segment>
+		<segment id="42" parent="220" relname="joint">ранее с подобными заявлениями выступал Китай и другие страны"</segment>
+		<segment id="43" parent="257" relname="attribution">, - считает руководитель конъюнктурно-аналитического управления Росбанка Валерий Петров.</segment>
+		<segment id="44" parent="231" relname="contrast">Действительно, первый замглавы ЦБ Олег Вьюгин на днях поделился именно такими планами,</segment>
+		<segment id="45" parent="229" relname="same-unit">правда,</segment>
+		<segment id="46" parent="227" relname="attribution">по его словам,</segment>
+		<segment id="47" parent="227" relname="span">золотовалютные резервы будут прирастать не евро единым</segment>
+		<segment id="48" parent="224" relname="span">- в них должна увеличиться доля золота</segment>
+		<segment id="49" parent="48" relname="background">(оно в последнее время устойчиво дорожает)</segment>
+		<segment id="50" parent="225" relname="joint">и английских фунтов стерлингов.</segment>
+		<segment id="51" parent="255" relname="span">Аналогичный процесс идет и за пределами России.</segment>
+		<segment id="52" parent="253" relname="joint">К примеру, страны, готовящиеся к вступлению в ЕС, уже привязали или привяжут свои национальные валюты к евро.</segment>
+		<segment id="53" parent="253" relname="joint">То же произошло и с 15 государствами Африки, чьи деньги были до введения евро ориентированы на французский франк.</segment>
+		<segment id="54" parent="233" relname="attribution">А главный экономист Deutsche Bank Норберт Вальтер вообще предсказывает,</segment>
+		<segment id="55" parent="233" relname="span">что в будущем в мире останутся три валюты</segment>
+		<segment id="56" parent="55" relname="elaboration">- доллар, евро и единая денежная единица Азии.</segment>
+		<segment id="57" parent="236" relname="span">Правда, последней еще предстоит появиться на свет.</segment>
+		<segment id="58" parent="235" relname="span">Вряд ли эту роль сможет взять на себя иена,</segment>
+		<segment id="59" parent="58" relname="cause-effect">учитывая незавидное финансовое положение Японии.</segment>
+		<segment id="60" parent="241" relname="joint">Однако потенциальный валютный союз Страны восходящего солнца, Китая и Индии вполне способен породить деньги, которые бросят вызов доллару и евро.</segment>
+		<segment id="61" parent="237" relname="span">Некоторые эксперты,</segment>
+		<segment id="62" parent="61" relname="elaboration">в частности лауреат Нобелевской премии по экономике Роберт Манделл,</segment>
+		<segment id="63" parent="239" relname="same-unit">вообще видят будущее за единой мировой валютой.</segment>
+		<segment id="64" parent="65" relname="condition">"Если убрать у 100 иен два нуля,</segment>
+		<segment id="65" parent="245" relname="span">то курс японской валюты будет колебаться вокруг одного доллара или евро,</segment>
+		<segment id="66" parent="245" relname="attribution">- предлагает он.</segment>
+		<segment id="67" parent="68" relname="cause-effect">- Затем необходимо жестко привязать три валюты,</segment>
+		<segment id="68" parent="244" relname="span">и вот вам мировые деньги".</segment>
+		<segment id="69" parent="70" relname="condition">Но если видение Манделла и обретет реальные очертания,</segment>
+		<segment id="70" parent="250" relname="span">то нескоро.</segment>
+		<segment id="71" parent="72" relname="condition">##### Как получишь евро,</segment>
+		<segment id="72" parent="397" relname="span">береги его...</segment>
+		<segment id="73" parent="390" relname="joint">##### По итогам 2002 года даже наличный евро оказался гораздо выгоднее и рублевых, и долларовых депозитов.</segment>
+		<segment id="74" parent="389" relname="span">Из этого многие уже сделали соответствующие выводы,</segment>
+		<segment id="75" parent="74" relname="evidence">конвертировав часть сбережений в самую молодую валюту Старого Света.</segment>
+		<segment id="76" parent="280" relname="attribution">Согласно официальным данным,</segment>
+		<segment id="77" parent="279" relname="comparison">уровень рублевой инфляции за 2002 год составил 15 процентов.</segment>
+		<segment id="78" parent="279" relname="comparison">Столько же в среднем банки платят по рублевым депозитам.</segment>
+		<segment id="79" parent="277" relname="span">Иными словами, хранить сбережения в национальной валюте стало невыгодно</segment>
+		<segment id="80" parent="275" relname="contrast">- от инфляции эта схема спасает,</segment>
+		<segment id="81" parent="275" relname="contrast">но заработать не дает.</segment>
+		<segment id="82" parent="273" relname="span">Клиенты банков это прекрасно понимают:</segment>
+		<segment id="83" parent="271" relname="attribution">например, в Банке Москвы "Итогам" сообщили,</segment>
+		<segment id="84" parent="270" relname="contrast">что доля рублевых вкладов граждан неуклонно снижается,</segment>
+		<segment id="85" parent="270" relname="contrast">а валютные депозиты, наоборот, растут.</segment>
+		<segment id="86" parent="386" relname="joint">Вице-президент инвестиционной компании "Тройка Диалог" Евгений Гавриленков вообще исключил рубль из своего "инвестиционного валютного портфеля"</segment>
+		<segment id="87" parent="386" relname="joint">- альтернативой он считает размещение этих средств на рынке ценных бумаг,</segment>
+		<segment id="88" parent="384" relname="span">что неудивительно:</segment>
+		<segment id="89" parent="382" relname="joint">за прошлый год российский фондовый рынок вырос примерно на 28 процентов (по индексу Российской торговой системы),</segment>
+		<segment id="90" parent="382" relname="joint">а акции там торгуются в долларах.</segment>
+		<segment id="91" parent="263" relname="span">Тенденция эта,</segment>
+		<segment id="92" parent="91" relname="attribution">считают аналитики,</segment>
+		<segment id="93" parent="265" relname="same-unit">долгосрочная,</segment>
+		<segment id="94" parent="262" relname="joint">поскольку большинство российских предприятий сильно недооценены</segment>
+		<segment id="95" parent="262" relname="joint">и их акции имеют значительный потенциал роста.</segment>
+		<segment id="96" parent="97" relname="preparation">##### Что касается долларовых депозитов,</segment>
+		<segment id="97" parent="291" relname="span">то в среднем отечественные банки по такого рода вкладам платят около 7 процентов годовых.</segment>
+		<segment id="98" parent="292" relname="joint">За год курс американской валюты по отношению к рублю вырос всего на 5,5 процента.</segment>
+		<segment id="99" parent="100" relname="condition">Если соотнести это с уровнем рублевой инфляции,</segment>
+		<segment id="100" parent="290" relname="span">то получится, что за год доллар потерял около 9 процентов.</segment>
+		<segment id="101" parent="288" relname="same-unit">Таким образом,</segment>
+		<segment id="102" parent="286" relname="attribution">по оценке Валерия Петрова,</segment>
+		<segment id="103" parent="283" relname="span">держатели долларов недосчитались более 8 процентов,</segment>
+		<segment id="104" parent="103" relname="condition">если хранили наличные,</segment>
+		<segment id="105" parent="282" relname="span">и от 1,5 процента до 4,5 процента,</segment>
+		<segment id="106" parent="105" relname="condition">если имели вклады в "зеленых".</segment>
+		<segment id="107" parent="377" relname="interpretation-evaluation">##### На этом фоне евро смотрится более чем привлекательно.</segment>
+		<segment id="108" parent="375" relname="joint">С учетом роста курсовой двадцатипроцентной динамики и долларовой инфляции в 9 процентов годовых суммарный доход по наличным евро составил около 10 процентов.</segment>
+		<segment id="109" parent="375" relname="joint">А депозиты дали еще больше - порядка 16-17 процентов.</segment>
+		<segment id="110" parent="375" relname="joint">Понятно, что при таком разрыве в доходности рост вкладов в евро будет и впредь опережать темпы увеличения долларовых депозитов.</segment>
+		<segment id="111" parent="370" relname="attribution">Так, по словам начальника управления продаж Банка Москвы Фарида Шафикова,</segment>
+		<segment id="112" parent="369" relname="comparison">если на начало 2002 года вклады в евро составляли около 2 процентов всех депозитов этого кредитного института,</segment>
+		<segment id="113" parent="368" relname="span">то на конец года данный показатель достиг 5 процентов</segment>
+		<segment id="114" parent="113" relname="elaboration">- рост в 2,5 раза.</segment>
+		<segment id="115" parent="373" relname="span">Похожая картина наблюдается и по другим банкам:</segment>
+		<segment id="116" parent="115" relname="elaboration">кое-где объем вкладов в евро вырос в 4-5 раз.</segment>
+		<segment id="117" parent="367" relname="span">При этом процентное соотношение долларовых депозитов в структуре пассивов большинства столичных банков осталось прежним</segment>
+		<segment id="118" parent="117" relname="elaboration">- их по-прежнему пока что около 60 процентов,</segment>
+		<segment id="119" parent="372" relname="joint">и рост вкладов в евро идет в основном за счет уменьшения доли рублей.</segment>
+		<segment id="120" parent="365" relname="preparation">##### "Зеленое" не надевать.</segment>
+		<segment id="121" parent="122" relname="preparation">##### Что касается сектора торговли и услуг,</segment>
+		<segment id="122" parent="358" relname="span">то тут процесс "евроизации" еще более заметен.</segment>
+		<segment id="123" parent="124" relname="cause-effect">Как известно, львиная часть торгового оборота России приходится на Европу.</segment>
+		<segment id="124" parent="359" relname="span">Соответственно, львиная доля импортных товаров уже привязана к евро.</segment>
+		<segment id="125" parent="360" relname="span">Германский автомобильный концерн BMW еще три года назад зафиксировал все цены на свои машины, продаваемые в России, в европейской валюте.</segment>
+		<segment id="126" parent="354" relname="span">Тогда это было экзотикой</segment>
+		<segment id="127" parent="126" relname="cause-effect">- на российском авторынке признавались только доллары.</segment>
+		<segment id="128" parent="356" relname="contrast">Но со временем такой подход полностью себя оправдал.</segment>
+		<segment id="129" parent="350" relname="span">Сейчас по тому же пути готовится пойти Ford:</segment>
+		<segment id="130" parent="129" relname="elaboration">руководство российского филиала уже рассматривает подобную схему.</segment>
+		<segment id="131" parent="349" relname="contrast">В Renault пока размышляют,</segment>
+		<segment id="132" parent="349" relname="contrast">но тарифы на услуги сервиса уже зафиксировали в евро.</segment>
+		<segment id="133" parent="342" relname="joint">"В России так исторически сложилось, что цены на автомобили устанавливаются в долларах.</segment>
+		<segment id="134" parent="342" relname="joint">Покупатель к этому привык,</segment>
+		<segment id="135" parent="342" relname="joint">долларовая цена для него является неким эталоном.</segment>
+		<segment id="136" parent="137" relname="cause-effect">В то же время с заводом в Турции, где производятся Renault Symbol (самая ходовая в России модель. - "Итоги"), мы ведем расчеты в евро,</segment>
+		<segment id="137" parent="344" relname="span">и с ростом курса этой валюты относительно доллара цены придется корректировать"</segment>
+		<segment id="138" parent="346" relname="attribution">, - отметил директор по связям с общественностью компании "Автофрамос" (официального представителя Renault в России) Ян Доризон.</segment>
+		<segment id="139" parent="338" relname="span">##### Столь быстрая реакция на изменение курса характерна для экспортеров, работающих на относительно небольших по емкости рынках.</segment>
+		<segment id="140" parent="334" relname="comparison">Тот же концерн BMW реализует в России несколько тысяч машин в год,</segment>
+		<segment id="141" parent="334" relname="comparison">тогда как на рынке Северной Америки счет продаж идет на сотни тысяч.</segment>
+		<segment id="142" parent="336" relname="contrast">Естественно, в условиях роста евро цены на баварские автомобили в США, по логике, тоже должны были бы пойти вверх,</segment>
+		<segment id="143" parent="336" relname="contrast">но этого не происходит.</segment>
+		<segment id="144" parent="328" relname="span">Дело в том, что крупные производители через банки страхуют риски от скачков валютного курса.</segment>
+		<segment id="145" parent="144" relname="elaboration">В среднем такая услуга обходится в 5 процентов от страхуемой суммы.</segment>
+		<segment id="146" parent="318" relname="span">При изменении курса на 20 процентов,</segment>
+		<segment id="147" parent="146" relname="elaboration">как это случилось в последний год между долларом и евро,</segment>
+		<segment id="148" parent="319" relname="same-unit">подобные расходы себя оправдали.</segment>
+		<segment id="149" parent="325" relname="comparison">К примеру, BMW застраховал риски на североамериканском, то есть долларовом рынке на год вперед,</segment>
+		<segment id="150" parent="325" relname="comparison">а другая германская компания, Porsche, - аж до 2007 года.</segment>
+		<segment id="151" parent="323" relname="span">Подобной предусмотрительности Porsche научил горький опыт прежних лет.</segment>
+		<segment id="152" parent="312" relname="contrast">Если в 1985 году за один доллар давали 4 марки,</segment>
+		<segment id="153" parent="312" relname="contrast">то к 1993-му курс германской национальной валюты вырос до 1,35 марки.</segment>
+		<segment id="154" parent="313" relname="span">Porsche,</segment>
+		<segment id="155" parent="154" relname="elaboration">которая продавала на рынке США каждый второй автомобиль,</segment>
+		<segment id="156" parent="315" relname="same-unit">оказалась тогда на грани банкротства:</segment>
+		<segment id="157" parent="316" relname="elaboration">сбыт ее машин в Северной Америке упал с более чем 30 тысяч до 4 тысяч.</segment>
+		<segment id="158" parent="159" relname="preparation">##### Из Европы к нам идут не только автомобили</segment>
+		<segment id="159" parent="304" relname="span">- наиболее качественную мебель, бытовую технику, парфюмерию и косметику мы импортируем именно оттуда.</segment>
+		<segment id="160" parent="303" relname="span">Многие предприниматели уже начали работать в новых валютных реалиях,</segment>
+		<segment id="161" parent="160" relname="background">приравняв одну у. е. к одному евро.</segment>
+		<segment id="162" parent="306" relname="joint">К примеру, некоторые торговцы мебелью целиком пересчитали ценообразование своего товара на новую валюту.</segment>
+		<segment id="163" parent="301" relname="attribution">Вот как объяснил "Итогам" данную логику владелец мебельных салонов "Гранд" и "Три кита" Сергей Зуев:</segment>
+		<segment id="164" parent="293" relname="span">"Цены на мебель в наших салонах установлены в рублях</segment>
+		<segment id="165" parent="164" relname="cause-effect">- так положено по российскому законодательству,</segment>
+		<segment id="166" parent="294" relname="contrast">но все наши внутренние расчеты мы вот уже полгода ведем исключительно в евро.</segment>
+		<segment id="167" parent="295" relname="span">Мы перешли на эту валюту</segment>
+		<segment id="168" parent="167" relname="cause-effect">после того, как ее курс стал сильно расти</segment>
+		<segment id="169" parent="295" relname="cause-effect">- так удобнее и нам, и нашим партнерам за границей.</segment>
+		<segment id="170" parent="296" relname="elaboration">Да и все цены на мебельных выставках уже давно переведены в евро.</segment>
+		<segment id="171" parent="300" relname="joint">В этой валюте мы и рассчитываемся с иностранными поставщиками".</segment>
+		<group id="172" type="span" parent="174" relname="same-unit"/>
+		<group id="174" type="multinuc" parent="175" relname="span"/>
+		<group id="175" type="span" parent="176" relname="span"/>
+		<group id="176" type="span" parent="177" relname="span"/>
+		<group id="177" type="span" relname="antithesis"/>
+		<group id="179" type="multinuc" parent="180" relname="span"/>
+		<group id="180" type="span" parent="181" relname="span"/>
+		<group id="181" type="span" parent="207" relname="span"/>
+		<group id="182" type="span" parent="183" relname="span"/>
+		<group id="183" type="span" parent="181" relname="elaboration"/>
+		<group id="184" type="span" parent="185" relname="span"/>
+		<group id="185" type="span" parent="206" relname="span"/>
+		<group id="186" type="span" parent="32" relname="concession"/>
+		<group id="187" type="span" parent="188" relname="span"/>
+		<group id="188" type="span" parent="193" relname="joint"/>
+		<group id="189" type="span" parent="196" relname="span"/>
+		<group id="190" type="span" parent="193" relname="joint"/>
+		<group id="191" type="span" parent="193" relname="joint"/>
+		<group id="193" type="multinuc" parent="195" relname="span"/>
+		<group id="194" type="span" parent="198" relname="contrast"/>
+		<group id="195" type="span" parent="189" relname="elaboration"/>
+		<group id="196" type="span" parent="210" relname="joint"/>
+		<group id="198" type="multinuc" parent="199" relname="span"/>
+		<group id="199" type="span" parent="200" relname="span"/>
+		<group id="200" type="span" parent="21" relname="elaboration"/>
+		<group id="201" type="span" parent="206" relname="evidence"/>
+		<group id="203" type="multinuc" parent="204" relname="span"/>
+		<group id="204" type="span" parent="205" relname="span"/>
+		<group id="205" type="span" parent="185" relname="elaboration"/>
+		<group id="206" type="span" parent="211" relname="span"/>
+		<group id="207" type="span" parent="212" relname="contrast"/>
+		<group id="210" type="multinuc" parent="217" relname="span"/>
+		<group id="211" type="span" parent="212" relname="contrast"/>
+		<group id="212" type="multinuc" parent="213" relname="span"/>
+		<group id="213" type="span" parent="8" relname="elaboration"/>
+		<group id="214" type="span" parent="215" relname="span"/>
+		<group id="215" type="span" parent="216" relname="span"/>
+		<group id="216" type="span" parent="210" relname="joint"/>
+		<group id="217" type="span" relname="antithesis"/>
+		<group id="218" type="span" parent="37" relname="cause-effect"/>
+		<group id="220" type="multinuc" parent="221" relname="span"/>
+		<group id="221" type="span" parent="40" relname="elaboration"/>
+		<group id="222" type="span" parent="256" relname="joint"/>
+		<group id="223" type="span" parent="256" relname="joint"/>
+		<group id="224" type="span" parent="225" relname="joint"/>
+		<group id="225" type="multinuc" parent="226" relname="span"/>
+		<group id="226" type="span" parent="47" relname="elaboration"/>
+		<group id="227" type="span" parent="228" relname="span"/>
+		<group id="228" type="span" parent="229" relname="same-unit"/>
+		<group id="229" type="multinuc" parent="230" relname="span"/>
+		<group id="230" type="span" parent="231" relname="contrast"/>
+		<group id="231" type="multinuc" parent="232" relname="span"/>
+		<group id="232" type="span" parent="260" relname="joint"/>
+		<group id="233" type="span" parent="234" relname="span"/>
+		<group id="234" type="span" parent="243" relname="span"/>
+		<group id="235" type="span" parent="57" relname="cause-effect"/>
+		<group id="236" type="span" parent="241" relname="joint"/>
+		<group id="237" type="span" parent="239" relname="same-unit"/>
+		<group id="239" type="multinuc" parent="240" relname="span"/>
+		<group id="240" type="span" parent="249" relname="span"/>
+		<group id="241" type="multinuc" parent="242" relname="span"/>
+		<group id="242" type="span" parent="234" relname="elaboration"/>
+		<group id="243" type="span" parent="260" relname="joint"/>
+		<group id="244" type="span" parent="247" relname="sequence"/>
+		<group id="245" type="span" parent="246" relname="span"/>
+		<group id="246" type="span" parent="247" relname="sequence"/>
+		<group id="247" type="multinuc" parent="248" relname="span"/>
+		<group id="248" type="span" parent="240" relname="elaboration"/>
+		<group id="249" type="span" parent="251" relname="joint"/>
+		<group id="250" type="span" parent="251" relname="joint"/>
+		<group id="251" type="multinuc" parent="252" relname="span"/>
+		<group id="252" type="span" parent="260" relname="joint"/>
+		<group id="253" type="multinuc" parent="254" relname="span"/>
+		<group id="254" type="span" parent="51" relname="elaboration"/>
+		<group id="255" type="span" parent="260" relname="joint"/>
+		<group id="256" type="multinuc" parent="257" relname="span"/>
+		<group id="257" type="span" parent="258" relname="span"/>
+		<group id="258" type="span" parent="259" relname="span"/>
+		<group id="259" type="span" parent="260" relname="joint"/>
+		<group id="260" type="multinuc" relname="antithesis"/>
+		<group id="262" type="multinuc" parent="267" relname="span"/>
+		<group id="263" type="span" parent="265" relname="same-unit"/>
+		<group id="265" type="multinuc" parent="266" relname="span"/>
+		<group id="266" type="span" parent="268" relname="span"/>
+		<group id="267" type="span" parent="266" relname="cause-effect"/>
+		<group id="268" type="span" parent="396" relname="joint"/>
+		<group id="270" type="multinuc" parent="271" relname="span"/>
+		<group id="271" type="span" parent="272" relname="span"/>
+		<group id="272" type="span" parent="82" relname="evidence"/>
+		<group id="273" type="span" parent="391" relname="joint"/>
+		<group id="275" type="multinuc" parent="276" relname="span"/>
+		<group id="276" type="span" parent="79" relname="cause-effect"/>
+		<group id="277" type="span" parent="392" relname="span"/>
+		<group id="279" type="multinuc" parent="280" relname="span"/>
+		<group id="280" type="span" parent="281" relname="span"/>
+		<group id="281" type="span" parent="277" relname="cause-effect"/>
+		<group id="282" type="span" parent="285" relname="comparison"/>
+		<group id="283" type="span" parent="285" relname="comparison"/>
+		<group id="285" type="multinuc" parent="286" relname="span"/>
+		<group id="286" type="span" parent="287" relname="span"/>
+		<group id="287" type="span" parent="288" relname="same-unit"/>
+		<group id="288" type="multinuc" parent="289" relname="span"/>
+		<group id="289" type="span" parent="379" relname="elaboration"/>
+		<group id="290" type="span" parent="292" relname="joint"/>
+		<group id="291" type="span" parent="292" relname="joint"/>
+		<group id="292" type="multinuc" parent="379" relname="span"/>
+		<group id="293" type="span" parent="294" relname="contrast"/>
+		<group id="294" type="multinuc" parent="297" relname="span"/>
+		<group id="295" type="span" parent="296" relname="span"/>
+		<group id="296" type="span" parent="299" relname="span"/>
+		<group id="297" type="span" parent="300" relname="joint"/>
+		<group id="299" type="span" parent="300" relname="joint"/>
+		<group id="300" type="multinuc" parent="301" relname="span"/>
+		<group id="301" type="span" parent="302" relname="span"/>
+		<group id="302" type="span" parent="306" relname="joint"/>
+		<group id="303" type="span" parent="308" relname="span"/>
+		<group id="304" type="span" parent="310" relname="joint"/>
+		<group id="306" type="multinuc" parent="307" relname="span"/>
+		<group id="307" type="span" parent="303" relname="elaboration"/>
+		<group id="308" type="span" parent="310" relname="joint"/>
+		<group id="310" type="multinuc" relname="antithesis"/>
+		<group id="312" type="multinuc" parent="321" relname="span"/>
+		<group id="313" type="span" parent="315" relname="same-unit"/>
+		<group id="315" type="multinuc" parent="316" relname="span"/>
+		<group id="316" type="span" parent="317" relname="span"/>
+		<group id="317" type="span" parent="322" relname="span"/>
+		<group id="318" type="span" parent="319" relname="same-unit"/>
+		<group id="319" type="multinuc" parent="320" relname="span"/>
+		<group id="320" type="span" parent="330" relname="joint"/>
+		<group id="321" type="span" parent="317" relname="cause-effect"/>
+		<group id="322" type="span" parent="151" relname="elaboration"/>
+		<group id="323" type="span" parent="326" relname="background"/>
+		<group id="325" type="multinuc" parent="326" relname="span"/>
+		<group id="326" type="span" parent="327" relname="span"/>
+		<group id="327" type="span" parent="331" relname="elaboration"/>
+		<group id="328" type="span" parent="330" relname="joint"/>
+		<group id="330" type="multinuc" parent="331" relname="span"/>
+		<group id="331" type="span" parent="332" relname="span"/>
+		<group id="332" type="span" parent="341" relname="joint"/>
+		<group id="334" type="multinuc" parent="337" relname="span"/>
+		<group id="336" type="multinuc" parent="340" relname="span"/>
+		<group id="337" type="span" parent="139" relname="elaboration"/>
+		<group id="338" type="span" parent="341" relname="joint"/>
+		<group id="340" type="span" parent="341" relname="joint"/>
+		<group id="341" type="multinuc" relname="antithesis"/>
+		<group id="342" type="multinuc" parent="343" relname="span"/>
+		<group id="343" type="span" parent="345" relname="contrast"/>
+		<group id="344" type="span" parent="345" relname="contrast"/>
+		<group id="345" type="multinuc" parent="346" relname="span"/>
+		<group id="346" type="span" parent="347" relname="span"/>
+		<group id="347" type="span" parent="363" relname="joint"/>
+		<group id="349" type="multinuc" parent="352" relname="span"/>
+		<group id="350" type="span" parent="353" relname="joint"/>
+		<group id="352" type="span" parent="353" relname="joint"/>
+		<group id="353" type="multinuc" parent="361" relname="span"/>
+		<group id="354" type="span" parent="356" relname="contrast"/>
+		<group id="356" type="multinuc" parent="357" relname="span"/>
+		<group id="357" type="span" parent="125" relname="elaboration"/>
+		<group id="358" type="span" parent="364" relname="preparation"/>
+		<group id="359" type="span" parent="362" relname="span"/>
+		<group id="360" type="span" parent="353" relname="joint"/>
+		<group id="361" type="span" parent="359" relname="elaboration"/>
+		<group id="362" type="span" parent="363" relname="joint"/>
+		<group id="363" type="multinuc" parent="364" relname="span"/>
+		<group id="364" type="span" parent="365" relname="span"/>
+		<group id="365" type="span" parent="366" relname="span"/>
+		<group id="366" type="span" relname="antithesis"/>
+		<group id="367" type="span" parent="372" relname="joint"/>
+		<group id="368" type="span" parent="369" relname="comparison"/>
+		<group id="369" type="multinuc" parent="370" relname="span"/>
+		<group id="370" type="span" parent="371" relname="span"/>
+		<group id="371" type="span" parent="375" relname="joint"/>
+		<group id="372" type="multinuc" parent="376" relname="span"/>
+		<group id="373" type="span" parent="372" relname="joint"/>
+		<group id="375" type="multinuc" parent="377" relname="span"/>
+		<group id="376" type="span" parent="375" relname="joint"/>
+		<group id="377" type="span" parent="378" relname="span"/>
+		<group id="378" type="span" relname="antithesis"/>
+		<group id="379" type="span" parent="380" relname="span"/>
+		<group id="380" type="span" relname="antithesis"/>
+		<group id="382" type="multinuc" parent="383" relname="span"/>
+		<group id="383" type="span" parent="88" relname="cause-effect"/>
+		<group id="384" type="span" parent="387" relname="interpretation-evaluation"/>
+		<group id="386" type="multinuc" parent="387" relname="span"/>
+		<group id="387" type="span" parent="388" relname="span"/>
+		<group id="388" type="span" parent="391" relname="joint"/>
+		<group id="389" type="span" parent="390" relname="joint"/>
+		<group id="390" type="multinuc" parent="394" relname="span"/>
+		<group id="391" type="multinuc" parent="393" relname="span"/>
+		<group id="392" type="span" parent="391" relname="joint"/>
+		<group id="393" type="span" parent="394" relname="elaboration"/>
+		<group id="394" type="span" parent="395" relname="span"/>
+		<group id="395" type="span" parent="396" relname="joint"/>
+		<group id="396" type="multinuc" parent="398" relname="span"/>
+		<group id="397" type="span" parent="398" relname="preparation"/>
+		<group id="398" type="span" parent="399" relname="span"/>
+		<group id="399" type="span" relname="antithesis"/>
+  </body>
+</rst>

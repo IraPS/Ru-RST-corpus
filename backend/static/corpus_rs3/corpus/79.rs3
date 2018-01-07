@@ -1,0 +1,359 @@
+<rst>
+	<header>
+		<relations>
+			<rel name="antithesis" type="rst" />
+			<rel name="attribution1" type="rst" />
+			<rel name="attribution2" type="rst" />
+			<rel name="attribution" type="rst" />
+			<rel name="background" type="rst" />
+			<rel name="cause-effect" type="rst" />
+			<rel name="comparison" type="multinuc" />
+			<rel name="concession" type="rst" />
+			<rel name="conclusion" type="rst" />
+			<rel name="condition" type="rst" />
+			<rel name="contrast" type="multinuc" />
+			<rel name="elaboration" type="rst" />
+			<rel name="evaluation" type="rst" />
+			<rel name="evidence" type="rst" />
+			<rel name="interpretation-evaluation" type="rst" />
+			<rel name="interpretation" type="rst" />
+			<rel name="joint" type="multinuc" />
+			<rel name="motivation" type="rst" />
+			<rel name="non_volitional_cause" type="rst" />
+			<rel name="non_volitional_effect" type="rst" />
+			<rel name="preparation" type="rst" />
+			<rel name="purpose" type="rst" />
+			<rel name="restatement" type="multinuc" />
+			<rel name="same-unit" type="multinuc" />
+			<rel name="sequence" type="multinuc" />
+			<rel name="solutionhood" type="rst" />
+			<rel name="volitional_cause" type="rst" />
+			<rel name="volitional_effect" type="rst" />
+		</relations>
+	</header>
+	<body>
+		<segment id="1" relname="antithesis">##### Земля наизнанку.</segment>
+		<segment id="2" relname="antithesis">##### Российско-украинская команда спелеологов официально признана первооткрывателем самой глубокой пещеры на планете.</segment>
+		<segment id="3" relname="antithesis">##### Перспективная пещера.</segment>
+		<segment id="4" parent="156" relname="joint">##### Местоположение Арабики очень легко себе представить.</segment>
+		<segment id="5" parent="156" relname="joint">Кто хоть раз не бывал в аэропорту Адлера?</segment>
+		<segment id="6" parent="7" relname="background">Так вот, если встать на взлетной полосе аэропорта спиной к морю</segment>
+		<segment id="7" parent="154" relname="span">- ближайший горный массив справа и есть Арабика.</segment>
+		<segment id="8" parent="159" relname="span">##### О том, что в этих горах много глубоких пещер,</segment>
+		<segment id="9" parent="8" relname="attribution">спелеологи знали давно.</segment>
+		<segment id="10" parent="11" relname="elaboration">Еще в начале ХХ века известный французский ученый-карстолог Мартель, проводивший в тех краях изыскания,</segment>
+		<segment id="11" parent="161" relname="span">пришел к выводу о наличии на Арабике обширных подземных пустот.</segment>
+		<segment id="12" parent="13" relname="background">Но вышло так, что вход в пещеру Воронья, оказавшейся впоследствии к тому же самой глубокой на планете,</segment>
+		<segment id="13" parent="160" relname="span">был найден только в 60-х годах.</segment>
+		<segment id="14" parent="162" relname="sequence">Грузинские спелеологи, обнаружившие колодец,</segment>
+		<segment id="15" parent="162" relname="sequence">попытались его исследовать,</segment>
+		<segment id="16" parent="162" relname="sequence">но отступили перед слишком узким проходом.</segment>
+		<segment id="17" parent="162" relname="sequence">Они классифицировали пещеру как неглубокую, но перспективную.</segment>
+		<segment id="18" parent="169" relname="joint">##### В 80-х годах советские ученые провели на Арабике эксперимент по трассированию подземных вод</segment>
+		<segment id="19" parent="169" relname="joint">и лишний раз подтвердили наличие там глубочайшей в мире карстовой гидросистемы.</segment>
+		<segment id="20" parent="171" relname="joint">Что сделали исследователи?</segment>
+		<segment id="21" parent="173" relname="joint">Они окрасили воду подземных рек безвредным веществом флюорисцином</segment>
+		<segment id="22" parent="168" relname="span">и снабдили водные источники у подножия горы ловушками,</segment>
+		<segment id="23" parent="22" relname="elaboration">которые вскоре зафиксировали выход флюорисцина.</segment>
+		<segment id="24" parent="175" relname="joint">Стало ясно, что комплекс пещер практически не изучен.</segment>
+		<segment id="25" parent="175" relname="joint">Оставалось загадкой: возможно ли человеку пройти в подземные тоннели?</segment>
+		<segment id="26" parent="177" relname="span">Проверить это можно было только на практике.</segment>
+		<segment id="27" parent="183" relname="elaboration">##### В середине 80-х киевские спелеологи совершили несколько попыток покорить Воронью.</segment>
+		<segment id="28" parent="182" relname="sequence">При помощи скального молотка и перфоратора они смогли "продраться" до отметки 340 метров.</segment>
+		<segment id="29" parent="181" relname="span">Дальше пещера не "пустила".</segment>
+		<segment id="30" parent="29" relname="cause-effect">Слишком узкий проход потребовал бы много времени на его преодоление.</segment>
+		<segment id="31" parent="182" relname="sequence">Покорение Вороньей отложили на неопределенный срок.</segment>
+		<segment id="32" parent="196" relname="sequence">##### Затем в Абхазию пришла война - не самое подходящее время для спелеологических открытий.</segment>
+		<segment id="33" parent="187" relname="sequence">И лишь в 1999 году один из членов команды CAVEX, Алексей Жданович, "закачнулся", как говорят спелеологи, в окно пещеры</segment>
+		<segment id="34" parent="187" relname="sequence">и обнаружил вход в новый тоннель.</segment>
+		<segment id="35" parent="192" relname="span">"В такие минуты,</segment>
+		<segment id="36" parent="35" relname="attribution">- рассказывает Денис Провалов, руководитель CAVEX,</segment>
+		<segment id="37" parent="189" relname="joint">- пульс учащается и начинается самый волнующий этап - первопрохождение.</segment>
+		<segment id="38" parent="189" relname="joint">Ты не знаешь, что тебя ожидает за следующим поворотом галереи</segment>
+		<segment id="39" parent="189" relname="joint">и что будет в конце многометрового колодца".</segment>
+		<segment id="40" parent="206" relname="elaboration">##### А "за следующим поворотом" смельчаков ожидала целая серия каскадов.</segment>
+		<segment id="41" parent="203" relname="sequence">В тот раз, в 99-м, пещера пустила их до отметки 700 метров.</segment>
+		<segment id="42" parent="203" relname="sequence">Дальнейшее проникновение в глубь земли отложили еще на год.</segment>
+		<segment id="43" parent="200" relname="span">"Трудно рассчитать время экспедиции,</segment>
+		<segment id="44" parent="43" relname="background">когда осваиваешь новые тоннели, -</segment>
+		<segment id="45" parent="200" relname="attribution">говорит Денис Провалов, -</segment>
+		<segment id="46" parent="198" relname="joint">потому что никогда не знаешь, сколько времени займет прохождение того или иного участка, рано или поздно кончаются продукты, время, силы, и приходится сворачивать экспедицию до следующего года".</segment>
+		<segment id="47" parent="198" relname="joint">сколько времени займет прохождение того или иного участка, рано или поздно кончаются продукты, время, силы,</segment>
+		<segment id="48" parent="198" relname="joint">и приходится сворачивать экспедицию до следующего года".</segment>
+		<segment id="49" parent="213" relname="joint">##### Обычно именно так, поэтапно,</segment>
+		<segment id="50" parent="213" relname="joint">и проходит исследование пещер.</segment>
+		<segment id="51" parent="211" relname="contrast">Иногда результатом нескольких экспедиций может стать тупиковая галерея,</segment>
+		<segment id="52" parent="208" relname="span">а порой можно наткнуться на небольшое окно в стене колодца,</segment>
+		<segment id="53" parent="52" relname="elaboration">которое затем станет началом нового пути.</segment>
+		<segment id="54" parent="209" relname="joint">"Пещера пошла" , - говорят спелеологи в такой ситуации.</segment>
+		<segment id="55" parent="216" relname="joint">##### Летом 2000 года спелеологи дошли в Вороньей до отметки 1400 метров.</segment>
+		<segment id="56" parent="216" relname="joint">Предчувствие им подсказывало, что и это не предел.</segment>
+		<segment id="57" parent="231" relname="elaboration">##### Команда CAVEX вновь вернулась на Арабику в январе 2001 года.</segment>
+		<segment id="58" parent="225" relname="sequence">Едва разбили лагерь, как двое ребят - Илья Жарков и Константин Мухин - под вечер ушли в пещеру на разведку.</segment>
+		<segment id="59" parent="223" relname="joint">Вернулись они только под утро.</segment>
+		<segment id="60" parent="220" relname="span">Уставшие, они тем не менее не скрывали восторга:</segment>
+		<segment id="61" parent="218" relname="joint">исчерпав запас веревок и крючьев, они дошли до глубины 1680 метров,</segment>
+		<segment id="62" parent="218" relname="joint">остановившись перед началом нового колодца.</segment>
+		<segment id="63" parent="220" relname="interpretation-evaluation">Невероятно, но это уже был рекорд!</segment>
+		<segment id="64" parent="222" relname="span">Самая глубокая на тот момент отметка в 1632 метра (австрийская пещера Лампрехтсофен) не устояла!</segment>
+		<segment id="65" parent="228" relname="joint">Следующий спуск спелеологов увеличил глубину Вороньей до 1710 метров!</segment>
+		<segment id="66" parent="228" relname="joint">Пещера заканчивалась залом с озером.</segment>
+		<segment id="67" parent="68" relname="cause-effect">Залу присвоили название "Зал советских спелеологов",</segment>
+		<segment id="68" parent="227" relname="span">дабы подчеркнуть, что рекорд - это результат работы нескольких поколений спелеологов.</segment>
+		<segment id="69" parent="234" relname="cause-effect">##### По правилам Международного союза спелеологов, установление рекорда должно быть подтверждено подробной картой пещеры.</segment>
+		<segment id="70" parent="233" relname="joint">Для этого еще несколько дней спелеологи проводили топосъемку,</segment>
+		<segment id="71" parent="233" relname="joint">снимали показания альтиметра - датчика глубины, встроенного в обычные часы,</segment>
+		<segment id="72" parent="233" relname="joint">с помощью эклиметра измеряли углы наклона,</segment>
+		<segment id="73" parent="233" relname="joint">по компасу определяли азимут,</segment>
+		<segment id="74" parent="233" relname="joint">рулеткой по сантиметрам вымеряли длину колодца.</segment>
+		<segment id="75" parent="233" relname="joint">Затем все полученные данные были занесены в специальную тетрадь с несмываемыми страницами.</segment>
+		<segment id="76" parent="236" relname="joint">И именно эта тетрадь в качестве доказательства рекордного погружения была отправлена в штаб-квартиру Международного союза спелеологов.</segment>
+		<segment id="77" relname="antithesis">##### "Это не Эверест".</segment>
+		<segment id="78" parent="79" relname="attribution">##### Сейчас рекордсмены говорят,</segment>
+		<segment id="79" parent="253" relname="span">что покорение Вороньей для них не было сопряжено с какими-то фантастическими трудностями.</segment>
+		<segment id="80" parent="250" relname="evidence">"В моей жизни были спуски и потруднее,</segment>
+		<segment id="81" parent="249" relname="joint">например, когда опускаешься в колодец и луч фонаря не достает до стен,</segment>
+		<segment id="82" parent="249" relname="joint">выхватывая из темноты только падающие капли"</segment>
+		<segment id="83" parent="251" relname="attribution">, - говорит один из членов команды Олег Климчук.</segment>
+		<segment id="84" parent="256" relname="evidence">Возможно, спелеологи скромничают: погружение даже по хорошо исхоженному маршруту - весьма сложное мероприятие.</segment>
+		<segment id="85" parent="255" relname="joint">Спелеолог несет с собой килограммы оборудования: аккумуляторы для карбидных ламп, крючья, веревки, запасы питания, несколько источников света.</segment>
+		<segment id="86" parent="247" relname="evidence">Один опрометчивый шаг или неправильное действие могут привести к необратимым последствиям.</segment>
+		<segment id="87" parent="88" relname="evidence">Много опасностей поджидает первопроходцев: внезапные сильные паводки, камнепады</segment>
+		<segment id="88" parent="245" relname="span">(падающий с высоты 150 метров небольшой камень легко пробивает каску)</segment>
+		<segment id="89" parent="243" relname="evidence">. Но основным врагом спелеолога является холод.</segment>
+		<segment id="90" parent="239" relname="condition">"Когда при стопроцентной влажности температура не превышает плюс двух градусов,</segment>
+		<segment id="91" parent="92" relname="condition">промерзаешь насквозь,</segment>
+		<segment id="92" parent="239" relname="span">единственное, что может согреть, - это движение и пища.</segment>
+		<segment id="93" parent="94" relname="condition">Если человек переохлаждается,</segment>
+		<segment id="94" parent="238" relname="span">он начинает совершать ошибки"</segment>
+		<segment id="95" parent="242" relname="attribution">, - утверждает Денис Провалов.</segment>
+		<segment id="96" parent="97" relname="background">##### Например, возвращаясь на базу после покорения Вороньей,</segment>
+		<segment id="97" parent="260" relname="span">члены команды были уверены,</segment>
+		<segment id="98" parent="261" relname="span">что все опасности и трудности остались позади.</segment>
+		<segment id="99" parent="276" relname="elaboration">Однако на обратном пути они попали в снежную бурю.</segment>
+		<segment id="100" parent="265" relname="sequence">Вертолет из-за непогоды не мог забрать груз и участников экспедиции.</segment>
+		<segment id="101" parent="265" relname="sequence">Оставив часть снаряжения,</segment>
+		<segment id="102" parent="265" relname="sequence">спелеологи решили спускаться самостоятельно.</segment>
+		<segment id="103" parent="262" relname="joint">"Мы буквально прорывали в снегу дорогу домой,</segment>
+		<segment id="104" parent="262" relname="joint">за час преодолевая около тридцати метров</segment>
+		<segment id="105" parent="262" relname="joint">и рискуя быть засыпанными лавиной"</segment>
+		<segment id="106" parent="263" relname="attribution">, - рассказывает Денис Провалов.</segment>
+		<segment id="107" parent="273" relname="elaboration">Опасения отчасти подтвердились:</segment>
+		<segment id="108" parent="269" relname="joint">с вершины сошла снежная масса шириной триста метров,</segment>
+		<segment id="109" parent="269" relname="joint">но задела группу лишь крылом.</segment>
+		<segment id="110" parent="271" relname="sequence">Под снегом очутился самый молодой покоритель пещеры 18-летний киевлянин Анатолий Повякало.</segment>
+		<segment id="111" parent="270" relname="span">Хорошо, друзья оказались рядом</segment>
+		<segment id="112" parent="111" relname="cause-effect">и сумели быстро освободить коллегу из снежного плена.</segment>
+		<segment id="113" parent="280" relname="contrast">##### И все же, несмотря на все трудности и неудобства, которые можно встретить в горах,</segment>
+		<segment id="114" parent="280" relname="contrast">спелеологи считают,</segment>
+		<segment id="115" parent="282" relname="same-unit">что самые красивые места, которые можно встретить на планете,</segment>
+		<segment id="116" parent="282" relname="same-unit">находятся именно в пещерах.</segment>
+		<segment id="117" parent="285" relname="joint">Спелеологи относятся к пещерам как к живым субстанциям.</segment>
+		<segment id="118" parent="287" relname="joint">И действительно, подземелье уязвимо</segment>
+		<segment id="119" parent="287" relname="joint">и чувствительно к любому проникновению извне.</segment>
+		<segment id="120" parent="289" relname="joint">Например, один упавший в подводный ручей камень может запрудить поток,</segment>
+		<segment id="121" parent="289" relname="joint">изменить направление его течения и, следовательно,</segment>
+		<segment id="122" parent="289" relname="joint">промыть новый ход.</segment>
+		<segment id="123" parent="291" relname="span">А это в свою очередь изменяет циркуляцию воздуха и ареал обитания подземных организмов.</segment>
+		<segment id="124" parent="292" relname="joint">Если один камень может нарушить все внутренние связи, что же тогда говорить о человеке.</segment>
+		<segment id="125" parent="297" relname="span">##### Обнаружение самой глубокой на планете пещеры можно смело приравнять к географическому открытию,</segment>
+		<segment id="126" parent="125" relname="elaboration">которое способно расширить знания ученых в области подземных ландшафтов.</segment>
+		<segment id="127" parent="298" relname="joint">В пещерах можно изучать естественные обнажения горных пород, простирающиеся на значительную глубину, без использования дорогостоящего бурения,</segment>
+		<segment id="128" parent="298" relname="joint">отбирать образцы для геологических и геофизических исследований,</segment>
+		<segment id="129" parent="298" relname="joint">прослеживать внутреннюю структуру залегания горных пород, их изменчивость, тектонические нарушения, ископаемую фауну.</segment>
+		<segment id="130" parent="300" relname="sequence">Все полученные данные затем используются для научных исследований гидрогеологов, геофизиков, карстологов, биологов.</segment>
+		<segment id="131" parent="306" relname="cause-effect">##### Благодаря спелеологическим изысканиям абсолютно низкая отметка на Земле постоянно меняется.</segment>
+		<segment id="132" parent="306" relname="span">Пещеры тем и хороши,</segment>
+		<segment id="133" parent="304" relname="comparison">что высшие достижения в них не являются вечными</segment>
+		<segment id="134" parent="304" relname="comparison">и могут быть превзойдены.</segment>
+		<segment id="135" parent="308" relname="joint">Уже сегодня французы наступают на пятки рекордсменам,</segment>
+		<segment id="136" parent="308" relname="joint">заявив новый мировой рекорд в пещере Мирольда во Франции.</segment>
+		<segment id="137" parent="310" relname="span">Они собираются опуститься на глубину 1730 метров.</segment>
+		<segment id="138" parent="315" relname="elaboration">##### Но, похоже, гонка только начинается.</segment>
+		<segment id="139" parent="314" relname="joint">Команда CAVEX уже в апреле запланировала новую экспедицию на Арабику.</segment>
+		<segment id="140" parent="141" relname="interpretation-evaluation">Как считает Денис Провалов,</segment>
+		<segment id="141" parent="312" relname="span">пещера Воронья способна преподнести новые сюрпризы:</segment>
+		<segment id="142" parent="313" relname="span">"Мы уверены, что отметка 1710 метров - не предельная, мы намерены улучшить этот результат".</segment>
+		<segment id="143" parent="325" relname="interpretation-evaluation">##### Известный ученый-карстолог, член команды CAVEX Александр Климчук имеет на сей счет собственное мнение:</segment>
+		<segment id="144" parent="324" relname="evidence">"Понятие "глубочайшая пещера" - не абсолютное.</segment>
+		<segment id="145" parent="317" relname="joint">Это не Эверест, выше которого вершины на Земле никогда не будет.</segment>
+		<segment id="146" parent="303" relname="span">Речь идет о границе доступности подземного мира,</segment>
+		<segment id="147" parent="146" relname="elaboration">которая постепенно отодвигается то там, то тут.</segment>
+		<segment id="148" parent="149" relname="interpretation-evaluation">Можно говорить лишь о том,</segment>
+		<segment id="149" parent="319" relname="span">где глубочайшая пещера находится в данный период и где она может оказаться в следующий.</segment>
+		<segment id="150" parent="151" relname="interpretation-evaluation">Я не думаю,</segment>
+		<segment id="151" parent="320" relname="span">что она теперь на Арабике навсегда или очень надолго.</segment>
+		<segment id="152" parent="321" relname="joint">Возможно, мы сами же оттуда ее "уведем" в другой район.</segment>
+		<segment id="153" parent="321" relname="joint">Уже над этим работаем..."</segment>
+		<group id="154" type="span" parent="158" relname="span"/>
+		<group id="156" type="multinuc" parent="157" relname="span"/>
+		<group id="157" type="span" parent="154" relname="elaboration"/>
+		<group id="158" type="span" relname="antithesis"/>
+		<group id="159" type="span" parent="166" relname="elaboration"/>
+		<group id="160" type="span" parent="163" relname="elaboration"/>
+		<group id="161" type="span" parent="165" relname="sequence"/>
+		<group id="162" type="multinuc" parent="163" relname="span"/>
+		<group id="163" type="span" parent="164" relname="span"/>
+		<group id="164" type="span" parent="165" relname="sequence"/>
+		<group id="165" type="multinuc" parent="166" relname="span"/>
+		<group id="166" type="span" parent="167" relname="span"/>
+		<group id="167" type="span" relname="antithesis"/>
+		<group id="168" type="span" parent="173" relname="joint"/>
+		<group id="169" type="multinuc" parent="170" relname="span"/>
+		<group id="170" type="span" parent="171" relname="joint"/>
+		<group id="171" type="multinuc" parent="172" relname="span"/>
+		<group id="172" type="span" parent="179" relname="elaboration"/>
+		<group id="173" type="multinuc" parent="174" relname="span"/>
+		<group id="174" type="span" parent="178" relname="joint"/>
+		<group id="175" type="multinuc" parent="176" relname="span"/>
+		<group id="176" type="span" parent="26" relname="evidence"/>
+		<group id="177" type="span" parent="178" relname="joint"/>
+		<group id="178" type="multinuc" parent="179" relname="span"/>
+		<group id="179" type="span" parent="180" relname="span"/>
+		<group id="180" type="span" relname="antithesis"/>
+		<group id="181" type="span" parent="182" relname="sequence"/>
+		<group id="182" type="multinuc" parent="183" relname="span"/>
+		<group id="183" type="span" parent="184" relname="span"/>
+		<group id="184" type="span" relname="antithesis"/>
+		<group id="187" type="multinuc" parent="188" relname="span"/>
+		<group id="188" type="span" parent="194" relname="joint"/>
+		<group id="189" type="multinuc" parent="190" relname="span"/>
+		<group id="190" type="span" parent="191" relname="span"/>
+		<group id="191" type="span" parent="193" relname="span"/>
+		<group id="192" type="span" parent="191" relname="attribution"/>
+		<group id="193" type="span" parent="194" relname="joint"/>
+		<group id="194" type="multinuc" parent="195" relname="span"/>
+		<group id="195" type="span" parent="196" relname="sequence"/>
+		<group id="196" type="multinuc" parent="197" relname="span"/>
+		<group id="197" type="span" relname="antithesis"/>
+		<group id="198" type="multinuc" parent="199" relname="span"/>
+		<group id="199" type="span" parent="202" relname="span"/>
+		<group id="200" type="span" parent="201" relname="span"/>
+		<group id="201" type="span" parent="199" relname="evidence"/>
+		<group id="202" type="span" parent="205" relname="comparison"/>
+		<group id="203" type="multinuc" parent="204" relname="span"/>
+		<group id="204" type="span" parent="205" relname="comparison"/>
+		<group id="205" type="multinuc" parent="206" relname="span"/>
+		<group id="206" type="span" parent="207" relname="span"/>
+		<group id="207" type="span" relname="antithesis"/>
+		<group id="208" type="span" parent="209" relname="joint"/>
+		<group id="209" type="multinuc" parent="210" relname="span"/>
+		<group id="210" type="span" parent="211" relname="contrast"/>
+		<group id="211" type="multinuc" parent="212" relname="span"/>
+		<group id="212" type="span" parent="215" relname="span"/>
+		<group id="213" type="multinuc" parent="214" relname="span"/>
+		<group id="214" type="span" parent="212" relname="elaboration"/>
+		<group id="215" type="span" relname="antithesis"/>
+		<group id="216" type="multinuc" parent="217" relname="span"/>
+		<group id="217" type="span" relname="antithesis"/>
+		<group id="218" type="multinuc" parent="219" relname="span"/>
+		<group id="219" type="span" parent="60" relname="cause-effect"/>
+		<group id="220" type="span" parent="221" relname="span"/>
+		<group id="221" type="span" parent="64" relname="evidence"/>
+		<group id="222" type="span" parent="223" relname="joint"/>
+		<group id="223" type="multinuc" parent="224" relname="span"/>
+		<group id="224" type="span" parent="225" relname="sequence"/>
+		<group id="225" type="multinuc" parent="226" relname="span"/>
+		<group id="226" type="span" parent="230" relname="sequence"/>
+		<group id="227" type="span" parent="228" relname="joint"/>
+		<group id="228" type="multinuc" parent="229" relname="span"/>
+		<group id="229" type="span" parent="230" relname="sequence"/>
+		<group id="230" type="multinuc" parent="231" relname="span"/>
+		<group id="231" type="span" parent="232" relname="span"/>
+		<group id="232" type="span" relname="antithesis"/>
+		<group id="233" type="multinuc" parent="234" relname="span"/>
+		<group id="234" type="span" parent="235" relname="span"/>
+		<group id="235" type="span" parent="236" relname="joint"/>
+		<group id="236" type="multinuc" parent="237" relname="span"/>
+		<group id="237" type="span" relname="antithesis"/>
+		<group id="238" type="span" parent="241" relname="joint"/>
+		<group id="239" type="span" parent="240" relname="span"/>
+		<group id="240" type="span" parent="241" relname="joint"/>
+		<group id="241" type="multinuc" parent="242" relname="span"/>
+		<group id="242" type="span" parent="243" relname="span"/>
+		<group id="243" type="span" parent="244" relname="span"/>
+		<group id="244" type="span" parent="246" relname="joint"/>
+		<group id="245" type="span" parent="246" relname="joint"/>
+		<group id="246" type="multinuc" parent="247" relname="span"/>
+		<group id="247" type="span" parent="248" relname="span"/>
+		<group id="248" type="span" parent="255" relname="joint"/>
+		<group id="249" type="multinuc" parent="250" relname="span"/>
+		<group id="250" type="span" parent="251" relname="span"/>
+		<group id="251" type="span" parent="252" relname="span"/>
+		<group id="252" type="span" parent="254" relname="span"/>
+		<group id="253" type="span" parent="252" relname="evidence"/>
+		<group id="254" type="span" parent="258" relname="contrast"/>
+		<group id="255" type="multinuc" parent="256" relname="span"/>
+		<group id="256" type="span" parent="257" relname="span"/>
+		<group id="257" type="span" parent="258" relname="contrast"/>
+		<group id="258" type="multinuc" parent="259" relname="span"/>
+		<group id="259" type="span" relname="antithesis"/>
+		<group id="260" type="span" parent="98" relname="interpretation-evaluation"/>
+		<group id="261" type="span" parent="278" relname="comparison"/>
+		<group id="262" type="multinuc" parent="263" relname="span"/>
+		<group id="263" type="span" parent="264" relname="span"/>
+		<group id="264" type="span" parent="267" relname="joint"/>
+		<group id="265" type="multinuc" parent="266" relname="span"/>
+		<group id="266" type="span" parent="267" relname="joint"/>
+		<group id="267" type="multinuc" parent="268" relname="span"/>
+		<group id="268" type="span" parent="275" relname="joint"/>
+		<group id="269" type="multinuc" parent="272" relname="span"/>
+		<group id="270" type="span" parent="271" relname="sequence"/>
+		<group id="271" type="multinuc" parent="273" relname="span"/>
+		<group id="272" type="span" parent="271" relname="sequence"/>
+		<group id="273" type="span" parent="274" relname="span"/>
+		<group id="274" type="span" parent="275" relname="joint"/>
+		<group id="275" type="multinuc" parent="276" relname="span"/>
+		<group id="276" type="span" parent="277" relname="span"/>
+		<group id="277" type="span" parent="278" relname="comparison"/>
+		<group id="278" type="multinuc" parent="279" relname="span"/>
+		<group id="279" type="span" relname="antithesis"/>
+		<group id="280" type="multinuc" parent="281" relname="span"/>
+		<group id="281" type="span" parent="283" relname="interpretation-evaluation"/>
+		<group id="282" type="multinuc" parent="283" relname="span"/>
+		<group id="283" type="span" parent="284" relname="span"/>
+		<group id="284" type="span" parent="285" relname="joint"/>
+		<group id="285" type="multinuc" parent="286" relname="span"/>
+		<group id="286" type="span" parent="295" relname="joint"/>
+		<group id="287" type="multinuc" parent="288" relname="span"/>
+		<group id="288" type="span" parent="293" relname="evidence"/>
+		<group id="289" type="multinuc" parent="290" relname="span"/>
+		<group id="290" type="span" parent="123" relname="cause-effect"/>
+		<group id="291" type="span" parent="292" relname="joint"/>
+		<group id="292" type="multinuc" parent="293" relname="span"/>
+		<group id="293" type="span" parent="294" relname="span"/>
+		<group id="294" type="span" parent="295" relname="joint"/>
+		<group id="295" type="multinuc" parent="296" relname="span"/>
+		<group id="296" type="span" relname="antithesis"/>
+		<group id="297" type="span" parent="301" relname="evidence"/>
+		<group id="298" type="multinuc" parent="299" relname="span"/>
+		<group id="299" type="span" parent="300" relname="sequence"/>
+		<group id="300" type="multinuc" parent="301" relname="span"/>
+		<group id="301" type="span" parent="302" relname="span"/>
+		<group id="302" type="span" relname="antithesis"/>
+		<group id="303" type="span" parent="317" relname="joint"/>
+		<group id="304" type="multinuc" parent="305" relname="span"/>
+		<group id="305" type="span" parent="132" relname="interpretation-evaluation"/>
+		<group id="306" type="span" parent="307" relname="span"/>
+		<group id="307" type="span" parent="310" relname="evidence"/>
+		<group id="308" type="multinuc" parent="309" relname="span"/>
+		<group id="309" type="span" parent="137" relname="evidence"/>
+		<group id="310" type="span" parent="311" relname="span"/>
+		<group id="311" type="span" relname="antithesis"/>
+		<group id="312" type="span" parent="142" relname="attribution"/>
+		<group id="313" type="span" parent="314" relname="joint"/>
+		<group id="314" type="multinuc" parent="315" relname="span"/>
+		<group id="315" type="span" parent="316" relname="span"/>
+		<group id="316" type="span" relname="antithesis"/>
+		<group id="317" type="multinuc" parent="318" relname="span"/>
+		<group id="318" type="span" parent="323" relname="comparison"/>
+		<group id="319" type="span" parent="323" relname="comparison"/>
+		<group id="320" type="span" parent="321" relname="joint"/>
+		<group id="321" type="multinuc" parent="322" relname="span"/>
+		<group id="322" type="span" parent="323" relname="comparison"/>
+		<group id="323" type="multinuc" parent="324" relname="span"/>
+		<group id="324" type="span" parent="325" relname="span"/>
+		<group id="325" type="span" parent="326" relname="span"/>
+		<group id="326" type="span" relname="antithesis"/>
+  </body>
+</rst>
