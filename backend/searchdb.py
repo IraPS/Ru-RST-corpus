@@ -24,7 +24,7 @@ MESSAGES = {'ro_s_in_edu_dont_match': 'Пожалуйста, выберите о
                 'Если Вы уверены, что в запросе нет ошибки, свяжитесь с нами через форму на странице "Контакты".'}
 
 
-MARKERS = {"a": "a", "bezuslovno": "безусловно", "buduchi": "будучи",
+MARKERS = {"a": "а", "bezuslovno": "безусловно", "buduchi": "будучи",
            "vitoge": "в итоге", "vosobennosti": "в особенности",
            "vramkah": "в рамках", "vrezultate": "в результате", "vsamomdele": "в самом деле",
            "vsvojyochered": "в свою очередь", "vsvyazis": "в связи с", "vtechenie": "в течение",
@@ -168,6 +168,7 @@ def request_with_one_cond_on_edu(query):
             request_one_cond_on_edu = 'MATCH (n)-[r]-() WHERE exists(n.text) AND type(r) IN {0}'.format(ro)
     request_one_cond_on_edu += el['close_parenth']
     request_one_cond_on_edu += "\nRETURN n.Text_id, n.Id, n.text"
+    # print(request_one_cond_on_edu)
     return request_one_cond_on_edu
 
 
@@ -256,6 +257,7 @@ def create_db_requests(query):
             requests_on_db.append(request_on_db)
         else:
             requests_on_db.append(request_with_one_cond_on_edu(i))
+    print(requests_on_db)
     return requests_on_db
 
 
@@ -263,9 +265,32 @@ def get_found(db_requests):
     """Run requests for DB."""
     all_found = list()
     for i in db_requests:
+        print(i)
         found = GRAPH.run(i)
-        found = [[n[0], n[1], n[2]] for n in found]
-        all_found.append(found)
+        found_group = list()
+        for n in found:
+            text_id = n[0]
+            edu_id = n[1]
+            edu_text = n[2]
+            left_context_text = str()
+            right_context_text = str()
+            for left_context_id in range(int(edu_id)-2, int(edu_id)):
+                left_context = [n for n in GRAPH.run('MATCH (n) WHERE n.Text_id = {0} AND n.Id = {1}\nRETURN n.text'.
+                                          format(text_id, left_context_id))]
+                left_context_text += ' '.join([edu['n.text'] for edu in left_context if edu['n.text'] is not None]) + ' '
+            for right_context_id in range(int(edu_id)+1, int(edu_id)+3):
+                right_context = [n for n in GRAPH.run('MATCH (n) WHERE n.Text_id = {0} AND n.Id = {1}\nRETURN n.text'.
+                                          format(text_id, right_context_id))]
+                right_context_text += ' '.join([edu['n.text'] for edu in right_context if edu['n.text'] is not None]) + ' '
+
+            #print(left_context_text)
+            #print(right_context_text)
+            found_by_request = [text_id, edu_id, edu_text, left_context_text, right_context_text]
+            found_group.append(found_by_request)
+        #found = [[n[0], n[1], n[2]] for n in found]
+        #all_found.append(found)
+        all_found.append(found_group)
+    print(all_found)
     return all_found
 
 

@@ -17,7 +17,7 @@
 </form>
 <form class="form-inline" id="searchform">
    <div class="block" style="display:none;">
-      <input type="text" class="parentheses_open" size="1" title="место для скобок"></input>
+      <input type="text" class="parentheses_open" id="parentheses_open" size="1" title="место для скобок" pattern="\(*"></input>
       <select class="selectSearchOpt">
          <option value="" selected>Поиск по...</option>
          <option value="word">Поиск по словоформе</option>
@@ -33,24 +33,24 @@
                <option value="any" selected>любом РО</option>
                <option value="attribution">Attribution</option>
                <option value="background">Background</option>
-               <option value="cause-effect">Cause-Effect</option>
+               <option value="cause_effect">Cause-Effect</option>
                <option value="comparison">Comparison</option>
                <option value="concession">Concession</option>
                <option value="condition">Condition</option>
                <option value="contrast">Contrast</option>
                <option value="elaboration">Elaboration</option>
                <option value="evidence">Evidence</option>
-               <option value="interpretation">Interpretation-Evaluation</option>
+               <option value="interpretation_evaluation">Interpretation-Evaluation</option>
                <option value="joint">Joint</option>
                <option value="preparation">Preparation</option>
                <option value="purpose">Purpose</option>
                <option value="restatement">Restatement</option>
-               <option value="same-unit">Same-Unit</option>
+               <option value="same_unit">Same-Unit</option>
                <option value="sequence">Sequence</option>
                <option value="solutionhood">Solutionhood</option>
             </select>
          </div>
-         <input type="text" class="parentheses_close" size="1" title="место для скобок"></input>
+         <input type="text" class="parentheses_close" size="1" title="место для скобок" pattern="\)*"></input>
          <select class="add_search">
             <option value="none" selected>Добавить поиск...</option>
             <option value="same_edu_and">В той же ЭДЕ, "AND"</option>
