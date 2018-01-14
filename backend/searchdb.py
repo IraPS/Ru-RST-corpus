@@ -7,6 +7,7 @@ import re
 import os
 from flask import url_for
 import py2neo
+from collections import OrderedDict
 
 GRAPH = py2neo.Graph()  # creating a graph for a database
 
@@ -123,7 +124,10 @@ def request_with_one_cond_on_edu(query):
         if el['type'] == 'marker':
             marker_rus = MARKERS[el['searched_for']]
             if '_lem' in el['searched_for']:
-                request_one_cond_on_edu += ' n.lemmas CONTAINS \'{0}\''.format(marker_rus)
+                request_one_cond_on_edu += ' REDUCE(s = " ", w in split(n.lemmas, ",")' \
+                                               '[0..{0}]|s + " " + w) CONTAINS "\'{1}\'" OR REDUCE(s = " ", w in ' \
+                                               '[split(n.lemmas, ",")[-1], split(n.lemmas, ",")[-2], split(n.lemmas, ",")[-3]]|s + " " + w) ' \
+                                               'CONTAINS "\'{1}\'"'.format(3, marker_rus)
             else:
                 marker_lengh = str(len(marker_rus.split())+1)
                 if len(marker_rus.split()) > 1:
@@ -146,7 +150,10 @@ def request_with_one_cond_on_edu(query):
         if el['type'] == 'marker':
             marker_rus = MARKERS[el['searched_for']]
             if '_lem' in el['searched_for']:
-                request_one_cond_on_edu += ' n.lemmas CONTAINS \'{0}\''.format(marker_rus)
+                request_one_cond_on_edu += ' REDUCE(s = " ", w in split(n.lemmas, ",")' \
+                                               '[0..{0}]|s + " " + w) CONTAINS "\'{1}\'" OR REDUCE(s = " ", w in ' \
+                                               '[split(n.lemmas, ",")[-1], split(n.lemmas, ",")[-2], split(n.lemmas, ",")[-3]]|s + " " + w) ' \
+                                               'CONTAINS "\'{1}\'")'.format(3, marker_rus)
             else:
                 marker_lengh = str(len(marker_rus.split())+1)
                 if len(marker_rus.split()) > 1:
