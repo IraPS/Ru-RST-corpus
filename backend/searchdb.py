@@ -418,16 +418,16 @@ def return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p,
             for i in range(len(text_result[text])):
                 res_multi_edu_res_html += '<li>'
                 text_id = text
-                edu_id = ids_result[text][i][0]
                 left_con = str()
                 right_con = str()
-                for left_context_id in range(int(edu_id)-2, int(edu_id)):
+                first_edu_id = ids_result[text][i][0]
+                for left_context_id in range(int(first_edu_id)-2, int(first_edu_id)):
                     left_context = [n for n in GRAPH.run('MATCH (n) WHERE n.Text_id = {0} AND n.Id = {1}\nRETURN n.text'.
                                     format(text_id, left_context_id))]
                     left_con += ' '.join([edu_['n.text'] for edu_ in left_context if edu_['n.text'] is not None]) + ' '
 
-                edu_id = ids_result[text][i][-1]
-                for right_context_id in range(int(edu_id)+1, int(edu_id)+3):
+                last_edu_id = ids_result[text][i][-1]
+                for right_context_id in range(int(last_edu_id)+1, int(last_edu_id)+3):
                     right_context = [n for n in GRAPH.run('MATCH (n) WHERE n.Text_id = {0} AND n.Id = {1}\nRETURN n.text'.
                                      format(text_id, right_context_id))]
                     right_con += ' '.join([edu_['n.text'] for edu_ in right_context if edu_['n.text'] is not None]) + ' '
