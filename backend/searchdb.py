@@ -328,11 +328,15 @@ def find_seq(texts_ids, result):
     """Find sequence of EDUs in multi-edus search."""
     text_result = dict()
     ids_result = dict()
+    left_context_result = dict()
+    right_context_result = dict()
     for i in texts_ids:
         texts_results = {i: [n[i] for n in result]}
         for text in texts_results:
             text_result[text] = []
             ids_result[text] = []
+            left_context_result[text] = []
+            right_context_result[text] = []
             queries = texts_results[text]
             first_q = queries[0]
             first_query_length = len(first_q)
@@ -352,12 +356,16 @@ def find_seq(texts_ids, result):
                         check_length_of_needed_queries = len([n for n in queries[j] if n[1] == goal])
                         if check_length_of_needed_queries > 0:
                             res_edus.append([n for n in queries[j] if n[1] == goal][0])
+                left_context = res_edus[0][3]
+                right_context = res_edus[-1][4]
                 res_ids = [n[1] for n in res_edus]
                 res_edus = [n[2] for n in res_edus]
                 if found_all:
                     text_result[text].append(res_edus)
                     ids_result[text].append(res_ids)
-    return text_result, ids_result
+                    left_context_result[text].append(left_context)
+                    right_context_result[text].append(right_context)
+    return text_result, ids_result, left_context_result, right_context_result
 
 
 def your_query_line(param_rus, vals, addtype, open_p, close_p, ros):
@@ -426,6 +434,8 @@ def return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p,
     texts_ids = process_multi_edus_search(all_found)[0]
     text_result = find_seq(texts_ids, result)[0]
     ids_result = find_seq(texts_ids, result)[1]
+    left = find_seq(texts_ids, result)[2]
+    right = find_seq(texts_ids, result)[3]
     res_multi_edu_res_html = str()
     line = your_query_line(param_rus, vals, addtype, open_p, close_p, ros)
     res_multi_edu_res_html += line
@@ -447,7 +457,10 @@ def return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p,
                     if k != len(text_result[text][i])-1:
                         res_multi_edu_res_html += '<b>||</b>'
                 full_text = '||'.join(text_result[text][i])
-                csvwriter.writerow([str(text), full_text, ''])
+                left_con = str(left[text][i])
+                right_con = str(right[text][i])
+                con = left_con + full_text + ' ' + right_con
+                csvwriter.writerow([str(text), str(full_text), str(con)])
                 res_multi_edu_res_html += '</li>\n'
             res_multi_edu_res_html += '</ul>\n'
     csvfile.close()

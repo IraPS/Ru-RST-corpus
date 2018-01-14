@@ -1,1 +1,0 @@
-[{'open_parenth': '', 'close_parenth': '', 'ro': ['any'], 'type': 'marker', 'add_type': 'none', 'searched_for': 'a'}]; Exception: 'Cursor' object does not support indexing
