@@ -265,7 +265,7 @@ def get_found(db_requests):
     """Run requests for DB."""
     all_found = list()
     for i in db_requests:
-        print(i)
+        #print(i)
         found = GRAPH.run(i)
         found_group = list()
         for n in found:
@@ -290,7 +290,7 @@ def get_found(db_requests):
         #found = [[n[0], n[1], n[2]] for n in found]
         #all_found.append(found)
         all_found.append(found_group)
-    print(all_found)
+    #print(all_found)
     return all_found
 
 
@@ -468,14 +468,17 @@ def return_single_edu_search_res_html(all_found, param_rus, vals, addtype, open_
     csvwriter.writerow([s1_r1, '', ''])
     csvwriter.writerow(['Номер текста', 'ЭДЕ', 'Контекст'])
     for i, l in found_by_text:
-        edus = [(n[1], n[2]) for n in list(l)]
+        edus = [(n[1], n[2], n[3], n[4]) for n in list(l)]
         res_single_edu_res_html += '<p>Текст № {0}'.format(i) + '</p>\n\n<ul>'
         for edu in edus:
             edu_id = edu[0]
             edu_text = edu[1]
+            left_con = edu[2]
+            right_con = edu[3]
+            con = left_con + edu_text + ' ' + right_con
             res_single_edu_res_html += '<li><a href="tree/{0}.html?position=edu'.format(i)+str(edu_id) +\
                                        '" target="_blank">' + str(edu_text) + '</a></li>'
-            csvwriter.writerow([str(i), str(edu_text), ''])
+            csvwriter.writerow([str(i), str(edu_text), str(con)])
         res_single_edu_res_html += '</ul>'
     csvfile.close()
     return res_single_edu_res_html
