@@ -265,32 +265,9 @@ def get_found(db_requests):
     """Run requests for DB."""
     all_found = list()
     for i in db_requests:
-        #print(i)
         found = GRAPH.run(i)
-        found_group = list()
-        for n in found:
-            text_id = n[0]
-            edu_id = n[1]
-            edu_text = n[2]
-            left_context_text = str()
-            right_context_text = str()
-            for left_context_id in range(int(edu_id)-2, int(edu_id)):
-                left_context = [n for n in GRAPH.run('MATCH (n) WHERE n.Text_id = {0} AND n.Id = {1}\nRETURN n.text'.
-                                          format(text_id, left_context_id))]
-                left_context_text += ' '.join([edu['n.text'] for edu in left_context if edu['n.text'] is not None]) + ' '
-            for right_context_id in range(int(edu_id)+1, int(edu_id)+3):
-                right_context = [n for n in GRAPH.run('MATCH (n) WHERE n.Text_id = {0} AND n.Id = {1}\nRETURN n.text'.
-                                          format(text_id, right_context_id))]
-                right_context_text += ' '.join([edu['n.text'] for edu in right_context if edu['n.text'] is not None]) + ' '
-
-            #print(left_context_text)
-            #print(right_context_text)
-            found_by_request = [text_id, edu_id, edu_text, left_context_text, right_context_text]
-            found_group.append(found_by_request)
-        #found = [[n[0], n[1], n[2]] for n in found]
-        #all_found.append(found)
-        all_found.append(found_group)
-    #print(all_found)
+        found = [[n[0], n[1], n[2]] for n in found]
+        all_found.append(found)
     return all_found
 
 
@@ -328,15 +305,11 @@ def find_seq(texts_ids, result):
     """Find sequence of EDUs in multi-edus search."""
     text_result = dict()
     ids_result = dict()
-    left_context_result = dict()
-    right_context_result = dict()
     for i in texts_ids:
         texts_results = {i: [n[i] for n in result]}
         for text in texts_results:
             text_result[text] = []
             ids_result[text] = []
-            left_context_result[text] = []
-            right_context_result[text] = []
             queries = texts_results[text]
             first_q = queries[0]
             first_query_length = len(first_q)
@@ -356,16 +329,12 @@ def find_seq(texts_ids, result):
                         check_length_of_needed_queries = len([n for n in queries[j] if n[1] == goal])
                         if check_length_of_needed_queries > 0:
                             res_edus.append([n for n in queries[j] if n[1] == goal][0])
-                left_context = res_edus[0][3]
-                right_context = res_edus[-1][4]
                 res_ids = [n[1] for n in res_edus]
                 res_edus = [n[2] for n in res_edus]
                 if found_all:
                     text_result[text].append(res_edus)
                     ids_result[text].append(res_ids)
-                    left_context_result[text].append(left_context)
-                    right_context_result[text].append(right_context)
-    return text_result, ids_result, left_context_result, right_context_result
+    return text_result, ids_result
 
 
 def your_query_line(param_rus, vals, addtype, open_p, close_p, ros):
@@ -434,8 +403,6 @@ def return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p,
     texts_ids = process_multi_edus_search(all_found)[0]
     text_result = find_seq(texts_ids, result)[0]
     ids_result = find_seq(texts_ids, result)[1]
-    left = find_seq(texts_ids, result)[2]
-    right = find_seq(texts_ids, result)[3]
     res_multi_edu_res_html = str()
     line = your_query_line(param_rus, vals, addtype, open_p, close_p, ros)
     res_multi_edu_res_html += line
@@ -450,6 +417,20 @@ def return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p,
             res_multi_edu_res_html += '<p>Текст № {0}'.format(text) + '</p>\n<ul>\n'
             for i in range(len(text_result[text])):
                 res_multi_edu_res_html += '<li>'
+                text_id = text
+                edu_id = ids_result[text][i][0]
+                left_con = str()
+                right_con = str()
+                for left_context_id in range(int(edu_id)-2, int(edu_id)):
+                    left_context = [n for n in GRAPH.run('MATCH (n) WHERE n.Text_id = {0} AND n.Id = {1}\nRETURN n.text'.
+                                    format(text_id, left_context_id))]
+                    left_con += ' '.join([edu_['n.text'] for edu_ in left_context if edu_['n.text'] is not None]) + ' '
+
+                edu_id = ids_result[text][i][-1]
+                for right_context_id in range(int(edu_id)+1, int(edu_id)+3):
+                    right_context = [n for n in GRAPH.run('MATCH (n) WHERE n.Text_id = {0} AND n.Id = {1}\nRETURN n.text'.
+                                     format(text_id, right_context_id))]
+                    right_con += ' '.join([edu_['n.text'] for edu_ in right_context if edu_['n.text'] is not None]) + ' '
                 for k in range(len(text_result[text][i])):
                     res_multi_edu_res_html += '<a href="tree/{0}.html?position=edu'.format(text)\
                                               + str(ids_result[text][i][k]) + \
@@ -457,10 +438,8 @@ def return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p,
                     if k != len(text_result[text][i])-1:
                         res_multi_edu_res_html += '<b>||</b>'
                 full_text = '||'.join(text_result[text][i])
-                left_con = str(left[text][i])
-                right_con = str(right[text][i])
                 con = left_con + full_text + ' ' + right_con
-                csvwriter.writerow([str(text), str(full_text), str(con)])
+                csvwriter.writerow([str(text), full_text, str(con)])
                 res_multi_edu_res_html += '</li>\n'
             res_multi_edu_res_html += '</ul>\n'
     csvfile.close()
@@ -481,13 +460,22 @@ def return_single_edu_search_res_html(all_found, param_rus, vals, addtype, open_
     csvwriter.writerow([s1_r1, '', ''])
     csvwriter.writerow(['Номер текста', 'ЭДЕ', 'Контекст'])
     for i, l in found_by_text:
-        edus = [(n[1], n[2], n[3], n[4]) for n in list(l)]
+        edus = [(n[1], n[2]) for n in list(l)]
         res_single_edu_res_html += '<p>Текст № {0}'.format(i) + '</p>\n\n<ul>'
+        text_id = i
         for edu in edus:
             edu_id = edu[0]
             edu_text = edu[1]
-            left_con = edu[2]
-            right_con = edu[3]
+            left_con = str()
+            right_con = str()
+            for left_context_id in range(int(edu_id)-2, int(edu_id)):
+                left_context = [n for n in GRAPH.run('MATCH (n) WHERE n.Text_id = {0} AND n.Id = {1}\nRETURN n.text'.
+                                          format(text_id, left_context_id))]
+                left_con += ' '.join([edu_['n.text'] for edu_ in left_context if edu_['n.text'] is not None]) + ' '
+            for right_context_id in range(int(edu_id)+1, int(edu_id)+3):
+                right_context = [n for n in GRAPH.run('MATCH (n) WHERE n.Text_id = {0} AND n.Id = {1}\nRETURN n.text'.
+                                          format(text_id, right_context_id))]
+                right_con += ' '.join([edu_['n.text'] for edu_ in right_context if edu_['n.text'] is not None]) + ' '
             con = left_con + edu_text + ' ' + right_con
             res_single_edu_res_html += '<li><a href="tree/{0}.html?position=edu'.format(i)+str(edu_id) +\
                                        '" target="_blank">' + str(edu_text) + '</a></li>'
@@ -503,6 +491,7 @@ def return_search_res_html(query, param_rus, vals, addtype, open_p, close_p, ros
     if checked is True:
         try:
             db_requests = create_db_requests(query)
+            # print('COUNT QUERIES', len(db_requests))
             all_found = get_found(db_requests)
             if len(all_found) > 1:
                 return return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros)

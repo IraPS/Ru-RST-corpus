@@ -1,1 +1,0 @@
-[{'ro': ['any'], 'add_type': 'same_edu_or', 'searched_for': 'когда', 'open_parenth': '', 'close_parenth': '', 'type': 'word'}, {'ro': ['any'], 'add_type': 'next_edu_and', 'searched_for': 'как', 'open_parenth': '', 'close_parenth': '', 'type': 'word'}]; Exception: list index out of range
