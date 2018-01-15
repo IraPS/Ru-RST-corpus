@@ -345,7 +345,7 @@ def find_seq(texts_ids, result):
 
 
 def your_query_line(param_rus, vals, addtype, open_p, close_p, ros):
-    """Produce user message - translation the query from the form to some kind of Russian."""
+    """Produec user message - translation the query from the form to some kind of Russian."""
     line = '<p><b>Ваш запрос: '
     number_of_parameters = len(param_rus)
     for i in range(number_of_parameters):
@@ -404,7 +404,7 @@ def your_query_line(param_rus, vals, addtype, open_p, close_p, ros):
     return line
 
 
-def return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros, need_context):
+def return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros):
     """Produce search result html for queries on several EDUs."""
     result = process_multi_edus_search(all_found)[1]
     texts_ids = process_multi_edus_search(all_found)[0]
@@ -425,23 +425,19 @@ def return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p,
             for i in range(len(text_result[text])):
                 res_multi_edu_res_html += '<li>'
                 text_id = text
-                if need_context:
-                    left_con = str()
-                    right_con = str()
-                    first_edu_id = ids_result[text][i][0]
-                    for left_context_id in range(int(first_edu_id)-2, int(first_edu_id)):
-                        left_context = [n for n in GRAPH.run('MATCH (n) WHERE n.Text_id = {0} AND n.Id = {1}\nRETURN n.text'.
+                left_con = str()
+                right_con = str()
+                first_edu_id = ids_result[text][i][0]
+                for left_context_id in range(int(first_edu_id)-2, int(first_edu_id)):
+                    left_context = [n for n in GRAPH.run('MATCH (n) WHERE n.Text_id = {0} AND n.Id = {1}\nRETURN n.text'.
                                     format(text_id, left_context_id))]
-                        left_con += ' '.join([edu_['n.text'] for edu_ in left_context if edu_['n.text'] is not None]) + ' '
+                    left_con += ' '.join([edu_['n.text'] for edu_ in left_context if edu_['n.text'] is not None]) + ' '
 
-                    last_edu_id = ids_result[text][i][-1]
-                    for right_context_id in range(int(last_edu_id)+1, int(last_edu_id)+3):
-                        right_context = [n for n in GRAPH.run('MATCH (n) WHERE n.Text_id = {0} AND n.Id = {1}\nRETURN n.text'.
+                last_edu_id = ids_result[text][i][-1]
+                for right_context_id in range(int(last_edu_id)+1, int(last_edu_id)+3):
+                    right_context = [n for n in GRAPH.run('MATCH (n) WHERE n.Text_id = {0} AND n.Id = {1}\nRETURN n.text'.
                                      format(text_id, right_context_id))]
-                        right_con += ' '.join([edu_['n.text'] for edu_ in right_context if edu_['n.text'] is not None]) + ' '
-                else:
-                    left_con = ''
-                    right_con = ''
+                    right_con += ' '.join([edu_['n.text'] for edu_ in right_context if edu_['n.text'] is not None]) + ' '
                 for k in range(len(text_result[text][i])):
                     res_multi_edu_res_html += '<a href="tree/{0}.html?position=edu'.format(text)\
                                               + str(ids_result[text][i][k]) + \
@@ -457,9 +453,8 @@ def return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p,
     return res_multi_edu_res_html
 
 
-def return_single_edu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros, need_context):
+def return_single_edu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros):
     """Produce search result html for queries on single EDUs."""
-    print ('NEED? '+str(need_context))
     res_single_edu_res_html = str()
     line = your_query_line(param_rus, vals, addtype, open_p, close_p, ros)
     res_single_edu_res_html += line
@@ -478,20 +473,17 @@ def return_single_edu_search_res_html(all_found, param_rus, vals, addtype, open_
         for edu in edus:
             edu_id = edu[0]
             edu_text = edu[1]
-            if need_context:
-                left_con = str()
-                right_con = str()
-                for left_context_id in range(int(edu_id)-2, int(edu_id)):
-                    left_context = [n for n in GRAPH.run('MATCH (n) WHERE n.Text_id = {0} AND n.Id = {1}\nRETURN n.text'.
+            left_con = str()
+            right_con = str()
+            for left_context_id in range(int(edu_id)-2, int(edu_id)):
+                left_context = [n for n in GRAPH.run('MATCH (n) WHERE n.Text_id = {0} AND n.Id = {1}\nRETURN n.text'.
                                           format(text_id, left_context_id))]
-                    left_con += ' '.join([edu_['n.text'] for edu_ in left_context if edu_['n.text'] is not None]) + ' '
-                for right_context_id in range(int(edu_id)+1, int(edu_id)+3):
-                    right_context = [n for n in GRAPH.run('MATCH (n) WHERE n.Text_id = {0} AND n.Id = {1}\nRETURN n.text'.
+                left_con += ' '.join([edu_['n.text'] for edu_ in left_context if edu_['n.text'] is not None]) + ' '
+            for right_context_id in range(int(edu_id)+1, int(edu_id)+3):
+                right_context = [n for n in GRAPH.run('MATCH (n) WHERE n.Text_id = {0} AND n.Id = {1}\nRETURN n.text'.
                                           format(text_id, right_context_id))]
-                    right_con += ' '.join([edu_['n.text'] for edu_ in right_context if edu_['n.text'] is not None]) + ' '
-                con = left_con + edu_text + ' ' + right_con
-            else:
-                con = ''
+                right_con += ' '.join([edu_['n.text'] for edu_ in right_context if edu_['n.text'] is not None]) + ' '
+            con = left_con + edu_text + ' ' + right_con
             res_single_edu_res_html += '<li><a href="tree/{0}.html?position=edu'.format(i)+str(edu_id) +\
                                        '" target="_blank">' + str(edu_text) + '</a></li>'
             csvwriter.writerow([str(i), str(edu_text), str(con)])
@@ -500,7 +492,7 @@ def return_single_edu_search_res_html(all_found, param_rus, vals, addtype, open_
     return res_single_edu_res_html
 
 
-def return_search_res_html(query, param_rus, vals, addtype, open_p, close_p, ros, need_context):
+def return_search_res_html(query, param_rus, vals, addtype, open_p, close_p, ros):
     """Return the search result html. If DB-request error, return user message."""
     checked = check_query(parse_query(query))
     if checked is True:
@@ -509,10 +501,9 @@ def return_search_res_html(query, param_rus, vals, addtype, open_p, close_p, ros
             # print('COUNT QUERIES', len(db_requests))
             all_found = get_found(db_requests)
             if len(all_found) > 1:
-                return return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros, need_context)
-            return return_single_edu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros, need_context)
+                return return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros)
+            return return_single_edu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros)
         except py2neo.database.status.CypherSyntaxError:
             return MESSAGES['fail']
     else:
         return checked
-       

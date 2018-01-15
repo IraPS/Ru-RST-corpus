@@ -1,1 +1,0 @@
-[{'close_parenth': '', 'open_parenth': '', 'type': 'word', 'add_type': 'next_edu_and', 'ro': ['any'], 'searched_for': 'а'}, {'close_parenth': '', 'open_parenth': '', 'type': 'word', 'add_type': 'none', 'ro': ['attribution'], 'searched_for': 'и'}]
