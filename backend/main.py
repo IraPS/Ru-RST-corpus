@@ -3,6 +3,7 @@
 from datetime import datetime
 import sys
 import os
+import json
 sys.path.append(os.path.dirname(__file__))
 from searchdb import *
 from flask import Flask, request, render_template, Markup, url_for
@@ -86,7 +87,62 @@ def download():
 def rhet():
     """About RO page."""
     return render_template("rhetrel.html"), 201
-
+    
+@APP.route("/get_csv.html")
+def get_csv():
+    """Download csv with search results page."""
+    query = eval(request.args.get("data"))
+    print(query)
+    res_html = str()
+    param_rus, vals, addtype, open_p, close_p, ros = [], [], [], [], [], []
+    try:
+        for q in query:
+            if q['type'] != '':
+                parameter = q['type']
+                if parameter == 'lemma':
+                    param_rus.append('лемма')
+                elif parameter == 'word':
+                    param_rus.append('словоформа')
+                elif parameter == 'pos':
+                    param_rus.append('часть речи')
+                elif parameter == 'marker':
+                    param_rus.append('риторический маркер')
+                value = q['searched_for']
+                vals.append(q['searched_for'])
+            else:
+                parameter = ''
+                param_rus.append('')
+                value = ''
+                vals.append('')
+            addtype.append(q['add_type'])
+            open_p.append(q['open_parenth'])
+            close_p.append(q['close_parenth'])
+            ros.append(q['ro'])
+            print("SEARCH VALUES", parameter, value)
+            need_context = True
+            res_html = return_search_res_html(query, param_rus, vals,
+                                              addtype, open_p, close_p, ros, need_context)
+            if res_html in MESSAGES.values():
+                if res_html == MESSAGES['fail']:
+                    cur_time = str(datetime.now()).replace(' ', 'T').replace(':', '-')
+                    f_q = open(os.path.dirname(__file__)+'/static/failed_queries/' + cur_time + '.txt', 'w', encoding='utf-8')
+                    f_q.write(str(query))
+                    f_q.close()
+                break
+            else:
+                if res_html.endswith('</b></p>'):
+                    res_html += '<p><br>По Вашему запросу ничего не найдено.</p>'
+                else:
+                    res_html += ''
+    except Exception as e:
+        cur_time = str(datetime.now()).replace(' ', 'T').replace(':', '-')
+        exc = open(os.path.dirname(__file__)+'/static/failed_queries_by_exception/' + cur_time + '.txt', 'w', encoding='utf-8')
+        exc.write(str(query) + '; Exception: ' + str(e))
+        exc.close()
+        res_html = '<p>Ваш запрос не может быть обработан.\n' \
+                   'Если Вы уверены, что в запросе нет ошибки, свяжитесь с нами через форму на странице "Контакты".</p>'
+    res_html = Markup(res_html)
+    return render_template("get_csv.html"), 201
 
 @APP.route("/result.html")
 def res():
@@ -119,8 +175,9 @@ def res():
             close_p.append(q['close_parenth'])
             ros.append(q['ro'])
             print("SEARCH VALUES", parameter, value)
+            need_context = False
             res_html = return_search_res_html(query, param_rus, vals,
-                                              addtype, open_p, close_p, ros)
+                                              addtype, open_p, close_p, ros, need_context)
             if res_html in MESSAGES.values():
                 if res_html == MESSAGES['fail']:
                     cur_time = str(datetime.now()).replace(' ', 'T').replace(':', '-')
@@ -132,8 +189,21 @@ def res():
                 if res_html.endswith('</b></p>'):
                     res_html += '<p><br>По Вашему запросу ничего не найдено.</p>'
                 else:
-                    res_html += '<br><p><b><a href="'+url_for("""static""", filename="""search_result.csv""")+'" download>' \
-                                'Скачать</a> результаты поиска в формате csv.</b></p><br>'
+                    res_html += '<form id="csv_form_hid" action="'+url_for('get_csv')+'" method="GET" target="_blank">'
+                    res_html += '<input type="hidden" id="data" name="data"></input>'
+                    res_html += '</form>'
+                    res_html += '<form id="blockform">'
+                    for q in query:
+                        res_html += '<div class="block-csv">'
+                        res_html += '<input type="hidden" class="typesearch" value="'+str(q['type'])+'"></input>'
+                        res_html += '<input type="hidden" class="searched_for" value="'+str(q['searched_for'])+'"></input>'
+                        res_html += '<input type="hidden" class="ro" value='+str(q['ro']).rstrip(']').lstrip('[')+'></input>'
+                        res_html += '<input type="hidden" class="add_type" value="'+str(q['add_type'])+'"></input>'
+                        res_html += '<input type="hidden" class="open_parenth" value="'+str(q['open_parenth'])+'"></input>'
+                        res_html += '<input type="hidden" class="close_parenth" value="'+str(q['close_parenth'])+'"></input>'
+                        res_html += '</div>'
+                    res_html += '<button type="submit" class="btn btn-success">Сформировать csv файл с результатами поиска</button>'
+                    res_html += '</form>'
     except Exception as e:
         cur_time = str(datetime.now()).replace(' ', 'T').replace(':', '-')
         exc = open(os.path.dirname(__file__)+'/static/failed_queries_by_exception/' + cur_time + '.txt', 'w', encoding='utf-8')
