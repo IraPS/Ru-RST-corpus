@@ -9,8 +9,6 @@ from flask import url_for
 import py2neo
 from collections import OrderedDict
 
-#py2neo.authenticate("localhost:7474", "neo4j", "neo4j_pass")
-
 GRAPH = py2neo.Graph()  # creating a graph for a database
 
 MESSAGES = {'ro_s_in_edu_dont_match': 'Пожалуйста, выберите одинаковые риторические отношения внутри одной ЭДЕ.',
