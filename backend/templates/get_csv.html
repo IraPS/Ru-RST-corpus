@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}Результат поиска{% endblock %}
+
+{% block jumbotron %}
+<div class="jumbotron">
+   <div class="container">
+      <h1>Скачать результаты поиска</h1>
+   </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+   <div class="col-md-12">
+      <p>Файл с результатами Вашего поиска сформирован. <a href="{{url_for('static', filename='search_result.csv')}}" download>Скачать</a> файл в формате csv.</p>
+   </div>
+</div>
+{% endblock %}
