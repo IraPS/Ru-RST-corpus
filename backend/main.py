@@ -145,7 +145,7 @@ def get_csv():
     res_html = Markup(res_html)
     download_line = '<p>Файл с результатами Вашего поиска сформирован. <a href="'+url_for("""static""", filename="""search_results/search_result{0}.csv""".format(csv_time))+'" download>Скачать</a> файл в формате csv.</p>'
     download_line = Markup(download_line)
-    print(download_line)
+    #print(download_line)
     return render_template("get_csv.html", download_link=download_line), 201
 
 @APP.route("/result.html")
