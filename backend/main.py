@@ -194,9 +194,13 @@ def res():
                     res_html += '</form>'
                     res_html += '<form id="blockform">'
                     for q in query:
+                        if 'searched_for' in q:
+                            searched_for = str(q['searched_for'])
+                        else:
+                            searched_for = str()
                         res_html += '<div class="block-csv">'
                         res_html += '<input type="hidden" class="typesearch" value="'+str(q['type'])+'"></input>'
-                        res_html += '<input type="hidden" class="searched_for" value="'+str(q['searched_for'])+'"></input>'
+                        res_html += '<input type="hidden" class="searched_for" value="'+searched_for+'"></input>'
                         res_html += '<input type="hidden" class="ro" value='+str(q['ro']).rstrip(']').lstrip('[')+'></input>'
                         res_html += '<input type="hidden" class="add_type" value="'+str(q['add_type'])+'"></input>'
                         res_html += '<input type="hidden" class="open_parenth" value="'+str(q['open_parenth'])+'"></input>'

@@ -153,16 +153,17 @@ def request_with_one_cond_on_edu(query):
                 request_one_cond_on_edu += ' REDUCE(s = " ", w in split(n.lemmas, ",")' \
                                                '[0..{0}]|s + " " + w) CONTAINS "\'{1}\'" OR REDUCE(s = " ", w in ' \
                                                '[split(n.lemmas, ",")[-1], split(n.lemmas, ",")[-2], split(n.lemmas, ",")[-3]]|s + " " + w) ' \
-                                               'CONTAINS "\'{1}\'")'.format(3, marker_rus)
+                                               'CONTAINS "\'{1}\'") AND type(r) IN {2}'.format(3, marker_rus, ro)
             else:
                 marker_lengh = str(len(marker_rus.split())+1)
                 if len(marker_rus.split()) > 1:
                     request_one_cond_on_edu += ' REDUCE(s = " ", w in split(n.text_norm, " ")' \
-                                               '[0..{0}]|s + " " + w) CONTAINS \'{1}\''.format(marker_lengh, marker_rus)
+                                               '[0..{0}]|s + " " + w) CONTAINS \'{1}\') AND type(r) IN {2}'.format(marker_lengh, marker_rus, ro)
 
                 else:
-                    request_one_cond_on_edu += ' \'{0}\' IN split(n.text_norm, " ")[0..{1}]'.\
-                        format(marker_rus, marker_lengh)
+                    request_one_cond_on_edu += ' \'{0}\' IN split(n.text_norm, " ")[0..{1}]) AND type(r) IN {2}'.\
+                        format(marker_rus, marker_lengh, ro)
+                    print(request_one_cond_on_edu)
         request_one_cond_on_edu = re.sub('WHERE', 'WHERE (', request_one_cond_on_edu)
         request_one_cond_on_edu = re.sub('MATCH \(n\)', 'MATCH (n)-[r]-()',
                                          request_one_cond_on_edu)
