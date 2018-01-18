@@ -120,8 +120,9 @@ def get_csv():
             ros.append(q['ro'])
             print("SEARCH VALUES", parameter, value)
             need_context = True
+            csv_time = str(datetime.now()).replace(' ', 'T').replace(':', '-').replace('.', '_')
             res_html = return_search_res_html(query, param_rus, vals,
-                                              addtype, open_p, close_p, ros, need_context)
+                                              addtype, open_p, close_p, ros, need_context, csv_time)
             if res_html in MESSAGES.values():
                 if res_html == MESSAGES['fail']:
                     cur_time = str(datetime.now()).replace(' ', 'T').replace(':', '-')
@@ -142,7 +143,10 @@ def get_csv():
         res_html = '<p>Ваш запрос не может быть обработан.\n' \
                    'Если Вы уверены, что в запросе нет ошибки, свяжитесь с нами через форму на странице "Контакты".</p>'
     res_html = Markup(res_html)
-    return render_template("get_csv.html"), 201
+    download_line = "<p>Файл с результатами Вашего поиска сформирован. <a href=\"{{url_for('static', filename='search_results/search_result{0}.csv')}}\" download>Скачать</a> файл в формате csv.</p>".format(csv_time)
+    download_line = Markup(download_line)
+    print(download_line)
+    return render_template("get_csv.html", download_link=download_line), 201
 
 @APP.route("/result.html")
 def res():
@@ -176,8 +180,9 @@ def res():
             ros.append(q['ro'])
             print("SEARCH VALUES", parameter, value)
             need_context = False
+            csv_time = str(datetime.now()).replace(' ', 'T').replace(':', '-')
             res_html = return_search_res_html(query, param_rus, vals,
-                                              addtype, open_p, close_p, ros, need_context)
+                                              addtype, open_p, close_p, ros, need_context, csv_time)
             if res_html in MESSAGES.values():
                 if res_html == MESSAGES['fail']:
                     cur_time = str(datetime.now()).replace(' ', 'T').replace(':', '-')

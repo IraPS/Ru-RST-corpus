@@ -405,8 +405,9 @@ def your_query_line(param_rus, vals, addtype, open_p, close_p, ros):
     return line
 
 
-def return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros, need_context):
+def return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros, need_context, time):
     """Produce search result html for queries on several EDUs."""
+    time = time
     result = process_multi_edus_search(all_found)[1]
     texts_ids = process_multi_edus_search(all_found)[0]
     text_result = find_seq(texts_ids, result)[0]
@@ -414,7 +415,7 @@ def return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p,
     res_multi_edu_res_html = str()
     line = your_query_line(param_rus, vals, addtype, open_p, close_p, ros)
     res_multi_edu_res_html += line
-    csvfile = open(os.path.dirname(__file__)+'/static/search_result.csv', 'w', newline='', encoding='utf-8')
+    csvfile = open(os.path.dirname(__file__)+'/static/search_results/search_result' + str(time) + '.csv', 'w', newline='', encoding='utf-8')
     csvwriter = csv.writer(csvfile)
     s1_r1 = line.lstrip('<p><b>').rstrip('</p></b>')
     csvwriter.writerow([s1_r1, '', ''])
@@ -458,8 +459,9 @@ def return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p,
     return res_multi_edu_res_html
 
 
-def return_single_edu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros, need_context):
+def return_single_edu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros, need_context, time):
     """Produce search result html for queries on single EDUs."""
+    time = time
     print ('NEED? '+str(need_context))
     res_single_edu_res_html = str()
     line = your_query_line(param_rus, vals, addtype, open_p, close_p, ros)
@@ -467,7 +469,7 @@ def return_single_edu_search_res_html(all_found, param_rus, vals, addtype, open_
     all_found = all_found[0]
     all_found.sort(key=operator.itemgetter(0))
     found_by_text = itertools.groupby(all_found, lambda x: x[0])
-    csvfile = open(os.path.dirname(__file__)+'/static/search_result.csv', 'w', newline='', encoding='utf-8')
+    csvfile = open(os.path.dirname(__file__)+'/static/search_results/search_result' + str(time) + '.csv', 'w', newline='', encoding='utf-8')
     csvwriter = csv.writer(csvfile)
     s1_r1 = line.lstrip('<p><b>').rstrip('</p></b>')
     csvwriter.writerow([s1_r1, '', ''])
@@ -501,8 +503,9 @@ def return_single_edu_search_res_html(all_found, param_rus, vals, addtype, open_
     return res_single_edu_res_html
 
 
-def return_search_res_html(query, param_rus, vals, addtype, open_p, close_p, ros, need_context):
+def return_search_res_html(query, param_rus, vals, addtype, open_p, close_p, ros, need_context, time):
     """Return the search result html. If DB-request error, return user message."""
+    time = time
     checked = check_query(parse_query(query))
     if checked is True:
         try:
@@ -510,8 +513,8 @@ def return_search_res_html(query, param_rus, vals, addtype, open_p, close_p, ros
             # print('COUNT QUERIES', len(db_requests))
             all_found = get_found(db_requests)
             if len(all_found) > 1:
-                return return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros, need_context)
-            return return_single_edu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros, need_context)
+                return return_multiedu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros, need_context, time)
+            return return_single_edu_search_res_html(all_found, param_rus, vals, addtype, open_p, close_p, ros, need_context, time)
         except py2neo.database.status.CypherSyntaxError:
             return MESSAGES['fail']
     else:
