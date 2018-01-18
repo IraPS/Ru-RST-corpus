@@ -162,7 +162,6 @@ $(function() {
                     <option value="poetomu">поэтому</option>\
                     <option value="prietom">при этом</option>\
                     <option value="priznavat_lem">признавать</option>\
-                    <option value="priznat_lem">признать</option>\
                     <option value="radi">ради</option>\
                     <option value="rasskazyvat_lem">рассказывать</option>\
                     <option value="sdrugojstorony">с другой стороны</option>\
